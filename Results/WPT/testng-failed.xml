@@ -7,9 +7,12 @@
     <classes>
       <class name="tests.mainPageTests.AllPageFirefoxTests">
         <methods>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
     </classes>
