@@ -6,31 +6,17 @@
         <listener class-name="tests.RetryAnalyzerTransformer"/>
     </listeners>
 
-    <test name="Dex-Trade - Pixel perfect regression">
+    <test name="ai-mood - Pixel perfect regression">
 
 <!--        URL's Parameters-->
-        <parameter name="url_terms_of_use" value="https://dex-trade.com/info/terms-of-use"/>
-        <parameter name="main_page" value="https://dex-trade.com"/>
+
+        <parameter name="main_page" value="https://ai-mood.com/en"/>
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
 
         <classes>
-<!--            <class name="tests.base.BaseTest"/>-->
-<!--            <class name="tests.marketsPageTests.HeaderTests"/>-->
-<!--            <class name="tests.marketsPageTests.FooterTests"/>-->
-<!--            <class name="tests.marketsPageTests.BodyTests"/>-->
-<!--            <class name="tests.marketsPageTests.AllPageFirefoxTests"/>-->
-<!--            <class name="tests.marketsPageTests.AllPageChromeTests"/>-->
-<!--            <class name="tests.demoTradingPageTest.AllPageFirefoxTests"/>-->
-<!--            <class name="tests.demoTradingPageTest.AllPageChromeTests"/>-->
-<!--            <class name="tests.mainPageTests.AllPageFirefoxAuthTests"/>-->
-<!--            <class name="tests.mainPageTests.AllPageFirefoxTests"/>-->
-<!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
-<!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
-<!--            <class name="tests.termsofUse.TermsOfUse"/>-->
-            <class name="tests.termsofUse.TermsOfUseAuth"/>
-<!--            <class name="tests.termsofUse.TermsOfUseFirefox"/>-->
+            <class name="tests.mainPageTests.AllPageChromeTests"/>
 
         </classes>
     </test>
