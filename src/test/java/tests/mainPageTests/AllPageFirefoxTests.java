@@ -124,34 +124,107 @@ public class AllPageFirefoxTests extends BaseTest {
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='section-wrapper']",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/difference.png");
+                ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/difference.png");
 
     }
 
     @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 6)
+    @Test(priority = 7)
     public void videoSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//section[@class='video-wrapper']");
         //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//button[@class='close-button']");
+//        action.ifButtonIsPresentClick("//button[@class='close-button']");
         //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='section-wrapper']");
+        action.waitElementIsVisible("//section[@class='video-wrapper']");
+
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='section-wrapper']",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_mainBlockMainPage/difference.png");
+        pixelPerfectAssert.byElement("//section[@class='video-wrapper']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/difference.png");
 
     }
 
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 8)
+    public void roadmapSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
+        //Click button "Accept" use of cookies
+//        action.ifButtonIsPresentClick("//button[@class='close-button']");
+        //Waiting when the page is completely loaded
+        action.waitElementIsVisible("//section[@class='roadmap-wrapper']");
 
+        //Time
+        Thread.sleep(2000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/difference.png");
+
+    }
+
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 9)
+    public void statisticsSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
+        //Click button "Accept" use of cookies
+//        action.ifButtonIsPresentClick("//button[@class='close-button']");
+        //Waiting when the page is completely loaded
+        action.waitElementIsVisible("//section[@class='statistics-wrapper']");
+
+        //Time
+        Thread.sleep(2000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/difference.png");
+
+    }
+
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 10)
+    public void leaningSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper']");
+        //Click button "Accept" use of cookies
+//        action.ifButtonIsPresentClick("//button[@class='close-button']");
+        //Waiting when the page is completely loaded
+        action.waitElementIsVisible("//section[@class='leaning-wrapper']");
+
+        //Time
+        Thread.sleep(2000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//section[@class='leaning-wrapper']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/difference.png");
+
+    }
 
     //FOOTER TESTS
     @Parameters({"main_page", "ScShotDir"})
