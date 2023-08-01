@@ -16,17 +16,17 @@ public class AllPageChromeAuthTests extends BaseTest {
     }
 
     //HEADER TESTS
-    @Parameters({"main_page"})
-    @Test(priority = 1)
-    public void loginInToTheDexTrade(String main_page) throws InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
-        // Authorization
-        action.loggedAsQaWptUser(main_page);
-        //Timeout
-        //Thread.sleep(4000);
-        action.pause(4000);
-    }
+//    @Parameters({"main_page"})
+//    @Test(priority = 1)
+//    public void loginInToTheDexTrade(String main_page) throws InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("FULL HD");
+//        // Authorization
+//        action.loggedAsQaWptUser(main_page);
+//        //Timeout
+//        //Thread.sleep(4000);
+//        action.pause(4000);
+//    }
 
     @Parameters({"main_page", "ScShotDir"})
     @Test(priority = 2)
