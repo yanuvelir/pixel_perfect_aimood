@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="WPT" >
+    <listeners>
+        <listener class-name="tests.RetryAnalyzerTransformer"/>
+    </listeners>
+
+    <test name="Dex-Trade - Pixel perfect regression">
+
+<!--        URL's Parameters-->
+        <parameter name="main_page" value="https://ai-mood.com/en"/>
+
+<!--        Screenshot directory-->
+        <parameter name="ScShotDir" value="Screenshots_Beta/"/>
+
+        <classes>
+
+            <class name="tests.termsofUse.TermsOfUseFirefox"/>
+
+        </classes>
+    </test>
+</suite>
+

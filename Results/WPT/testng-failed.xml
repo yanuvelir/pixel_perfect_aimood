@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Dex-Trade - Pixel perfect regression(failed)">
+    <parameter name="ScShotDir" value="Screenshots_St1/"/>
+    <parameter name="main_page" value="https://dex-trade-stage1.intary.net"/>
+    <parameter name="url_terms_of_use" value="https://dex-trade-stage1.intary.net/info/terms-of-use"/>
+    <classes>
+      <class name="tests.termsofUse.TermsOfUseAuth">
+        <methods>
+          <include name="termsOfUseTextPart11Auth" invocation-numbers="0"/>
+          <include name="termsOfUseFooterAuth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart1Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart12Auth" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="termsOfUseTextPart8Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart3Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart7Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart5Auth" invocation-numbers="0"/>
+          <include name="termsOfUseFooterDropDownPart2Auth" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="termsOfUseTextPart13Auth" invocation-numbers="0"/>
+          <include name="termsOfUseFooterDropDownPart1Auth" invocation-numbers="0"/>
+          <include name="termsOfUseHeaderTestAuth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart4Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart2Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart9Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart10Auth" invocation-numbers="0"/>
+          <include name="termsOfUseTextPart6Auth" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.termsofUse.TermsOfUseAuth -->
+    </classes>
+  </test> <!-- Dex-Trade - Pixel perfect regression(failed) -->
+</suite> <!-- Failed suite [WPT] -->
