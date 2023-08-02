@@ -3,14 +3,13 @@
 
 <suite name="WPT" >
     <listeners>
-        <listener class-name="tests.RetryAnalyzerTransformer"/>
+<!--        <listener class-name="tests.RetryAnalyzerTransformer"/>-->
     </listeners>
 
     <test name="ai-mood - Pixel perfect regression">
 
 <!--        URL's Parameters-->
 
-        <parameter name="main_page" value="https://ai-mood.com/en"/>
         <parameter name="main_page" value="https://ai-mood.com/en"/>
 
 <!--        Screenshot directory-->
