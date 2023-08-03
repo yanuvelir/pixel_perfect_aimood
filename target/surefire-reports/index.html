@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 11 failed,   2 passed</span>
+                    <span class="method-stats">13 methods, 9 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -109,7 +109,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,16 +130,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="mainSectionMainPage(https://ai-mood.com/en, Screenshots/)">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,7 +158,17 @@
                     <div class="method-list-content passed suite-WPT">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -210,15 +210,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- copFooterMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">copFooterMainPage</span>
+                  <a name="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- allHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">allHeaderMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//header[@class=&apos;header-wrapper&apos;]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//header[@class=&apos;header-wrapper&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:30)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -228,11 +247,31 @@
                   </a> <!-- getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
                   <span class="method-name">getStartedHeaderMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@class=&apos;header-nav-item&apos;][1]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//li[@class=&apos;header-nav-item&apos;][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.hoverOverAnElementByXpath(Action.java:74)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -256,11 +295,31 @@
                   </a> <!-- learnHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
                   <span class="method-name">learnHeaderMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@class=&apos;header-nav-item learn-nav-item&apos;]&quot;}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//li[@class=&apos;header-nav-item learn-nav-item&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.hoverOverAnElementByXpath(Action.java:74)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:59)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -273,34 +332,6 @@
                   <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- partnFooterMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">partnFooterMainPage</span>
-                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.partnFooterMainPage(AllPageChromeTests.java:233)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">resourcesHeaderMainPage</span>
-                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
@@ -358,9 +389,25 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- allHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">allHeaderMainPage</span>
+                  <a name="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- copFooterMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">copFooterMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- partnFooterMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">partnFooterMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">resourcesHeaderMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -432,60 +479,60 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'allHeaderMainPage')
 data.setCell(0, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(0, 3, 12618);
+data.setCell(0, 3, 33820);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'leaningSectionMainPage')
+data.setCell(1, 1, 'learnHeaderMainPage')
 data.setCell(1, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(1, 3, 5951);
+data.setCell(1, 3, 15289);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'statisticsSectionMainPage')
+data.setCell(2, 1, 'getStartedHeaderMainPage')
 data.setCell(2, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(2, 3, 5560);
+data.setCell(2, 3, 15249);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'videoSectionMainPage')
+data.setCell(3, 1, 'resourcesHeaderMainPage')
 data.setCell(3, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(3, 3, 5471);
+data.setCell(3, 3, 14840);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'roadmapSectionMainPage')
 data.setCell(4, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(4, 3, 5433);
+data.setCell(4, 3, 9353);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'subFooterMainPage')
+data.setCell(5, 1, 'leaningSectionMainPage')
 data.setCell(5, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(5, 3, 5242);
+data.setCell(5, 3, 5981);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'allFooterMainPage')
+data.setCell(6, 1, 'statisticsSectionMainPage')
 data.setCell(6, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(6, 3, 5052);
+data.setCell(6, 3, 5865);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'mainSectionMainPage')
+data.setCell(7, 1, 'videoSectionMainPage')
 data.setCell(7, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(7, 3, 5022);
+data.setCell(7, 3, 5368);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'partnFooterMainPage')
+data.setCell(8, 1, 'subFooterMainPage')
 data.setCell(8, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(8, 3, 4753);
+data.setCell(8, 3, 5303);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'getStartedHeaderMainPage')
+data.setCell(9, 1, 'partnFooterMainPage')
 data.setCell(9, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(9, 3, 4060);
+data.setCell(9, 3, 5236);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'learnHeaderMainPage')
+data.setCell(10, 1, 'mainSectionMainPage')
 data.setCell(10, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(10, 3, 3894);
+data.setCell(10, 3, 5165);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'resourcesHeaderMainPage')
+data.setCell(11, 1, 'allFooterMainPage')
 data.setCell(11, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(11, 3, 3888);
+data.setCell(11, 3, 5079);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'copFooterMainPage')
 data.setCell(12, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(12, 3, 3834);
+data.setCell(12, 3, 4320);
 window.suiteTableData['WPT']= { tableData: data, tableDiv: 'times-div-WPT'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-WPT">
               </div> <!-- times-div-WPT -->
             </div> <!-- times-div -->
@@ -517,130 +564,126 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">3039 ms</span>
+                <span class="method-start">3074 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">15660 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">15661 ms</span>
+                <span class="method-start">36908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19725 ms</span>
+                <span class="method-start">36908 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">19725 ms</span>
+                <span class="method-start">52159 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23620 ms</span>
+                <span class="method-start">52159 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">23620 ms</span>
+                <span class="method-start">67450 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">27510 ms</span>
+                <span class="method-start">67450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82290 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">27510 ms</span>
+                <span class="method-start">82291 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32534 ms</span>
+                <span class="method-start">87458 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">32534 ms</span>
+                <span class="method-start">87458 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">92828 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">38008 ms</span>
+                <span class="method-start">92828 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">38008 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">43442 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">43442 ms</span>
+                <span class="method-start">102182 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">49004 ms</span>
+                <span class="method-start">102182 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">49004 ms</span>
+                <span class="method-start">108048 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">54957 ms</span>
+                <span class="method-start">108048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114031 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">54957 ms</span>
+                <span class="method-start">114031 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">60011 ms</span>
+                <span class="method-start">119111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">60011 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">64765 ms</span>
+                <span class="method-start">119111 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">64765 ms</span>
+                <span class="method-start">124348 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">70007 ms</span>
+                <span class="method-start">124348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129651 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">70007 ms</span>
+                <span class="method-start">129652 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73843 ms</span>
+                <span class="method-start">133972 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

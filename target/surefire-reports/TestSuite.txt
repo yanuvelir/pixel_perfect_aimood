@@ -1,48 +1,67 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 75.313 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.064 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+Tests run: 13, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 135.499 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageChromeTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 33.782 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//header[@class='header-wrapper']"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//header[@class='header-wrapper']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
 
-tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.894 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 15.248 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='header-nav-item'][1]"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//li[@class='header-nav-item'][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:41)
 
-tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.888 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 15.288 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class='header-nav-item learn-nav-item']"}
+  (Session info: chrome=115.0.5790.170)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [211f030fcb4e51a614deb550aa41e350, findElement {using=xpath, value=//li[@class='header-nav-item learn-nav-item']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58682/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 211f030fcb4e51a614deb550aa41e350
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:59)
 
-tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.021 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.166 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 
-tests.mainPageTests.AllPageChromeTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.477 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.369 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 
-tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.43 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 9.353 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 
-tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.561 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.864 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 
-tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.951 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.982 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 
-tests.mainPageTests.AllPageChromeTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.052 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.08 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.allFooterMainPage(AllPageChromeTests.java:214)
-
-tests.mainPageTests.AllPageChromeTests.partnFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.754 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.partnFooterMainPage(AllPageChromeTests.java:233)
-
-tests.mainPageTests.AllPageChromeTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.835 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
 
