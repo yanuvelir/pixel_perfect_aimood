@@ -15,7 +15,7 @@ public class WhitePaperChromeTests extends BaseTest{
 	//HEADER TESTS
     @Parameters({"whitePaper_page", "ScShotDir"})
     @Test(priority = 1)
-    public void allHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    public void whitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
@@ -27,8 +27,7 @@ public class WhitePaperChromeTests extends BaseTest{
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.fullPage(ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/mock_screenshot.png",
-                ScShotDir+"" +
-                        "White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/difference.png");
+                ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/difference.png");
 
     }
 
