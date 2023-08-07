@@ -13,21 +13,21 @@ public class WhitePaperChromeTests extends BaseTest{
 	}
 
 	//HEADER TESTS
-    @Parameters({"main_page", "ScShotDir"})
+    @Parameters({"whitePaper_page", "ScShotDir"})
     @Test(priority = 1)
-    public void allHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+    public void allHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
-        action.openPage(main_page);
+        action.openPage(whitePaper_page);
         //Waiting when the page is completely loaded
         action.waitElementIsVisible("//a[@class=\"join-link\"]");
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[text()='Got it']");
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.fullPage(ScShotDir+"Main_page/EnChrome/Screenshots_allHeaderMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnChrome/Screenshots_allHeaderMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnChrome/Screenshots_allHeaderMainPage/difference.png");
+        pixelPerfectAssert.fullPage(ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/real_life_screenshot.png",
+                ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/mock_screenshot.png",
+                ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/difference.png");
 
     }
 
