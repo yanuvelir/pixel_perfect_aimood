@@ -27,7 +27,8 @@ public class WhitePaperChromeTests extends BaseTest{
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.fullPage(ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/mock_screenshot.png",
-                ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/difference.png");
+                ScShotDir+"" +
+                        "White Paper/EnChromeWhitePaper/Screenshots_allHeaderMainPage/difference.png");
 
     }
 

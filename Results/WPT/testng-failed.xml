@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
-    <parameter name="main_page" value="https://ai-mood.com/en"/>
+    <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
     <classes>
       <class name="tests.mainPageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageChromeTests -->
     </classes>
