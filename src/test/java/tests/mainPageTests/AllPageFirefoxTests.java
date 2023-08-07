@@ -19,10 +19,9 @@ public class AllPageFirefoxTests extends BaseTest {
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//header[@class='header-wrapper']");
         //Click button "Accept" use of cookies
-//        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allHeaderMainPage/real_life_screenshot.png",
@@ -38,10 +37,9 @@ public class AllPageFirefoxTests extends BaseTest {
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//header[@class='header-wrapper']");
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_getStartedHeaderMainPage/real_life_screenshot.png",
@@ -57,10 +55,9 @@ public class AllPageFirefoxTests extends BaseTest {
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//div[@class='section-wrapper']");
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
+        Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_learnHeaderMainPage/real_life_screenshot.png",
@@ -76,36 +73,35 @@ public class AllPageFirefoxTests extends BaseTest {
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//div[@class='section-wrapper']");
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
+        Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/difference.png");
 
     }
 
-    @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 5)
-    public void langItemHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
-        //Open a page for test
-        action.openPage(main_page);
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//div[@class='section-wrapper']");
-        //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/difference.png");
-
-    }
+//    @Parameters({"main_page", "ScShotDir"})
+//    @Test(priority = 5)
+//    public void langItemHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("FULL HD");
+//        //Open a page for test
+//        action.openPage(main_page);
+//        //Waiting when the page is completely loaded
+//        action.waitElementIsVisible("//div[@class='section-wrapper']");
+//        //Hover
+//        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/real_life_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/mock_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/difference.png");
+//
+//    }
 
 
     //BODY TESTS
@@ -116,12 +112,8 @@ public class AllPageFirefoxTests extends BaseTest {
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='section-wrapper']");
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='section-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/real_life_screenshot.png",
@@ -139,13 +131,8 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(main_page);
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='video-wrapper']");
-        //Click button "Accept" use of cookies
-//        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='video-wrapper']");
-
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='video-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/real_life_screenshot.png",
@@ -163,13 +150,8 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(main_page);
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
-        //Click button "Accept" use of cookies
-//        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='roadmap-wrapper']");
-
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
@@ -186,14 +168,9 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
-        //Click button "Accept" use of cookies
-//        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='statistics-wrapper']");
-
+        action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
@@ -211,13 +188,8 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(main_page);
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper']");
-        //Click button "Accept" use of cookies
-//        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//section[@class='leaning-wrapper']");
-
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='leaning-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/real_life_screenshot.png",
@@ -228,28 +200,80 @@ public class AllPageFirefoxTests extends BaseTest {
 
     //FOOTER TESTS
     @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 17)
+    @Test(priority = 11)
     public void allFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("FULL HD");
         //Open a page for test
         action.openPage(main_page);
-        //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//button[@class='close-button']");
-        //Find element and scroll the page till the element is found
-        action.viewElementByXpath("//footer[@class='footer']");
-        //Waiting when the page is completely loaded
-        action.waitElementIsVisible("//footer[@class='footer']");
+        //scroll
+        action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
         //Time
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer']",
+        pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/difference.png");
 
     }
 
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 12)
+    public void partnFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
+        //Time
+        Thread.sleep(1000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//div[@class='partn-container']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/difference.png");
+
+    }
+
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 13)
+    public void subFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
+        //Time
+        Thread.sleep(1000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//div[@class='subfooter']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/difference.png");
+
+    }
+
+    @Parameters({"main_page", "ScShotDir"})
+    @Test(priority = 14)
+    public void copFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("FULL HD");
+        //Open a page for test
+        action.openPage(main_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
+        //Time
+        Thread.sleep(100);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//div[@class='copy-container']",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/real_life_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/mock_screenshot.png",
+                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/difference.png");
+
+    }
 
 
 }

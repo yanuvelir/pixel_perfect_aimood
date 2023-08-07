@@ -92,6 +92,9 @@ public class CommonActions {
             case "mac 16":
                 driver.manage().window().setSize(new Dimension(1728, 1117));
                 break;
+            case "mac 14":
+                driver.manage().window().setSize(new Dimension(1512, 982));
+                break;
             // Add more case statements for other predefined resolutions if needed
             default:
                 throw new IllegalArgumentException("Unsupported resolution: " + resolution);
