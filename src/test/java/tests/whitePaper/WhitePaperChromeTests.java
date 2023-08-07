@@ -17,7 +17,7 @@ public class WhitePaperChromeTests extends BaseTest{
     @Test(priority = 1)
     public void whitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(whitePaper_page);
         //Waiting when the page is completely loaded
