@@ -4,14 +4,20 @@
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
+    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
         <methods>
-          <include name="mainSectionMainPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->

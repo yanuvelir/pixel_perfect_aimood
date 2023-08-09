@@ -11,6 +11,7 @@
 <!--        URL's Parameters-->
 
         <parameter name="main_page" value="https://ai-mood.com/en"/>
+        <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
@@ -18,8 +19,10 @@
         <classes>
 <!--            <class name="tests.mainPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.mainPageTests.AllPageFirefoxAuthTests"/>-->
-            <class name="tests.mainPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
+            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>
+<!--            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>-->
 
         </classes>
     </test>
