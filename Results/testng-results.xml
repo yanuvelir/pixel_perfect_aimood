@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-09T19:59:12 EEST" name="WPT" finished-at="2023-08-09T20:00:52 EEST" duration-ms="99692">
+  <suite started-at="2023-08-09T21:16:51 EEST" name="WPT" finished-at="2023-08-09T21:17:36 EEST" duration-ms="44781">
     <groups>
     </groups>
-    <test started-at="2023-08-09T19:59:12 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-09T20:00:52 EEST" duration-ms="99692">
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:12 EEST" name="setUp" finished-at="2023-08-09T19:59:15 EEST" duration-ms="2523" status="PASS">
+    <test started-at="2023-08-09T21:16:51 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-09T21:17:36 EEST" duration-ms="44781">
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:16:51 EEST" name="setUp" finished-at="2023-08-09T21:16:54 EEST" duration-ms="2667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:15 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-09T19:59:21 EEST" duration-ms="6321" status="PASS">
+        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:16:54 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-09T21:17:00 EEST" duration-ms="5932" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -26,16 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:21 EEST" name="setUp" finished-at="2023-08-09T19:59:21 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:21 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-09T19:59:25 EEST" duration-ms="3915" status="PASS">
+        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
+        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:00 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-09T21:17:04 EEST" duration-ms="4115" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -46,16 +42,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:25 EEST" name="setUp" finished-at="2023-08-09T19:59:25 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:00 EEST" name="setUp" finished-at="2023-08-09T21:17:00 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:25 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-09T19:59:29 EEST" duration-ms="3904" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:04 EEST" name="setUp" finished-at="2023-08-09T21:17:04 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:04 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-09T21:17:08 EEST" duration-ms="4090" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -66,16 +66,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:29 EEST" name="setUp" finished-at="2023-08-09T19:59:29 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:08 EEST" name="setUp" finished-at="2023-08-09T21:17:08 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:29 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-09T19:59:33 EEST" duration-ms="3922" status="PASS">
+        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:08 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-09T21:17:12 EEST" duration-ms="4067" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -86,12 +86,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:33 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-09T19:59:38 EEST" duration-ms="4935" status="PASS">
+        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:12 EEST" name="setUp" finished-at="2023-08-09T21:17:12 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:12 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-09T21:17:17 EEST" duration-ms="4993" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -102,20 +106,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:33 EEST" name="setUp" finished-at="2023-08-09T19:59:33 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:38 EEST" name="setUp" finished-at="2023-08-09T19:59:38 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:38 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-09T19:59:43 EEST" duration-ms="5394" status="PASS">
+        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
+        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:17 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-09T21:17:22 EEST" duration-ms="4945" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +122,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:43 EEST" name="setUp" finished-at="2023-08-09T19:59:43 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:17 EEST" name="setUp" finished-at="2023-08-09T21:17:17 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:43 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-09T19:59:48 EEST" duration-ms="4969" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:22 EEST" name="setUp" finished-at="2023-08-09T21:17:22 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:22 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-09T21:17:27 EEST" duration-ms="4891" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -146,16 +146,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:48 EEST" name="setUp" finished-at="2023-08-09T19:59:48 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:48 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-09T19:59:53 EEST" duration-ms="4716" status="PASS">
+        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
+        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:27 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-09T21:17:32 EEST" duration-ms="4918" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -166,12 +162,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:53 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-09T19:59:57 EEST" duration-ms="4712" status="PASS">
+        </test-method> <!-- subFooterBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:27 EEST" name="setUp" finished-at="2023-08-09T21:17:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:32 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-09T21:17:36 EEST" duration-ms="3939" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
               </value>
             </param>
             <param index="1">
@@ -182,242 +182,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:53 EEST" name="setUp" finished-at="2023-08-09T19:59:53 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- copFooterBuySellMoodCoinPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:32 EEST" name="setUp" finished-at="2023-08-09T21:17:32 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:57 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-09T20:00:01 EEST" duration-ms="3758" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T19:59:57 EEST" name="setUp" finished-at="2023-08-09T19:59:57 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-09T20:00:01 EEST" name="tearDown" finished-at="2023-08-09T20:00:02 EEST" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@2beee7ff]" started-at="2023-08-09T21:17:36 EEST" name="tearDown" finished-at="2023-08-09T21:17:36 EEST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
-      <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:02 EEST" name="setUp" finished-at="2023-08-09T20:00:04 EEST" duration-ms="2218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:04 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-09T20:00:10 EEST" duration-ms="6061" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:10 EEST" name="setUp" finished-at="2023-08-09T20:00:10 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:10 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-09T20:00:14 EEST" duration-ms="4131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:14 EEST" name="setUp" finished-at="2023-08-09T20:00:14 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:14 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-09T20:00:18 EEST" duration-ms="4125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:18 EEST" name="setUp" finished-at="2023-08-09T20:00:18 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:18 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-09T20:00:22 EEST" duration-ms="4076" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:22 EEST" name="setUp" finished-at="2023-08-09T20:00:22 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:22 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-09T20:00:27 EEST" duration-ms="4983" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:27 EEST" name="setUp" finished-at="2023-08-09T20:00:27 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:27 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-09T20:00:33 EEST" duration-ms="5403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:33 EEST" name="setUp" finished-at="2023-08-09T20:00:33 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:33 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-09T20:00:38 EEST" duration-ms="4991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:38 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-09T20:00:43 EEST" duration-ms="4924" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:38 EEST" name="setUp" finished-at="2023-08-09T20:00:38 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:43 EEST" name="setUp" finished-at="2023-08-09T20:00:43 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:43 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-09T20:00:48 EEST" duration-ms="4907" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:48 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-09T20:00:52 EEST" duration-ms="3974" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:48 EEST" name="setUp" finished-at="2023-08-09T20:00:48 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@625732]" started-at="2023-08-09T20:00:52 EEST" name="tearDown" finished-at="2023-08-09T20:00:52 EEST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

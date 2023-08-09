@@ -3,16 +3,25 @@
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
+    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
         <methods>
+          <include name="partnFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
