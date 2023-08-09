@@ -10,7 +10,7 @@ public class AllPageFirefoxTests extends BaseTest {
     public AllPageFirefoxTests() {
         super("win_firefox");
     }
-
+    // DREAM-837
     //HEADER TESTS
     @Parameters({"market_place_page", "ScShotDir"})
     @Test(priority = 1)
