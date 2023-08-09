@@ -123,12 +123,14 @@ public class AllPageFirefoxTests extends BaseTest {
     }
 
     @Parameters({"market_place_page", "ScShotDir"})
-    @Test(priority = 6)
+    @Test(priority = 7)
     public void statisticsSectionMarketPlacePage(String market_place_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(market_place_page);
+        //Scroll
+        action.moveViewableElementIntoCenter2("//section[@class='statistics-mp-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
@@ -142,7 +144,7 @@ public class AllPageFirefoxTests extends BaseTest {
 
     //FOOTER TESTS
     @Parameters({"market_place_page", "ScShotDir"})
-    @Test(priority = 11)
+    @Test(priority = 8)
     public void allFooterMarketPlacePage(String market_place_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
@@ -161,7 +163,7 @@ public class AllPageFirefoxTests extends BaseTest {
     }
 
     @Parameters({"market_place_page", "ScShotDir"})
-    @Test(priority = 12)
+    @Test(priority = 9)
     public void partnFooterMarketPlacePage(String market_place_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
@@ -180,7 +182,7 @@ public class AllPageFirefoxTests extends BaseTest {
     }
 
     @Parameters({"market_place_page", "ScShotDir"})
-    @Test(priority = 13)
+    @Test(priority = 10)
     public void subFooterMarketPlacePage(String market_place_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
@@ -199,7 +201,7 @@ public class AllPageFirefoxTests extends BaseTest {
     }
 
     @Parameters({"market_place_page", "ScShotDir"})
-    @Test(priority = 14)
+    @Test(priority = 11)
     public void copFooterMarketPlacePage(String market_place_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
