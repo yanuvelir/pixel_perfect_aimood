@@ -13,6 +13,7 @@
         <parameter name="main_page" value="https://ai-mood.com/en"/>
         <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
         <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
+        <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
@@ -24,8 +25,9 @@
 <!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>-->
-            <class name="tests.buySellMoodCoinTests.AllPageChromeTests"/>
-            <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests"/>
+<!--            <class name="tests.buySellMoodCoinTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests"/>-->
+            <class name="tests.tokenMoodPageTests.AllPageFirefoxTests"/>
 
         </classes>
     </test>
