@@ -8,13 +8,22 @@
     <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="subFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="partnFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
           <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
