@@ -9,13 +9,21 @@
     <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
+      <class name="tests.fundPageTests.AllPageChromeTests">
         <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="partnFooterFundPage" invocation-numbers="0"/>
+          <include name="copFooterFundPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="subFooterFundPage" invocation-numbers="0"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
           <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="allHeaderFundPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
