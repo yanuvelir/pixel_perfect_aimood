@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-10T21:20:47 EEST" name="WPT" finished-at="2023-08-10T21:21:38 EEST" duration-ms="50482">
+  <suite started-at="2023-08-10T22:40:27 EEST" name="WPT" finished-at="2023-08-10T22:41:11 EEST" duration-ms="43578">
     <groups>
     </groups>
-    <test started-at="2023-08-10T21:20:47 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-10T21:21:38 EEST" duration-ms="50482">
-      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:20:47 EEST" name="setUp" finished-at="2023-08-10T21:20:50 EEST" duration-ms="2565" status="PASS">
+    <test started-at="2023-08-10T22:40:27 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-10T22:41:11 EEST" duration-ms="43578">
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:27 EEST" name="setUp" finished-at="2023-08-10T22:40:30 EEST" duration-ms="2320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:20:50 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-10T21:20:56 EEST" duration-ms="6163" status="PASS">
+        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:30 EEST" name="allHeaderFundPage" finished-at="2023-08-10T22:40:35 EEST" duration-ms="5748" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +26,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderTokenMoodPage -->
-        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:20:56 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-10T21:21:00 EEST" duration-ms="4156" status="PASS">
+        </test-method> <!-- allHeaderFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:35 EEST" name="setUp" finished-at="2023-08-10T22:40:35 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:35 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-10T22:40:39 EEST" duration-ms="3916" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -42,20 +46,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:20:56 EEST" name="setUp" finished-at="2023-08-10T21:20:56 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:39 EEST" name="setUp" finished-at="2023-08-10T22:40:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:00 EEST" name="setUp" finished-at="2023-08-10T21:21:00 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:00 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-10T21:21:04 EEST" duration-ms="4098" status="PASS">
+        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:39 EEST" name="learnHeaderFundPage" finished-at="2023-08-10T22:40:43 EEST" duration-ms="3901" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -66,16 +66,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:04 EEST" name="setUp" finished-at="2023-08-10T21:21:04 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:43 EEST" name="setUp" finished-at="2023-08-10T22:40:43 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:04 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-10T21:21:08 EEST" duration-ms="4126" status="PASS">
+        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:43 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-10T22:40:47 EEST" duration-ms="3899" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -86,16 +86,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:08 EEST" name="setUp" finished-at="2023-08-10T21:21:08 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:08 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-10T21:21:13 EEST" duration-ms="4978" status="PASS">
+        </test-method> <!-- resourcesHeaderFundPage -->
+        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:47 EEST" name="mainSectionFundPage" finished-at="2023-08-10T22:40:52 EEST" duration-ms="4947" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -106,16 +102,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:13 EEST" name="setUp" finished-at="2023-08-10T21:21:13 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:47 EEST" name="setUp" finished-at="2023-08-10T22:40:47 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:13 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-10T21:21:19 EEST" duration-ms="5436" status="PASS">
+        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:52 EEST" name="allFooterFundPage" finished-at="2023-08-10T22:40:57 EEST" duration-ms="4957" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +122,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:19 EEST" name="setUp" finished-at="2023-08-10T21:21:19 EEST" duration-ms="3" status="PASS">
+        </test-method> <!-- allFooterFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:52 EEST" name="setUp" finished-at="2023-08-10T22:40:52 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:19 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-10T21:21:24 EEST" duration-ms="4974" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:57 EEST" name="setUp" finished-at="2023-08-10T22:40:57 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:40:57 EEST" name="partnFooterFundPage" finished-at="2023-08-10T22:41:02 EEST" duration-ms="4699" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -146,16 +146,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:24 EEST" name="setUp" finished-at="2023-08-10T21:21:24 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:41:02 EEST" name="setUp" finished-at="2023-08-10T22:41:02 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:24 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-10T21:21:29 EEST" duration-ms="4914" status="PASS">
+        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:41:02 EEST" name="subFooterFundPage" finished-at="2023-08-10T22:41:06 EEST" duration-ms="4703" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -166,16 +166,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:29 EEST" name="setUp" finished-at="2023-08-10T21:21:29 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:29 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-10T21:21:34 EEST" duration-ms="4899" status="PASS">
+        </test-method> <!-- subFooterFundPage -->
+        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:41:06 EEST" name="copFooterFundPage" finished-at="2023-08-10T22:41:10 EEST" duration-ms="3764" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en/fund]]>
               </value>
             </param>
             <param index="1">
@@ -186,32 +182,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterTokenMoodPage -->
-        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:34 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-10T21:21:38 EEST" duration-ms="3962" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:34 EEST" name="setUp" finished-at="2023-08-10T21:21:34 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- copFooterFundPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:41:06 EEST" name="setUp" finished-at="2023-08-10T22:41:06 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@776b83cc]" started-at="2023-08-10T21:21:38 EEST" name="tearDown" finished-at="2023-08-10T21:21:38 EEST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-10T22:41:10 EEST" name="tearDown" finished-at="2023-08-10T22:41:11 EEST" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
