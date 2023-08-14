@@ -1,40 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 31, Failures: 9, Errors: 0, Skipped: 18, Time elapsed: 175.636 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.98 s  <<< FAILURE!
+Tests run: 29, Failures: 8, Errors: 0, Skipped: 16, Time elapsed: 165.78 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.069 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
 
-tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.873 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.88 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 
-tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.962 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.943 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 
-tests.mainPageTests.AllPageChromeTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.601 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.521 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 
-tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.317 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.314 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 
-tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.51 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.623 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 
-tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.072 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.04 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 
-tests.mainPageTests.AllPageChromeTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.016 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.allFooterMainPage(AllPageChromeTests.java:214)
-
-tests.mainPageTests.AllPageChromeTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.139 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.835 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
 
