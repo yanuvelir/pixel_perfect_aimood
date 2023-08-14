@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="184.47" tests="31" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="330.966" tests="60" errors="0" skipped="40" failures="20">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire2407543835567788100\surefirebooter6002641108341445069.jar C:\Users\admin\AppData\Local\Temp\surefire2407543835567788100 2023-08-14T14-58-43_571-jvmRun1 surefire2680987314981402916tmp surefire_013208674281994556575tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire10456747109608110123\surefirebooter740789239278365703.jar C:\Users\admin\AppData\Local\Temp\surefire10456747109608110123 2023-08-14T15-30-33_214-jvmRun1 surefire9377679829687892996tmp surefire_01253761466947003736tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\test-classes;D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\admin\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire2407543835567788100\surefirebooter6002641108341445069.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire10456747109608110123\surefirebooter740789239278365703.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -62,30 +62,42 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="23.479">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 33352
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1692014327.906][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-серп. 14, 2023 2:58:48 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 115
-серп. 14, 2023 2:58:48 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='cookies-inner']/p/button"}
-  (Session info: chrome=115.0.5790.171)
+1692016235602	geckodriver	INFO	Listening on 127.0.0.1:9593
+1692016236071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20676" "--remote ... localhost:20676/,http://[::1]:20676/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilefn0qXi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692016236356	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692016236362	Marionette	INFO	Listening on port 52967
+Read port: 52967
+WebDriver BiDi listening on ws://127.0.0.1:20676
+1692016236481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:20676/devtools/browser/7a47ba5e-acc0-4dc2-9853-c340c5ba2bde
+JavaScript error: , line 0: uncaught exception: Object
+]]></system-err>
+  </testcase>
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='accept-cookies-btn']
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fb3963473c678ea1dffbcbe05501a4a, findElement {using=xpath, value=//div[@class='cookies-inner']/p/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50673/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fb3963473c678ea1dffbcbe05501a4a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cd72e26e-8f54-49c7-9506-a2d2b08a6919, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20676, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1068, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20676/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cd72e26e-8f54-49c7-9506-a2d2b08a6919
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,15 +115,15 @@ Session ID: 7fb3963473c678ea1dffbcbe05501a4a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at pages.base.Action.findElementByXpath(Action.java:30)
 	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
-	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:23)
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
@@ -138,251 +150,594 @@ Session ID: 7fb3963473c678ea1dffbcbe05501a4a
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.393">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="18.603">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:26)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
-  </testcase>
-  <testcase name="learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.359">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.32">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.434">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.614">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.619">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.725">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="6.133">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.341">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="partnFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.212">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="subFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.284">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.251">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="8.56">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-    <system-err><![CDATA[1692014414506	geckodriver	INFO	Listening on 127.0.0.1:30553
-1692014414543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "42480" "--remote ... localhost:42480/,http://[::1]:42480/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileikpRg5"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1692014414878	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1692014414883	Marionette	INFO	Listening on port 50831
-WebDriver BiDi listening on ws://127.0.0.1:42480
-Read port: 50831
-1692014415155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
-DevTools listening on ws://127.0.0.1:42480/devtools/browser/74b0f43f-ccd4-449f-a8f3-8c09fda9ff8a
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='accept-cookies-btn']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cd72e26e-8f54-49c7-9506-a2d2b08a6919, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20676, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1068, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20676/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cd72e26e-8f54-49c7-9506-a2d2b08a6919
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.114">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.101">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.13">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="3.56">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage(AllPageFirefoxTests.java:44)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.951">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.998">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.932">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="3.567">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage(AllPageFirefoxTests.java:62)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.968">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.032">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.37">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="3.593">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage(AllPageFirefoxTests.java:80)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
-    <system-err><![CDATA[1692014461728	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:50955
-1692014461733	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1692014461756	Marionette	INFO	Stopped listening on port 50831
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 4524, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.68">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage(AllPageFirefoxTests.java:118)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.109">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage(AllPageFirefoxTests.java:137)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.737">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.551">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.partnFooterMarketPlacePage(AllPageFirefoxTests.java:177)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.494">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage(AllPageFirefoxTests.java:196)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_copFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_copFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="3.544">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage(AllPageFirefoxTests.java:215)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnFirefox\Screenshots_copFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+    <system-err><![CDATA[1692016395976	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53271
+1692016395979	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692016396031	Marionette	INFO	Stopped listening on port 52967
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7688, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
 Dynamically enable window occlusion 1
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
-_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
-setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
-setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
-setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
-
-console.error: "TelemetryScheduler.shutdown - Already shut down"
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
-_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
-setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
-setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
-setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  Waiting for ping task
-          Phase: TelemetryController: Waiting for pending ping activity
-          State: (none)
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
-_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
-setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
-setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
-setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
-
-WARNING: A blocker encountered an error while we were waiting.
-          Blocker:  TelemetryController: shutting down
-          Phase: profile-before-change-telemetry
-          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
-_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
-setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
-setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
-setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
-
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
-addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
-setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
-@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
-@resource://gre/modules/osfile.jsm:12:30
-@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
-_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
-setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
-setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
-setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
-
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 24609
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41130
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692014465.003][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-серп. 14, 2023 3:01:05 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692016398.881][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 14, 2023 3:33:18 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-серп. 14, 2023 3:01:05 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+серп. 14, 2023 3:33:18 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.412">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='accept-cookies-btn']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3931a68e26ef59330740a5581d64dfce, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53280}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53280/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3931a68e26ef59330740a5581d64dfce
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
+	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="18.838">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:27)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='accept-cookies-btn']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3931a68e26ef59330740a5581d64dfce, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53280}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53280/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3931a68e26ef59330740a5581d64dfce
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
+	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.267">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.254">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="3.894">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage(AllPageChromeTests.java:45)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_getStartedHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.171">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.224">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.137">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="3.884">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage(AllPageChromeTests.java:63)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_learnHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.081">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.167">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="3.916">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage(AllPageChromeTests.java:81)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_resourcesHeaderMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.886">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage(AllPageChromeTests.java:119)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_mainSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.663">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage(AllPageChromeTests.java:138)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_statisticsSectionMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.968">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage(AllPageChromeTests.java:159)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_allFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.752">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.partnFooterMarketPlacePage(AllPageChromeTests.java:178)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_partnFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.735">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.subFooterMarketPlacePage(AllPageChromeTests.java:197)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_subFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_copFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](2)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_copFooterMarketPlacePage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="3.795">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.copFooterMarketPlacePage(AllPageChromeTests.java:216)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\MarketPlace_page\EnChrome\Screenshots_copFooterMarketPlacePage\difference.png for details.
 ]]></system-out>
   </testcase>
 </testsuite>
