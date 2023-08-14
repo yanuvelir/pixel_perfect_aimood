@@ -1,223 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="83" passed="82" failed="0" skipped="0">
+<testng-results ignored="0" total="82" passed="82" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T19:43:16 EEST" name="WPT" finished-at="2023-08-14T19:51:11 EEST" duration-ms="474408">
+  <suite started-at="2023-08-14T19:54:07 EEST" name="WPT" finished-at="2023-08-14T20:01:50 EEST" duration-ms="463054">
     <groups>
     </groups>
-    <test started-at="2023-08-14T19:43:16 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-14T19:51:11 EEST" duration-ms="474408">
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:19 EEST" name="setUp" finished-at="2023-08-14T19:46:22 EEST" duration-ms="2501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:22 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-14T19:46:28 EEST" duration-ms="6567" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:28 EEST" name="setUp" finished-at="2023-08-14T19:46:28 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:28 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-14T19:46:33 EEST" duration-ms="4145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:33 EEST" name="setUp" finished-at="2023-08-14T19:46:33 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:33 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-14T19:46:37 EEST" duration-ms="4140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:37 EEST" name="setUp" finished-at="2023-08-14T19:46:37 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:37 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-14T19:46:41 EEST" duration-ms="4208" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:41 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-14T19:46:46 EEST" duration-ms="4957" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:41 EEST" name="setUp" finished-at="2023-08-14T19:46:41 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:46 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-14T19:46:51 EEST" duration-ms="5302" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:46 EEST" name="setUp" finished-at="2023-08-14T19:46:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:51 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-14T19:46:56 EEST" duration-ms="5036" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:51 EEST" name="setUp" finished-at="2023-08-14T19:46:51 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:56 EEST" name="setUp" finished-at="2023-08-14T19:46:56 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:46:56 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-14T19:47:01 EEST" duration-ms="5029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:47:01 EEST" name="setUp" finished-at="2023-08-14T19:47:01 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:47:01 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-14T19:47:06 EEST" duration-ms="5069" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:47:06 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-14T19:47:10 EEST" duration-ms="4140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:47:06 EEST" name="setUp" finished-at="2023-08-14T19:47:06 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:47:10 EEST" name="tearDown" finished-at="2023-08-14T19:47:12 EEST" duration-ms="1878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+    <test started-at="2023-08-14T19:54:07 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-14T20:01:50 EEST" duration-ms="463054">
       <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:48:51 EEST" name="setUp" finished-at="2023-08-14T19:48:54 EEST" duration-ms="2407" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:33 EEST" name="setUp" finished-at="2023-08-14T19:59:35 EEST" duration-ms="2380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:48:54 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:49:00 EEST" duration-ms="5929" status="PASS">
+        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:35 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:41 EEST" duration-ms="5825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,11 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:00 EEST" name="setUp" finished-at="2023-08-14T19:49:00 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:00 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:49:04 EEST" duration-ms="4115" status="PASS">
+        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:41 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:45 EEST" duration-ms="4089" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,11 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:04 EEST" name="setUp" finished-at="2023-08-14T19:49:04 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:41 EEST" name="setUp" finished-at="2023-08-14T19:59:41 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:04 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:49:08 EEST" duration-ms="4129" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:45 EEST" name="setUp" finished-at="2023-08-14T19:59:45 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:45 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:49 EEST" duration-ms="4105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -273,7 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:08 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:49:12 EEST" duration-ms="4204" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:49 EEST" name="setUp" finished-at="2023-08-14T19:59:49 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:49 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:53 EEST" duration-ms="4104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:08 EEST" name="setUp" finished-at="2023-08-14T19:49:08 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:53 EEST" name="setUp" finished-at="2023-08-14T19:59:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:12 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T19:49:17 EEST" duration-ms="4991" status="PASS">
+        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:53 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T19:59:58 EEST" duration-ms="4911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,15 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:12 EEST" name="setUp" finished-at="2023-08-14T19:49:12 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:17 EEST" name="setUp" finished-at="2023-08-14T19:49:17 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:17 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:49:22 EEST" duration-ms="5031" status="PASS">
+        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:58 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T20:00:03 EEST" duration-ms="4969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,11 +123,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:22 EEST" name="setUp" finished-at="2023-08-14T19:49:22 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:59:58 EEST" name="setUp" finished-at="2023-08-14T19:59:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:22 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:49:27 EEST" duration-ms="4974" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:03 EEST" name="setUp" finished-at="2023-08-14T20:00:03 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:03 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T20:00:08 EEST" duration-ms="4902" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,11 +147,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:27 EEST" name="setUp" finished-at="2023-08-14T19:49:27 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:08 EEST" name="setUp" finished-at="2023-08-14T20:00:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:27 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:49:32 EEST" duration-ms="5031" status="PASS">
+        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:08 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T20:00:13 EEST" duration-ms="4891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,11 +167,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:32 EEST" name="setUp" finished-at="2023-08-14T19:49:32 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:13 EEST" name="setUp" finished-at="2023-08-14T20:00:13 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:32 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:49:36 EEST" duration-ms="4081" status="PASS">
+        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:13 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T20:00:17 EEST" duration-ms="4003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,17 +187,223 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T19:49:36 EEST" name="tearDown" finished-at="2023-08-14T19:49:38 EEST" duration-ms="1815" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@6c1a5b54]" started-at="2023-08-14T20:00:17 EEST" name="tearDown" finished-at="2023-08-14T20:00:18 EEST" duration-ms="1617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:38 EEST" name="setUp" finished-at="2023-08-14T19:49:41 EEST" duration-ms="2483" status="PASS">
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:03 EEST" name="setUp" finished-at="2023-08-14T19:57:05 EEST" duration-ms="2585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:41 EEST" name="allHeaderFundPage" finished-at="2023-08-14T19:49:46 EEST" duration-ms="5851" status="PASS">
+        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:05 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-14T19:57:12 EEST" duration-ms="6601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allHeaderMarketPlacePage -->
+        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:12 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-14T19:57:16 EEST" duration-ms="4098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedHeaderMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:12 EEST" name="setUp" finished-at="2023-08-14T19:57:12 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:16 EEST" name="setUp" finished-at="2023-08-14T19:57:16 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:16 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-14T19:57:20 EEST" duration-ms="4057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnHeaderMarketPlacePage -->
+        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:20 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-14T19:57:24 EEST" duration-ms="4139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:20 EEST" name="setUp" finished-at="2023-08-14T19:57:20 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:24 EEST" name="setUp" finished-at="2023-08-14T19:57:24 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:24 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-14T19:57:29 EEST" duration-ms="4895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:29 EEST" name="setUp" finished-at="2023-08-14T19:57:29 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:29 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-14T19:57:35 EEST" duration-ms="5346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statisticsSectionMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:35 EEST" name="setUp" finished-at="2023-08-14T19:57:35 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:35 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-14T19:57:39 EEST" duration-ms="4987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterMarketPlacePage -->
+        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:39 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-14T19:57:44 EEST" duration-ms="4941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnFooterMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:39 EEST" name="setUp" finished-at="2023-08-14T19:57:39 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:44 EEST" name="setUp" finished-at="2023-08-14T19:57:44 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:44 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-14T19:57:49 EEST" duration-ms="4963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMarketPlacePage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:49 EEST" name="setUp" finished-at="2023-08-14T19:57:49 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:49 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-14T19:57:53 EEST" duration-ms="4073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/market-place]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterMarketPlacePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@13e344d]" started-at="2023-08-14T19:57:53 EEST" name="tearDown" finished-at="2023-08-14T19:57:55 EEST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:18 EEST" name="setUp" finished-at="2023-08-14T20:00:21 EEST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:21 EEST" name="allHeaderFundPage" finished-at="2023-08-14T20:00:27 EEST" duration-ms="5672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,11 +419,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:46 EEST" name="setUp" finished-at="2023-08-14T19:49:46 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:27 EEST" name="setUp" finished-at="2023-08-14T20:00:27 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:46 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-14T19:49:50 EEST" duration-ms="4100" status="PASS">
+        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:27 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-14T20:00:31 EEST" duration-ms="4092" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -439,11 +439,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:50 EEST" name="setUp" finished-at="2023-08-14T19:49:50 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:50 EEST" name="learnHeaderFundPage" finished-at="2023-08-14T19:49:55 EEST" duration-ms="4141" status="PASS">
+        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:31 EEST" name="learnHeaderFundPage" finished-at="2023-08-14T20:00:35 EEST" duration-ms="4091" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,11 +455,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:55 EEST" name="setUp" finished-at="2023-08-14T19:49:55 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:31 EEST" name="setUp" finished-at="2023-08-14T20:00:31 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:55 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-14T19:49:59 EEST" duration-ms="4160" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:35 EEST" name="setUp" finished-at="2023-08-14T20:00:35 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:35 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-14T20:00:39 EEST" duration-ms="4150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -479,7 +479,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderFundPage -->
-        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:59 EEST" name="mainSectionFundPage" finished-at="2023-08-14T19:50:04 EEST" duration-ms="5001" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:39 EEST" name="setUp" finished-at="2023-08-14T20:00:39 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:39 EEST" name="mainSectionFundPage" finished-at="2023-08-14T20:00:44 EEST" duration-ms="4891" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,15 +499,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:49:59 EEST" name="setUp" finished-at="2023-08-14T19:49:59 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:44 EEST" name="setUp" finished-at="2023-08-14T20:00:44 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:04 EEST" name="setUp" finished-at="2023-08-14T19:50:04 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:04 EEST" name="allFooterFundPage" finished-at="2023-08-14T19:50:09 EEST" duration-ms="5013" status="PASS">
+        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:44 EEST" name="allFooterFundPage" finished-at="2023-08-14T20:00:49 EEST" duration-ms="4939" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,11 +519,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:09 EEST" name="setUp" finished-at="2023-08-14T19:50:09 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:09 EEST" name="partnFooterFundPage" finished-at="2023-08-14T19:50:14 EEST" duration-ms="4944" status="PASS">
+        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:49 EEST" name="partnFooterFundPage" finished-at="2023-08-14T20:00:54 EEST" duration-ms="4907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -539,7 +535,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterFundPage -->
-        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:14 EEST" name="subFooterFundPage" finished-at="2023-08-14T19:50:19 EEST" duration-ms="4996" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:49 EEST" name="setUp" finished-at="2023-08-14T20:00:49 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:54 EEST" name="setUp" finished-at="2023-08-14T20:00:54 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:54 EEST" name="subFooterFundPage" finished-at="2023-08-14T20:00:59 EEST" duration-ms="4971" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -555,15 +559,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:14 EEST" name="setUp" finished-at="2023-08-14T19:50:14 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:19 EEST" name="setUp" finished-at="2023-08-14T19:50:19 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:19 EEST" name="copFooterFundPage" finished-at="2023-08-14T19:50:23 EEST" duration-ms="4032" status="PASS">
+        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:59 EEST" name="copFooterFundPage" finished-at="2023-08-14T20:01:03 EEST" duration-ms="3986" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -579,17 +575,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterFundPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T19:50:23 EEST" name="tearDown" finished-at="2023-08-14T19:50:24 EEST" duration-ms="1664" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:00:59 EEST" name="setUp" finished-at="2023-08-14T20:00:59 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@1c7696c6]" started-at="2023-08-14T20:01:03 EEST" name="tearDown" finished-at="2023-08-14T20:01:04 EEST" duration-ms="1709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
       <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:12 EEST" name="setUp" finished-at="2023-08-14T19:47:14 EEST" duration-ms="1592" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:57:55 EEST" name="setUp" finished-at="2023-08-14T19:57:57 EEST" duration-ms="1579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:14 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-14T19:47:20 EEST" duration-ms="5926" status="PASS">
+        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:57:57 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-14T19:58:03 EEST" duration-ms="5845" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,11 +605,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:20 EEST" name="setUp" finished-at="2023-08-14T19:47:20 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:20 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-14T19:47:24 EEST" duration-ms="4555" status="PASS">
+        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:03 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-14T19:58:07 EEST" duration-ms="4444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -625,11 +621,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:24 EEST" name="setUp" finished-at="2023-08-14T19:47:24 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:03 EEST" name="setUp" finished-at="2023-08-14T19:58:03 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:24 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-14T19:47:29 EEST" duration-ms="4393" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:07 EEST" name="setUp" finished-at="2023-08-14T19:58:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:07 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-14T19:58:12 EEST" duration-ms="4358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -645,11 +645,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:29 EEST" name="setUp" finished-at="2023-08-14T19:47:29 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:12 EEST" name="setUp" finished-at="2023-08-14T19:58:12 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:29 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-14T19:47:33 EEST" duration-ms="4499" status="PASS">
+        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:12 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-14T19:58:16 EEST" duration-ms="4339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -665,7 +665,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:33 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-14T19:47:39 EEST" duration-ms="5321" status="PASS">
+        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:16 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-14T19:58:21 EEST" duration-ms="5201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -681,15 +681,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:33 EEST" name="setUp" finished-at="2023-08-14T19:47:33 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:16 EEST" name="setUp" finished-at="2023-08-14T19:58:16 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:39 EEST" name="setUp" finished-at="2023-08-14T19:47:39 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:39 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-14T19:47:45 EEST" duration-ms="5884" status="PASS">
+        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:21 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-14T19:58:27 EEST" duration-ms="5895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -705,7 +701,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:45 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-14T19:47:50 EEST" duration-ms="5415" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:21 EEST" name="setUp" finished-at="2023-08-14T19:58:21 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:27 EEST" name="setUp" finished-at="2023-08-14T19:58:27 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:27 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-14T19:58:32 EEST" duration-ms="5286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -721,15 +725,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:45 EEST" name="setUp" finished-at="2023-08-14T19:47:45 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:50 EEST" name="setUp" finished-at="2023-08-14T19:47:50 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:50 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-14T19:47:55 EEST" duration-ms="5220" status="PASS">
+        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:32 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-14T19:58:37 EEST" duration-ms="5168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -745,11 +741,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:55 EEST" name="setUp" finished-at="2023-08-14T19:47:55 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:32 EEST" name="setUp" finished-at="2023-08-14T19:58:32 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:47:55 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-14T19:48:00 EEST" duration-ms="5210" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:37 EEST" name="setUp" finished-at="2023-08-14T19:58:37 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:37 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-14T19:58:43 EEST" duration-ms="5157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -765,11 +765,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:48:00 EEST" name="setUp" finished-at="2023-08-14T19:48:00 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:43 EEST" name="setUp" finished-at="2023-08-14T19:58:43 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:48:00 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-14T19:48:05 EEST" duration-ms="4275" status="PASS">
+        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:43 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-14T19:58:47 EEST" duration-ms="4175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -785,17 +785,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:48:05 EEST" name="tearDown" finished-at="2023-08-14T19:48:05 EEST" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@1ffaf86]" started-at="2023-08-14T19:58:47 EEST" name="tearDown" finished-at="2023-08-14T19:58:47 EEST" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
       <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:05 EEST" name="setUp" finished-at="2023-08-14T19:48:07 EEST" duration-ms="1589" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:47 EEST" name="setUp" finished-at="2023-08-14T19:58:49 EEST" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:07 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:48:12 EEST" duration-ms="5360" status="PASS">
+        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:49 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:58:54 EEST" duration-ms="5287" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -811,7 +811,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:12 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:48:17 EEST" duration-ms="4443" status="PASS">
+        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:54 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:58:59 EEST" duration-ms="4416" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -827,11 +827,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:12 EEST" name="setUp" finished-at="2023-08-14T19:48:12 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:54 EEST" name="setUp" finished-at="2023-08-14T19:58:54 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:17 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:48:21 EEST" duration-ms="4351" status="PASS">
+        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:59 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:03 EEST" duration-ms="4292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -847,15 +847,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:17 EEST" name="setUp" finished-at="2023-08-14T19:48:17 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:58:59 EEST" name="setUp" finished-at="2023-08-14T19:58:59 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:21 EEST" name="setUp" finished-at="2023-08-14T19:48:21 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:03 EEST" name="setUp" finished-at="2023-08-14T19:59:03 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:21 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:48:25 EEST" duration-ms="4406" status="PASS">
+        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:03 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T19:59:07 EEST" duration-ms="4306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -871,11 +871,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:25 EEST" name="setUp" finished-at="2023-08-14T19:48:25 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:07 EEST" name="setUp" finished-at="2023-08-14T19:59:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:25 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T19:48:31 EEST" duration-ms="5241" status="PASS">
+        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:07 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T19:59:12 EEST" duration-ms="5154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -891,11 +891,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:31 EEST" name="setUp" finished-at="2023-08-14T19:48:31 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:12 EEST" name="setUp" finished-at="2023-08-14T19:59:12 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:31 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:48:36 EEST" duration-ms="5333" status="PASS">
+        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:12 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:59:18 EEST" duration-ms="5245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -911,7 +911,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:36 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:48:41 EEST" duration-ms="5169" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:18 EEST" name="setUp" finished-at="2023-08-14T19:59:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:18 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:59:23 EEST" duration-ms="5098" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -927,11 +931,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:36 EEST" name="setUp" finished-at="2023-08-14T19:48:36 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:23 EEST" name="setUp" finished-at="2023-08-14T19:59:23 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:41 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:48:46 EEST" duration-ms="5179" status="PASS">
+        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:23 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:59:28 EEST" duration-ms="5103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -947,11 +951,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:41 EEST" name="setUp" finished-at="2023-08-14T19:48:41 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:46 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:48:51 EEST" duration-ms="4242" status="PASS">
+        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:28 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T19:59:32 EEST" duration-ms="4180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -967,21 +967,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:46 EEST" name="setUp" finished-at="2023-08-14T19:48:46 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:28 EEST" name="setUp" finished-at="2023-08-14T19:59:28 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:48:51 EEST" name="tearDown" finished-at="2023-08-14T19:48:51 EEST" duration-ms="670" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@6574a52c]" started-at="2023-08-14T19:59:32 EEST" name="tearDown" finished-at="2023-08-14T19:59:33 EEST" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
       <class name="tests.fundPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:24 EEST" name="setUp" finished-at="2023-08-14T19:50:26 EEST" duration-ms="1570" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:04 EEST" name="setUp" finished-at="2023-08-14T20:01:06 EEST" duration-ms="1590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:26 EEST" name="allHeaderFundPage" finished-at="2023-08-14T19:50:31 EEST" duration-ms="5360" status="PASS">
+        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:06 EEST" name="allHeaderFundPage" finished-at="2023-08-14T20:01:11 EEST" duration-ms="5375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -997,11 +997,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:31 EEST" name="setUp" finished-at="2023-08-14T19:50:31 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:31 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-14T19:50:36 EEST" duration-ms="4531" status="PASS">
+        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:11 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-14T20:01:16 EEST" duration-ms="4400" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1017,11 +1013,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:36 EEST" name="setUp" finished-at="2023-08-14T19:50:36 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:11 EEST" name="setUp" finished-at="2023-08-14T20:01:11 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:36 EEST" name="learnHeaderFundPage" finished-at="2023-08-14T19:50:40 EEST" duration-ms="4383" status="PASS">
+        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:16 EEST" name="learnHeaderFundPage" finished-at="2023-08-14T20:01:20 EEST" duration-ms="4300" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1037,11 +1033,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:40 EEST" name="setUp" finished-at="2023-08-14T19:50:40 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:16 EEST" name="setUp" finished-at="2023-08-14T20:01:16 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:40 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-14T19:50:45 EEST" duration-ms="4491" status="PASS">
+        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:20 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-14T20:01:24 EEST" duration-ms="4283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1057,11 +1053,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:45 EEST" name="setUp" finished-at="2023-08-14T19:50:45 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:20 EEST" name="setUp" finished-at="2023-08-14T20:01:20 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:45 EEST" name="mainSectionFundPage" finished-at="2023-08-14T19:50:50 EEST" duration-ms="5210" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:24 EEST" name="setUp" finished-at="2023-08-14T20:01:24 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:24 EEST" name="mainSectionFundPage" finished-at="2023-08-14T20:01:29 EEST" duration-ms="5158" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1077,11 +1077,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:50 EEST" name="setUp" finished-at="2023-08-14T19:50:50 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:50 EEST" name="allFooterFundPage" finished-at="2023-08-14T19:50:55 EEST" duration-ms="5338" status="PASS">
+        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:29 EEST" name="allFooterFundPage" finished-at="2023-08-14T20:01:35 EEST" duration-ms="5254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1097,11 +1093,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:55 EEST" name="setUp" finished-at="2023-08-14T19:50:55 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:29 EEST" name="setUp" finished-at="2023-08-14T20:01:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:50:55 EEST" name="partnFooterFundPage" finished-at="2023-08-14T19:51:00 EEST" duration-ms="5176" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:35 EEST" name="setUp" finished-at="2023-08-14T20:01:35 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:35 EEST" name="partnFooterFundPage" finished-at="2023-08-14T20:01:40 EEST" duration-ms="5134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1117,7 +1117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterFundPage -->
-        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:51:00 EEST" name="subFooterFundPage" finished-at="2023-08-14T19:51:06 EEST" duration-ms="5193" status="PASS">
+        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:40 EEST" name="subFooterFundPage" finished-at="2023-08-14T20:01:45 EEST" duration-ms="5090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1133,11 +1133,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:51:00 EEST" name="setUp" finished-at="2023-08-14T19:51:00 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:40 EEST" name="setUp" finished-at="2023-08-14T20:01:40 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:51:06 EEST" name="copFooterFundPage" finished-at="2023-08-14T19:51:10 EEST" duration-ms="4245" status="PASS">
+        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:45 EEST" name="copFooterFundPage" finished-at="2023-08-14T20:01:49 EEST" duration-ms="4161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1153,21 +1153,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:51:06 EEST" name="setUp" finished-at="2023-08-14T19:51:06 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:45 EEST" name="setUp" finished-at="2023-08-14T20:01:45 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T19:51:10 EEST" name="tearDown" finished-at="2023-08-14T19:51:11 EEST" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@60099951]" started-at="2023-08-14T20:01:49 EEST" name="tearDown" finished-at="2023-08-14T20:01:50 EEST" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.fundPageTests.AllPageChromeTests -->
       <class name="tests.mainPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:16 EEST" name="setUp" finished-at="2023-08-14T19:43:20 EEST" duration-ms="3627" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:07 EEST" name="setUp" finished-at="2023-08-14T19:54:10 EEST" duration-ms="3641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:20 EEST" name="allHeaderMainPage" finished-at="2023-08-14T19:43:44 EEST" duration-ms="24455" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:10 EEST" name="allHeaderMainPage" finished-at="2023-08-14T19:54:35 EEST" duration-ms="24295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1183,11 +1183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:44 EEST" name="setUp" finished-at="2023-08-14T19:43:44 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:44 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-14T19:43:49 EEST" duration-ms="4228" status="PASS">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:35 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-14T19:54:39 EEST" duration-ms="4155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1203,11 +1199,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:49 EEST" name="setUp" finished-at="2023-08-14T19:43:49 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:35 EEST" name="setUp" finished-at="2023-08-14T19:54:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:49 EEST" name="learnHeaderMainPage" finished-at="2023-08-14T19:43:53 EEST" duration-ms="4234" status="PASS">
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:39 EEST" name="learnHeaderMainPage" finished-at="2023-08-14T19:54:43 EEST" duration-ms="4184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1223,11 +1219,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:53 EEST" name="setUp" finished-at="2023-08-14T19:43:53 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:39 EEST" name="setUp" finished-at="2023-08-14T19:54:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:53 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-14T19:43:57 EEST" duration-ms="4359" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:43 EEST" name="setUp" finished-at="2023-08-14T19:54:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:43 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-14T19:54:47 EEST" duration-ms="4345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1243,7 +1243,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:57 EEST" name="mainSectionMainPage" finished-at="2023-08-14T19:44:02 EEST" duration-ms="5332" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:47 EEST" name="setUp" finished-at="2023-08-14T19:54:47 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:47 EEST" name="mainSectionMainPage" finished-at="2023-08-14T19:54:53 EEST" duration-ms="5301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1259,15 +1263,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:43:57 EEST" name="setUp" finished-at="2023-08-14T19:43:57 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:53 EEST" name="setUp" finished-at="2023-08-14T19:54:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:02 EEST" name="setUp" finished-at="2023-08-14T19:44:02 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:02 EEST" name="videoSectionMainPage" finished-at="2023-08-14T19:44:08 EEST" duration-ms="5413" status="PASS">
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:53 EEST" name="videoSectionMainPage" finished-at="2023-08-14T19:54:58 EEST" duration-ms="5378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1283,11 +1283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:08 EEST" name="setUp" finished-at="2023-08-14T19:44:08 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:08 EEST" name="roadmapSectionMainPage" finished-at="2023-08-14T19:44:13 EEST" duration-ms="5296" status="PASS">
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:58 EEST" name="roadmapSectionMainPage" finished-at="2023-08-14T19:55:03 EEST" duration-ms="5270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1303,11 +1299,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:13 EEST" name="setUp" finished-at="2023-08-14T19:44:13 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:54:58 EEST" name="setUp" finished-at="2023-08-14T19:54:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:13 EEST" name="statisticsSectionMainPage" finished-at="2023-08-14T19:44:19 EEST" duration-ms="5567" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:03 EEST" name="setUp" finished-at="2023-08-14T19:55:03 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:03 EEST" name="statisticsSectionMainPage" finished-at="2023-08-14T19:55:09 EEST" duration-ms="5502" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1323,7 +1323,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:19 EEST" name="leaningSectionMainPage" finished-at="2023-08-14T19:44:24 EEST" duration-ms="5427" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:09 EEST" name="setUp" finished-at="2023-08-14T19:55:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:09 EEST" name="leaningSectionMainPage" finished-at="2023-08-14T19:55:14 EEST" duration-ms="5316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1339,15 +1343,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:19 EEST" name="setUp" finished-at="2023-08-14T19:44:19 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:14 EEST" name="setUp" finished-at="2023-08-14T19:55:14 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:24 EEST" name="setUp" finished-at="2023-08-14T19:44:24 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:24 EEST" name="allFooterMainPage" finished-at="2023-08-14T19:44:29 EEST" duration-ms="5059" status="PASS">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:14 EEST" name="allFooterMainPage" finished-at="2023-08-14T19:55:19 EEST" duration-ms="5058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1363,11 +1363,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:29 EEST" name="setUp" finished-at="2023-08-14T19:44:29 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:19 EEST" name="setUp" finished-at="2023-08-14T19:55:19 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:29 EEST" name="partnFooterMainPage" finished-at="2023-08-14T19:44:34 EEST" duration-ms="5153" status="PASS">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:19 EEST" name="partnFooterMainPage" finished-at="2023-08-14T19:55:24 EEST" duration-ms="5082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1383,11 +1383,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:34 EEST" name="setUp" finished-at="2023-08-14T19:44:34 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:24 EEST" name="setUp" finished-at="2023-08-14T19:55:24 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:34 EEST" name="subFooterMainPage" finished-at="2023-08-14T19:44:39 EEST" duration-ms="4988" status="PASS">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:24 EEST" name="subFooterMainPage" finished-at="2023-08-14T19:55:29 EEST" duration-ms="4938" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1403,7 +1403,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:39 EEST" name="copFooterMainPage" finished-at="2023-08-14T19:44:43 EEST" duration-ms="4034" status="PASS">
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:29 EEST" name="copFooterMainPage" finished-at="2023-08-14T19:55:33 EEST" duration-ms="4000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1419,21 +1419,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:39 EEST" name="setUp" finished-at="2023-08-14T19:44:39 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:29 EEST" name="setUp" finished-at="2023-08-14T19:55:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:44:43 EEST" name="tearDown" finished-at="2023-08-14T19:44:45 EEST" duration-ms="1662" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageFirefoxTests@4c1909a3]" started-at="2023-08-14T19:55:33 EEST" name="tearDown" finished-at="2023-08-14T19:55:35 EEST" duration-ms="1643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
       <class name="tests.mainPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:44:45 EEST" name="setUp" finished-at="2023-08-14T19:44:47 EEST" duration-ms="1887" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:55:35 EEST" name="setUp" finished-at="2023-08-14T19:55:37 EEST" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:44:47 EEST" name="allHeaderMainPage" finished-at="2023-08-14T19:45:10 EEST" duration-ms="23267" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:55:37 EEST" name="allHeaderMainPage" finished-at="2023-08-14T19:56:00 EEST" duration-ms="23537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1449,7 +1449,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:10 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-14T19:45:15 EEST" duration-ms="4477" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:00 EEST" name="setUp" finished-at="2023-08-14T19:56:00 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:00 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-14T19:56:05 EEST" duration-ms="4409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1465,15 +1469,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:10 EEST" name="setUp" finished-at="2023-08-14T19:45:10 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:05 EEST" name="setUp" finished-at="2023-08-14T19:56:05 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:15 EEST" name="setUp" finished-at="2023-08-14T19:45:15 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:15 EEST" name="learnHeaderMainPage" finished-at="2023-08-14T19:45:19 EEST" duration-ms="4426" status="PASS">
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:05 EEST" name="learnHeaderMainPage" finished-at="2023-08-14T19:56:09 EEST" duration-ms="4346" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1489,7 +1489,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:19 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-14T19:45:24 EEST" duration-ms="4423" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:09 EEST" name="setUp" finished-at="2023-08-14T19:56:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:09 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-14T19:56:13 EEST" duration-ms="4361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1505,15 +1509,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:19 EEST" name="setUp" finished-at="2023-08-14T19:45:19 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:24 EEST" name="setUp" finished-at="2023-08-14T19:45:24 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:24 EEST" name="mainSectionMainPage" finished-at="2023-08-14T19:45:29 EEST" duration-ms="5525" status="PASS">
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:13 EEST" name="mainSectionMainPage" finished-at="2023-08-14T19:56:19 EEST" duration-ms="5439" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1529,77 +1525,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:29 EEST" name="videoSectionMainPage" finished-at="2023-08-14T19:45:35 EEST" duration-ms="5528" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:29 EEST" name="setUp" finished-at="2023-08-14T19:45:29 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:13 EEST" name="setUp" finished-at="2023-08-14T19:56:13 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:35 EEST" name="setUp" finished-at="2023-08-14T19:45:35 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:19 EEST" name="setUp" finished-at="2023-08-14T19:56:19 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:35 EEST" name="videoSectionMainPage" finished-at="2023-08-14T19:45:40 EEST" duration-ms="5770" status="PASS">
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:19 EEST" name="videoSectionMainPage" finished-at="2023-08-14T19:56:24 EEST" duration-ms="5637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1615,7 +1549,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:40 EEST" name="roadmapSectionMainPage" finished-at="2023-08-14T19:45:46 EEST" duration-ms="5815" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:24 EEST" name="setUp" finished-at="2023-08-14T19:56:24 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:24 EEST" name="roadmapSectionMainPage" finished-at="2023-08-14T19:56:30 EEST" duration-ms="5687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1631,15 +1569,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:40 EEST" name="setUp" finished-at="2023-08-14T19:45:40 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:30 EEST" name="setUp" finished-at="2023-08-14T19:56:30 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:46 EEST" name="setUp" finished-at="2023-08-14T19:45:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:46 EEST" name="statisticsSectionMainPage" finished-at="2023-08-14T19:45:52 EEST" duration-ms="5863" status="PASS">
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:30 EEST" name="statisticsSectionMainPage" finished-at="2023-08-14T19:56:36 EEST" duration-ms="5726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1655,11 +1589,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:52 EEST" name="setUp" finished-at="2023-08-14T19:45:52 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:36 EEST" name="setUp" finished-at="2023-08-14T19:56:36 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:52 EEST" name="leaningSectionMainPage" finished-at="2023-08-14T19:45:58 EEST" duration-ms="6286" status="PASS">
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:36 EEST" name="leaningSectionMainPage" finished-at="2023-08-14T19:56:42 EEST" duration-ms="6181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1675,11 +1609,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:58 EEST" name="setUp" finished-at="2023-08-14T19:45:58 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:45:58 EEST" name="allFooterMainPage" finished-at="2023-08-14T19:46:04 EEST" duration-ms="5465" status="PASS">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:42 EEST" name="allFooterMainPage" finished-at="2023-08-14T19:56:47 EEST" duration-ms="5397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1695,7 +1625,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:04 EEST" name="partnFooterMainPage" finished-at="2023-08-14T19:46:09 EEST" duration-ms="5289" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:42 EEST" name="setUp" finished-at="2023-08-14T19:56:42 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:47 EEST" name="setUp" finished-at="2023-08-14T19:56:47 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:47 EEST" name="partnFooterMainPage" finished-at="2023-08-14T19:56:53 EEST" duration-ms="5178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1711,15 +1649,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:04 EEST" name="setUp" finished-at="2023-08-14T19:46:04 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:53 EEST" name="setUp" finished-at="2023-08-14T19:56:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:09 EEST" name="setUp" finished-at="2023-08-14T19:46:09 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:09 EEST" name="subFooterMainPage" finished-at="2023-08-14T19:46:14 EEST" duration-ms="5279" status="PASS">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:53 EEST" name="subFooterMainPage" finished-at="2023-08-14T19:56:58 EEST" duration-ms="5194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1735,7 +1669,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:14 EEST" name="copFooterMainPage" finished-at="2023-08-14T19:46:19 EEST" duration-ms="4366" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:58 EEST" name="setUp" finished-at="2023-08-14T19:56:58 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:56:58 EEST" name="copFooterMainPage" finished-at="2023-08-14T19:57:02 EEST" duration-ms="4314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1751,11 +1689,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:14 EEST" name="setUp" finished-at="2023-08-14T19:46:14 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:46:19 EEST" name="tearDown" finished-at="2023-08-14T19:46:19 EEST" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@45099dd3]" started-at="2023-08-14T19:57:02 EEST" name="tearDown" finished-at="2023-08-14T19:57:03 EEST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
