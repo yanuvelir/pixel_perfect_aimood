@@ -3,15 +3,27 @@
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
+    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
+    <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
+    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.fundPageTests.AllPageChromeTests">
         <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="partnFooterFundPage" invocation-numbers="0"/>
+          <include name="copFooterFundPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="subFooterFundPage" invocation-numbers="0"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
+          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="allHeaderFundPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->

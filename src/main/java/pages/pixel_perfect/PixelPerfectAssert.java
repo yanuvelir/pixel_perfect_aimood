@@ -241,7 +241,9 @@ public class PixelPerfectAssert {
             case "mac 16":
                 driver.manage().window().setSize(new Dimension(1728, 1117));
                 break;
-
+            case "mac 14":
+                driver.manage().window().setSize(new Dimension(1512, 982));
+                break;
 
             // You can add more case statements for other predefined resolutions
             default:
