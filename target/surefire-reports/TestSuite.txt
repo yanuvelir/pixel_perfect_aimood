@@ -1,4 +1,242 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 129.457 s - in TestSuite
+Tests run: 122, Failures: 51, Errors: 0, Skipped: 0, Time elapsed: 761.447 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 35.404 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
+
+tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.874 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
+
+tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.63 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:118)
+
+tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.169 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:137)
+
+tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.967 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:156)
+
+tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.977 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:175)
+
+tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 5.361 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
+
+tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.602 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:214)
+
+tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.619 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage(AllPageFirefoxTests.java:252)
+
+tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.508 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage(AllPageFirefoxTests.java:271)
+
+tests.mainPageTests.AllPageChromeTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 34.936 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+
+tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.867 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+
+tests.mainPageTests.AllPageChromeTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.985 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.allFooterMainPage(AllPageChromeTests.java:214)
+
+tests.mainPageTests.AllPageChromeTests.subFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 4.7 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+
+tests.mainPageTests.AllPageChromeTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)  Time elapsed: 3.742 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 6.052 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:26)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 3.645 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage(AllPageFirefoxTests.java:80)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 4.66 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 4.379 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage(AllPageFirefoxTests.java:196)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 3.511 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage(AllPageFirefoxTests.java:215)
+
+tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 5.384 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:27)
+
+tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 3.875 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage(AllPageChromeTests.java:81)
+
+tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 4.923 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage(AllPageChromeTests.java:159)
+
+tests.marketPlacePageTests.AllPageChromeTests.subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 4.641 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.subFooterMarketPlacePage(AllPageChromeTests.java:197)
+
+tests.marketPlacePageTests.AllPageChromeTests.copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)  Time elapsed: 3.732 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.copFooterMarketPlacePage(AllPageChromeTests.java:216)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 7.328 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 4.073 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 3.931 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 4.012 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 19.567 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class='first-main-saction affiliate-program-section section-new']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b668271c8021dc2d6f6307fbbd7fec4, findElement {using=xpath, value=//section[@class='first-main-saction affiliate-program-section section-new']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56693}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56693/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b668271c8021dc2d6f6307fbbd7fec4
+	at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:118)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 15.472 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer-new transparent__footer']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b668271c8021dc2d6f6307fbbd7fec4, findElement {using=xpath, value=//footer[@class='footer-new transparent__footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56693}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56693/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b668271c8021dc2d6f6307fbbd7fec4
+	at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:135)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.subFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 4.701 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.subFooterBuySellMoodCoinPage(AllPageChromeTests.java:177)
+
+tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 3.83 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage(AllPageChromeTests.java:196)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 6.141 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 4.038 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 3.927 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 3.982 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 19.626 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //section[@class='first-main-saction affiliate-program-section section-new']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [52ccf0bd-43b9-4b08-84e4-68b70a788376, findElement {using=xpath, value=//section[@class='first-main-saction affiliate-program-section section-new']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:22462, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8072, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:22462/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 52ccf0bd-43b9-4b08-84e4-68b70a788376
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:118)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 15.763 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //footer[@class='footer-new transparent__footer']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [52ccf0bd-43b9-4b08-84e4-68b70a788376, findElement {using=xpath, value=//footer[@class='footer-new transparent__footer']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:22462, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8072, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:22462/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 52ccf0bd-43b9-4b08-84e4-68b70a788376
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:135)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 4.636 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:177)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)  Time elapsed: 3.677 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:196)
+
+tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 5.213 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage(AllPageFirefoxTests.java:26)
+
+tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 3.658 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage(AllPageFirefoxTests.java:80)
+
+tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 4.589 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage(AllPageFirefoxTests.java:139)
+
+tests.fundPageTests.AllPageFirefoxTests.subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 4.482 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.subFooterFundPage(AllPageFirefoxTests.java:177)
+
+tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 3.519 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage(AllPageFirefoxTests.java:196)
+
+tests.fundPageTests.AllPageChromeTests.allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 4.949 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.allHeaderFundPage(AllPageChromeTests.java:28)
+
+tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 3.754 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage(AllPageChromeTests.java:82)
+
+tests.fundPageTests.AllPageChromeTests.allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 4.891 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.allFooterFundPage(AllPageChromeTests.java:141)
+
+tests.fundPageTests.AllPageChromeTests.subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 4.625 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.subFooterFundPage(AllPageChromeTests.java:179)
+
+tests.fundPageTests.AllPageChromeTests.copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)  Time elapsed: 3.68 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.copFooterFundPage(AllPageChromeTests.java:198)
+
