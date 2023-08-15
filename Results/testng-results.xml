@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="34" ignored="0" total="52" passed="1" failed="17" skipped="0">
+<testng-results retried="38" ignored="0" total="58" passed="1" failed="19" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T17:04:00 EEST" name="WPT" finished-at="2023-08-14T17:09:00 EEST" duration-ms="299644">
+  <suite started-at="2023-08-15T09:58:02 EEST" name="WPT" finished-at="2023-08-15T10:04:09 EEST" duration-ms="366370">
     <groups>
     </groups>
-    <test started-at="2023-08-14T17:04:00 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-14T17:09:00 EEST" duration-ms="299644">
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:06:36 EEST" name="setUp" finished-at="2023-08-14T17:06:40 EEST" duration-ms="4186" status="PASS">
+    <test started-at="2023-08-15T09:58:02 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-15T10:04:09 EEST" duration-ms="366370">
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:05 EEST" name="setUp" finished-at="2023-08-15T10:01:09 EEST" duration-ms="3374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:06:40 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:06:46 EEST" duration-ms="5543" status="SKIP">
+        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:09 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T10:01:15 EEST" duration-ms="6065" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -34,7 +34,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
+at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,16 +67,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:06:46 EEST" name="setUp" finished-at="2023-08-14T17:06:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:06:46 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:04 EEST" duration-ms="18777" status="SKIP">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:15 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T10:01:34 EEST" duration-ms="19138" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -95,7 +91,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
+at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,12 +124,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:04 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:23 EEST" duration-ms="18617" status="FAIL">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:15 EEST" name="setUp" finished-at="2023-08-15T10:01:15 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:34 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T10:01:53 EEST" duration-ms="19328" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -152,7 +152,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
+at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -185,16 +185,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:04 EEST" name="setUp" finished-at="2023-08-14T17:07:04 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:34 EEST" name="setUp" finished-at="2023-08-15T10:01:34 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:23 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:27 EEST" duration-ms="3802" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:53 EEST" name="setUp" finished-at="2023-08-15T10:01:53 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:53 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T10:01:58 EEST" duration-ms="4208" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -213,7 +217,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
+at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -246,20 +250,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:23 EEST" name="setUp" finished-at="2023-08-14T17:07:23 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:58 EEST" name="setUp" finished-at="2023-08-15T10:01:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:27 EEST" name="setUp" finished-at="2023-08-14T17:07:27 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:27 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:30 EEST" duration-ms="3670" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:01:58 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T10:02:02 EEST" duration-ms="4245" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -278,7 +278,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
+at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -311,12 +311,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:30 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:34 EEST" duration-ms="3650" status="FAIL">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:02 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T10:02:06 EEST" duration-ms="4131" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -335,7 +335,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
+at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -368,16 +368,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:30 EEST" name="setUp" finished-at="2023-08-14T17:07:30 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:02 EEST" name="setUp" finished-at="2023-08-15T10:02:02 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:34 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:38 EEST" duration-ms="3706" status="SKIP">
+        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:06 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T10:02:10 EEST" duration-ms="4198" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -396,7 +396,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
+at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -429,20 +429,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:34 EEST" name="setUp" finished-at="2023-08-14T17:07:34 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:06 EEST" name="setUp" finished-at="2023-08-15T10:02:06 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:38 EEST" name="setUp" finished-at="2023-08-14T17:07:38 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:38 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:42 EEST" duration-ms="3847" status="SKIP">
+        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:10 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T10:02:14 EEST" duration-ms="4126" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -461,7 +457,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
+at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -494,16 +490,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:42 EEST" name="setUp" finished-at="2023-08-14T17:07:42 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:10 EEST" name="setUp" finished-at="2023-08-15T10:02:10 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:42 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:45 EEST" duration-ms="3613" status="FAIL">
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:14 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T10:02:18 EEST" duration-ms="4214" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -522,7 +518,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
+at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -555,16 +551,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:45 EEST" name="setUp" finished-at="2023-08-14T17:07:45 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:14 EEST" name="setUp" finished-at="2023-08-15T10:02:14 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:45 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:49 EEST" duration-ms="3573" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:18 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T10:02:23 EEST" duration-ms="4190" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -583,7 +579,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
+at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -616,16 +612,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:49 EEST" name="setUp" finished-at="2023-08-14T17:07:49 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:18 EEST" name="setUp" finished-at="2023-08-15T10:02:18 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:49 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:53 EEST" duration-ms="3606" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:23 EEST" name="setUp" finished-at="2023-08-15T10:02:23 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:23 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T10:02:27 EEST" duration-ms="4192" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -644,7 +644,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
+at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -677,16 +677,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:53 EEST" name="setUp" finished-at="2023-08-14T17:07:53 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:27 EEST" name="setUp" finished-at="2023-08-15T10:02:27 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:53 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:07:56 EEST" duration-ms="3616" status="FAIL">
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:27 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T10:02:31 EEST" duration-ms="4093" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -705,7 +705,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
+at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -738,16 +738,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:56 EEST" name="setUp" finished-at="2023-08-14T17:07:56 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:31 EEST" name="setUp" finished-at="2023-08-15T10:02:31 EEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:07:56 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:08:01 EEST" duration-ms="5031" status="SKIP">
+        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:31 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T10:02:37 EEST" duration-ms="5685" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -766,7 +766,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:118)
+at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -799,16 +799,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:01 EEST" name="setUp" finished-at="2023-08-14T17:08:01 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:37 EEST" name="setUp" finished-at="2023-08-15T10:02:37 EEST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:01 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:08:07 EEST" duration-ms="5475" status="SKIP">
+        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:37 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T10:02:42 EEST" duration-ms="5496" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -827,7 +827,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:118)
+at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -860,16 +860,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:07 EEST" name="setUp" finished-at="2023-08-14T17:08:07 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:42 EEST" name="setUp" finished-at="2023-08-15T10:02:42 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:07 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:08:12 EEST" duration-ms="5409" status="FAIL">
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:42 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T10:02:48 EEST" duration-ms="5412" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -888,7 +888,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:118)
+at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -921,12 +921,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method retried="true" signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:12 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:17 EEST" duration-ms="5165" status="SKIP">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:48 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T10:02:54 EEST" duration-ms="6746" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -945,7 +945,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:139)
+at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -978,20 +978,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:12 EEST" name="setUp" finished-at="2023-08-14T17:08:12 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:48 EEST" name="setUp" finished-at="2023-08-15T10:02:48 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:17 EEST" name="setUp" finished-at="2023-08-14T17:08:17 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:17 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:22 EEST" duration-ms="5120" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:54 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T10:03:01 EEST" duration-ms="6879" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1010,7 +1006,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:139)
+at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1043,12 +1039,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:22 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:27 EEST" duration-ms="5130" status="FAIL">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:02:54 EEST" name="setUp" finished-at="2023-08-15T10:02:54 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:01 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T10:03:08 EEST" duration-ms="6785" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1067,7 +1067,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:139)
+at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1100,40 +1100,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:22 EEST" name="setUp" finished-at="2023-08-14T17:08:22 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:01 EEST" name="setUp" finished-at="2023-08-15T10:03:01 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:27 EEST" name="setUp" finished-at="2023-08-14T17:08:27 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:27 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:32 EEST" duration-ms="4982" status="PASS">
+        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:08 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:03:14 EEST" duration-ms="5625" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:32 EEST" name="setUp" finished-at="2023-08-14T17:08:32 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:32 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:37 EEST" duration-ms="4480" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1152,7 +1128,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:177)
+at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1185,16 +1161,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:37 EEST" name="setUp" finished-at="2023-08-14T17:08:37 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:08 EEST" name="setUp" finished-at="2023-08-15T10:03:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:37 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:41 EEST" duration-ms="4510" status="SKIP">
+        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:14 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:03:19 EEST" duration-ms="5631" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1213,7 +1189,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:177)
+at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1246,16 +1222,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:41 EEST" name="setUp" finished-at="2023-08-14T17:08:41 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:14 EEST" name="setUp" finished-at="2023-08-15T10:03:14 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:41 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:46 EEST" duration-ms="4486" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:19 EEST" name="setUp" finished-at="2023-08-15T10:03:19 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:19 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:03:25 EEST" duration-ms="5549" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1274,7 +1254,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:177)
+at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1307,16 +1287,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:46 EEST" name="setUp" finished-at="2023-08-14T17:08:46 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:25 EEST" name="setUp" finished-at="2023-08-15T10:03:25 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:46 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:49 EEST" duration-ms="3487" status="SKIP">
+        <test-method retried="true" signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:25 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-15T10:03:30 EEST" duration-ms="5164" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1335,7 +1315,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:196)
+at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1368,16 +1348,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:49 EEST" name="setUp" finished-at="2023-08-14T17:08:49 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:30 EEST" name="setUp" finished-at="2023-08-15T10:03:30 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:49 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:53 EEST" duration-ms="3523" status="SKIP">
+        <test-method retried="true" signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:30 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-15T10:03:35 EEST" duration-ms="5043" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1396,7 +1376,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:196)
+at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1429,16 +1409,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:53 EEST" name="setUp" finished-at="2023-08-14T17:08:53 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:53 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:08:56 EEST" duration-ms="3504" status="FAIL">
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:35 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-15T10:03:40 EEST" duration-ms="5093" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1457,7 +1433,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:196)
+at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1490,22 +1466,392 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@424e1977]" started-at="2023-08-14T17:08:56 EEST" name="tearDown" finished-at="2023-08-14T17:09:00 EEST" duration-ms="3508" status="PASS">
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:35 EEST" name="setUp" finished-at="2023-08-15T10:03:35 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:40 EEST" name="setUp" finished-at="2023-08-15T10:03:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:40 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:03:45 EEST" duration-ms="5115" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:45 EEST" name="setUp" finished-at="2023-08-15T10:03:45 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:45 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:03:50 EEST" duration-ms="5043" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:50 EEST" name="setUp" finished-at="2023-08-15T10:03:50 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:50 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:03:55 EEST" duration-ms="5153" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:55 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:04:00 EEST" duration-ms="4156" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:03:55 EEST" name="setUp" finished-at="2023-08-15T10:03:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:04:00 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:04:04 EEST" duration-ms="4110" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:04:00 EEST" name="setUp" finished-at="2023-08-15T10:04:00 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:04:04 EEST" name="setUp" finished-at="2023-08-15T10:04:04 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:04:04 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:04:08 EEST" duration-ms="4056" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@762ef0ea]" started-at="2023-08-15T10:04:08 EEST" name="tearDown" finished-at="2023-08-15T10:04:09 EEST" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:00 EEST" name="setUp" finished-at="2023-08-14T17:04:05 EEST" duration-ms="4789" status="PASS">
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:02 EEST" name="setUp" finished-at="2023-08-15T09:58:12 EEST" duration-ms="9331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:05 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:04:11 EEST" duration-ms="5763" status="SKIP">
+        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:12 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T09:58:20 EEST" duration-ms="8200" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1524,7 +1870,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1557,12 +1903,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method retried="true" signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:11 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:04:30 EEST" duration-ms="18961" status="SKIP">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:20 EEST" name="setUp" finished-at="2023-08-15T09:58:20 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:20 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T09:58:39 EEST" duration-ms="19079" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1581,7 +1931,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1614,20 +1964,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:11 EEST" name="setUp" finished-at="2023-08-14T17:04:11 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:30 EEST" name="setUp" finished-at="2023-08-14T17:04:30 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:30 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:04:49 EEST" duration-ms="19088" status="FAIL">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:39 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-15T09:58:58 EEST" duration-ms="18990" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1646,7 +1988,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1679,16 +2021,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:49 EEST" name="setUp" finished-at="2023-08-14T17:04:49 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:39 EEST" name="setUp" finished-at="2023-08-15T09:58:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:49 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:04:53 EEST" duration-ms="4072" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:58 EEST" name="setUp" finished-at="2023-08-15T09:58:58 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:58:58 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T09:59:02 EEST" duration-ms="4206" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1707,7 +2053,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1740,12 +2086,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method retried="true" signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:53 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:04:57 EEST" duration-ms="3856" status="SKIP">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:02 EEST" name="setUp" finished-at="2023-08-15T09:59:02 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:02 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T09:59:06 EEST" duration-ms="3801" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1764,7 +2114,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1797,20 +2147,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:53 EEST" name="setUp" finished-at="2023-08-14T17:04:53 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:06 EEST" name="setUp" finished-at="2023-08-15T09:59:06 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:57 EEST" name="setUp" finished-at="2023-08-14T17:04:57 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:04:57 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:01 EEST" duration-ms="3916" status="FAIL">
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:06 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-15T09:59:10 EEST" duration-ms="3793" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1829,7 +2175,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1862,16 +2208,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:01 EEST" name="setUp" finished-at="2023-08-14T17:05:01 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:10 EEST" name="setUp" finished-at="2023-08-15T09:59:10 EEST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:01 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:05 EEST" duration-ms="3849" status="SKIP">
+        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:10 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T09:59:14 EEST" duration-ms="3848" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1890,7 +2236,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1923,16 +2269,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:05 EEST" name="setUp" finished-at="2023-08-14T17:05:05 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:14 EEST" name="setUp" finished-at="2023-08-15T09:59:14 EEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:05 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:09 EEST" duration-ms="3943" status="SKIP">
+        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:14 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T09:59:17 EEST" duration-ms="3800" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -1951,7 +2297,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1984,16 +2330,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:09 EEST" name="setUp" finished-at="2023-08-14T17:05:09 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:17 EEST" name="setUp" finished-at="2023-08-15T09:59:17 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:09 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:13 EEST" duration-ms="4002" status="FAIL">
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:17 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-15T09:59:21 EEST" duration-ms="3825" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2012,7 +2358,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2045,12 +2391,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method retried="true" signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:13 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:17 EEST" duration-ms="3889" status="SKIP">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:21 EEST" name="setUp" finished-at="2023-08-15T09:59:21 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:21 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T09:59:25 EEST" duration-ms="3815" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2069,7 +2419,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2102,20 +2452,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:13 EEST" name="setUp" finished-at="2023-08-14T17:05:13 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:17 EEST" name="setUp" finished-at="2023-08-14T17:05:17 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:17 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:21 EEST" duration-ms="4033" status="SKIP">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:25 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T09:59:29 EEST" duration-ms="3807" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2134,7 +2476,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2167,16 +2509,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:21 EEST" name="setUp" finished-at="2023-08-14T17:05:21 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:25 EEST" name="setUp" finished-at="2023-08-15T09:59:25 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:21 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-14T17:05:24 EEST" duration-ms="3910" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:29 EEST" name="setUp" finished-at="2023-08-15T09:59:29 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:29 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-15T09:59:33 EEST" duration-ms="3994" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2195,7 +2541,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2228,16 +2574,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:24 EEST" name="setUp" finished-at="2023-08-14T17:05:24 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:33 EEST" name="setUp" finished-at="2023-08-15T09:59:33 EEST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:24 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:05:30 EEST" duration-ms="5169" status="SKIP">
+        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:33 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T09:59:39 EEST" duration-ms="5859" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2256,7 +2602,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:118)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage(AllPageFirefoxTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2289,16 +2635,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:30 EEST" name="setUp" finished-at="2023-08-14T17:05:30 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:30 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:05:35 EEST" duration-ms="5036" status="SKIP">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:39 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T09:59:44 EEST" duration-ms="5613" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2317,7 +2659,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:118)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage(AllPageFirefoxTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2350,16 +2692,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:35 EEST" name="setUp" finished-at="2023-08-14T17:05:35 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:39 EEST" name="setUp" finished-at="2023-08-15T09:59:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:35 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-14T17:05:40 EEST" duration-ms="5052" status="FAIL">
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:44 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-15T09:59:50 EEST" duration-ms="5630" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2378,7 +2720,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:118)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage(AllPageFirefoxTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2411,16 +2753,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:40 EEST" name="setUp" finished-at="2023-08-14T17:05:40 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:44 EEST" name="setUp" finished-at="2023-08-15T09:59:44 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:40 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:05:45 EEST" duration-ms="5049" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:50 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T09:59:57 EEST" duration-ms="7301" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2439,7 +2781,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:139)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2472,16 +2814,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:45 EEST" name="setUp" finished-at="2023-08-14T17:05:45 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:50 EEST" name="setUp" finished-at="2023-08-15T09:59:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:45 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:05:50 EEST" duration-ms="5164" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:57 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T10:00:04 EEST" duration-ms="7144" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2500,7 +2842,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:139)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2533,12 +2875,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:50 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:05:55 EEST" duration-ms="5102" status="FAIL">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T09:59:57 EEST" name="setUp" finished-at="2023-08-15T09:59:57 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:04 EEST" name="setUp" finished-at="2023-08-15T10:00:04 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:04 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-15T10:00:12 EEST" duration-ms="7239" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2557,7 +2907,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:139)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2590,20 +2940,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:50 EEST" name="setUp" finished-at="2023-08-14T17:05:50 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:55 EEST" name="setUp" finished-at="2023-08-14T17:05:55 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:05:55 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:00 EEST" duration-ms="4790" status="SKIP">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:12 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:00:17 EEST" duration-ms="5768" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2622,7 +2964,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.partnFooterBuySellMoodCoinPage(AllPageChromeTests.java:158)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2655,16 +2997,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:00 EEST" name="setUp" finished-at="2023-08-14T17:06:00 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:12 EEST" name="setUp" finished-at="2023-08-15T10:00:12 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:00 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:05 EEST" duration-ms="4809" status="SKIP">
+        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:17 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:00:23 EEST" duration-ms="5670" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2683,7 +3025,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.partnFooterBuySellMoodCoinPage(AllPageChromeTests.java:158)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2716,16 +3058,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:05 EEST" name="setUp" finished-at="2023-08-14T17:06:05 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:17 EEST" name="setUp" finished-at="2023-08-15T10:00:17 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:05 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:09 EEST" duration-ms="4752" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:23 EEST" name="setUp" finished-at="2023-08-15T10:00:23 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:23 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-15T10:00:29 EEST" duration-ms="5932" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2744,7 +3090,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.partnFooterBuySellMoodCoinPage(AllPageChromeTests.java:158)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2777,16 +3123,36 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:09 EEST" name="setUp" finished-at="2023-08-14T17:06:09 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:09 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:14 EEST" duration-ms="4760" status="SKIP">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:29 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-15T10:00:34 EEST" duration-ms="5467" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:29 EEST" name="setUp" finished-at="2023-08-15T10:00:29 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:34 EEST" name="setUp" finished-at="2023-08-15T10:00:34 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:34 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:00:39 EEST" duration-ms="4857" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2805,7 +3171,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.subFooterBuySellMoodCoinPage(AllPageChromeTests.java:177)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.subFooterTokenMoodPage(AllPageFirefoxTests.java:196)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2838,12 +3204,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method retried="true" signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:14 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:19 EEST" duration-ms="4765" status="SKIP">
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:39 EEST" name="setUp" finished-at="2023-08-15T10:00:39 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:39 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:00:44 EEST" duration-ms="4914" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2862,7 +3232,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.subFooterBuySellMoodCoinPage(AllPageChromeTests.java:177)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.subFooterTokenMoodPage(AllPageFirefoxTests.java:196)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2895,16 +3265,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:14 EEST" name="setUp" finished-at="2023-08-14T17:06:14 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:19 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:24 EEST" duration-ms="4760" status="FAIL">
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:44 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-15T10:00:49 EEST" duration-ms="4815" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2923,7 +3289,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.subFooterBuySellMoodCoinPage(AllPageChromeTests.java:177)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.subFooterTokenMoodPage(AllPageFirefoxTests.java:196)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2956,20 +3322,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:19 EEST" name="setUp" finished-at="2023-08-14T17:06:19 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:44 EEST" name="setUp" finished-at="2023-08-15T10:00:44 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:24 EEST" name="setUp" finished-at="2023-08-14T17:06:24 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:24 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:27 EEST" duration-ms="3787" status="SKIP">
+        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:49 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:00:53 EEST" duration-ms="3794" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -2988,7 +3350,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage(AllPageChromeTests.java:196)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3021,16 +3383,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:27 EEST" name="setUp" finished-at="2023-08-14T17:06:27 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:49 EEST" name="setUp" finished-at="2023-08-15T10:00:49 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:27 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:31 EEST" duration-ms="3820" status="SKIP">
+        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:53 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:00:57 EEST" duration-ms="3856" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -3049,7 +3411,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage(AllPageChromeTests.java:196)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3082,16 +3444,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:31 EEST" name="setUp" finished-at="2023-08-14T17:06:31 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:53 EEST" name="setUp" finished-at="2023-08-15T10:00:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:31 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-14T17:06:35 EEST" duration-ms="3790" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:57 EEST" name="setUp" finished-at="2023-08-15T10:00:57 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:00:57 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-15T10:01:00 EEST" duration-ms="3709" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-affil-coin]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -3110,7 +3476,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage(AllPageChromeTests.java:196)
+at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3143,12 +3509,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@609cd4d8]" started-at="2023-08-14T17:06:35 EEST" name="tearDown" finished-at="2023-08-14T17:06:36 EEST" duration-ms="800" status="PASS">
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@66d18979]" started-at="2023-08-15T10:01:00 EEST" name="tearDown" finished-at="2023-08-15T10:01:05 EEST" duration-ms="5004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

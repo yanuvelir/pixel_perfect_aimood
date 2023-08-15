@@ -12,35 +12,37 @@
     <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <classes>
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
         <methods>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="partnFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="subFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
         <methods>
-          <include name="partnFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="subFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
