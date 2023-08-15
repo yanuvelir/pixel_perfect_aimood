@@ -3,7 +3,7 @@
 
 <suite name="WPT" >
     <listeners>
-        <listener class-name="tests.RetryAnalyzerTransformer"/>
+<!--        <listener class-name="tests.RetryAnalyzerTransformer"/>-->
     </listeners>
 
     <test name="ai-mood - Pixel perfect regression">
@@ -15,23 +15,27 @@
         <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
         <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
         <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+        <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
+
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
 
         <classes>
-            <class name="tests.mainPageTests.AllPageFirefoxTests"/>
+<!--            <class name="tests.mainPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.mainPageTests.AllPageFirefoxAuthTests"/>-->
-            <class name="tests.mainPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
-            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>
-            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>
-            <class name="tests.buySellMoodCoinTests.AllPageChromeTests"/>
-            <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests"/>
-            <class name="tests.tokenMoodPageTests.AllPageFirefoxTests"/>
-            <class name="tests.tokenMoodPageTests.AllPageChromeTests"/>
-            <class name="tests.fundPageTests.AllPageFirefoxTests"/>
-            <class name="tests.fundPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.buySellMoodCoinTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.tokenMoodPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.tokenMoodPageTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.fundPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.fundPageTests.AllPageChromeTests"/>-->
+            <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests"/>
+            <class name="tests.affiliateProgramPageTests.AllPageChromeTests"/>
 
         </classes>
     </test>
