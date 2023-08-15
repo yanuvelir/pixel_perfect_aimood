@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="tests.RetryAnalyzerTransformer"/>
+  </listeners>
+  <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
+    <parameter name="ScShotDir" value="Screenshots/"/>
+    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
+    <parameter name="main_page" value="https://ai-mood.com/en"/>
+    <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
+    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
+    <classes>
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="partnFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="subFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="partnFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+    </classes>
+  </test> <!-- ai-mood - Pixel perfect regression(failed) -->
+</suite> <!-- Failed suite [WPT] -->
