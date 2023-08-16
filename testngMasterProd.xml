@@ -12,10 +12,11 @@
 
         <parameter name="main_page" value="https://ai-mood.com/en"/>
         <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
-        <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
+        <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
         <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
         <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
         <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
+        <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
 
 
 <!--        Screenshot directory-->
@@ -34,8 +35,10 @@
 <!--            <class name="tests.tokenMoodPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.fundPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.fundPageTests.AllPageChromeTests"/>-->
-            <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests"/>
-            <class name="tests.affiliateProgramPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.affiliateProgramPageTests.AllPageChromeTests"/>-->
+            <class name="tests.walletPageTests.AllPageFirefoxTests"/>
+<!--            <class name="tests.walletPageTests.AllPageChromeTests"/>-->
 
         </classes>
     </test>
