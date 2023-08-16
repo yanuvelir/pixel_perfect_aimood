@@ -20,7 +20,7 @@ public class AllPageChromeTests extends BaseTest{
         //Open a page for test
         action.openPage(main_page);
         //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",

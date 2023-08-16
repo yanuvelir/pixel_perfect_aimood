@@ -16,11 +16,11 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 1)
     public void allHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
@@ -34,7 +34,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 2)
     public void getStartedHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //Hover
@@ -52,7 +52,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 3)
     public void learnHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //Hover
@@ -70,7 +70,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 4)
     public void resourcesHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //Hover
@@ -88,7 +88,7 @@ public class AllPageFirefoxTests extends BaseTest {
 //    @Test(priority = 5)
 //    public void langItemHeaderMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
 //        // Resolution
-//        CommonActions.setBrowserWindowSize("FULL HD");
+//        CommonActions.setBrowserWindowSize("mac 14");
 //        //Open a page for test
 //        action.openPage(main_page);
 //        //Waiting when the page is completely loaded
@@ -109,7 +109,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 6)
     public void mainSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //Time
@@ -126,7 +126,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 7)
     public void videoSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -145,7 +145,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 8)
     public void roadmapSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -164,7 +164,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 9)
     public void statisticsSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -183,7 +183,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 10)
     public void leaningSectionMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -203,7 +203,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 11)
     public void allFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -222,7 +222,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 12)
     public void partnFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -241,7 +241,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 13)
     public void subFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
@@ -260,7 +260,7 @@ public class AllPageFirefoxTests extends BaseTest {
     @Test(priority = 14)
     public void copFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
-        CommonActions.setBrowserWindowSize("FULL HD");
+        CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
         action.openPage(main_page);
         //scroll
