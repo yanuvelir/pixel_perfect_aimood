@@ -11,28 +11,28 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
         <methods>
-          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
-          <include name="subFooterFundPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderFundPage" invocation-numbers="0"/>
-          <include name="copFooterFundPage" invocation-numbers="0"/>
-          <include name="allFooterFundPage" invocation-numbers="0"/>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageChromeTests">
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
         <methods>
-          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="copFooterFundPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="subFooterFundPage" invocation-numbers="0"/>
-          <include name="allFooterFundPage" invocation-numbers="0"/>
-          <include name="allHeaderFundPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
