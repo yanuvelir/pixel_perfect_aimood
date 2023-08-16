@@ -113,7 +113,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(fund_page);
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='first-main-saction fund-program-section section-new']",
                 ScShotDir+"Fund_page/EnFirefox/Screenshots_mainSectionFundPage/real_life_screenshot.png",
