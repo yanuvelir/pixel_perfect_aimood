@@ -114,7 +114,7 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(market_place_page);
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='first-main-saction market-place-section section-new']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_mainSectionMarketPlacePage/real_life_screenshot.png",
