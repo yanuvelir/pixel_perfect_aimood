@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="93.985" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="896.939" tests="132" errors="0" skipped="10" failures="5">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire839728102455582220\surefirebooter4596500034101510628.jar C:\Users\admin\AppData\Local\Temp\surefire839728102455582220 2023-08-16T12-54-04_625-jvmRun1 surefire17319631868819000553tmp surefire_013529094898043815354tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire17054533705945117570\surefirebooter9203066505943327971.jar C:\Users\admin\AppData\Local\Temp\surefire17054533705945117570 2023-08-16T13-22-19_682-jvmRun1 surefire2351970460488779856tmp surefire_01470489170321560250tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\test-classes;D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\admin\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire839728102455582220\surefirebooter4596500034101510628.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire17054533705945117570\surefirebooter9203066505943327971.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -62,75 +62,1384 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.805">
+  <testcase name="allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="25.978">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1692179646913	geckodriver	INFO	Listening on 127.0.0.1:29104
-1692179647380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24725" "--remote ... localhost:24725/,http://[::1]:24725/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilemkC5Y2"
+1692181342088	geckodriver	INFO	Listening on 127.0.0.1:12459
+1692181342556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "34676" "--remote ... localhost:34676/,http://[::1]:34676/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileKjUzaX"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1692179647677	Marionette	INFO	Marionette enabled
+1692181342844	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1692179647683	Marionette	INFO	Listening on port 55506
-Read port: 55506
-WebDriver BiDi listening on ws://127.0.0.1:24725
-1692179647802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1692181342851	Marionette	INFO	Listening on port 58427
+Read port: 58427
+WebDriver BiDi listening on ws://127.0.0.1:34676
+1692181342971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
-DevTools listening on ws://127.0.0.1:24725/devtools/browser/9f638bfe-857f-4cbd-9443-87aa659bc454
+DevTools listening on ws://127.0.0.1:34676/devtools/browser/cc70c057-57e1-4cc2-a924-0c501dcb4bfb
+JavaScript error: , line 0: uncaught exception: Object
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='cookies-inner']/p/button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [16056f31-895c-4186-b700-3038a999d99b, findElement {using=xpath, value=//div[@class='cookies-inner']/p/button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:34676, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7224, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:34676/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16056f31-895c-4186-b700-3038a999d99b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="4.223">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="4.229">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="4.343">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.335">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.475">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.306">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.52">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\Main_page\EnFirefox\Screenshots_leaningSectionMainPage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](2)" classname="tests.mainPageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\Main_page\EnFirefox\Screenshots_leaningSectionMainPage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](3)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.453">
+    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
+]]></failure>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\Main_page\EnFirefox\Screenshots_leaningSectionMainPage\difference.png for details.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.058">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="4.958">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.136">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="4.087">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="22.755">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181440843	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:58626
+1692181440848	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692181440888	Marionette	INFO	Stopped listening on port 58427
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 7296, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 23562
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692181444.162][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:24:04 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 115
+серп. 16, 2023 1:24:04 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='cookies-inner']/p/button"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4dccf079c3a8835c3dc53be70032303, findElement {using=xpath, value=//div[@class='cookies-inner']/p/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58635/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4dccf079c3a8835c3dc53be70032303
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages.base.Action.findElementByXpath(Action.java:30)
+	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.483">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.4">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.405">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.5">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="videoSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.782">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.756">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.844">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="6.319">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.48">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.312">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.311">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMainPage[https://ai-mood.com/en, Screenshots/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="4.366">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="13.626">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181530845	geckodriver	INFO	Listening on 127.0.0.1:40247
+1692181530894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14713" "--remote ... localhost:14713/,http://[::1]:14713/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileReN4ZU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692181531234	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692181531242	Marionette	INFO	Listening on port 58788
+Read port: 58788
+WebDriver BiDi listening on ws://127.0.0.1:14713
+1692181531408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:14713/devtools/browser/a3f8fa13-1a02-45da-8b39-1499d641d0ca
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.11">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.11">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.196">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.04">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.404">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.122">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.947">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="4.951">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="3.999">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.923">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181588930	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:58925
+1692181588934	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692181588942	Marionette	INFO	Stopped listening on port 58788
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 3772, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+[Parent 3816, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 10595
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692181592.155][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:26:32 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 115
+серп. 16, 2023 1:26:32 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.501">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.435">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.373">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.357">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.861">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.356">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.218">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="5.199">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="4.28">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.961">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692181644.865][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:27:24 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 115
+серп. 16, 2023 1:27:24 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="4.752">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="4.654">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="4.788">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd"/>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](2)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd"/>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](3)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="19.599">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class='first-main-saction affiliate-program-section section-new']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//section[@class='first-main-saction affiliate-program-section section-new']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cceae9f46bce80c06341c1472b50bd
+	at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:118)
+]]></failure>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//footer[@class=&apos;footer-new transparent__footer&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd"/>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](2)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//footer[@class=&apos;footer-new transparent__footer&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd"/>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](3)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="15.613">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//footer[@class=&apos;footer-new transparent__footer&apos;]&quot;}&#10;  (Session info: chrome=115.0.5790.171)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37cceae9f46bce80c06341c1472b50bd" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer-new transparent__footer']"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [37cceae9f46bce80c06341c1472b50bd, findElement {using=xpath, value=//footer[@class='footer-new transparent__footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59041/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37cceae9f46bce80c06341c1472b50bd
+	at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:135)
+]]></failure>
+  </testcase>
+  <testcase name="partnFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.281">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.292">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="4.418">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="6.94">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181786759	geckodriver	INFO	Listening on 127.0.0.1:28013
+1692181786807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "20095" "--remote ... localhost:20095/,http://[::1]:20095/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileXl53Wv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692181787105	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692181787111	Marionette	INFO	Listening on port 59270
+Read port: 59270
+WebDriver BiDi listening on ws://127.0.0.1:20095
+1692181787226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:20095/devtools/browser/0f1f2277-f7d1-4148-99fc-ae190ccde5b6
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="4.723">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="4.615">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="4.584">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="0">
+    <skipped message="Unable to locate element: //section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29"/>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](2)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="0">
+    <skipped message="Unable to locate element: //section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29"/>
+  </testcase>
+  <testcase name="mainSectionBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](3)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="19.865">
+    <failure message="Unable to locate element: //section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//section[@class=&apos;first-main-saction affiliate-program-section section-new&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //section[@class='first-main-saction affiliate-program-section section-new']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//section[@class='first-main-saction affiliate-program-section section-new']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:118)
+]]></failure>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="0">
+    <skipped message="Unable to locate element: //footer[@class=&apos;footer-new transparent__footer&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29"/>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](2)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="0">
+    <skipped message="Unable to locate element: //footer[@class=&apos;footer-new transparent__footer&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29"/>
+  </testcase>
+  <testcase name="allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](3)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="15.749">
+    <failure message="Unable to locate element: //footer[@class=&apos;footer-new transparent__footer&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//footer[@class=&apos;footer-new transparent__footer&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //footer[@class='footer-new transparent__footer']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fa555f34-371d-4f11-851f-a1ae8ff82d29, findElement {using=xpath, value=//footer[@class='footer-new transparent__footer']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20095, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2892, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20095/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fa555f34-371d-4f11-851f-a1ae8ff82d29
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:135)
+]]></failure>
+  </testcase>
+  <testcase name="partnFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.413">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.356">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-affil-coin, Screenshots/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="4.497">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="6.676">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181931989	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59516
+1692181931994	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692181931998	Marionette	INFO	Stopped listening on port 59270
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 812, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+1692181933247	geckodriver	INFO	Listening on 127.0.0.1:6361
+1692181933291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14936" "--remote ... localhost:14936/,http://[::1]:14936/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile9oitm0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692181933580	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692181933585	Marionette	INFO	Listening on port 59522
+Read port: 59522
+WebDriver BiDi listening on ws://127.0.0.1:14936
+1692181933704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:14936/devtools/browser/65222508-8e5e-4342-9aeb-e4cc04ac81bb
 JavaScript error: , line 0: uncaught exception: Object
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.127">
+  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.148">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.111">
+  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.105">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.13">
+  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.186">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.926">
+  <testcase name="mainSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.952">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.97">
+  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.265">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.956">
+  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.058">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.978">
+  <testcase name="partnFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.95">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.061">
+  <testcase name="subFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.038">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.336">
+  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.094">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[1692179691972	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55628
-1692179691976	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1692179692029	Marionette	INFO	Stopped listening on port 55506
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
-[Child 7632, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+  </testcase>
+  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.956">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692181984230	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59646
+1692181984234	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692181984237	Marionette	INFO	Stopped listening on port 59522
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1260, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
 Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modJulesa/vAsayScript error: resoncShuutrdcoew:n./s/gryse/modules/.Amsjysn:c4S5h8:u1t5do
+wsne.tuspyShutdowns@r.emsjos, luircnee: /7/2gr7e:/ mEordurloers:/ oPsfihlae/soes f"iplreo_fialsey-nbce_fforornet.-jcshm:a1n54g8e:28
+"@r esiosu rfcie:n/i/shgreed/,m odiutl eiss/ ostfoiol el/aotsefi lteo_ arseygnicst_ferro nct.ojmspml:15e6t8:i1o6n
+@r ecsooundrictei:o/n/ gr"eO/mSo.dFuilelse/:os filfel.jsums:h12 :I3/O0 
+q@ureeusoeudrc e:b/efore pr/ogfrei/lemodBuelfeos/rTeeClehamngeet"ry
+Storage.sys.mjs:10:28J
+_acvhaecSkcPernidpitngP ienrgrs@orre:so urrcee:s/o/ugrre/cmeo:d/u/legsr/eT/emleomdetulryeSse/nAds.ysnycsS.mhjust:d8o59w:n17.s
+ysse.mtujps@,r elsiounrec e:7/2/7g:r eE/mrorduolers: Ph/aTseel e"mpetrroyfSeinlde.s-ybs.emfjso:r7e9-9c:h1a8n
+gsee"t uips@ refsionuircseh:e/d/,gr ei/tmo diusl etso/oT ellaetme ettor yrSeegndi.stseyrs comp.mljes:t2i3o7:n3 0c
+osnetduiptTieolne m"OetS.ryFi/tlhei:s. _fdleulasyhe dIIn/iOtTask< @qrueesuoeudr cbee:f//orgree /mpodruolefsi/TleleeBmeetrfyoCroenCthraonlglee"rPa
+rJeantv.asSycs.rmijpst:8 24e:r3r6or
+:obs errevse@oruesrocurec:e/:///ggrree//mmodoudleusl/eAsyncShutdown.sys.mjs:576:16
+
+WARNINsG: E/rArsoyr: Phasnec S"hpurtodfoiwlne.-sbeyfso.rmej-csh,a nlgien"e  i7s2 7f: iEnrirosrh:e dP, haiset  "ipsr toofoi llea-tbee ftoor regei-sctehran gceo"m ipsl eftiinoins hcoendd,i tiito n i"sO St.oFo illaet:e  ftlous hr eIg/iOst eqru ecuoed mpbleetfioonr ec oprndofiitiloen B"eOfSo.reFCihlaen:g ef"lu
+sWhA RIN/ION Gq:u eaudeddB lobcekfoerre@ rpersoofuilerBcee:fo/reCh/agnrgee/"mo
+dJauvleasS/cArsiypntc Sehurtrodro:wn .rseysso.umrjcse::/7/2g7r:e1/5mo
+adudldBesl/oAsckyenr@crSehsuoutrdcoew:n./s/ygsr.mej/sm,o dluilnee s72/7As:y nEcrShruotrd: oPwhna.ssey "sp.rmofjisle:-b5e2f3o:26re-
+cahdadnBgel"o cisk efri@nrisehsedo,u rict ei:s /t/ogo rlea/tem otdou lreesgi/sAtseyrn ccoShmpultedtoiwonn .csoyndsi.tmiojn "OsS:.F4il5e8:: 1f5lus
+h sIe/tOu pqShueuutedd owbnef@orrees opurorcfiel:e/Be/fgorreeC/hmanogdeu"l
+eJsa/voasScfrilie/ptos feirlreor_:a sryesnocu_rfcer:/o/ngtr.e/jmsomd:1ul5e4s8/:2As8yn
+c@Shruetsdoowun.rsycs.e:mj/s/,g rlei/ne 72m7o:d ulEersr/oors:f iPlhae/seo s"fpirloef_ialsey-nbce_fforroen-cth.jasnmg:e1"5 6i8s: 1f6in
+i@shreeds,o iutr ices: t/oo late to /rgergies/tmeord ucloemsp/loestfiiolne .cjosmn:di1t2i:o3n0 
+"@OrSe.sFoiurlec:e: /f/lgurse/hmo duIle/sO/Tele meqtureyuSteodr before profileBefaorgeeC.hsyasn.gmjes":1
+0:J2a8v
+a_ScchrecikpPetn deirnrgoPri:n gsr@reessource://gre/modules/AsyncShuoutrdcoew:n/./grsey/sm.odmujlse,s/T elleimneter y7Se2n7d:. sEyrsr.omjrs::8 5P9:h1a7s
+esetu p@"rpersooufrciele:-//bgerfe/omroedu-lcehsa/nTgelee"m eitrySend.sys.mjs:s7 99:f1i8ni
+ssehteupd@,r eisotu rcies:/ /tgoro laet/em otdou lrese/gTiesletmeetrr ycSoemnpd.lseyst.imjos:n2 3c7o:nd3i0t
+isoentu p"TeOlSe.mFeitlrey:/ tfhils.u_sdhe Ilay/eOd IqnuietuTaesdk<@ rbeesfoourrcee: //pgrreo/fmioldeuBleesf/orTeleCemheatrngyCeo"ntr
+ollerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35112
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692181987.192][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:33:07 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 115
+серп. 16, 2023 1:33:07 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="4.545">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="4.426">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="4.391">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.259">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.853">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.384">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.208">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.199">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="4.273">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.842">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692182038550	geckodriver	INFO	Listening on 127.0.0.1:28390
+1692182038592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "35509" "--remote ... localhost:35509/,http://[::1]:35509/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileCRA8Ng"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692182038874	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692182038879	Marionette	INFO	Listening on port 59759
+Read port: 59759
+WebDriver BiDi listening on ws://127.0.0.1:35509
+1692182039005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:35509/devtools/browser/1a941a1b-3064-4fbe-a7a2-4c13a580099b
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.151">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.116">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.178">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.961">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.976">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.972">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.998">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="4.06">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.388">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692182083196	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:59875
+1692182083201	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692182083206	Marionette	INFO	Stopped listening on port 59759
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 1216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
 console.error: RemoteSecuritySettings.jsm: 
   Failed to download attachment: TypeError: NetworkError: Network request failed
 console.error: RemoteSecuritySettings.jsm: 
@@ -500,66 +1809,274 @@ setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
 setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
 observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
 
-WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion conditioJanv a"SOcSr.iFpitl ee:r rfolru:s hr eI/sOo uqruceuee://gred /bmeofdourlee sp/rAosfiylneBceSfhoreuCthdaonwgne."sy
-sWARNING.:m ajdsd,Bl olciknere@ re7s2o7ur:c eE:r/r/ogrre:/ mPodhuaslees /"ApsrynocfSihluted-obwenf.soysr.em-jsc:7h2a7:n1g5e"
- aiddsB lfoickern@riessohuerdc,e :/i/tg rie/sm otdouol elsa/Atsey ntcSoh utrdeogwins.ter complsyes.tmijos:n5 2c3o:26nd
-iatdidoBnlo "OSck.eFri@lrees:o ufrlucse:h/ I//gOr eq/umeoudeulde sb/eAfsoynrceS huptrdoofwinl.esByse.fmojsr:e4C5h8a:1n5g
-es"e
-tupShutdown@resource://gJrae/vmoadSuclreis/potsf ielre/roosrf:i ler_eassoynuc_rfcreo:n/t./jgsrme:1/5mo4d8u:l28es
-@/rAessoyunrcceS:h/u/gtrde/moowdnu.lsesys/os.fmijlse,/ olsifinlee_ a7s2yn7c:_f roEnrtr.ojsrm:: 1P5h68a:s1e6 "p
-@rorefsoiulrec-eb:/ef/gorree/m-ocdhualnesg/oes"f iiles. jsfmi:n12i:s30he
-@dr,es oiurtce :/i/gsr et/omoo dullaets/e tToel ermeetgriySstotrearge .csyso.mmpjls:e1t0i:2o8n 
-c_ocnhdeictkPieonndi ng"POiSng.s@Frielse: flush I/O queued before profileBoeufrocereC:h//agnrgee/m"od
-ulJeasv/aTSelcermietprytS eenrdr.soyrs:. mrjess:o85u9r:c1e7:/
-/sgerteu/p@mreosdouulrecse://A/sgyrnec/Shutdown.sys.mjs, line 7m27: oEdrurloer:s /PTelemehtarsyeS e"npdr.osfys.mjs:i7l9e9-b:e1f8or
-es-ecthuapn@gree"s oius rfinicseh:e/d/,g rite /imso dtuolo elsa/tTee ltemoe rtergyiSsteenrd.sy sc.ommjpsl:et2i3o7n: 3c0on
-disteitonu p"TOeS.lFeimlee: tfrlyu/sthh Ii/sO._delayedI nqiuteTuaesdk <b@erfoerseo purrceo:f/i/lgerBee/fomroedChualnegse"/T
-eJlaevmaSectrripytC oernrtorr:o lrleesrouPrcaree:n/t/.gsrey/sm.odmujls:e8s2/A4sy:n3c6Sh
-uotdboswne.sryvse.m@jsr,e lsioneu r7c2e7::/ /Egrrroer/:m Pohadseu l"epsro/fAisley-ncbSefhourte-dcohawnng.e"s iyss .fimnjiss:he5d7,6 :i1t6 i
-s t
-oo late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 21960
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 17831
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1692179695.493][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
-серп. 16, 2023 12:54:55 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[1692182086.655][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:34:46 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 115
-серп. 16, 2023 12:54:55 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+серп. 16, 2023 1:34:46 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.389">
+  <testcase name="getStartedHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.489">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.293">
+  <testcase name="learnHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.355">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.269">
+  <testcase name="resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.362">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.201">
+  <testcase name="mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.255">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.231">
+  <testcase name="allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.304">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.143">
+  <testcase name="partnFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.174">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.097">
+  <testcase name="subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.197">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.17">
+  <testcase name="copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="4.221">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="6.053">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692182131251	geckodriver	INFO	Listening on 127.0.0.1:5078
+1692182131295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23451" "--remote ... localhost:23451/,http://[::1]:23451/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile6cYQhs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692182131576	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692182131581	Marionette	INFO	Listening on port 59980
+Read port: 59980
+WebDriver BiDi listening on ws://127.0.0.1:23451
+1692182131701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:23451/devtools/browser/e199206f-67fb-4a78-8ec5-592a760f58e5
+JavaScript error: , line 0: uncaught exception: Object
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.153">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.111">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.14">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.957">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="affiliateSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.28">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.072">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.983">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.953">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="4.043">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.705">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+    <system-err><![CDATA[1692182182388	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:60112
+1692182182393	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1692182182397	Marionette	INFO	Stopped listening on port 59980
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 244, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resourcJaev:a/S/cgrriep/tm oedrurloers:/ orsefsiolue/rocsef:i/l/gree_/amsync_fordounlte.sj/sAms:y1n5c4S8h:u2t8do
+w@nr.essoyusr.mcjes:,/ /lgirnee/ m7o2d7u:l esE/rorsofirl:e /Pohsafsiel e"_parsoyfnicl_ef-rboenfto.rjesm:-1c5ha6n8g:e1"6 i
+s@ rfeisnoiusrhceed:,/ /igtr ei/sm otdouol elsa/toes fitloe .rjesgmi:1s2t:e3r0 com
+p@lreetsioounr ccoen:d/ition /"gOrSe./Fmiloed:u lfelsu/sThel eI/mOe tqruyeSutoeradge.sys. mbjesf:o1r0e: 28p
+r_ocfhieclkePBeenfdoirnegCPhiannggse@"re
+source://gre/moduleJsa/vTaeSlcermiepttr yeSernrdo.rs:y sr.emsjosu:8r5c9e::1/7/gr
+e/mosdeutlueps@/rAessyource://gre/mnocdSuhluetsd/oTwenl.esmyest.rmyjSse,n dl.isnyes .72m7j:s :E7r9r9o:r18
+s:et uPph@arsees ou"rpcreo:f/i/lger-eb/efmorodeu-lcehsa/nTgeel"e miest rfySiennid.sshyse.dm,j si:t2 3is7: 3t0oo
+ sleattuep Tteol ermeegtistreyr/ tchoimsp.l_edteiloany ecdoInndiittTiaosnk< @"rOeSs.oFiulrce:e :f/lus/hg rIe//Om oqduuelueed bse/fToerle epmreotfriylCeoBnetfroolrleeCrhPanagreen"t.
+sJyasv.amSjcsr:i8p2t4 :e3r6ro
+ro:b sreseorvue@rrecsoeu:r/c/eg:r/e//gmroed/umloedsu/lAessy/nAcsShutdown.sys.mjs, line 727: Error: Phase "profile-before-changye" nisc finishSehdu, tidto wisn .tsoyos l.amtjes :t576:16
+
+WARNING: Error: Phase "profile-before-change" ios fi nrisehgeids,t eirt  ciosm plteoto liatoen  tcoo nrdeigtister compiloen t"OioS.nF ilceo:n dfliutshi oIn/ O" OSqueued before profi.File: flush I/O queued before profileBeforeChange"
+WARNING: adldeBBleofcokreeCrh@arngees"our
+cJea:v/a/Sgcrriep/t meordruolre:s r/AessyncoSuhructed:o/w/ng.rsey/sm.odmujls:e7s2/7A:sy1n5cS
+haudtddBolwonc.kesry@sr.emsjous,rc lei:/ne/ 72gr7e:/ Emrorduorl:e sPh/aAssey n"pcrShouftidloew-bnef.orsey-sc.hmajnsg:e5"2 i3s:2 f6i
+niasdhdeBdl, oicketr @irses outrocoe l:a/t/eg rtoe /rmeogdiuslteers c/AosmypnlectSihonu tcodnodwitni.osyn s."OmSj.sF:i4le5:8: 1f5lus
+hse tI/upOShutdo wnqu@erueesdo ubercfoer:e/ p/rogfrie/lemBeofdourleeChsa/nosgfei"le/
+oJsafivaleS_carsiyptn c_efrrroro:n t.rjessmo:u15r4c8e://gre/m:o2d8ul
+e@s/rAessyonucrSceh:ut/d/ogwrne./smyos.dumjlse,s /olsifneil e7/2o7s:fi lEer_raosry:n Phca_sfer o"pnrto.fijlsem-:b1ef5o6r8e:-16chan
+g@e"re isso ufricnei:/s/hegrde, /imto diusl teoso/ olsatefi lteo. jsrmeg:i1s2t:e3r0 c
+@omrpelseotuirocne :c//ognrdei/tmioond u"OlSe.sF/Telielmee:t rfylSutsohr aIg/eO. sqyuse.umejds :b1e0:fo2r8e 
+p_rcohfeilcekBPeefnodrinegCPhiannggs@er"es
+JavaScript error: resource://ogurrec/em:o/d/uglrees//mAosdyunlceSsh/uTtedloewmne.tsryysS.emnjd.ss,y sl.imnjes :782579:: 1E7rr
+osre:t uPph@arsees ou"rcper:o/f/iglree-/bmeofdourlee-csh/aTneglee"m etirySend.sys.mjs:7s9 9f:i1n8is
+hseedt,u pi@rte siosur cteo:o lat/e /gtor er/emgoidsutleers /cToemlpelmeettriyoSne ncdo.nsdyist.imojns :"2O3S7.:F3i0le
+:s eftluusphT eIl/eOmet rqyu/tehuise.d_ dbeelfaoyedInitTaskr<e@ rpersoofuirlceeB:e/f/ogrreeC/hmaondguel"es
+/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1692182185.347][WARNING]: This version of ChromeDriver has not been tested with Chrome version 115.
+серп. 16, 2023 1:36:25 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 115
+серп. 16, 2023 1:36:25 ПП org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="getStartedHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="4.528">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="4.422">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="4.359">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="6.292">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="affiliateSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.724">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.369">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="partnFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.218">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="subFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.246">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="copFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="4.294">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
