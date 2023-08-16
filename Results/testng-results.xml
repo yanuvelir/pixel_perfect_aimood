@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T00:06:43 EEST" name="WPT" finished-at="2023-08-17T00:08:24 EEST" duration-ms="101106">
+  <suite started-at="2023-08-17T00:26:50 EEST" name="WPT" finished-at="2023-08-17T00:28:32 EEST" duration-ms="102543">
     <groups>
     </groups>
-    <test started-at="2023-08-17T00:06:43 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T00:08:24 EEST" duration-ms="101106">
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:43 EEST" name="setUp" finished-at="2023-08-17T00:06:46 EEST" duration-ms="2479" status="PASS">
+    <test started-at="2023-08-17T00:26:50 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T00:28:32 EEST" duration-ms="102543">
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:41 EEST" name="setUp" finished-at="2023-08-17T00:27:43 EEST" duration-ms="1968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:46 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-17T00:06:52 EEST" duration-ms="5927" status="PASS">
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:43 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-17T00:27:48 EEST" duration-ms="5563" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -26,16 +26,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:52 EEST" name="setUp" finished-at="2023-08-17T00:06:52 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:48 EEST" name="setUp" finished-at="2023-08-17T00:27:48 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:52 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-17T00:06:56 EEST" duration-ms="3927" status="PASS">
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:48 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-17T00:27:52 EEST" duration-ms="4137" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -46,16 +46,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:56 EEST" name="setUp" finished-at="2023-08-17T00:06:56 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:52 EEST" name="setUp" finished-at="2023-08-17T00:27:52 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:06:56 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-17T00:07:00 EEST" duration-ms="3910" status="PASS">
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:52 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-17T00:27:57 EEST" duration-ms="4093" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -66,12 +66,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:00 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-17T00:07:04 EEST" duration-ms="3903" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:57 EEST" name="setUp" finished-at="2023-08-17T00:27:57 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:27:57 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-17T00:28:01 EEST" duration-ms="4106" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -82,20 +86,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:00 EEST" name="setUp" finished-at="2023-08-17T00:07:00 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:01 EEST" name="setUp" finished-at="2023-08-17T00:28:01 EEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:04 EEST" name="setUp" finished-at="2023-08-17T00:07:04 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:04 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-17T00:07:09 EEST" duration-ms="5942" status="PASS">
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:01 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-17T00:28:07 EEST" duration-ms="5991" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -106,16 +106,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:09 EEST" name="setUp" finished-at="2023-08-17T00:07:09 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:07 EEST" name="setUp" finished-at="2023-08-17T00:28:07 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:09 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-17T00:07:15 EEST" duration-ms="5370" status="PASS">
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:07 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-17T00:28:13 EEST" duration-ms="6427" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +126,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:15 EEST" name="setUp" finished-at="2023-08-17T00:07:15 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:15 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-17T00:07:20 EEST" duration-ms="4968" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:13 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-17T00:28:18 EEST" duration-ms="4995" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -146,12 +142,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:20 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-17T00:07:25 EEST" duration-ms="4733" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:13 EEST" name="setUp" finished-at="2023-08-17T00:28:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:18 EEST" name="setUp" finished-at="2023-08-17T00:28:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:18 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-17T00:28:23 EEST" duration-ms="4912" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -162,16 +166,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:20 EEST" name="setUp" finished-at="2023-08-17T00:07:20 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:23 EEST" name="setUp" finished-at="2023-08-17T00:28:23 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:25 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-17T00:07:29 EEST" duration-ms="4710" status="PASS">
+        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:23 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-17T00:28:28 EEST" duration-ms="4902" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -182,16 +186,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:25 EEST" name="setUp" finished-at="2023-08-17T00:07:25 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:28 EEST" name="setUp" finished-at="2023-08-17T00:28:28 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:29 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-17T00:07:33 EEST" duration-ms="3767" status="PASS">
+        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:28 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-17T00:28:32 EEST" duration-ms="3956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -202,26 +206,22 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:29 EEST" name="setUp" finished-at="2023-08-17T00:07:29 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@44a7bfbc]" started-at="2023-08-17T00:07:33 EEST" name="tearDown" finished-at="2023-08-17T00:07:34 EEST" duration-ms="597" status="PASS">
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@625732]" started-at="2023-08-17T00:28:32 EEST" name="tearDown" finished-at="2023-08-17T00:28:32 EEST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
-      <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:34 EEST" name="setUp" finished-at="2023-08-17T00:07:36 EEST" duration-ms="2082" status="PASS">
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:26:50 EEST" name="setUp" finished-at="2023-08-17T00:26:52 EEST" duration-ms="2684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:36 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-17T00:07:42 EEST" duration-ms="5981" status="PASS">
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:26:52 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-17T00:26:58 EEST" duration-ms="5842" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -232,16 +232,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:42 EEST" name="setUp" finished-at="2023-08-17T00:07:42 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:26:58 EEST" name="setUp" finished-at="2023-08-17T00:26:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:42 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-17T00:07:46 EEST" duration-ms="4118" status="PASS">
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:26:58 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-17T00:27:02 EEST" duration-ms="3910" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -252,16 +252,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:46 EEST" name="setUp" finished-at="2023-08-17T00:07:46 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:02 EEST" name="setUp" finished-at="2023-08-17T00:27:02 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:46 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-17T00:07:50 EEST" duration-ms="4089" status="PASS">
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:02 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-17T00:27:06 EEST" duration-ms="3894" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -272,16 +272,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:50 EEST" name="setUp" finished-at="2023-08-17T00:07:50 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:06 EEST" name="setUp" finished-at="2023-08-17T00:27:06 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:50 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-17T00:07:54 EEST" duration-ms="4067" status="PASS">
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:06 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-17T00:27:10 EEST" duration-ms="3901" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -292,16 +292,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:54 EEST" name="setUp" finished-at="2023-08-17T00:07:54 EEST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:07:54 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-17T00:08:00 EEST" duration-ms="6026" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:10 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-17T00:27:16 EEST" duration-ms="5960" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -312,16 +308,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:00 EEST" name="setUp" finished-at="2023-08-17T00:08:00 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:10 EEST" name="setUp" finished-at="2023-08-17T00:27:10 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:00 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-17T00:08:05 EEST" duration-ms="5439" status="PASS">
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:16 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-17T00:27:22 EEST" duration-ms="6349" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -332,16 +328,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:05 EEST" name="setUp" finished-at="2023-08-17T00:08:05 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:16 EEST" name="setUp" finished-at="2023-08-17T00:27:16 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:05 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-17T00:08:11 EEST" duration-ms="5020" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:22 EEST" name="setUp" finished-at="2023-08-17T00:27:22 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:22 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-17T00:27:27 EEST" duration-ms="4956" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -352,16 +352,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:11 EEST" name="setUp" finished-at="2023-08-17T00:08:11 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:27 EEST" name="setUp" finished-at="2023-08-17T00:27:27 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:11 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-17T00:08:15 EEST" duration-ms="4927" status="PASS">
+        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:27 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-17T00:27:32 EEST" duration-ms="4716" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -372,16 +372,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:15 EEST" name="setUp" finished-at="2023-08-17T00:08:15 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:32 EEST" name="setUp" finished-at="2023-08-17T00:27:32 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:15 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-17T00:08:20 EEST" duration-ms="4909" status="PASS">
+        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:32 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-17T00:27:36 EEST" duration-ms="4706" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -392,12 +392,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:20 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-17T00:08:24 EEST" duration-ms="3985" status="PASS">
+        </test-method> <!-- subFooterTokenMoodPage -->
+        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:36 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-17T00:27:40 EEST" duration-ms="3760" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
+                <![CDATA[https://ai-mood.com/en/block-explorer]]>
               </value>
             </param>
             <param index="1">
@@ -408,16 +408,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:20 EEST" name="setUp" finished-at="2023-08-17T00:08:20 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- copFooterTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:36 EEST" name="setUp" finished-at="2023-08-17T00:27:36 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@cad498c]" started-at="2023-08-17T00:08:24 EEST" name="tearDown" finished-at="2023-08-17T00:08:24 EEST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@2525ff7e]" started-at="2023-08-17T00:27:40 EEST" name="tearDown" finished-at="2023-08-17T00:27:41 EEST" duration-ms="586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

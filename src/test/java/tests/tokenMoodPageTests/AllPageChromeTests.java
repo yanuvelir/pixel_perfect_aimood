@@ -113,7 +113,7 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(token_mood_page);
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='first-main-saction affiliate-program-section section-new']",
                 ScShotDir+"TokenMood_page/EnChrome/Screenshots_mainSectionTokenMoodPage/real_life_screenshot.png",
@@ -132,7 +132,7 @@ public class AllPageChromeTests extends BaseTest {
         //Scroll
         action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
                 ScShotDir+"TokenMood_page/EnChrome/Screenshots_statisticsSectionTokenMoodPage/real_life_screenshot.png",
