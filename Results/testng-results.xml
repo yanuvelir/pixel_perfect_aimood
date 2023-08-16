@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T17:44:29 EEST" name="WPT" finished-at="2023-08-07T17:44:40 EEST" duration-ms="11435">
+  <suite started-at="2023-08-16T18:45:30 EEST" name="WPT" finished-at="2023-08-16T18:46:19 EEST" duration-ms="49369">
     <groups>
     </groups>
-    <test started-at="2023-08-07T17:44:29 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-07T17:44:40 EEST" duration-ms="11435">
+    <test started-at="2023-08-16T18:45:30 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-16T18:46:19 EEST" duration-ms="49369">
       <class name="tests.whitePaper.WhitePaperChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-07T17:44:29 EEST" name="setUp" finished-at="2023-08-07T17:44:34 EEST" duration-ms="5344" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-16T18:45:30 EEST" name="setUp" finished-at="2023-08-16T18:45:34 EEST" duration-ms="4127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="whitePaperPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-07T17:44:34 EEST" name="whitePaperPage" finished-at="2023-08-07T17:44:40 EEST" duration-ms="5549" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-16T18:45:34 EEST" name="allHeaderMainPage" finished-at="2023-08-16T18:46:13 EEST" duration-ms="39172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,8 +26,28 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- whitePaperPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-07T17:44:40 EEST" name="tearDown" finished-at="2023-08-07T17:44:40 EEST" duration-ms="447" status="PASS">
+        </test-method> <!-- allHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-16T18:46:13 EEST" name="setUp" finished-at="2023-08-16T18:46:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-16T18:46:13 EEST" name="mainBlockWhitePaperPage" finished-at="2023-08-16T18:46:19 EEST" duration-ms="5684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainBlockWhitePaperPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@1e178745]" started-at="2023-08-16T18:46:19 EEST" name="tearDown" finished-at="2023-08-16T18:46:19 EEST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
