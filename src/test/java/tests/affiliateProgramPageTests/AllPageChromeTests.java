@@ -133,7 +133,7 @@ public class AllPageChromeTests extends BaseTest {
         //Scroll
         action.moveViewableElementIntoCenter2("//section[@class='affiliate-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='affiliate-wrapper']",
                 ScShotDir+"AffiliateProgram_page/EnChrome/Screenshots_affiliateSectionAffiliateProgramPage/real_life_screenshot.png",

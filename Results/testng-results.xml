@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T00:39:44 EEST" name="WPT" finished-at="2023-08-17T00:41:14 EEST" duration-ms="89256">
+  <suite started-at="2023-08-17T00:48:23 EEST" name="WPT" finished-at="2023-08-17T00:50:05 EEST" duration-ms="101958">
     <groups>
     </groups>
-    <test started-at="2023-08-17T00:39:44 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T00:41:14 EEST" duration-ms="89256">
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:30 EEST" name="setUp" finished-at="2023-08-17T00:40:32 EEST" duration-ms="1965" status="PASS">
+    <test started-at="2023-08-17T00:48:23 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T00:50:05 EEST" duration-ms="101958">
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:23 EEST" name="setUp" finished-at="2023-08-17T00:48:26 EEST" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:32 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:37 EEST" duration-ms="5451" status="PASS">
+        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:26 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:32 EEST" duration-ms="5790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -26,16 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:37 EEST" name="setUp" finished-at="2023-08-17T00:40:37 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:37 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:41 EEST" duration-ms="3889" status="PASS">
+        </test-method> <!-- allHeaderAffiliateProgramPage -->
+        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:32 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:35 EEST" duration-ms="3907" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -46,12 +42,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:41 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:45 EEST" duration-ms="3902" status="PASS">
+        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:32 EEST" name="setUp" finished-at="2023-08-17T00:48:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:35 EEST" name="setUp" finished-at="2023-08-17T00:48:35 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:35 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:39 EEST" duration-ms="3884" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -62,16 +66,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:41 EEST" name="setUp" finished-at="2023-08-17T00:40:41 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:45 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:49 EEST" duration-ms="3911" status="PASS">
+        </test-method> <!-- learnHeaderAffiliateProgramPage -->
+        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:39 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:43 EEST" duration-ms="3901" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -82,16 +82,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:45 EEST" name="setUp" finished-at="2023-08-17T00:40:45 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:39 EEST" name="setUp" finished-at="2023-08-17T00:48:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:49 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-17T00:40:55 EEST" duration-ms="5928" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:43 EEST" name="setUp" finished-at="2023-08-17T00:48:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:43 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-17T00:48:49 EEST" duration-ms="5962" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -102,20 +106,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:49 EEST" name="setUp" finished-at="2023-08-17T00:40:49 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:49 EEST" name="setUp" finished-at="2023-08-17T00:48:49 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:55 EEST" name="setUp" finished-at="2023-08-17T00:40:55 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:40:55 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:41:00 EEST" duration-ms="4978" status="PASS">
+        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:49 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-17T00:48:55 EEST" duration-ms="6230" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +126,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:00 EEST" name="setUp" finished-at="2023-08-17T00:41:00 EEST" duration-ms="2" status="PASS">
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:55 EEST" name="setUp" finished-at="2023-08-17T00:48:55 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:00 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:41:05 EEST" duration-ms="4727" status="PASS">
+        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:55 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:00 EEST" duration-ms="4924" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -146,12 +146,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:05 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:41:09 EEST" duration-ms="4686" status="PASS">
+        </test-method> <!-- allFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:00 EEST" name="setUp" finished-at="2023-08-17T00:49:00 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:00 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:05 EEST" duration-ms="4727" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -162,16 +166,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:05 EEST" name="setUp" finished-at="2023-08-17T00:41:05 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:09 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:41:13 EEST" duration-ms="3767" status="PASS">
+        </test-method> <!-- partnFooterAffiliateProgramPage -->
+        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:05 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:10 EEST" duration-ms="4701" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -182,26 +182,46 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:09 EEST" name="setUp" finished-at="2023-08-17T00:41:09 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:05 EEST" name="setUp" finished-at="2023-08-17T00:49:05 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@51dcb805]" started-at="2023-08-17T00:41:13 EEST" name="tearDown" finished-at="2023-08-17T00:41:14 EEST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:10 EEST" name="setUp" finished-at="2023-08-17T00:49:10 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:10 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:14 EEST" duration-ms="3778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:14 EEST" name="tearDown" finished-at="2023-08-17T00:49:14 EEST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:44 EEST" name="setUp" finished-at="2023-08-17T00:39:47 EEST" duration-ms="2534" status="PASS">
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:14 EEST" name="setUp" finished-at="2023-08-17T00:49:16 EEST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:47 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:39:53 EEST" duration-ms="5526" status="PASS">
+        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:16 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:22 EEST" duration-ms="5391" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -212,12 +232,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:53 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:39:57 EEST" duration-ms="4136" status="PASS">
+        </test-method> <!-- allHeaderAffiliateProgramPage -->
+        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:22 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:26 EEST" duration-ms="4123" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -228,20 +248,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:53 EEST" name="setUp" finished-at="2023-08-17T00:39:53 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:22 EEST" name="setUp" finished-at="2023-08-17T00:49:22 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:57 EEST" name="setUp" finished-at="2023-08-17T00:39:57 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:39:57 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:01 EEST" duration-ms="4080" status="PASS">
+        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:26 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:30 EEST" duration-ms="4086" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -252,12 +268,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:01 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-08-17T00:40:05 EEST" duration-ms="4117" status="PASS">
+        </test-method> <!-- learnHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:26 EEST" name="setUp" finished-at="2023-08-17T00:49:26 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:30 EEST" name="setUp" finished-at="2023-08-17T00:49:30 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:30 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:34 EEST" duration-ms="4074" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -268,16 +292,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:01 EEST" name="setUp" finished-at="2023-08-17T00:40:01 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:34 EEST" name="setUp" finished-at="2023-08-17T00:49:34 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:05 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-08-17T00:40:11 EEST" duration-ms="5995" status="PASS">
+        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:34 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-17T00:49:40 EEST" duration-ms="5970" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -288,20 +312,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:05 EEST" name="setUp" finished-at="2023-08-17T00:40:05 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:40 EEST" name="setUp" finished-at="2023-08-17T00:49:40 EEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:11 EEST" name="setUp" finished-at="2023-08-17T00:40:11 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:11 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:40:16 EEST" duration-ms="4978" status="PASS">
+        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:40 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-17T00:49:46 EEST" duration-ms="6306" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -312,16 +332,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:16 EEST" name="setUp" finished-at="2023-08-17T00:40:16 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:8, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:16 EEST" name="partnFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:40:21 EEST" duration-ms="4907" status="PASS">
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:46 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:51 EEST" duration-ms="4991" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -332,12 +348,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterBuySellMoodCoinPage -->
-        <test-method signature="subFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:9, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:21 EEST" name="subFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:40:26 EEST" duration-ms="4886" status="PASS">
+        </test-method> <!-- allFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:46 EEST" name="setUp" finished-at="2023-08-17T00:49:46 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:51 EEST" name="setUp" finished-at="2023-08-17T00:49:51 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:51 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:56 EEST" duration-ms="4864" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -348,20 +372,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:21 EEST" name="setUp" finished-at="2023-08-17T00:40:21 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:56 EEST" name="setUp" finished-at="2023-08-17T00:49:56 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:26 EEST" name="setUp" finished-at="2023-08-17T00:40:26 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:10, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:26 EEST" name="copFooterBuySellMoodCoinPage" finished-at="2023-08-17T00:40:30 EEST" duration-ms="3982" status="PASS">
+        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:56 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-17T00:50:01 EEST" duration-ms="4912" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -372,12 +392,32 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@524d6d96]" started-at="2023-08-17T00:40:30 EEST" name="tearDown" finished-at="2023-08-17T00:40:30 EEST" duration-ms="140" status="PASS">
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:01 EEST" name="setUp" finished-at="2023-08-17T00:50:01 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:01 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-17T00:50:05 EEST" duration-ms="3972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:05 EEST" name="tearDown" finished-at="2023-08-17T00:50:05 EEST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

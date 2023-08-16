@@ -11,28 +11,28 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
         <methods>
           <include name="tearDown"/>
-          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
-        <methods>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
