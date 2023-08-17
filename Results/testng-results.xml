@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T00:48:23 EEST" name="WPT" finished-at="2023-08-17T00:50:05 EEST" duration-ms="101958">
+  <suite started-at="2023-08-17T22:37:47 EEST" name="WPT" finished-at="2023-08-17T22:38:39 EEST" duration-ms="52145">
     <groups>
     </groups>
-    <test started-at="2023-08-17T00:48:23 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T00:50:05 EEST" duration-ms="101958">
-      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:23 EEST" name="setUp" finished-at="2023-08-17T00:48:26 EEST" duration-ms="2527" status="PASS">
+    <test started-at="2023-08-17T22:37:47 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-17T22:38:39 EEST" duration-ms="52145">
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:37:47 EEST" name="setUp" finished-at="2023-08-17T22:37:50 EEST" duration-ms="2519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:26 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:32 EEST" duration-ms="5790" status="PASS">
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:37:50 EEST" name="allHeaderStakingPage" finished-at="2023-08-17T22:37:56 EEST" duration-ms="6810" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderAffiliateProgramPage -->
-        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:32 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:35 EEST" duration-ms="3907" status="PASS">
+        </test-method> <!-- allHeaderStakingPage -->
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:37:56 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-17T22:38:00 EEST" duration-ms="4013" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -42,20 +42,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:32 EEST" name="setUp" finished-at="2023-08-17T00:48:32 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:37:56 EEST" name="setUp" finished-at="2023-08-17T22:37:56 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:35 EEST" name="setUp" finished-at="2023-08-17T00:48:35 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:35 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:39 EEST" duration-ms="3884" status="PASS">
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:00 EEST" name="learnHeaderStakingPage" finished-at="2023-08-17T22:38:04 EEST" duration-ms="3912" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -66,12 +62,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderAffiliateProgramPage -->
-        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:39 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-17T00:48:43 EEST" duration-ms="3901" status="PASS">
+        </test-method> <!-- learnHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:00 EEST" name="setUp" finished-at="2023-08-17T22:38:00 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:04 EEST" name="setUp" finished-at="2023-08-17T22:38:04 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:04 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-17T22:38:08 EEST" duration-ms="3917" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -82,20 +86,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:39 EEST" name="setUp" finished-at="2023-08-17T00:48:39 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:43 EEST" name="setUp" finished-at="2023-08-17T00:48:43 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:43 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-17T00:48:49 EEST" duration-ms="5962" status="PASS">
+        </test-method> <!-- resourcesHeaderStakingPage -->
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:08 EEST" name="mainSectionStakingPage" finished-at="2023-08-17T22:38:14 EEST" duration-ms="5964" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -106,16 +102,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:49 EEST" name="setUp" finished-at="2023-08-17T00:48:49 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- mainSectionStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:08 EEST" name="setUp" finished-at="2023-08-17T22:38:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:49 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-17T00:48:55 EEST" duration-ms="6230" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:14 EEST" name="setUp" finished-at="2023-08-17T22:38:14 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:14 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-17T22:38:20 EEST" duration-ms="6221" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +126,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:55 EEST" name="setUp" finished-at="2023-08-17T00:48:55 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- delegatedSectionStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:20 EEST" name="setUp" finished-at="2023-08-17T22:38:20 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:48:55 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:00 EEST" duration-ms="4924" status="PASS">
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:20 EEST" name="allFooterStakingPage" finished-at="2023-08-17T22:38:25 EEST" duration-ms="4950" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -146,16 +146,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:00 EEST" name="setUp" finished-at="2023-08-17T00:49:00 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:25 EEST" name="setUp" finished-at="2023-08-17T22:38:25 EEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:00 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:05 EEST" duration-ms="4727" status="PASS">
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:25 EEST" name="partnFooterStakingPage" finished-at="2023-08-17T22:38:30 EEST" duration-ms="4730" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -166,12 +166,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterAffiliateProgramPage -->
-        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:05 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:10 EEST" duration-ms="4701" status="PASS">
+        </test-method> <!-- partnFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:30 EEST" name="setUp" finished-at="2023-08-17T22:38:30 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:30 EEST" name="subFooterStakingPage" finished-at="2023-08-17T22:38:35 EEST" duration-ms="4700" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -182,20 +186,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:05 EEST" name="setUp" finished-at="2023-08-17T00:49:05 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- subFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:35 EEST" name="setUp" finished-at="2023-08-17T22:38:35 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:10 EEST" name="setUp" finished-at="2023-08-17T00:49:10 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:10 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:14 EEST" duration-ms="3778" status="PASS">
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:35 EEST" name="copFooterStakingPage" finished-at="2023-08-17T22:38:39 EEST" duration-ms="3752" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -206,218 +206,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@524d6d96]" started-at="2023-08-17T00:49:14 EEST" name="tearDown" finished-at="2023-08-17T00:49:14 EEST" duration-ms="607" status="PASS">
+        </test-method> <!-- copFooterStakingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@77eca502]" started-at="2023-08-17T22:38:39 EEST" name="tearDown" finished-at="2023-08-17T22:38:39 EEST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:14 EEST" name="setUp" finished-at="2023-08-17T00:49:16 EEST" duration-ms="2107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:16 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:22 EEST" duration-ms="5391" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderAffiliateProgramPage -->
-        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:22 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:26 EEST" duration-ms="4123" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:22 EEST" name="setUp" finished-at="2023-08-17T00:49:22 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:26 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:30 EEST" duration-ms="4086" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:26 EEST" name="setUp" finished-at="2023-08-17T00:49:26 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:30 EEST" name="setUp" finished-at="2023-08-17T00:49:30 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:30 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-17T00:49:34 EEST" duration-ms="4074" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:34 EEST" name="setUp" finished-at="2023-08-17T00:49:34 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:34 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-17T00:49:40 EEST" duration-ms="5970" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:40 EEST" name="setUp" finished-at="2023-08-17T00:49:40 EEST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:40 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-17T00:49:46 EEST" duration-ms="6306" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
-        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:46 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:51 EEST" duration-ms="4991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:46 EEST" name="setUp" finished-at="2023-08-17T00:49:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:51 EEST" name="setUp" finished-at="2023-08-17T00:49:51 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:51 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-17T00:49:56 EEST" duration-ms="4864" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- partnFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:56 EEST" name="setUp" finished-at="2023-08-17T00:49:56 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:49:56 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-17T00:50:01 EEST" duration-ms="4912" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:01 EEST" name="setUp" finished-at="2023-08-17T00:50:01 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:01 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-17T00:50:05 EEST" duration-ms="3972" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterAffiliateProgramPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@51dcb805]" started-at="2023-08-17T00:50:05 EEST" name="tearDown" finished-at="2023-08-17T00:50:05 EEST" duration-ms="136" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

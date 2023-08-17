@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
+    <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
@@ -11,28 +12,13 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
-        <methods>
-          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
