@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-WPT" class="navigator-link">
-              <span class="suite-name border-passed">WPT</span>
+              <span class="suite-name border-failed">WPT</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WPT" class="hide-methods failed suite-WPT"> (hide)</a> <!-- hide-methods failed suite-WPT -->
+                      <a href="#" panel-name="suite-WPT" class="show-methods failed suite-WPT"> (show)</a> <!-- show-methods failed suite-WPT -->
+                    </span>
+                    <div class="method-list-content failed suite-WPT">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="subFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">subFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WPT -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +118,22 @@
                     <div class="method-list-content passed suite-WPT">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="EweuimtPage(https://ai-mood.com/en/white-paper, Screenshots/)">EweuimtPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="allFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">allFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="allHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">allHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="copFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">copFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,6 +153,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="partnFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">partnFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-WPT" title="tests.whitePaper.WhitePaperChromeTests" class="method navigator-link" hash-for-method="resourcesHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">resourcesHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -139,6 +173,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WPT" class="panel WPT">
+          <div class="suite-WPT-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.whitePaper.WhitePaperChromeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">
+                  </a> <!-- subFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
+                  <span class="method-name">subFooterMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WPT-class-failed -->
           <div class="suite-WPT-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -147,9 +205,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="EweuimtPage(https://ai-mood.com/en/white-paper, Screenshots/)">
+                  </a> <!-- EweuimtPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
+                  <span class="method-name">EweuimtPage</span>
+                  <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">
+                  </a> <!-- allFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
+                  <span class="method-name">allFooterMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="allHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">
                   </a> <!-- allHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
                   <span class="method-name">allHeaderMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">
+                  </a> <!-- copFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
+                  <span class="method-name">copFooterMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -174,6 +256,14 @@
                   <a name="mainBlockWhitePaperPage(https://ai-mood.com/en/white-paper, Screenshots/)">
                   </a> <!-- mainBlockWhitePaperPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
                   <span class="method-name">mainBlockWhitePaperPage</span>
+                  <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="partnFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)">
+                  </a> <!-- partnFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/) -->
+                  <span class="method-name">partnFooterMainPage</span>
                   <span class="parameters">(https://ai-mood.com/en/white-paper, Screenshots/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -241,32 +331,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'allHeaderMainPage')
 data.setCell(0, 2, 'tests.whitePaper.WhitePaperChromeTests')
-data.setCell(0, 3, 21164);
+data.setCell(0, 3, 21627);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'mainBlockWhitePaperPage')
+data.setCell(1, 1, 'EweuimtPage')
 data.setCell(1, 2, 'tests.whitePaper.WhitePaperChromeTests')
-data.setCell(1, 3, 5605);
+data.setCell(1, 3, 6220);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getStartedHeaderMainPage')
+data.setCell(2, 1, 'mainBlockWhitePaperPage')
 data.setCell(2, 2, 'tests.whitePaper.WhitePaperChromeTests')
-data.setCell(2, 3, 4621);
+data.setCell(2, 3, 5477);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'learnHeaderMainPage')
+data.setCell(3, 1, 'allFooterMainPage')
 data.setCell(3, 2, 'tests.whitePaper.WhitePaperChromeTests')
-data.setCell(3, 3, 4488);
+data.setCell(3, 3, 5466);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'resourcesHeaderMainPage')
+data.setCell(4, 1, 'partnFooterMainPage')
 data.setCell(4, 2, 'tests.whitePaper.WhitePaperChromeTests')
-data.setCell(4, 3, 4477);
+data.setCell(4, 3, 5334);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'subFooterMainPage')
+data.setCell(5, 2, 'tests.whitePaper.WhitePaperChromeTests')
+data.setCell(5, 3, 5308);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getStartedHeaderMainPage')
+data.setCell(6, 2, 'tests.whitePaper.WhitePaperChromeTests')
+data.setCell(6, 3, 4630);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'resourcesHeaderMainPage')
+data.setCell(7, 2, 'tests.whitePaper.WhitePaperChromeTests')
+data.setCell(7, 3, 4474);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'copFooterMainPage')
+data.setCell(8, 2, 'tests.whitePaper.WhitePaperChromeTests')
+data.setCell(8, 3, 4465);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'learnHeaderMainPage')
+data.setCell(9, 2, 'tests.whitePaper.WhitePaperChromeTests')
+data.setCell(9, 3, 4460);
 window.suiteTableData['WPT']= { tableData: data, tableDiv: 'times-div-WPT'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-WPT">
               </div> <!-- times-div-WPT -->
             </div> <!-- times-div -->
@@ -299,43 +409,85 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
-                <span class="method-start">4014 ms</span>
+                <span class="method-start">3881 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25182 ms</span>
+                <span class="method-start">25515 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
-                <span class="method-start">25182 ms</span>
+                <span class="method-start">25516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">29804 ms</span>
+                <span class="method-start">30147 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
-                <span class="method-start">29805 ms</span>
+                <span class="method-start">30147 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34608 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
-                <span class="method-start">34294 ms</span>
+                <span class="method-start">34608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mainBlockWhitePaperPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">39083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34294 ms</span>
+                <span class="method-start">39083 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">38771 ms</span>
+                <span class="method-start">44560 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">mainBlockWhitePaperPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
-                <span class="method-start">38772 ms</span>
+                <span class="method-name">EweuimtPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">44561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">allFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">50782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">partnFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">56249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">subFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">61584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">copFooterMainPage(https://ai-mood.com/en/white-paper, Screenshots/)</span>
+                <span class="method-start">66902 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44378 ms</span>
+                <span class="method-start">71368 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
