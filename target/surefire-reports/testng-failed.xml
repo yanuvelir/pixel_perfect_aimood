@@ -14,67 +14,27 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+      <class name="tests.walletPageTests.AllPageChromeTests">
         <methods>
-          <include name="partnFooterBuySellMoodCoinPage"/>
+          <include name="allFooterWalletPage"/>
           <include name="tearDown"/>
-          <include name="subFooterBuySellMoodCoinPage"/>
-          <include name="mainSectionBuySellMoodCoinPage"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage"/>
-          <include name="allFooterBuySellMoodCoinPage"/>
+          <include name="learnHeaderWalletPage"/>
+          <include name="allHeaderWalletPage"/>
+          <include name="getStartedHeaderWalletPage"/>
           <include name="setUp"/>
-          <include name="allHeaderBuySellMoodCoinPage"/>
-          <include name="copFooterBuySellMoodCoinPage"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage"/>
-          <include name="learnHeaderBuySellMoodCoinPage"/>
+          <include name="resourcesHeaderWalletPage"/>
+          <include name="partnFooterWalletPage"/>
+          <include name="mainSectionWalletPage"/>
+          <include name="delegatedSectionWalletPage"/>
+          <include name="subFooterWalletPage"/>
+          <include name="copFooterWalletPage"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
-          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
-          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
-          <include name="copFooterMarketPlacePage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageChromeTests">
-        <methods>
-          <include name="resourcesHeaderFundPage"/>
-          <include name="tearDown"/>
-          <include name="partnFooterFundPage"/>
-          <include name="copFooterFundPage"/>
-          <include name="getStartedHeaderFundPage"/>
-          <include name="setUp"/>
-          <include name="subFooterFundPage"/>
-          <include name="learnHeaderFundPage"/>
-          <include name="allFooterFundPage"/>
-          <include name="mainSectionFundPage"/>
-          <include name="allHeaderFundPage"/>
-        </methods>
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
-      <class name="tests.mainPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="allFooterMainPage" invocation-numbers="0"/>
-          <include name="mainSectionMainPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="videoSectionMainPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
-          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
-          <include name="copFooterMainPage" invocation-numbers="0"/>
-          <include name="learnHeaderMainPage" invocation-numbers="0"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
-          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
-          <include name="leaningSectionMainPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.walletPageTests.AllPageChromeTests -->
       <class name="tests.mainPageTests.AllPageChromeTests">
         <methods>
           <include name="resourcesHeaderMainPage"/>
-          <include name="allFooterMainPage"/>
           <include name="getStartedHeaderMainPage"/>
+          <include name="allFooterMainPage"/>
           <include name="setUp"/>
           <include name="subFooterMainPage"/>
           <include name="leaningSectionMainPage"/>
@@ -89,51 +49,15 @@
           <include name="statisticsSectionMainPage"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allHeaderFundPage" invocation-numbers="0"/>
-          <include name="copFooterFundPage" invocation-numbers="0"/>
-          <include name="allFooterFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
-      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
-          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
-          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
-          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
-      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="subFooterTokenMoodPage"/>
-          <include name="partnFooterTokenMoodPage"/>
-          <include name="allFooterTokenMoodPage"/>
-          <include name="learnHeaderTokenMoodPage"/>
-          <include name="getStartedHeaderTokenMoodPage"/>
-          <include name="copFooterTokenMoodPage"/>
-          <include name="allHeaderTokenMoodPage"/>
-          <include name="statisticsSectionTokenMoodPage"/>
-          <include name="resourcesHeaderTokenMoodPage"/>
-          <include name="mainSectionTokenMoodPage"/>
-        </methods>
-      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
       <class name="tests.marketPlacePageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="statisticsSectionMarketPlacePage"/>
-          <include name="getStartedHeaderMarketPlacePage"/>
-          <include name="setUp"/>
           <include name="mainSectionMarketPlacePage"/>
-          <include name="allHeaderMarketPlacePage"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderMarketPlacePage"/>
           <include name="subFooterMarketPlacePage"/>
+          <include name="allHeaderMarketPlacePage"/>
           <include name="resourcesHeaderMarketPlacePage"/>
           <include name="partnFooterMarketPlacePage"/>
           <include name="allFooterMarketPlacePage"/>
@@ -141,42 +65,28 @@
           <include name="learnHeaderMarketPlacePage"/>
         </methods>
       </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
-        <methods>
-          <include name="allHeaderAffiliateProgramPage"/>
-          <include name="tearDown"/>
-          <include name="subFooterAffiliateProgramPage"/>
-          <include name="setUp"/>
-          <include name="allFooterAffiliateProgramPage"/>
-          <include name="resourcesHeaderAffiliateProgramPage"/>
-          <include name="learnHeaderAffiliateProgramPage"/>
-          <include name="copFooterAffiliateProgramPage"/>
-          <include name="getStartedHeaderAffiliateProgramPage"/>
-          <include name="mainSectionAffiliateProgramPage"/>
-          <include name="affiliateSectionAffiliateProgramPage"/>
-          <include name="partnFooterAffiliateProgramPage"/>
-        </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.walletPageTests.AllPageFirefoxTests">
         <methods>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderWalletPage" invocation-numbers="0"/>
+          <include name="mainSectionWalletPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allHeaderWalletPage" invocation-numbers="0"/>
+          <include name="learnHeaderWalletPage" invocation-numbers="0"/>
+          <include name="copFooterWalletPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderWalletPage" invocation-numbers="0"/>
+          <include name="partnFooterWalletPage" invocation-numbers="0"/>
+          <include name="allFooterWalletPage" invocation-numbers="0"/>
+          <include name="delegatedSectionWalletPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
+      </class> <!-- tests.walletPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
