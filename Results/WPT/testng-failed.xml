@@ -8,13 +8,13 @@
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
     <classes>
-      <class name="tests.whitePaper.WhitePaperFirefoxTests">
+      <class name="tests.whitePaper.WhitePaperChromeTests">
         <methods>
           <include name="tearDown"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
+      </class> <!-- tests.whitePaper.WhitePaperChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->

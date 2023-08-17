@@ -21,7 +21,7 @@ public class WhitePaperFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(whitePaper_page);
         //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
         Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
@@ -78,7 +78,7 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.pngg",
+                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
                 ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/mock_screenshot.png",
                 ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/difference.png");
 
