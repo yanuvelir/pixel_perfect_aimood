@@ -1,48 +1,184 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 146, Failures: 11, Errors: 0, Skipped: 24, Time elapsed: 849.962 s <<< FAILURE! - in TestSuite
-tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 18.693 s  <<< FAILURE!
+Tests run: 249, Failures: 36, Errors: 0, Skipped: 182, Time elapsed: 735.606 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 18.851 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
 
-tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.816 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.712 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
 
-tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.785 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.624 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
 
-tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.784 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.71 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:118)
 
-tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 4.888 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.114 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:139)
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:137)
 
-tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.674 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.155 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.copFooterBuySellMoodCoinPage(AllPageChromeTests.java:196)
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:156)
 
-tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 18.503 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.137 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:175)
+
+tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.36 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
+
+tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.713 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:214)
+
+tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.587 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage(AllPageFirefoxTests.java:271)
+
+tests.mainPageTests.AllPageChromeTests.setUp  Time elapsed: 7.642 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+
+tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 18.556 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:26)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.528 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage(AllPageFirefoxTests.java:80)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 4.688 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.494 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage(AllPageFirefoxTests.java:215)
+
+tests.marketPlacePageTests.AllPageChromeTests.setUp  Time elapsed: 7.228 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+
+tests.buySellMoodCoinTests.AllPageChromeTests.setUp  Time elapsed: 2.398 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 18.521 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
 
-tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.511 s  <<< FAILURE!
+tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.545 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
 
-tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.486 s  <<< FAILURE!
+tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.557 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
 
-tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.561 s  <<< FAILURE!
+tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.709 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
 
-tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 4.616 s  <<< FAILURE!
+tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 4.738 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:139)
+
+tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage[https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/](3)  Time elapsed: 3.53 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:196)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 18.551 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.52 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 4.713 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.6 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
+
+tests.tokenMoodPageTests.AllPageChromeTests.setUp  Time elapsed: 7.092 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+
+tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 18.517 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage(AllPageFirefoxTests.java:26)
+
+tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.566 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage(AllPageFirefoxTests.java:80)
+
+tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 4.781 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage(AllPageFirefoxTests.java:139)
+
+tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.498 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage(AllPageFirefoxTests.java:196)
+
+tests.fundPageTests.AllPageChromeTests.setUp  Time elapsed: 7.574 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 3.558 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 3.541 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage(AllPageFirefoxTests.java:215)
+
+tests.affiliateProgramPageTests.AllPageChromeTests.setUp  Time elapsed: 7.495 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
 
