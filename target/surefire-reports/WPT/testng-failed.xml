@@ -14,10 +14,52 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.mainPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderMainPage"/>
+          <include name="allFooterMainPage"/>
+          <include name="getStartedHeaderMainPage"/>
+          <include name="setUp"/>
+          <include name="subFooterMainPage"/>
+          <include name="leaningSectionMainPage"/>
+          <include name="videoSectionMainPage"/>
+          <include name="copFooterMainPage"/>
+          <include name="tearDown"/>
+          <include name="mainSectionMainPage"/>
+          <include name="allHeaderMainPage"/>
+          <include name="learnHeaderMainPage"/>
+          <include name="partnFooterMainPage"/>
+          <include name="roadmapSectionMainPage"/>
+          <include name="statisticsSectionMainPage"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage"/>
+          <include name="setUp"/>
+          <include name="mainSectionMarketPlacePage"/>
+          <include name="getStartedHeaderMarketPlacePage"/>
+          <include name="subFooterMarketPlacePage"/>
+          <include name="allHeaderMarketPlacePage"/>
+          <include name="resourcesHeaderMarketPlacePage"/>
+          <include name="partnFooterMarketPlacePage"/>
+          <include name="allFooterMarketPlacePage"/>
+          <include name="copFooterMarketPlacePage"/>
+          <include name="learnHeaderMarketPlacePage"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
       <class name="tests.walletPageTests.AllPageChromeTests">
         <methods>
-          <include name="allFooterWalletPage"/>
           <include name="tearDown"/>
+          <include name="allFooterWalletPage"/>
           <include name="learnHeaderWalletPage"/>
           <include name="allHeaderWalletPage"/>
           <include name="getStartedHeaderWalletPage"/>
@@ -30,63 +72,6 @@
           <include name="copFooterWalletPage"/>
         </methods>
       </class> <!-- tests.walletPageTests.AllPageChromeTests -->
-      <class name="tests.mainPageTests.AllPageChromeTests">
-        <methods>
-          <include name="resourcesHeaderMainPage"/>
-          <include name="getStartedHeaderMainPage"/>
-          <include name="allFooterMainPage"/>
-          <include name="setUp"/>
-          <include name="subFooterMainPage"/>
-          <include name="leaningSectionMainPage"/>
-          <include name="videoSectionMainPage"/>
-          <include name="copFooterMainPage"/>
-          <include name="tearDown"/>
-          <include name="mainSectionMainPage"/>
-          <include name="learnHeaderMainPage"/>
-          <include name="allHeaderMainPage"/>
-          <include name="partnFooterMainPage"/>
-          <include name="roadmapSectionMainPage"/>
-          <include name="statisticsSectionMainPage"/>
-        </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="statisticsSectionMarketPlacePage"/>
-          <include name="mainSectionMarketPlacePage"/>
-          <include name="setUp"/>
-          <include name="getStartedHeaderMarketPlacePage"/>
-          <include name="subFooterMarketPlacePage"/>
-          <include name="allHeaderMarketPlacePage"/>
-          <include name="resourcesHeaderMarketPlacePage"/>
-          <include name="partnFooterMarketPlacePage"/>
-          <include name="allFooterMarketPlacePage"/>
-          <include name="copFooterMarketPlacePage"/>
-          <include name="learnHeaderMarketPlacePage"/>
-        </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
-      <class name="tests.walletPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="resourcesHeaderWalletPage" invocation-numbers="0"/>
-          <include name="mainSectionWalletPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="allHeaderWalletPage" invocation-numbers="0"/>
-          <include name="learnHeaderWalletPage" invocation-numbers="0"/>
-          <include name="copFooterWalletPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="getStartedHeaderWalletPage" invocation-numbers="0"/>
-          <include name="partnFooterWalletPage" invocation-numbers="0"/>
-          <include name="allFooterWalletPage" invocation-numbers="0"/>
-          <include name="delegatedSectionWalletPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.walletPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
