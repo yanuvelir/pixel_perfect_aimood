@@ -17,38 +17,22 @@
       <class name="tests.mainPageTests.AllPageChromeTests">
         <methods>
           <include name="resourcesHeaderMainPage"/>
-          <include name="getStartedHeaderMainPage"/>
           <include name="allFooterMainPage"/>
+          <include name="getStartedHeaderMainPage"/>
           <include name="setUp"/>
           <include name="subFooterMainPage"/>
           <include name="leaningSectionMainPage"/>
           <include name="videoSectionMainPage"/>
           <include name="copFooterMainPage"/>
-          <include name="mainSectionMainPage"/>
           <include name="tearDown"/>
-          <include name="learnHeaderMainPage"/>
+          <include name="mainSectionMainPage"/>
           <include name="allHeaderMainPage"/>
+          <include name="learnHeaderMainPage"/>
           <include name="partnFooterMainPage"/>
           <include name="roadmapSectionMainPage"/>
           <include name="statisticsSectionMainPage"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.walletPageTests.AllPageChromeTests">
-        <methods>
-          <include name="allFooterWalletPage"/>
-          <include name="tearDown"/>
-          <include name="learnHeaderWalletPage"/>
-          <include name="allHeaderWalletPage"/>
-          <include name="setUp"/>
-          <include name="getStartedHeaderWalletPage"/>
-          <include name="resourcesHeaderWalletPage"/>
-          <include name="partnFooterWalletPage"/>
-          <include name="delegatedSectionWalletPage"/>
-          <include name="mainSectionWalletPage"/>
-          <include name="subFooterWalletPage"/>
-          <include name="copFooterWalletPage"/>
-        </methods>
-      </class> <!-- tests.walletPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
