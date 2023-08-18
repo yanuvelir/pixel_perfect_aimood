@@ -32,7 +32,7 @@ public class WhatIsAimoodFirefoxTests extends BaseTest {
 
        @Parameters({"whatIsAimood_page", "ScShotDir"})
     @Test(priority = 2)
-    public void mainBlockWhitePaperPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
+    public void mainBlockWhatIsAimoodPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
