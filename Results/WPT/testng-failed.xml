@@ -1,46 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="tests.RetryAnalyzerTransformer"/>
+  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
-    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-affil-coin"/>
+    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
     <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
+    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
     <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
+      <class name="tests.mainPageTests.AllPageChromeTests">
         <methods>
-          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="partnFooterAffiliateProgramPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="videoSectionMainPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
+          <include name="mainSectionMainPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
