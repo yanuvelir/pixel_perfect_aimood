@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-WPT" class="navigator-link">
-              <span class="suite-name border-failed">WPT</span>
+              <span class="suite-name border-skipped">WPT</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">68 methods, 1 failed,  35 skipped,  32 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-WPT" class="hide-methods failed suite-WPT"> (hide)</a> <!-- hide-methods failed suite-WPT -->
-                      <a href="#" panel-name="suite-WPT" class="show-methods failed suite-WPT"> (show)</a> <!-- show-methods failed suite-WPT -->
-                    </span>
-                    <div class="method-list-content failed suite-WPT">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.marketPlacePageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-WPT -->
+                    <span class="method-stats">66 methods,  33 skipped,  33 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -284,25 +270,6 @@
                     </div> <!-- method-list-content skipped suite-WPT -->
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-WPT" class="hide-methods skipped suite-WPT"> (hide)</a> <!-- hide-methods skipped suite-WPT -->
-                      <a href="#" panel-name="suite-WPT" class="show-methods skipped suite-WPT"> (show)</a> <!-- show-methods skipped suite-WPT -->
-                    </span>
-                    <div class="method-list-content skipped suite-WPT">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.marketPlacePageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.marketPlacePageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-WPT -->
-                  </li>
-                  <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
                       <a href="#" panel-name="suite-WPT" class="hide-methods passed suite-WPT"> (hide)</a> <!-- hide-methods passed suite-WPT -->
@@ -312,6 +279,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMainPage(https://ai-mood.com/en, Screenshots/)">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.marketPlacePageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -481,64 +453,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WPT" class="panel WPT">
-          <div class="suite-WPT-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.marketPlacePageTests.AllPageFirefoxTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">
-                  </a> <!-- allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/) -->
-                  <span class="method-name">allFooterMarketPlacePage</span>
-                  <span class="parameters">(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-WPT-class-failed -->
-          <div class="suite-WPT-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">tests.marketPlacePageTests.AllPageFirefoxTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">
-                  </a> <!-- allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/) -->
-                  <span class="method-name">allFooterMarketPlacePage</span>
-                  <span class="parameters">(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">
-                  </a> <!-- allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/) -->
-                  <span class="method-name">allFooterMarketPlacePage</span>
-                  <span class="parameters">(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-WPT-class-skipped -->
           <div class="suite-WPT-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -1715,6 +1629,14 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">
+                  </a> <!-- allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/) -->
+                  <span class="method-name">allFooterMarketPlacePage</span>
+                  <span class="parameters">(https://ai-mood.com/en/market-place, Screenshots/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="allHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)">
                   </a> <!-- allHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/) -->
                   <span class="method-name">allHeaderMarketPlacePage</span>
@@ -1967,279 +1889,271 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(68);
+data.addRows(66);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'allHeaderMainPage')
 data.setCell(0, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(0, 3, 8956);
+data.setCell(0, 3, 9944);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'allHeaderMarketPlacePage')
 data.setCell(1, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(1, 3, 6448);
+data.setCell(1, 3, 6531);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'allHeaderWalletPage')
 data.setCell(2, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(2, 3, 6059);
+data.setCell(2, 3, 6171);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'mainSectionMarketPlacePage')
 data.setCell(3, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(3, 3, 5927);
+data.setCell(3, 3, 5913);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'roadmapSectionMainPage')
 data.setCell(4, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(4, 3, 5724);
+data.setCell(4, 3, 5526);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'leaningSectionMainPage')
 data.setCell(5, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(5, 3, 5509);
+data.setCell(5, 3, 5453);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'statisticsSectionMainPage')
 data.setCell(6, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(6, 3, 5411);
+data.setCell(6, 3, 5376);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'videoSectionMainPage')
-data.setCell(7, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(7, 3, 5407);
+data.setCell(7, 1, 'statisticsSectionMarketPlacePage')
+data.setCell(7, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(7, 3, 5343);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'statisticsSectionMarketPlacePage')
-data.setCell(8, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(8, 3, 5347);
+data.setCell(8, 1, 'videoSectionMainPage')
+data.setCell(8, 2, 'tests.mainPageTests.AllPageFirefoxTests')
+data.setCell(8, 3, 5338);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'allFooterMainPage')
 data.setCell(9, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(9, 3, 5207);
+data.setCell(9, 3, 5190);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'delegatedSectionWalletPage')
 data.setCell(10, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(10, 3, 5147);
+data.setCell(10, 3, 5172);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'allFooterWalletPage')
-data.setCell(11, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(11, 3, 5006);
+data.setCell(11, 1, 'allFooterMarketPlacePage')
+data.setCell(11, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(11, 3, 5009);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'partnFooterWalletPage')
+data.setCell(12, 1, 'allFooterWalletPage')
 data.setCell(12, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(12, 3, 4968);
+data.setCell(12, 3, 4985);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'mainSectionMainPage')
-data.setCell(13, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(13, 3, 4963);
+data.setCell(13, 1, 'subFooterMarketPlacePage')
+data.setCell(13, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(13, 3, 4961);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'subFooterMainPage')
+data.setCell(14, 1, 'mainSectionMainPage')
 data.setCell(14, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(14, 3, 4912);
+data.setCell(14, 3, 4959);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'partnFooterMarketPlacePage')
-data.setCell(15, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(15, 3, 4909);
+data.setCell(15, 1, 'mainSectionWalletPage')
+data.setCell(15, 2, 'tests.walletPageTests.AllPageFirefoxTests')
+data.setCell(15, 3, 4919);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'mainSectionWalletPage')
-data.setCell(16, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(16, 3, 4901);
+data.setCell(16, 1, 'subFooterMainPage')
+data.setCell(16, 2, 'tests.mainPageTests.AllPageFirefoxTests')
+data.setCell(16, 3, 4908);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'subFooterWalletPage')
-data.setCell(17, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(17, 3, 4885);
+data.setCell(17, 1, 'partnFooterMarketPlacePage')
+data.setCell(17, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(17, 3, 4900);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'partnFooterMainPage')
 data.setCell(18, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(18, 3, 4878);
+data.setCell(18, 3, 4897);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'subFooterMarketPlacePage')
-data.setCell(19, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(19, 3, 4857);
+data.setCell(19, 1, 'partnFooterWalletPage')
+data.setCell(19, 2, 'tests.walletPageTests.AllPageFirefoxTests')
+data.setCell(19, 3, 4889);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'allFooterMarketPlacePage')
-data.setCell(20, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(20, 3, 4752);
+data.setCell(20, 1, 'subFooterWalletPage')
+data.setCell(20, 2, 'tests.walletPageTests.AllPageFirefoxTests')
+data.setCell(20, 3, 4866);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'allFooterMarketPlacePage')
-data.setCell(21, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(21, 3, 4748);
+data.setCell(21, 1, 'resourcesHeaderMainPage')
+data.setCell(21, 2, 'tests.mainPageTests.AllPageFirefoxTests')
+data.setCell(21, 3, 4430);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'allFooterMarketPlacePage')
-data.setCell(22, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(22, 3, 4706);
+data.setCell(22, 1, 'copFooterMainPage')
+data.setCell(22, 2, 'tests.mainPageTests.AllPageFirefoxTests')
+data.setCell(22, 3, 4215);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'resourcesHeaderMainPage')
+data.setCell(23, 1, 'getStartedHeaderMainPage')
 data.setCell(23, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(23, 3, 4401);
+data.setCell(23, 3, 4171);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'copFooterMainPage')
-data.setCell(24, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(24, 3, 4197);
+data.setCell(24, 1, 'getStartedHeaderWalletPage')
+data.setCell(24, 2, 'tests.walletPageTests.AllPageFirefoxTests')
+data.setCell(24, 3, 4131);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'getStartedHeaderMainPage')
-data.setCell(25, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(25, 3, 4183);
+data.setCell(25, 1, 'resourcesHeaderMarketPlacePage')
+data.setCell(25, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(25, 3, 4126);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'learnHeaderMainPage')
 data.setCell(26, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(26, 3, 4154);
+data.setCell(26, 3, 4122);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'resourcesHeaderMarketPlacePage')
+data.setCell(27, 1, 'getStartedHeaderMarketPlacePage')
 data.setCell(27, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(27, 3, 4138);
+data.setCell(27, 3, 4119);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'resourcesHeaderWalletPage')
-data.setCell(28, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(28, 3, 4133);
+data.setCell(28, 1, 'learnHeaderMarketPlacePage')
+data.setCell(28, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
+data.setCell(28, 3, 4100);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'learnHeaderMarketPlacePage')
-data.setCell(29, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(29, 3, 4124);
+data.setCell(29, 1, 'learnHeaderWalletPage')
+data.setCell(29, 2, 'tests.walletPageTests.AllPageFirefoxTests')
+data.setCell(29, 3, 4071);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'getStartedHeaderWalletPage')
+data.setCell(30, 1, 'resourcesHeaderWalletPage')
 data.setCell(30, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(30, 3, 4117);
+data.setCell(30, 3, 4059);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'getStartedHeaderMarketPlacePage')
+data.setCell(31, 1, 'copFooterMarketPlacePage')
 data.setCell(31, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(31, 3, 4116);
+data.setCell(31, 3, 4010);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'learnHeaderWalletPage')
+data.setCell(32, 1, 'copFooterWalletPage')
 data.setCell(32, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(32, 3, 4078);
+data.setCell(32, 3, 3956);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'copFooterWalletPage')
-data.setCell(33, 2, 'tests.walletPageTests.AllPageFirefoxTests')
-data.setCell(33, 3, 3979);
+data.setCell(33, 1, 'copFooterMainPage')
+data.setCell(33, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(33, 3, 0);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'copFooterMarketPlacePage')
-data.setCell(34, 2, 'tests.marketPlacePageTests.AllPageFirefoxTests')
-data.setCell(34, 3, 3939);
+data.setCell(34, 1, 'copFooterWalletPage')
+data.setCell(34, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(34, 3, 0);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'getStartedHeaderWalletPage')
-data.setCell(35, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(35, 1, 'allHeaderMarketPlacePage')
+data.setCell(35, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(35, 3, 0);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'resourcesHeaderMarketPlacePage')
-data.setCell(36, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(36, 1, 'learnHeaderWalletPage')
+data.setCell(36, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(36, 3, 0);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'allFooterWalletPage')
-data.setCell(37, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(37, 1, 'allFooterMainPage')
+data.setCell(37, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(37, 3, 0);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'statisticsSectionMarketPlacePage')
-data.setCell(38, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(38, 1, 'resourcesHeaderMainPage')
+data.setCell(38, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(38, 3, 0);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'copFooterMarketPlacePage')
-data.setCell(39, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(39, 1, 'resourcesHeaderWalletPage')
+data.setCell(39, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(39, 3, 0);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'partnFooterMainPage')
-data.setCell(40, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(40, 1, 'allFooterWalletPage')
+data.setCell(40, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(40, 3, 0);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'allFooterMarketPlacePage')
+data.setCell(41, 1, 'statisticsSectionMarketPlacePage')
 data.setCell(41, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(41, 3, 0);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'partnFooterMarketPlacePage')
-data.setCell(42, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(42, 1, 'statisticsSectionMainPage')
+data.setCell(42, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(42, 3, 0);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'allFooterMainPage')
-data.setCell(43, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(43, 1, 'copFooterMarketPlacePage')
+data.setCell(43, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(43, 3, 0);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'learnHeaderMarketPlacePage')
+data.setCell(44, 1, 'allFooterMarketPlacePage')
 data.setCell(44, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(44, 3, 0);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'learnHeaderWalletPage')
+data.setCell(45, 1, 'subFooterWalletPage')
 data.setCell(45, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(45, 3, 0);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'subFooterMarketPlacePage')
-data.setCell(46, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(46, 1, 'getStartedHeaderWalletPage')
+data.setCell(46, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(46, 3, 0);
 data.setCell(47, 0, 47)
 data.setCell(47, 1, 'delegatedSectionWalletPage')
 data.setCell(47, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(47, 3, 0);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'statisticsSectionMainPage')
+data.setCell(48, 1, 'partnFooterMainPage')
 data.setCell(48, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(48, 3, 0);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'resourcesHeaderWalletPage')
-data.setCell(49, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(49, 1, 'videoSectionMainPage')
+data.setCell(49, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(49, 3, 0);
 data.setCell(50, 0, 50)
-data.setCell(50, 1, 'allHeaderMarketPlacePage')
-data.setCell(50, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(50, 1, 'partnFooterWalletPage')
+data.setCell(50, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(50, 3, 0);
 data.setCell(51, 0, 51)
-data.setCell(51, 1, 'videoSectionMainPage')
+data.setCell(51, 1, 'learnHeaderMainPage')
 data.setCell(51, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(51, 3, 0);
 data.setCell(52, 0, 52)
-data.setCell(52, 1, 'learnHeaderMainPage')
+data.setCell(52, 1, 'getStartedHeaderMainPage')
 data.setCell(52, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(52, 3, 0);
 data.setCell(53, 0, 53)
-data.setCell(53, 1, 'mainSectionMarketPlacePage')
-data.setCell(53, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(53, 1, 'mainSectionMainPage')
+data.setCell(53, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(53, 3, 0);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'mainSectionMainPage')
-data.setCell(54, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(54, 1, 'resourcesHeaderMarketPlacePage')
+data.setCell(54, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(54, 3, 0);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'allHeaderWalletPage')
-data.setCell(55, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(55, 1, 'learnHeaderMarketPlacePage')
+data.setCell(55, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(55, 3, 0);
 data.setCell(56, 0, 56)
-data.setCell(56, 1, 'getStartedHeaderMainPage')
+data.setCell(56, 1, 'roadmapSectionMainPage')
 data.setCell(56, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(56, 3, 0);
 data.setCell(57, 0, 57)
-data.setCell(57, 1, 'resourcesHeaderMainPage')
-data.setCell(57, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(57, 1, 'mainSectionWalletPage')
+data.setCell(57, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(57, 3, 0);
 data.setCell(58, 0, 58)
-data.setCell(58, 1, 'roadmapSectionMainPage')
-data.setCell(58, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(58, 1, 'getStartedHeaderMarketPlacePage')
+data.setCell(58, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(58, 3, 0);
 data.setCell(59, 0, 59)
-data.setCell(59, 1, 'partnFooterWalletPage')
-data.setCell(59, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(59, 1, 'mainSectionMarketPlacePage')
+data.setCell(59, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(59, 3, 0);
 data.setCell(60, 0, 60)
-data.setCell(60, 1, 'allHeaderMainPage')
+data.setCell(60, 1, 'subFooterMainPage')
 data.setCell(60, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(60, 3, 0);
 data.setCell(61, 0, 61)
-data.setCell(61, 1, 'getStartedHeaderMarketPlacePage')
-data.setCell(61, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
+data.setCell(61, 1, 'allHeaderMainPage')
+data.setCell(61, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(61, 3, 0);
 data.setCell(62, 0, 62)
-data.setCell(62, 1, 'mainSectionWalletPage')
-data.setCell(62, 2, 'tests.walletPageTests.AllPageChromeTests')
+data.setCell(62, 1, 'subFooterMarketPlacePage')
+data.setCell(62, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(62, 3, 0);
 data.setCell(63, 0, 63)
-data.setCell(63, 1, 'subFooterWalletPage')
+data.setCell(63, 1, 'allHeaderWalletPage')
 data.setCell(63, 2, 'tests.walletPageTests.AllPageChromeTests')
 data.setCell(63, 3, 0);
 data.setCell(64, 0, 64)
-data.setCell(64, 1, 'subFooterMainPage')
+data.setCell(64, 1, 'leaningSectionMainPage')
 data.setCell(64, 2, 'tests.mainPageTests.AllPageChromeTests')
 data.setCell(64, 3, 0);
 data.setCell(65, 0, 65)
-data.setCell(65, 1, 'copFooterMainPage')
-data.setCell(65, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(65, 1, 'partnFooterMarketPlacePage')
+data.setCell(65, 2, 'tests.marketPlacePageTests.AllPageChromeTests')
 data.setCell(65, 3, 0);
-data.setCell(66, 0, 66)
-data.setCell(66, 1, 'leaningSectionMainPage')
-data.setCell(66, 2, 'tests.mainPageTests.AllPageChromeTests')
-data.setCell(66, 3, 0);
-data.setCell(67, 0, 67)
-data.setCell(67, 1, 'copFooterWalletPage')
-data.setCell(67, 2, 'tests.walletPageTests.AllPageChromeTests')
-data.setCell(67, 3, 0);
 window.suiteTableData['WPT']= { tableData: data, tableDiv: 'times-div-WPT'}
 return data;
 }
@@ -2277,107 +2191,107 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">4053 ms</span>
+                <span class="method-start">3620 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13017 ms</span>
+                <span class="method-start">13569 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">13017 ms</span>
+                <span class="method-start">13569 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">17201 ms</span>
+                <span class="method-start">17741 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17201 ms</span>
+                <span class="method-start">17741 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">21355 ms</span>
+                <span class="method-start">21863 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">21356 ms</span>
+                <span class="method-start">21864 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26294 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">25758 ms</span>
+                <span class="method-start">26295 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25758 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">30721 ms</span>
+                <span class="method-start">31254 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">30722 ms</span>
+                <span class="method-start">31255 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">36130 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">36130 ms</span>
+                <span class="method-start">36593 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">41854 ms</span>
+                <span class="method-start">36593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42121 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">41855 ms</span>
+                <span class="method-start">42122 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47499 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">47267 ms</span>
+                <span class="method-start">47499 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">47267 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">52777 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">52777 ms</span>
+                <span class="method-start">52952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">57984 ms</span>
+                <span class="method-start">52952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58142 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">57985 ms</span>
+                <span class="method-start">58143 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">62864 ms</span>
+                <span class="method-start">63040 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">62864 ms</span>
+                <span class="method-start">63041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">67776 ms</span>
+                <span class="method-start">67949 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">67777 ms</span>
+                <span class="method-start">67950 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">71974 ms</span>
+                <span class="method-start">72165 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -2386,216 +2300,198 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">73559 ms</span>
+                <span class="method-start">73735 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75688 ms</span>
+                <span class="method-start">76126 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75689 ms</span>
+                <span class="method-start">76128 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75690 ms</span>
+                <span class="method-start">76129 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">75691 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75691 ms</span>
+                <span class="method-start">76130 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75693 ms</span>
+                <span class="method-start">76130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76131 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75693 ms</span>
+                <span class="method-start">76132 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">75694 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75694 ms</span>
+                <span class="method-start">76133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75695 ms</span>
+                <span class="method-start">76133 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75695 ms</span>
+                <span class="method-start">76134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75696 ms</span>
+                <span class="method-start">76134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76135 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75697 ms</span>
+                <span class="method-start">76135 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75698 ms</span>
+                <span class="method-start">76136 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75698 ms</span>
+                <span class="method-start">76136 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76137 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75699 ms</span>
+                <span class="method-start">76137 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">75699 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75700 ms</span>
+                <span class="method-start">76138 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75700 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">75700 ms</span>
+                <span class="method-start">76138 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75701 ms</span>
+                <span class="method-start">76139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75701 ms</span>
+                <span class="method-start">76139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75702 ms</span>
+                <span class="method-start">76140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75703 ms</span>
+                <span class="method-start">76140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76141 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">75703 ms</span>
+                <span class="method-start">76141 ms</span>
               </div> <!-- configuration-class after -->
               <div class="test-method">
                 <span class="method-name">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">75703 ms</span>
+                <span class="method-start">76141 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.marketPlacePageTests.AllPageFirefoxTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75704 ms</span>
+                <span class="method-start">76142 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">78133 ms</span>
+                <span class="method-start">78566 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">84582 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">84582 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">learnHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">88698 ms</span>
+                <span class="method-start">85098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">88698 ms</span>
+                <span class="method-start">85098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">learnHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
+                <span class="method-start">89217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89217 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">92823 ms</span>
+                <span class="method-start">93317 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">92823 ms</span>
+                <span class="method-start">93318 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">96961 ms</span>
+                <span class="method-start">97444 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">96961 ms</span>
+                <span class="method-start">97444 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">102888 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">statisticsSectionMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">102888 ms</span>
+                <span class="method-start">103357 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">108235 ms</span>
+                <span class="method-start">103357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108701 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">108236 ms</span>
+                <span class="method-start">108701 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">112984 ms</span>
+                <span class="method-start">113711 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">112984 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">117737 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">117737 ms</span>
-              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">partnFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">122446 ms</span>
+                <span class="method-start">113711 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">122446 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">127355 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">127355 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">copFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">132213 ms</span>
+                <span class="method-start">118613 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">132213 ms</span>
+                <span class="method-start">118613 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">copFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
+                <span class="method-start">123577 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">136152 ms</span>
+                <span class="method-start">127587 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -2604,174 +2500,180 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">137860 ms</span>
+                <span class="method-start">129295 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139808 ms</span>
+                <span class="method-start">131260 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139809 ms</span>
+                <span class="method-start">131264 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139809 ms</span>
+                <span class="method-start">131264 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">learnHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139810 ms</span>
+                <span class="method-start">131265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139810 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">139811 ms</span>
+                <span class="method-start">131265 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139811 ms</span>
+                <span class="method-start">131266 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">139812 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139812 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">statisticsSectionMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139813 ms</span>
+                <span class="method-start">131266 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139813 ms</span>
+                <span class="method-start">131266 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139814 ms</span>
+                <span class="method-start">131266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131267 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139814 ms</span>
+                <span class="method-start">131267 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">statisticsSectionMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
+                <span class="method-start">131267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131268 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139815 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">subFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139815 ms</span>
+                <span class="method-start">131268 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139815 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">139815 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">139816 ms</span>
+                <span class="method-start">131268 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">copFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
-                <span class="method-start">139816 ms</span>
+                <span class="method-start">131269 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">139816 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">subFooterMarketPlacePage(https://ai-mood.com/en/market-place, Screenshots/)</span>
+                <span class="method-start">131269 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.walletPageTests.AllPageFirefoxTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">139817 ms</span>
+                <span class="method-start">131270 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.marketPlacePageTests.AllPageChromeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131270 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.walletPageTests.AllPageFirefoxTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">allHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">142252 ms</span>
+                <span class="method-start">133640 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">148312 ms</span>
+                <span class="method-start">139812 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">148312 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">152429 ms</span>
+                <span class="method-start">139812 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">learnHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">152429 ms</span>
+                <span class="method-start">143943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">156507 ms</span>
+                <span class="method-start">143943 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">156508 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">mainSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">160641 ms</span>
+                <span class="method-start">148014 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">160641 ms</span>
+                <span class="method-start">148014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mainSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
+                <span class="method-start">152073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152073 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">165542 ms</span>
+                <span class="method-start">156992 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">delegatedSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">165542 ms</span>
+                <span class="method-start">156992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">170689 ms</span>
+                <span class="method-start">162166 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">170690 ms</span>
+                <span class="method-start">162167 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">175696 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">175696 ms</span>
+                <span class="method-start">167153 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">180665 ms</span>
+                <span class="method-start">167153 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">180666 ms</span>
+                <span class="method-start">172043 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">185551 ms</span>
+                <span class="method-start">172043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">176911 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">copFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">185551 ms</span>
+                <span class="method-start">176912 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">189530 ms</span>
+                <span class="method-start">180868 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -2780,88 +2682,88 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">191132 ms</span>
+                <span class="method-start">182440 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193066 ms</span>
+                <span class="method-start">184414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">193067 ms</span>
+                <span class="method-start">184415 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193067 ms</span>
+                <span class="method-start">184417 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">learnHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193068 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">193068 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">resourcesHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193069 ms</span>
+                <span class="method-start">184418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">193069 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">193070 ms</span>
+                <span class="method-start">184418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">delegatedSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193070 ms</span>
+                <span class="method-name">learnHeaderWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
+                <span class="method-start">184418 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">193070 ms</span>
+                <span class="method-start">184418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184419 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193070 ms</span>
+                <span class="method-start">184419 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">allFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193071 ms</span>
+                <span class="method-name">delegatedSectionWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
+                <span class="method-start">184419 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">193071 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">193072 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">193072 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193072 ms</span>
+                <span class="method-start">184420 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">193073 ms</span>
+                <span class="method-start">184420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
+                <span class="method-start">184420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
+                <span class="method-start">184421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184421 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">copFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193073 ms</span>
+                <span class="method-start">184422 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184422 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">193073 ms</span>
+                <span class="method-start">184422 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="test-method">
-                <span class="method-name">subFooterWalletPage(https://ai-mood.com/en/the-aimood-wallet, Screenshots/)</span>
-                <span class="method-start">193073 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

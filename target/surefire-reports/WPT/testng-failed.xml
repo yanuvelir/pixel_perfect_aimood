@@ -14,13 +14,6 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
       <class name="tests.mainPageTests.AllPageChromeTests">
         <methods>
           <include name="resourcesHeaderMainPage"/>
