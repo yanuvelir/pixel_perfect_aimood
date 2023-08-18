@@ -20,7 +20,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(whitePaper_page);
         //Click button "Accept" use of cookies
-        action.ifButtonIsPresentClick("//div[@class='cookies-inner']/p/button");
+        action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
         Thread.sleep(300);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",

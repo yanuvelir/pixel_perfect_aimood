@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="ScShotDir" value="Screenshots/"/>
-    <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
+    <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
     <classes>
-      <class name="tests.whitePaper.WhitePaperChromeTests">
+      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
         <methods>
           <include name="tearDown"/>
-          <include name="subFooterMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.whitePaper.WhitePaperChromeTests -->
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->

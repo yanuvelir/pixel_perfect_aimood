@@ -11,7 +11,8 @@
 <!--        URL's Parameters-->
 
 <!--        <parameter name="main_page" value="https://ai-mood.com/en"/>-->
-        <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
+<!--        <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>-->
+        <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
@@ -22,7 +23,8 @@
 <!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
 <!--            <class name="tests.whitePaper.WhitePaperChromeTests"/>-->
-            <class name="tests.whitePaper.WhitePaperFirefoxTests"/>
+<!--            <class name="tests.whitePaper.WhitePaperFirefoxTests"/>-->
+            <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests"/>
         </classes>
     </test>
 </suite>

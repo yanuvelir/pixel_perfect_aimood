@@ -251,7 +251,7 @@ public class AllPageChromeTests extends BaseTest{
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_subFooterMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnChrome/Screenshots_subFooterMainPage/mock_screenshot.png",
+                ScShotDir+"White Paper/EnChromeWhitePaper/Screenshots_subFooterWhitePaperPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnChrome/Screenshots_subFooterMainPage/difference.png");
 
     }
