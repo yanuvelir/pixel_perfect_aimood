@@ -8,13 +8,13 @@
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
     <classes>
-      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
+      <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="TfeuamWbEUPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->

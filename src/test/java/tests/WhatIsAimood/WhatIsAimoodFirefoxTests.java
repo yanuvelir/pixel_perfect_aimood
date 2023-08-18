@@ -13,185 +13,147 @@ public class WhatIsAimoodFirefoxTests extends BaseTest {
     }
 
     //HEADER TESTS
-    @Parameters({"whitePaper_page", "ScShotDir"})
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
     @Test(priority = 1)
-    public void allHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    public void allHeaderMainPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(3000);
+        Thread.sleep(300);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/difference.png");
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allHeaderWhatIsAimoodPage/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allHeaderWhatIsAimoodPage/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allHeaderWhatIsAimoodPage/difference.png");
     }
 
-    @Parameters({"whitePaper_page", "ScShotDir"})
+       @Parameters({"whatIsAimood_page", "ScShotDir"})
     @Test(priority = 2)
-    public void getStartedHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    public void mainBlockWhitePaperPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
-        //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        action.openPage(whatIsAimood_page);
+        //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/difference.png");
+        pixelPerfectAssert.byElement("//section[@class='first-main-saction what-aimood-section section-new']",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_mainBlockWhatIsAimoodPage/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_mainBlockWhatIsAimoodPage/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_mainBlockWhatIsAimoodPage/difference.png");
 
     }
 
-    @Parameters({"whitePaper_page", "ScShotDir"})
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
     @Test(priority = 3)
-    public void learnHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    public void WhyChoosePage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
-        //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/difference.png");
-
-    }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 4)
-    public void resourcesHeaderMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(whitePaper_page);
-        //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/difference.png");
-
-    }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 5)
-    public void mainBlockWhitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(whitePaper_page);
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='whitepaper-container']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/difference.png");
-
-    }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 6)
-    public void EweuimtPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='market-token-wrapper section-new']");
+        action.moveViewableElementIntoCenter2("//section[@class='choose-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='market-token-wrapper section-new']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_EweuimtPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_EweuimtPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_EweuimtPage/difference.png");
+        pixelPerfectAssert.byElement("//section[@class='choose-wrapper']",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_WhyChoosePage/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_WhyChoosePage/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_WhyChoosePage/difference.png");
     }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 7)
-    public void allFooterMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
+    @Test(priority = 4)
+    public void TfeuamWbEUPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
+        //scroll
+        action.moveViewableElementIntoCenter2("//section[@class='ecosystem-section section-new']");
+        //Time
+        Thread.sleep(1000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//section[@class='ecosystem-section section-new']",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_TfeuamWbEUPage/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_TfeuamWbEUPage/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_TfeuamWbEUPage/difference.png");
+    }
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
+    @Test(priority = 5)
+    public void allFooterMainPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("mac 14");
+        //Open a page for test
+        action.openPage(whatIsAimood_page);
         //scroll
         action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/difference.png");
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allFooterWhatIsAimood/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allFooterWhatIsAimood/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_allFooterWhatIsAimood/difference.png");
 
     }
 
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 8)
-    public void partnFooterMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
+    @Test(priority = 6)
+    public void partnFooterMainPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='partn-container']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/difference.png");
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_partnFooterWhatIsAimood/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_partnFooterWhatIsAimood/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_partnFooterWhatIsAimood/difference.png");
 
     }
 
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 9)
-    public void subFooterMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
+    @Test(priority = 7)
+    public void subFooterMainPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
         //Time
         Thread.sleep(1500);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/difference.png");
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_subFooterWWhatIsAimood/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_subFooterWWhatIsAimood/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_subFooterWWhatIsAimood/difference.png");
 
     }
 
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 10)
-    public void copFooterMainPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
+    @Parameters({"whatIsAimood_page", "ScShotDir"})
+    @Test(priority = 8)
+    public void copFooterMainPage(String whatIsAimood_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
         //Open a page for test
-        action.openPage(whitePaper_page);
+        action.openPage(whatIsAimood_page);
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='copy-container']",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/difference.png");
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_copFooterWhatIsAimood/real_life_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_copFooterWhatIsAimood/mock_screenshot.png",
+                ScShotDir + "WhatIsAimood/EnFirefoxWhatIsAimood/Screenshots_copFooterWhatIsAimood/difference.png");
 
     }
 }
