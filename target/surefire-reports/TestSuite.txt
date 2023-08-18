@@ -1,36 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 104, Failures: 4, Errors: 0, Skipped: 68, Time elapsed: 194.934 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageChromeTests.setUp  Time elapsed: 7.704 s  <<< FAILURE!
+Tests run: 71, Failures: 2, Errors: 0, Skipped: 46, Time elapsed: 155.213 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageChromeTests.setUp  Time elapsed: 7.861 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.241'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
 
-tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 4.822 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
-
-tests.marketPlacePageTests.AllPageChromeTests.setUp  Time elapsed: 7.565 s  <<< FAILURE!
+tests.walletPageTests.AllPageChromeTests.setUp  Time elapsed: 7.838 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
 Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
-
-tests.walletPageTests.AllPageChromeTests.setUp  Time elapsed: 7.704 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
-Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.215'
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.241'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
