@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="163.239" tests="24" errors="0" skipped="14" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.108" tests="21" errors="0" skipped="20" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="9"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\admin\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\test-classes;D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\admin\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\23.1.0\annotations-23.1.0.jar;"/>
@@ -18,7 +19,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire2108749977456734743\surefirebooter7398951028922180564.jar C:\Users\admin\AppData\Local\Temp\surefire2108749977456734743 2023-08-21T11-38-38_388-jvmRun1 surefire13598963972092834993tmp surefire_017588459564101310460tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire5656151754326850926\surefirebooter7266993545766288140.jar C:\Users\admin\AppData\Local\Temp\surefire5656151754326850926 2023-08-21T11-49-17_310-jvmRun1 surefire7021138294659125033tmp surefire_018208429464576442856tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\test-classes;D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\admin\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.1\webdrivermanager-5.3.1.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\admin\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\23.1.0\annotations-23.1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire2108749977456734743\surefirebooter7398951028922180564.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire5656151754326850926\surefirebooter7266993545766288140.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -49,7 +50,6 @@
     <property name="java.version" value="9.0.4"/>
     <property name="user.dir" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod"/>
     <property name="os.arch" value="amd64"/>
-    <property name="webdriver.gecko.driver" value="C:\Users\admin\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
@@ -61,291 +61,83 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="3.893">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.250.26'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1692607120755	geckodriver	INFO	Listening on 127.0.0.1:8570
-1692607121208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28546" "--remote ... localhost:28546/,http://[::1]:28546/" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileGaSzEW"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1692607121932	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1692607121937	Marionette	INFO	Listening on port 58317
-Read port: 58317
-WebDriver BiDi listening on ws://127.0.0.1:28546
-1692607122071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
-DevTools listening on ws://127.0.0.1:28546/devtools/browser/12bb499d-1c02-4744-a643-8343430300fb
-JavaScript error: , line 0: uncaught exception: Object
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35752
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
 ]]></system-err>
   </testcase>
-  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
-    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='accept-cookies-btn']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d349efef-1ed6-48d4-9ae7-7fad49dc9c4e, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:28546, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7008, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:28546/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d349efef-1ed6-48d4-9ae7-7fad49dc9c4e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pages.base.Action.findElementByXpath(Action.java:30)
-	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]></system-err>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="18.597">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
-    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='accept-cookies-btn']
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [d349efef-1ed6-48d4-9ae7-7fad49dc9c4e, findElement {using=xpath, value=//button[@class='accept-cookies-btn']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:28546, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7008, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:28546/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d349efef-1ed6-48d4-9ae7-7fad49dc9c4e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pages.base.Action.findElementByXpath(Action.java:30)
-	at pages.base.Action.ifButtonIsPresentClick(Action.java:109)
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-	at org.testng.TestRunner.privateRun(TestRunner.java:808)
-	at org.testng.TestRunner.run(TestRunner.java:603)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]></system-err>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_getStartedHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_getStartedHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="3.574">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_getStartedHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_learnHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_learnHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="3.725">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_learnHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_resourcesHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="setUp" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_resourcesHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="3.652">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_resourcesHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="mainSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="6.064">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
+  <testcase name="learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_statisticsSectionTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_statisticsSectionTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="mainSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="6.059">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_statisticsSectionTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allFooterTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allFooterTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="partnFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.694">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_allFooterTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="subFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="partnFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.91">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
+  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114&#10;Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe &#10;Host info: host: &apos;WIN-RU0SR3DOB67&apos;, ip: &apos;172.27.250.26&apos;&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]"/>
   </testcase>
-  <testcase name="subFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="4.917">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_copFooterTokenMoodPage\difference.png for details.
-]]></system-out>
-  </testcase>
-  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](2)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="0">
-    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_copFooterTokenMoodPage\difference.png for details.
-]]></system-out>
-  </testcase>
-  <testcase name="copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="3.528">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_Prod\Screenshots\TokenMood_page\EnFirefox\Screenshots_copFooterTokenMoodPage\difference.png for details.
-]]></system-out>
+  <testcase name="tearDown" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="0">
+    <skipped/>
   </testcase>
 </testsuite>
