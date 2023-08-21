@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="13" passed="0" failed="0" skipped="13">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-21T10:17:22 EEST" name="WPT" finished-at="2023-08-21T10:17:25 EEST" duration-ms="3499">
+  <suite started-at="2023-08-21T11:16:26 EEST" name="WPT" finished-at="2023-08-21T11:16:30 EEST" duration-ms="3904">
     <groups>
     </groups>
-    <test started-at="2023-08-21T10:17:22 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T10:17:25 EEST" duration-ms="3499">
+    <test started-at="2023-08-21T11:16:26 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T11:16:30 EEST" duration-ms="3904">
       <class name="tests.mainPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:22 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="3419" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:26 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="3814" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -20,7 +20,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -39,7 +39,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,7 +82,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="allHeaderMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="allHeaderMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -107,7 +107,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -126,7 +126,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,11 +169,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -198,7 +198,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -217,7 +217,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -260,11 +260,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="learnHeaderMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="learnHeaderMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -280,7 +280,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -289,7 +289,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -308,7 +308,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -351,7 +351,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -367,7 +367,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -376,7 +376,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -395,7 +395,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -438,15 +438,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="mainSectionMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="mainSectionMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -462,7 +462,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -471,7 +471,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -490,7 +490,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -533,11 +533,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="videoSectionMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="videoSectionMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -553,7 +549,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -562,7 +558,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -581,7 +577,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -624,11 +620,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="roadmapSectionMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="roadmapSectionMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -644,7 +640,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -653,7 +649,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -672,7 +668,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -715,11 +711,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="statisticsSectionMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="statisticsSectionMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -735,7 +735,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -744,7 +744,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -763,7 +763,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -806,11 +806,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="leaningSectionMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="leaningSectionMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -826,7 +826,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -835,7 +835,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -854,7 +854,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -897,7 +897,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="allFooterMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="allFooterMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -913,7 +913,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -922,7 +922,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -941,7 +941,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -984,15 +984,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="partnFooterMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="partnFooterMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1008,7 +1008,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1017,7 +1017,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1036,7 +1036,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1079,11 +1079,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="subFooterMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="subFooterMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1099,7 +1099,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1108,7 +1108,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1127,7 +1127,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1170,7 +1170,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="copFooterMainPage" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="copFooterMainPage" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1186,7 +1186,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1195,7 +1195,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 116.0.5845.96 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
 Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.251'
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
@@ -1214,7 +1214,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
 at Common.CommonActions.createDriver(CommonActions.java:33)
-at tests.base.BaseTest.setUp(BaseTest.java:28)
+at tests.base.BaseTest.setUp(BaseTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1257,11 +1257,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="setUp" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="setUp" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T10:17:25 EEST" name="tearDown" finished-at="2023-08-21T10:17:25 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@550dbc7a]" started-at="2023-08-21T11:16:30 EEST" name="tearDown" finished-at="2023-08-21T11:16:30 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
