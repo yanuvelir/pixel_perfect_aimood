@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-21T12:30:25 EEST" name="WPT" finished-at="2023-08-21T12:30:28 EEST" duration-ms="3445">
+  <suite started-at="2023-08-21T12:34:57 EEST" name="WPT" finished-at="2023-08-21T12:35:00 EEST" duration-ms="3387">
     <groups>
     </groups>
-    <test started-at="2023-08-21T12:30:25 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T12:30:28 EEST" duration-ms="3445">
+    <test started-at="2023-08-21T12:34:57 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T12:35:00 EEST" duration-ms="3387">
       <class name="tests.tokenMoodPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:25 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="3373" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:34:57 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="3331" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
@@ -83,7 +83,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderTokenMoodPage -->
-        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -259,11 +259,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -351,15 +351,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -447,11 +443,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="1" status="SKIP">
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -539,11 +535,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -631,7 +627,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionTokenMoodPage -->
-        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -719,11 +723,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -811,15 +815,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -907,11 +907,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="setUp" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="setUp" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -999,7 +999,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterTokenMoodPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@957e06]" started-at="2023-08-21T12:30:28 EEST" name="tearDown" finished-at="2023-08-21T12:30:28 EEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@729d991e]" started-at="2023-08-21T12:35:00 EEST" name="tearDown" finished-at="2023-08-21T12:35:00 EEST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
