@@ -2,16 +2,16 @@
 <testng-results retried="26" ignored="0" total="39" passed="0" failed="13" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-19T00:22:39 EEST" name="WPT" finished-at="2023-08-19T00:26:56 EEST" duration-ms="256396">
+  <suite started-at="2023-08-21T09:36:32 EEST" name="WPT" finished-at="2023-08-21T09:40:51 EEST" duration-ms="259128">
     <groups>
     </groups>
-    <test started-at="2023-08-19T00:22:39 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-19T00:26:56 EEST" duration-ms="256396">
+    <test started-at="2023-08-21T09:36:32 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T09:40:51 EEST" duration-ms="259128">
       <class name="tests.mainPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:22:39 EEST" name="setUp" finished-at="2023-08-19T00:22:45 EEST" duration-ms="5834" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:36:32 EEST" name="setUp" finished-at="2023-08-21T09:36:39 EEST" duration-ms="7027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:22:45 EEST" name="allHeaderMainPage" finished-at="2023-08-19T00:22:53 EEST" duration-ms="8292" status="SKIP">
+        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:36:39 EEST" name="allHeaderMainPage" finished-at="2023-08-21T09:36:50 EEST" duration-ms="10566" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:22:53 EEST" name="setUp" finished-at="2023-08-19T00:22:53 EEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:36:50 EEST" name="setUp" finished-at="2023-08-21T09:36:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:22:53 EEST" name="allHeaderMainPage" finished-at="2023-08-19T00:23:13 EEST" duration-ms="19313" status="SKIP">
+        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:36:50 EEST" name="allHeaderMainPage" finished-at="2023-08-21T09:37:09 EEST" duration-ms="19300" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -129,11 +129,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:13 EEST" name="setUp" finished-at="2023-08-19T00:23:13 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:13 EEST" name="allHeaderMainPage" finished-at="2023-08-19T00:23:32 EEST" duration-ms="19546" status="FAIL">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:09 EEST" name="allHeaderMainPage" finished-at="2023-08-21T09:37:29 EEST" duration-ms="19406" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -190,7 +186,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:32 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-19T00:23:37 EEST" duration-ms="4439" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:09 EEST" name="setUp" finished-at="2023-08-21T09:37:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:29 EEST" name="setUp" finished-at="2023-08-21T09:37:29 EEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:29 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-21T09:37:33 EEST" duration-ms="4754" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -247,15 +251,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:32 EEST" name="setUp" finished-at="2023-08-19T00:23:32 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:33 EEST" name="setUp" finished-at="2023-08-21T09:37:33 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:37 EEST" name="setUp" finished-at="2023-08-19T00:23:37 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:37 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-19T00:23:41 EEST" duration-ms="4481" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:33 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-21T09:37:38 EEST" duration-ms="4956" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -312,11 +312,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:41 EEST" name="setUp" finished-at="2023-08-19T00:23:41 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:38 EEST" name="setUp" finished-at="2023-08-21T09:37:38 EEST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:41 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-19T00:23:45 EEST" duration-ms="4290" status="FAIL">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:38 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-21T09:37:43 EEST" duration-ms="4724" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:45 EEST" name="learnHeaderMainPage" finished-at="2023-08-19T00:23:50 EEST" duration-ms="4400" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:43 EEST" name="setUp" finished-at="2023-08-21T09:37:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:43 EEST" name="learnHeaderMainPage" finished-at="2023-08-21T09:37:47 EEST" duration-ms="4468" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -430,11 +434,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:45 EEST" name="setUp" finished-at="2023-08-19T00:23:45 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:47 EEST" name="setUp" finished-at="2023-08-21T09:37:47 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:50 EEST" name="learnHeaderMainPage" finished-at="2023-08-19T00:23:54 EEST" duration-ms="4277" status="SKIP">
+        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:47 EEST" name="learnHeaderMainPage" finished-at="2023-08-21T09:37:52 EEST" duration-ms="4265" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -491,11 +495,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:50 EEST" name="setUp" finished-at="2023-08-19T00:23:50 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:52 EEST" name="setUp" finished-at="2023-08-21T09:37:52 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:54 EEST" name="learnHeaderMainPage" finished-at="2023-08-19T00:23:59 EEST" duration-ms="4388" status="FAIL">
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:52 EEST" name="learnHeaderMainPage" finished-at="2023-08-21T09:37:56 EEST" duration-ms="4242" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -552,15 +556,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:54 EEST" name="setUp" finished-at="2023-08-19T00:23:54 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:56 EEST" name="setUp" finished-at="2023-08-21T09:37:56 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:59 EEST" name="setUp" finished-at="2023-08-19T00:23:59 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:23:59 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-19T00:24:03 EEST" duration-ms="4703" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:37:56 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-21T09:38:00 EEST" duration-ms="4358" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -617,11 +617,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:03 EEST" name="setUp" finished-at="2023-08-19T00:24:03 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:00 EEST" name="setUp" finished-at="2023-08-21T09:38:00 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:03 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-19T00:24:08 EEST" duration-ms="4427" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:00 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-21T09:38:05 EEST" duration-ms="4269" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -678,11 +678,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:08 EEST" name="setUp" finished-at="2023-08-19T00:24:08 EEST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:05 EEST" name="setUp" finished-at="2023-08-21T09:38:05 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:08 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-19T00:24:12 EEST" duration-ms="4216" status="FAIL">
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:05 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-21T09:38:09 EEST" duration-ms="4226" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -739,11 +739,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:12 EEST" name="setUp" finished-at="2023-08-19T00:24:12 EEST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:09 EEST" name="setUp" finished-at="2023-08-21T09:38:09 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:12 EEST" name="mainSectionMainPage" finished-at="2023-08-19T00:24:18 EEST" duration-ms="5888" status="SKIP">
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:09 EEST" name="mainSectionMainPage" finished-at="2023-08-21T09:38:15 EEST" duration-ms="5686" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -800,11 +800,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:18 EEST" name="setUp" finished-at="2023-08-19T00:24:18 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:18 EEST" name="mainSectionMainPage" finished-at="2023-08-19T00:24:24 EEST" duration-ms="5747" status="SKIP">
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:15 EEST" name="mainSectionMainPage" finished-at="2023-08-21T09:38:20 EEST" duration-ms="5832" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -861,11 +857,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:24 EEST" name="setUp" finished-at="2023-08-19T00:24:24 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:15 EEST" name="setUp" finished-at="2023-08-21T09:38:15 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:24 EEST" name="mainSectionMainPage" finished-at="2023-08-19T00:24:29 EEST" duration-ms="5488" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:20 EEST" name="setUp" finished-at="2023-08-21T09:38:20 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:20 EEST" name="mainSectionMainPage" finished-at="2023-08-21T09:38:26 EEST" duration-ms="6121" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -922,7 +922,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:29 EEST" name="videoSectionMainPage" finished-at="2023-08-19T00:24:36 EEST" duration-ms="6839" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:26 EEST" name="setUp" finished-at="2023-08-21T09:38:26 EEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:26 EEST" name="videoSectionMainPage" finished-at="2023-08-21T09:38:33 EEST" duration-ms="6512" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -979,15 +983,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:29 EEST" name="setUp" finished-at="2023-08-19T00:24:29 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:33 EEST" name="setUp" finished-at="2023-08-21T09:38:33 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:36 EEST" name="setUp" finished-at="2023-08-19T00:24:36 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:36 EEST" name="videoSectionMainPage" finished-at="2023-08-19T00:24:43 EEST" duration-ms="6802" status="SKIP">
+        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:33 EEST" name="videoSectionMainPage" finished-at="2023-08-21T09:38:40 EEST" duration-ms="6689" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1044,11 +1044,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:43 EEST" name="setUp" finished-at="2023-08-19T00:24:43 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:43 EEST" name="videoSectionMainPage" finished-at="2023-08-19T00:24:49 EEST" duration-ms="6709" status="FAIL">
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:40 EEST" name="videoSectionMainPage" finished-at="2023-08-21T09:38:46 EEST" duration-ms="6700" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1105,7 +1101,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:49 EEST" name="roadmapSectionMainPage" finished-at="2023-08-19T00:24:56 EEST" duration-ms="7050" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:40 EEST" name="setUp" finished-at="2023-08-21T09:38:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:46 EEST" name="setUp" finished-at="2023-08-21T09:38:46 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:46 EEST" name="roadmapSectionMainPage" finished-at="2023-08-21T09:38:53 EEST" duration-ms="6840" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1162,15 +1166,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:49 EEST" name="setUp" finished-at="2023-08-19T00:24:49 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:56 EEST" name="setUp" finished-at="2023-08-19T00:24:56 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:24:56 EEST" name="roadmapSectionMainPage" finished-at="2023-08-19T00:25:03 EEST" duration-ms="6531" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:53 EEST" name="roadmapSectionMainPage" finished-at="2023-08-21T09:39:00 EEST" duration-ms="6671" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1227,11 +1223,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:03 EEST" name="setUp" finished-at="2023-08-19T00:25:03 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:38:53 EEST" name="setUp" finished-at="2023-08-21T09:38:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:03 EEST" name="roadmapSectionMainPage" finished-at="2023-08-19T00:25:10 EEST" duration-ms="6693" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:00 EEST" name="setUp" finished-at="2023-08-21T09:39:00 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:00 EEST" name="roadmapSectionMainPage" finished-at="2023-08-21T09:39:07 EEST" duration-ms="7182" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1288,7 +1288,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:10 EEST" name="statisticsSectionMainPage" finished-at="2023-08-19T00:25:17 EEST" duration-ms="6954" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:07 EEST" name="setUp" finished-at="2023-08-21T09:39:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:07 EEST" name="statisticsSectionMainPage" finished-at="2023-08-21T09:39:14 EEST" duration-ms="6903" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1345,11 +1349,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:10 EEST" name="setUp" finished-at="2023-08-19T00:25:10 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:17 EEST" name="statisticsSectionMainPage" finished-at="2023-08-19T00:25:24 EEST" duration-ms="7115" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:14 EEST" name="statisticsSectionMainPage" finished-at="2023-08-21T09:39:21 EEST" duration-ms="6778" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1406,15 +1406,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:17 EEST" name="setUp" finished-at="2023-08-19T00:25:17 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:14 EEST" name="setUp" finished-at="2023-08-21T09:39:14 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:24 EEST" name="setUp" finished-at="2023-08-19T00:25:24 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:21 EEST" name="setUp" finished-at="2023-08-21T09:39:21 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:24 EEST" name="statisticsSectionMainPage" finished-at="2023-08-19T00:25:31 EEST" duration-ms="6815" status="FAIL">
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:21 EEST" name="statisticsSectionMainPage" finished-at="2023-08-21T09:39:28 EEST" duration-ms="6849" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1471,11 +1471,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:31 EEST" name="setUp" finished-at="2023-08-19T00:25:31 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:31 EEST" name="leaningSectionMainPage" finished-at="2023-08-19T00:25:39 EEST" duration-ms="8007" status="SKIP">
+        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:28 EEST" name="leaningSectionMainPage" finished-at="2023-08-21T09:39:35 EEST" duration-ms="7389" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1532,7 +1528,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:39 EEST" name="leaningSectionMainPage" finished-at="2023-08-19T00:25:46 EEST" duration-ms="7756" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:28 EEST" name="setUp" finished-at="2023-08-21T09:39:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:35 EEST" name="leaningSectionMainPage" finished-at="2023-08-21T09:39:42 EEST" duration-ms="7174" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1589,11 +1589,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:39 EEST" name="setUp" finished-at="2023-08-19T00:25:39 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:35 EEST" name="setUp" finished-at="2023-08-21T09:39:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:46 EEST" name="leaningSectionMainPage" finished-at="2023-08-19T00:25:54 EEST" duration-ms="7721" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:42 EEST" name="setUp" finished-at="2023-08-21T09:39:42 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:42 EEST" name="leaningSectionMainPage" finished-at="2023-08-21T09:39:50 EEST" duration-ms="7512" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1650,15 +1654,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:46 EEST" name="setUp" finished-at="2023-08-19T00:25:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:54 EEST" name="setUp" finished-at="2023-08-19T00:25:54 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:25:54 EEST" name="allFooterMainPage" finished-at="2023-08-19T00:26:00 EEST" duration-ms="5616" status="SKIP">
+        <test-method retried="true" signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:50 EEST" name="allFooterMainPage" finished-at="2023-08-21T09:39:56 EEST" duration-ms="5825" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1715,11 +1711,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:00 EEST" name="setUp" finished-at="2023-08-19T00:26:00 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:50 EEST" name="setUp" finished-at="2023-08-21T09:39:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:00 EEST" name="allFooterMainPage" finished-at="2023-08-19T00:26:05 EEST" duration-ms="5478" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:56 EEST" name="setUp" finished-at="2023-08-21T09:39:56 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:39:56 EEST" name="allFooterMainPage" finished-at="2023-08-21T09:40:01 EEST" duration-ms="5523" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1776,11 +1776,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:05 EEST" name="setUp" finished-at="2023-08-19T00:26:05 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:01 EEST" name="setUp" finished-at="2023-08-21T09:40:01 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:05 EEST" name="allFooterMainPage" finished-at="2023-08-19T00:26:11 EEST" duration-ms="5671" status="FAIL">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:01 EEST" name="allFooterMainPage" finished-at="2023-08-21T09:40:07 EEST" duration-ms="5658" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1837,11 +1837,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:11 EEST" name="setUp" finished-at="2023-08-19T00:26:11 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:07 EEST" name="setUp" finished-at="2023-08-21T09:40:07 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:11 EEST" name="partnFooterMainPage" finished-at="2023-08-19T00:26:16 EEST" duration-ms="5203" status="SKIP">
+        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:07 EEST" name="partnFooterMainPage" finished-at="2023-08-21T09:40:12 EEST" duration-ms="5155" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1898,11 +1898,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:16 EEST" name="setUp" finished-at="2023-08-19T00:26:16 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:12 EEST" name="setUp" finished-at="2023-08-21T09:40:12 EEST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:16 EEST" name="partnFooterMainPage" finished-at="2023-08-19T00:26:21 EEST" duration-ms="5263" status="SKIP">
+        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:12 EEST" name="partnFooterMainPage" finished-at="2023-08-21T09:40:17 EEST" duration-ms="5236" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1959,7 +1959,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:21 EEST" name="partnFooterMainPage" finished-at="2023-08-19T00:26:26 EEST" duration-ms="5152" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:17 EEST" name="setUp" finished-at="2023-08-21T09:40:17 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:17 EEST" name="partnFooterMainPage" finished-at="2023-08-21T09:40:22 EEST" duration-ms="5205" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2016,15 +2020,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:21 EEST" name="setUp" finished-at="2023-08-19T00:26:21 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:26 EEST" name="setUp" finished-at="2023-08-19T00:26:26 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:26 EEST" name="subFooterMainPage" finished-at="2023-08-19T00:26:32 EEST" duration-ms="5236" status="SKIP">
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:22 EEST" name="subFooterMainPage" finished-at="2023-08-21T09:40:27 EEST" duration-ms="5136" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2081,11 +2077,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:32 EEST" name="setUp" finished-at="2023-08-19T00:26:32 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:22 EEST" name="setUp" finished-at="2023-08-21T09:40:22 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:32 EEST" name="subFooterMainPage" finished-at="2023-08-19T00:26:37 EEST" duration-ms="5069" status="SKIP">
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:27 EEST" name="subFooterMainPage" finished-at="2023-08-21T09:40:33 EEST" duration-ms="5178" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2142,11 +2138,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:37 EEST" name="setUp" finished-at="2023-08-19T00:26:37 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:27 EEST" name="setUp" finished-at="2023-08-21T09:40:27 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:37 EEST" name="subFooterMainPage" finished-at="2023-08-19T00:26:42 EEST" duration-ms="5100" status="FAIL">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:33 EEST" name="subFooterMainPage" finished-at="2023-08-21T09:40:38 EEST" duration-ms="5161" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2203,7 +2199,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:42 EEST" name="copFooterMainPage" finished-at="2023-08-19T00:26:46 EEST" duration-ms="4150" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:33 EEST" name="setUp" finished-at="2023-08-21T09:40:33 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:38 EEST" name="setUp" finished-at="2023-08-21T09:40:38 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:38 EEST" name="copFooterMainPage" finished-at="2023-08-21T09:40:42 EEST" duration-ms="4137" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2260,15 +2264,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:42 EEST" name="setUp" finished-at="2023-08-19T00:26:42 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:42 EEST" name="setUp" finished-at="2023-08-21T09:40:42 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:46 EEST" name="setUp" finished-at="2023-08-19T00:26:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:46 EEST" name="copFooterMainPage" finished-at="2023-08-19T00:26:50 EEST" duration-ms="4093" status="SKIP">
+        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:42 EEST" name="copFooterMainPage" finished-at="2023-08-21T09:40:46 EEST" duration-ms="4233" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -2325,7 +2325,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:50 EEST" name="copFooterMainPage" finished-at="2023-08-19T00:26:54 EEST" duration-ms="4110" status="FAIL">
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:46 EEST" name="copFooterMainPage" finished-at="2023-08-21T09:40:50 EEST" duration-ms="4207" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2382,11 +2382,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:50 EEST" name="setUp" finished-at="2023-08-19T00:26:50 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:46 EEST" name="setUp" finished-at="2023-08-21T09:40:46 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@7d20d0b]" started-at="2023-08-19T00:26:54 EEST" name="tearDown" finished-at="2023-08-19T00:26:56 EEST" duration-ms="1376" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@6c40365c]" started-at="2023-08-21T09:40:50 EEST" name="tearDown" finished-at="2023-08-21T09:40:51 EEST" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
