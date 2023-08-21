@@ -1,32 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 7, Errors: 0, Skipped: 14, Time elapsed: 163.239 s <<< FAILURE! - in TestSuite
-tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 18.597 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.574 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.725 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.652 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 6.059 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 4.694 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.528 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 4.108 s <<< FAILURE! - in TestSuite
+tests.tokenMoodPageTests.AllPageChromeTests.setUp  Time elapsed: 3.893 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 116.0.5845.97 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.250.26'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
 
