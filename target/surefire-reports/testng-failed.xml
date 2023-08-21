@@ -14,25 +14,19 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
         <methods>
-          <include name="resourcesHeaderMainPage"/>
-          <include name="allFooterMainPage"/>
-          <include name="getStartedHeaderMainPage"/>
-          <include name="setUp"/>
-          <include name="subFooterMainPage"/>
-          <include name="leaningSectionMainPage"/>
-          <include name="videoSectionMainPage"/>
-          <include name="copFooterMainPage"/>
           <include name="tearDown"/>
-          <include name="mainSectionMainPage"/>
-          <include name="learnHeaderMainPage"/>
-          <include name="allHeaderMainPage"/>
-          <include name="partnFooterMainPage"/>
-          <include name="roadmapSectionMainPage"/>
-          <include name="statisticsSectionMainPage"/>
+          <include name="setUp"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
