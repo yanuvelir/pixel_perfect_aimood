@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.529 s - in TestSuite
+Tests run: 24, Failures: 7, Errors: 0, Skipped: 14, Time elapsed: 142.5 s <<< FAILURE! - in TestSuite
+tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 18.876 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.72 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.588 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.587 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 6.143 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:137)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 4.643 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:158)
+
+tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage[https://ai-mood.com/en/block-explorer, Screenshots/](3)  Time elapsed: 3.494 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage(AllPageFirefoxTests.java:215)
+
