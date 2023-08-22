@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.894 s - in TestSuite
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 114.925 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.545 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.88 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+

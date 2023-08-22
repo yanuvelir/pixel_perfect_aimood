@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-WPT" class="navigator-link">
-              <span class="suite-name border-passed">WPT</span>
+              <span class="suite-name border-failed">WPT</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">17 methods, 2 failed,  4 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WPT" class="hide-methods failed suite-WPT"> (hide)</a> <!-- hide-methods failed suite-WPT -->
+                      <a href="#" panel-name="suite-WPT" class="show-methods failed suite-WPT"> (show)</a> <!-- show-methods failed suite-WPT -->
+                    </span>
+                    <div class="method-list-content failed suite-WPT">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WPT -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-WPT" class="hide-methods skipped suite-WPT"> (hide)</a> <!-- hide-methods skipped suite-WPT -->
+                      <a href="#" panel-name="suite-WPT" class="show-methods skipped suite-WPT"> (show)</a> <!-- show-methods skipped suite-WPT -->
+                    </span>
+                    <div class="method-list-content skipped suite-WPT">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-WPT -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,67 +152,57 @@
                     <div class="method-list-content passed suite-WPT">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allFooterMainPage(https://ai-mood.com/en, Screenshots/)">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="allFooterMainPage(https://ai-mood.com/en, Screenshots/)">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="allHeaderMainPage(https://ai-mood.com/en, Screenshots/)">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="copFooterMainPage(https://ai-mood.com/en, Screenshots/)">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="mainSectionMainPage(https://ai-mood.com/en, Screenshots/)">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="mainSectionMainPage(https://ai-mood.com/en, Screenshots/)">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="partnFooterMainPage(https://ai-mood.com/en, Screenshots/)">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="subFooterMainPage(https://ai-mood.com/en, Screenshots/)">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="subFooterMainPage(https://ai-mood.com/en, Screenshots/)">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageFirefoxTests" class="method navigator-link" hash-for-method="videoSectionMainPage(https://ai-mood.com/en, Screenshots/)">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-WPT" title="tests.mainPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="videoSectionMainPage(https://ai-mood.com/en, Screenshots/)">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-WPT -->
@@ -179,10 +217,110 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WPT" class="panel WPT">
+          <div class="suite-WPT-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.mainPageTests.AllPageChromeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">roadmapSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">statisticsSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WPT-class-failed -->
+          <div class="suite-WPT-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.mainPageTests.AllPageChromeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">roadmapSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">roadmapSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">statisticsSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">
+                  </a> <!-- statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
+                  <span class="method-name">statisticsSectionMainPage</span>
+                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
+                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WPT-class-skipped -->
           <div class="suite-WPT-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.mainPageTests.AllPageFirefoxTests</span>
+              <span class="class-name">tests.mainPageTests.AllPageChromeTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -259,22 +397,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">roadmapSectionMainPage</span>
-                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)">
-                  </a> <!-- statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/) -->
-                  <span class="method-name">statisticsSectionMainPage</span>
-                  <span class="parameters">(https://ai-mood.com/en, Screenshots/)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="subFooterMainPage(https://ai-mood.com/en, Screenshots/)">
                   </a> <!-- subFooterMainPage(https://ai-mood.com/en, Screenshots/) -->
                   <span class="method-name">subFooterMainPage</span>
@@ -314,7 +436,7 @@
     &lt;parameter name=&quot;market_place_page&quot; value=&quot;https://ai-mood.com/en/market-place&quot;/&gt;
     &lt;parameter name=&quot;affiliate_program_page&quot; value=&quot;https://ai-mood.com/en/affiliate-program&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.mainPageTests.AllPageFirefoxTests&quot;/&gt;
+      &lt;class name=&quot;tests.mainPageTests.AllPageChromeTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ai-mood - Pixel perfect regression --&gt;
 &lt;/suite&gt; &lt;!-- WPT --&gt;
@@ -354,59 +476,75 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'allHeaderMainPage')
-data.setCell(0, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(0, 3, 8649);
+data.setCell(0, 1, 'leaningSectionMainPage')
+data.setCell(0, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(0, 3, 17012);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'videoSectionMainPage')
-data.setCell(1, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(1, 3, 5424);
+data.setCell(1, 1, 'allFooterMainPage')
+data.setCell(1, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(1, 3, 15547);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'leaningSectionMainPage')
-data.setCell(2, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(2, 3, 5423);
+data.setCell(2, 1, 'allHeaderMainPage')
+data.setCell(2, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(2, 3, 8156);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'statisticsSectionMainPage')
-data.setCell(3, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(3, 3, 5307);
+data.setCell(3, 1, 'videoSectionMainPage')
+data.setCell(3, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(3, 3, 5732);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'roadmapSectionMainPage')
-data.setCell(4, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(4, 3, 5286);
+data.setCell(4, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(4, 3, 5597);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'allFooterMainPage')
-data.setCell(5, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(5, 3, 5095);
+data.setCell(5, 1, 'roadmapSectionMainPage')
+data.setCell(5, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(5, 3, 5541);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'mainSectionMainPage')
-data.setCell(6, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(6, 3, 5016);
+data.setCell(6, 1, 'roadmapSectionMainPage')
+data.setCell(6, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(6, 3, 5539);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'subFooterMainPage')
-data.setCell(7, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(7, 3, 4991);
+data.setCell(7, 1, 'mainSectionMainPage')
+data.setCell(7, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(7, 3, 5395);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'partnFooterMainPage')
-data.setCell(8, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(8, 3, 4912);
+data.setCell(8, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(8, 3, 5151);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'resourcesHeaderMainPage')
-data.setCell(9, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(9, 3, 4198);
+data.setCell(9, 1, 'subFooterMainPage')
+data.setCell(9, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(9, 3, 5100);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'getStartedHeaderMainPage')
-data.setCell(10, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(10, 3, 4154);
+data.setCell(10, 1, 'statisticsSectionMainPage')
+data.setCell(10, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(10, 3, 4956);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'learnHeaderMainPage')
-data.setCell(11, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(11, 3, 4139);
+data.setCell(11, 1, 'statisticsSectionMainPage')
+data.setCell(11, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(11, 3, 4880);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'copFooterMainPage')
-data.setCell(12, 2, 'tests.mainPageTests.AllPageFirefoxTests')
-data.setCell(12, 3, 4010);
+data.setCell(12, 1, 'statisticsSectionMainPage')
+data.setCell(12, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(12, 3, 4865);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getStartedHeaderMainPage')
+data.setCell(13, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(13, 3, 4478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'resourcesHeaderMainPage')
+data.setCell(14, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(14, 3, 4422);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'learnHeaderMainPage')
+data.setCell(15, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(15, 3, 4420);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'copFooterMainPage')
+data.setCell(16, 2, 'tests.mainPageTests.AllPageChromeTests')
+data.setCell(16, 3, 4169);
 window.suiteTableData['WPT']= { tableData: data, tableDiv: 'times-div-WPT'}
 return data;
 }
@@ -437,114 +575,150 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.mainPageTests.AllPageFirefoxTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.mainPageTests.AllPageChromeTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">3993 ms</span>
+                <span class="method-start">2544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12645 ms</span>
+                <span class="method-start">10703 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getStartedHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">12645 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">16800 ms</span>
+                <span class="method-start">10704 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">16800 ms</span>
+                <span class="method-start">15183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <span class="method-name">learnHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
+                <span class="method-start">15183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">resourcesHeaderMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">20940 ms</span>
+                <span class="method-start">19604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">20940 ms</span>
+                <span class="method-start">19604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24026 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">mainSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">25139 ms</span>
+                <span class="method-start">24027 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25139 ms</span>
+                <span class="method-start">29422 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">videoSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">30156 ms</span>
+                <span class="method-start">29423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
+                <span class="method-start">35155 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">30156 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">35580 ms</span>
+                <span class="method-start">35155 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">35580 ms</span>
+                <span class="method-start">40753 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40867 ms</span>
+                <span class="method-start">40753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">roadmapSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
+                <span class="method-start">46294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51839 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">40868 ms</span>
+                <span class="method-start">51840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
+                <span class="method-start">56797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">statisticsSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
+                <span class="method-start">61662 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">leaningSectionMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">46176 ms</span>
+                <span class="method-start">66544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">46176 ms</span>
+                <span class="method-start">66544 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">51602 ms</span>
+                <span class="method-start">83556 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">51603 ms</span>
+                <span class="method-start">83557 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">56698 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">partnFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">56699 ms</span>
+                <span class="method-start">99106 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">61611 ms</span>
+                <span class="method-start">99106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104257 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">subFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">61612 ms</span>
+                <span class="method-start">104258 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">copFooterMainPage(https://ai-mood.com/en, Screenshots/)</span>
-                <span class="method-start">66604 ms</span>
+                <span class="method-start">109359 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">66604 ms</span>
+                <span class="method-start">109359 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">70615 ms</span>
+                <span class="method-start">113528 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
