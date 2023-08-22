@@ -2,16 +2,16 @@
 <testng-results retried="4" ignored="0" total="17" passed="11" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-22T17:08:56 EEST" name="WPT" finished-at="2023-08-22T17:10:50 EEST" duration-ms="113608">
+  <suite started-at="2023-08-22T17:18:49 EEST" name="WPT" finished-at="2023-08-22T17:20:42 EEST" duration-ms="113652">
     <groups>
     </groups>
-    <test started-at="2023-08-22T17:08:56 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-22T17:10:50 EEST" duration-ms="113608">
+    <test started-at="2023-08-22T17:18:49 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-22T17:20:42 EEST" duration-ms="113652">
       <class name="tests.mainPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:08:56 EEST" name="setUp" finished-at="2023-08-22T17:08:58 EEST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:18:49 EEST" name="setUp" finished-at="2023-08-22T17:18:51 EEST" duration-ms="2110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:08:58 EEST" name="allHeaderMainPage" finished-at="2023-08-22T17:09:06 EEST" duration-ms="7736" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:18:51 EEST" name="allHeaderMainPage" finished-at="2023-08-22T17:18:59 EEST" duration-ms="7869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:06 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-22T17:09:10 EEST" duration-ms="4440" status="PASS">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:18:59 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-22T17:19:03 EEST" duration-ms="4492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:06 EEST" name="setUp" finished-at="2023-08-22T17:09:06 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:18:59 EEST" name="setUp" finished-at="2023-08-22T17:18:59 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:10 EEST" name="learnHeaderMainPage" finished-at="2023-08-22T17:09:15 EEST" duration-ms="4419" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:03 EEST" name="setUp" finished-at="2023-08-22T17:19:03 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:03 EEST" name="learnHeaderMainPage" finished-at="2023-08-22T17:19:08 EEST" duration-ms="4403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:10 EEST" name="setUp" finished-at="2023-08-22T17:09:10 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:08 EEST" name="setUp" finished-at="2023-08-22T17:19:08 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:15 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-22T17:09:19 EEST" duration-ms="4432" status="PASS">
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:08 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-22T17:19:12 EEST" duration-ms="4402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,15 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:15 EEST" name="setUp" finished-at="2023-08-22T17:09:15 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:12 EEST" name="setUp" finished-at="2023-08-22T17:19:12 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:19 EEST" name="setUp" finished-at="2023-08-22T17:09:19 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:19 EEST" name="mainSectionMainPage" finished-at="2023-08-22T17:09:25 EEST" duration-ms="5363" status="PASS">
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:12 EEST" name="mainSectionMainPage" finished-at="2023-08-22T17:19:17 EEST" duration-ms="5375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:25 EEST" name="videoSectionMainPage" finished-at="2023-08-22T17:09:30 EEST" duration-ms="5742" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:17 EEST" name="setUp" finished-at="2023-08-22T17:19:17 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:17 EEST" name="videoSectionMainPage" finished-at="2023-08-22T17:19:23 EEST" duration-ms="5728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:25 EEST" name="setUp" finished-at="2023-08-22T17:09:25 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:23 EEST" name="setUp" finished-at="2023-08-22T17:19:23 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:30 EEST" name="setUp" finished-at="2023-08-22T17:09:30 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:30 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:09:36 EEST" duration-ms="5607" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:23 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:19:29 EEST" duration-ms="5657" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:36 EEST" name="setUp" finished-at="2023-08-22T17:09:36 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:29 EEST" name="setUp" finished-at="2023-08-22T17:19:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:36 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:09:41 EEST" duration-ms="5554" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:29 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:19:34 EEST" duration-ms="5581" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -259,11 +259,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:41 EEST" name="setUp" finished-at="2023-08-22T17:09:41 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:34 EEST" name="setUp" finished-at="2023-08-22T17:19:34 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:41 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:09:47 EEST" duration-ms="5547" status="FAIL">
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:34 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T17:19:40 EEST" duration-ms="5526" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -325,11 +325,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:47 EEST" name="setUp" finished-at="2023-08-22T17:09:47 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:47 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:09:52 EEST" duration-ms="4838" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:40 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:19:45 EEST" duration-ms="4973" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -391,7 +387,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:52 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:09:57 EEST" duration-ms="4872" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:40 EEST" name="setUp" finished-at="2023-08-22T17:19:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:45 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:19:50 EEST" duration-ms="4903" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -453,15 +453,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:52 EEST" name="setUp" finished-at="2023-08-22T17:09:52 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:45 EEST" name="setUp" finished-at="2023-08-22T17:19:45 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:57 EEST" name="setUp" finished-at="2023-08-22T17:09:57 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:50 EEST" name="setUp" finished-at="2023-08-22T17:19:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:09:57 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:10:02 EEST" duration-ms="4869" status="FAIL">
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:50 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T17:19:55 EEST" duration-ms="4958" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -523,11 +523,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:02 EEST" name="setUp" finished-at="2023-08-22T17:10:02 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:55 EEST" name="setUp" finished-at="2023-08-22T17:19:55 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:02 EEST" name="leaningSectionMainPage" finished-at="2023-08-22T17:10:19 EEST" duration-ms="16985" status="PASS">
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:19:55 EEST" name="leaningSectionMainPage" finished-at="2023-08-22T17:20:12 EEST" duration-ms="16964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -543,7 +543,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:19 EEST" name="allFooterMainPage" finished-at="2023-08-22T17:10:34 EEST" duration-ms="15711" status="PASS">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:12 EEST" name="allFooterMainPage" finished-at="2023-08-22T17:20:27 EEST" duration-ms="15551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,15 +559,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:19 EEST" name="setUp" finished-at="2023-08-22T17:10:19 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:12 EEST" name="setUp" finished-at="2023-08-22T17:20:12 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:34 EEST" name="setUp" finished-at="2023-08-22T17:10:34 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:27 EEST" name="setUp" finished-at="2023-08-22T17:20:27 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:34 EEST" name="partnFooterMainPage" finished-at="2023-08-22T17:10:40 EEST" duration-ms="5297" status="PASS">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:27 EEST" name="partnFooterMainPage" finished-at="2023-08-22T17:20:32 EEST" duration-ms="5155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -583,11 +583,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:40 EEST" name="setUp" finished-at="2023-08-22T17:10:40 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:32 EEST" name="setUp" finished-at="2023-08-22T17:20:32 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:40 EEST" name="subFooterMainPage" finished-at="2023-08-22T17:10:45 EEST" duration-ms="5130" status="PASS">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:32 EEST" name="subFooterMainPage" finished-at="2023-08-22T17:20:37 EEST" duration-ms="5122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -603,7 +603,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:45 EEST" name="copFooterMainPage" finished-at="2023-08-22T17:10:49 EEST" duration-ms="4203" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:37 EEST" name="setUp" finished-at="2023-08-22T17:20:37 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:37 EEST" name="copFooterMainPage" finished-at="2023-08-22T17:20:42 EEST" duration-ms="4145" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,11 +623,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:45 EEST" name="setUp" finished-at="2023-08-22T17:10:45 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:10:49 EEST" name="tearDown" finished-at="2023-08-22T17:10:50 EEST" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T17:20:42 EEST" name="tearDown" finished-at="2023-08-22T17:20:42 EEST" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
