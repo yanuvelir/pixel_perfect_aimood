@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="20" ignored="0" total="30" passed="0" failed="10" skipped="0">
+<testng-results retried="24" ignored="0" total="37" passed="1" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-21T16:08:50 EEST" name="WPT" finished-at="2023-08-21T16:12:13 EEST" duration-ms="202968">
+  <suite started-at="2023-08-23T09:34:10 EEST" name="WPT" finished-at="2023-08-23T09:37:28 EEST" duration-ms="198406">
     <groups>
     </groups>
-    <test started-at="2023-08-21T16:08:50 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T16:12:13 EEST" duration-ms="202968">
-      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:08:51 EEST" name="setUp" finished-at="2023-08-21T16:09:02 EEST" duration-ms="11160" status="PASS">
+    <test started-at="2023-08-23T09:34:10 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T09:37:28 EEST" duration-ms="198406">
+      <class name="tests.mainPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:10 EEST" name="setUp" finished-at="2023-08-23T09:34:12 EEST" duration-ms="1855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:02 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-21T16:09:12 EEST" duration-ms="10147" status="SKIP">
+        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:12 EEST" name="allHeaderMainPage" finished-at="2023-08-23T09:34:19 EEST" duration-ms="7346" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -34,7 +34,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
+at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,18 +61,18 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderTokenMoodPage -->
-        <test-method retried="true" signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:12 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-21T16:09:31 EEST" duration-ms="19280" status="SKIP">
+        </test-method> <!-- allHeaderMainPage -->
+        <test-method retried="true" signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:19 EEST" name="allHeaderMainPage" finished-at="2023-08-23T09:34:38 EEST" duration-ms="18586" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -91,7 +91,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
+at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,26 +118,26 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:12 EEST" name="setUp" finished-at="2023-08-21T16:09:12 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:19 EEST" name="setUp" finished-at="2023-08-23T09:34:19 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:31 EEST" name="setUp" finished-at="2023-08-21T16:09:31 EEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:38 EEST" name="setUp" finished-at="2023-08-23T09:34:38 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:31 EEST" name="allHeaderTokenMoodPage" finished-at="2023-08-21T16:09:51 EEST" duration-ms="19411" status="FAIL">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:38 EEST" name="allHeaderMainPage" finished-at="2023-08-23T09:34:56 EEST" duration-ms="18597" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -156,7 +156,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
+at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -183,22 +183,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:51 EEST" name="setUp" finished-at="2023-08-21T16:09:51 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:56 EEST" name="setUp" finished-at="2023-08-23T09:34:56 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:51 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-21T16:09:55 EEST" duration-ms="4318" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:34:56 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-23T09:35:00 EEST" duration-ms="3965" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -217,7 +217,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
+at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -244,22 +244,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:55 EEST" name="setUp" finished-at="2023-08-21T16:09:55 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- getStartedHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:00 EEST" name="setUp" finished-at="2023-08-23T09:35:00 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:55 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-21T16:09:59 EEST" duration-ms="4129" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:00 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-23T09:35:04 EEST" duration-ms="3583" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -278,7 +278,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
+at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -305,22 +305,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:59 EEST" name="setUp" finished-at="2023-08-21T16:09:59 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:04 EEST" name="setUp" finished-at="2023-08-23T09:35:04 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:09:59 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-08-21T16:10:03 EEST" duration-ms="4329" status="FAIL">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:04 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-23T09:35:07 EEST" duration-ms="3588" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -339,7 +339,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
+at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -366,18 +366,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderTokenMoodPage -->
-        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:03 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-21T16:10:08 EEST" duration-ms="4492" status="SKIP">
+        </test-method> <!-- getStartedHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:07 EEST" name="setUp" finished-at="2023-08-23T09:35:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:07 EEST" name="learnHeaderMainPage" finished-at="2023-08-23T09:35:11 EEST" duration-ms="3602" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -396,7 +400,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
+at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -423,26 +427,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:03 EEST" name="setUp" finished-at="2023-08-21T16:10:03 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:11 EEST" name="setUp" finished-at="2023-08-23T09:35:11 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:08 EEST" name="setUp" finished-at="2023-08-21T16:10:08 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:08 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-21T16:10:12 EEST" duration-ms="4183" status="SKIP">
+        <test-method retried="true" signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:11 EEST" name="learnHeaderMainPage" finished-at="2023-08-23T09:35:15 EEST" duration-ms="3605" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -461,7 +461,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
+at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -488,22 +488,18 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:12 EEST" name="setUp" finished-at="2023-08-21T16:10:12 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:12 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-08-21T16:10:16 EEST" duration-ms="4272" status="FAIL">
+        </test-method> <!-- learnHeaderMainPage -->
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:15 EEST" name="learnHeaderMainPage" finished-at="2023-08-23T09:35:18 EEST" duration-ms="3651" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -522,7 +518,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
+at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -549,22 +545,26 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:16 EEST" name="setUp" finished-at="2023-08-21T16:10:16 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:15 EEST" name="setUp" finished-at="2023-08-23T09:35:15 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:16 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-21T16:10:21 EEST" duration-ms="4217" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:18 EEST" name="setUp" finished-at="2023-08-23T09:35:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:18 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-23T09:35:22 EEST" duration-ms="3589" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -583,7 +583,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
+at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -610,18 +610,18 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderTokenMoodPage -->
-        <test-method retried="true" signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:21 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-21T16:10:25 EEST" duration-ms="4437" status="SKIP">
+        </test-method> <!-- resourcesHeaderMainPage -->
+        <test-method retried="true" signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:22 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-23T09:35:25 EEST" duration-ms="3594" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -640,7 +640,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
+at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -667,26 +667,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:21 EEST" name="setUp" finished-at="2023-08-21T16:10:21 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:22 EEST" name="setUp" finished-at="2023-08-23T09:35:22 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:25 EEST" name="setUp" finished-at="2023-08-21T16:10:25 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:25 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-08-21T16:10:29 EEST" duration-ms="4135" status="FAIL">
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:25 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-23T09:35:29 EEST" duration-ms="3576" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -705,7 +701,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
+at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -732,18 +728,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderTokenMoodPage -->
-        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:29 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-21T16:10:36 EEST" duration-ms="6638" status="SKIP">
+        </test-method> <!-- resourcesHeaderMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:25 EEST" name="setUp" finished-at="2023-08-23T09:35:25 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:29 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:35:34 EEST" duration-ms="4749" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -762,7 +762,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -789,26 +789,26 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:29 EEST" name="setUp" finished-at="2023-08-21T16:10:29 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:29 EEST" name="setUp" finished-at="2023-08-23T09:35:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:36 EEST" name="setUp" finished-at="2023-08-21T16:10:36 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:34 EEST" name="setUp" finished-at="2023-08-23T09:35:34 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:36 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-21T16:10:42 EEST" duration-ms="6654" status="SKIP">
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:34 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:35:38 EEST" duration-ms="4629" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -827,7 +827,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -854,18 +854,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionTokenMoodPage -->
-        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:42 EEST" name="mainSectionTokenMoodPage" finished-at="2023-08-21T16:10:49 EEST" duration-ms="6634" status="FAIL">
+        </test-method> <!-- mainSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:38 EEST" name="setUp" finished-at="2023-08-23T09:35:38 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:38 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:35:43 EEST" duration-ms="4659" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -884,7 +888,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:118)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -911,26 +915,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:42 EEST" name="setUp" finished-at="2023-08-21T16:10:42 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- mainSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:43 EEST" name="setUp" finished-at="2023-08-23T09:35:43 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:49 EEST" name="setUp" finished-at="2023-08-21T16:10:49 EEST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:49 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-21T16:10:57 EEST" duration-ms="7739" status="SKIP">
+        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:43 EEST" name="videoSectionMainPage" finished-at="2023-08-23T09:35:48 EEST" duration-ms="5236" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -949,7 +949,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
+at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -976,18 +976,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionTokenMoodPage -->
-        <test-method retried="true" signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:57 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-21T16:11:05 EEST" duration-ms="7963" status="SKIP">
+        </test-method> <!-- videoSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:48 EEST" name="setUp" finished-at="2023-08-23T09:35:48 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:48 EEST" name="videoSectionMainPage" finished-at="2023-08-23T09:35:54 EEST" duration-ms="5256" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1006,7 +1010,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
+at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1033,22 +1037,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:10:57 EEST" name="setUp" finished-at="2023-08-21T16:10:57 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- videoSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:54 EEST" name="setUp" finished-at="2023-08-23T09:35:54 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:05 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-08-21T16:11:13 EEST" duration-ms="7767" status="FAIL">
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:54 EEST" name="videoSectionMainPage" finished-at="2023-08-23T09:35:59 EEST" duration-ms="5233" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1067,7 +1071,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:137)
+at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1094,22 +1098,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- statisticsSectionTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:05 EEST" name="setUp" finished-at="2023-08-21T16:11:05 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- videoSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:59 EEST" name="setUp" finished-at="2023-08-23T09:35:59 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:13 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-21T16:11:18 EEST" duration-ms="5794" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:35:59 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:36:04 EEST" duration-ms="5141" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1128,7 +1132,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
+at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1155,22 +1159,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:13 EEST" name="setUp" finished-at="2023-08-21T16:11:13 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- roadmapSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:04 EEST" name="setUp" finished-at="2023-08-23T09:36:04 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:18 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-21T16:11:24 EEST" duration-ms="5887" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:04 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:36:09 EEST" duration-ms="5158" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1189,7 +1193,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
+at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1216,26 +1220,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:18 EEST" name="setUp" finished-at="2023-08-21T16:11:18 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- roadmapSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:09 EEST" name="setUp" finished-at="2023-08-23T09:36:09 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:24 EEST" name="setUp" finished-at="2023-08-21T16:11:24 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:24 EEST" name="allFooterTokenMoodPage" finished-at="2023-08-21T16:11:30 EEST" duration-ms="5590" status="FAIL">
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:09 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:36:14 EEST" duration-ms="5160" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1254,7 +1254,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:158)
+at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1281,22 +1281,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:30 EEST" name="setUp" finished-at="2023-08-21T16:11:30 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- roadmapSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:14 EEST" name="setUp" finished-at="2023-08-23T09:36:14 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:30 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-21T16:11:35 EEST" duration-ms="5064" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:14 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:36:19 EEST" duration-ms="5017" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1315,7 +1315,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
+at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1342,22 +1342,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:35 EEST" name="setUp" finished-at="2023-08-21T16:11:35 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- statisticsSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:19 EEST" name="setUp" finished-at="2023-08-23T09:36:19 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:35 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-21T16:11:40 EEST" duration-ms="5050" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:19 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:36:24 EEST" duration-ms="5032" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1376,7 +1376,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
+at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1403,18 +1403,18 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterTokenMoodPage -->
-        <test-method signature="partnFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:40 EEST" name="partnFooterTokenMoodPage" finished-at="2023-08-21T16:11:45 EEST" duration-ms="5135" status="FAIL">
+        </test-method> <!-- statisticsSectionMainPage -->
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:24 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:36:29 EEST" duration-ms="5006" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1433,7 +1433,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.partnFooterTokenMoodPage(AllPageChromeTests.java:177)
+at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1460,22 +1460,26 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:40 EEST" name="setUp" finished-at="2023-08-21T16:11:40 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- statisticsSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:24 EEST" name="setUp" finished-at="2023-08-23T09:36:24 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:45 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-21T16:11:50 EEST" duration-ms="4980" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:29 EEST" name="setUp" finished-at="2023-08-23T09:36:29 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:29 EEST" name="leaningSectionMainPage" finished-at="2023-08-23T09:36:35 EEST" duration-ms="5585" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1494,7 +1498,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1521,26 +1525,18 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:45 EEST" name="setUp" finished-at="2023-08-21T16:11:45 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:50 EEST" name="setUp" finished-at="2023-08-21T16:11:50 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:50 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-21T16:11:55 EEST" duration-ms="4914" status="SKIP">
+        </test-method> <!-- leaningSectionMainPage -->
+        <test-method retried="true" signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:35 EEST" name="leaningSectionMainPage" finished-at="2023-08-23T09:36:40 EEST" duration-ms="5551" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1559,7 +1555,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1586,22 +1582,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:55 EEST" name="setUp" finished-at="2023-08-21T16:11:55 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- leaningSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:35 EEST" name="setUp" finished-at="2023-08-23T09:36:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:10, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:11:55 EEST" name="subFooterTokenMoodPage" finished-at="2023-08-21T16:12:00 EEST" duration-ms="4982" status="FAIL">
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:40 EEST" name="leaningSectionMainPage" finished-at="2023-08-23T09:36:46 EEST" duration-ms="5576" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1620,7 +1616,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.subFooterTokenMoodPage(AllPageChromeTests.java:196)
+at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1647,18 +1643,42 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterTokenMoodPage -->
-        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:00 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-21T16:12:04 EEST" duration-ms="4077" status="SKIP">
+        </test-method> <!-- leaningSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:40 EEST" name="setUp" finished-at="2023-08-23T09:36:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:46 EEST" name="setUp" finished-at="2023-08-23T09:36:46 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:46 EEST" name="allFooterMainPage" finished-at="2023-08-23T09:36:51 EEST" duration-ms="5011" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterMainPage -->
+        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:51 EEST" name="partnFooterMainPage" finished-at="2023-08-23T09:36:55 EEST" duration-ms="4463" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1677,7 +1697,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at tests.mainPageTests.AllPageChromeTests.partnFooterMainPage(AllPageChromeTests.java:233)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1704,26 +1724,26 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:00 EEST" name="setUp" finished-at="2023-08-21T16:12:00 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:51 EEST" name="setUp" finished-at="2023-08-23T09:36:51 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:04 EEST" name="setUp" finished-at="2023-08-21T16:12:04 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:55 EEST" name="setUp" finished-at="2023-08-23T09:36:55 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:04 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-21T16:12:08 EEST" duration-ms="4041" status="SKIP">
+        <test-method retried="true" signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:36:55 EEST" name="partnFooterMainPage" finished-at="2023-08-23T09:37:00 EEST" duration-ms="4420" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1742,7 +1762,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at tests.mainPageTests.AllPageChromeTests.partnFooterMainPage(AllPageChromeTests.java:233)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1769,22 +1789,22 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterTokenMoodPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:08 EEST" name="setUp" finished-at="2023-08-21T16:12:08 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:00 EEST" name="setUp" finished-at="2023-08-23T09:37:00 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:11, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:08 EEST" name="copFooterTokenMoodPage" finished-at="2023-08-21T16:12:12 EEST" duration-ms="4037" status="FAIL">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:00 EEST" name="partnFooterMainPage" finished-at="2023-08-23T09:37:04 EEST" duration-ms="4427" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/block-explorer]]>
+                <![CDATA[https://ai-mood.com/en]]>
               </value>
             </param>
             <param index="1">
@@ -1803,7 +1823,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.tokenMoodPageTests.AllPageChromeTests.copFooterTokenMoodPage(AllPageChromeTests.java:215)
+at tests.mainPageTests.AllPageChromeTests.partnFooterMainPage(AllPageChromeTests.java:233)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1830,18 +1850,384 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterTokenMoodPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageChromeTests@55b0dcab]" started-at="2023-08-21T16:12:12 EEST" name="tearDown" finished-at="2023-08-21T16:12:13 EEST" duration-ms="1382" status="PASS">
+        </test-method> <!-- partnFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:04 EEST" name="setUp" finished-at="2023-08-23T09:37:04 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:04 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:37:09 EEST" duration-ms="4424" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMainPage -->
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:09 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:37:13 EEST" duration-ms="4427" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:09 EEST" name="setUp" finished-at="2023-08-23T09:37:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:13 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:37:18 EEST" duration-ms="4438" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:13 EEST" name="setUp" finished-at="2023-08-23T09:37:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:18 EEST" name="setUp" finished-at="2023-08-23T09:37:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:18 EEST" name="copFooterMainPage" finished-at="2023-08-23T09:37:21 EEST" duration-ms="3480" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterMainPage -->
+        <test-method retried="true" signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:21 EEST" name="copFooterMainPage" finished-at="2023-08-23T09:37:25 EEST" duration-ms="3538" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:21 EEST" name="setUp" finished-at="2023-08-23T09:37:21 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:25 EEST" name="copFooterMainPage" finished-at="2023-08-23T09:37:28 EEST" duration-ms="3471" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.copFooterMainPage(AllPageChromeTests.java:271)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:25 EEST" name="setUp" finished-at="2023-08-23T09:37:25 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@385e9564]" started-at="2023-08-23T09:37:28 EEST" name="tearDown" finished-at="2023-08-23T09:37:28 EEST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

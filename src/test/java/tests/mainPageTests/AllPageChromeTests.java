@@ -113,7 +113,7 @@ public class AllPageChromeTests extends BaseTest{
         //Open a page for test
         action.openPage(main_page);
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='section-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_mainSectionMainPage/real_life_screenshot.png",
@@ -132,7 +132,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='video-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='video-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_videoSectionMainPage/real_life_screenshot.png",
@@ -151,7 +151,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
@@ -170,7 +170,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
@@ -189,7 +189,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='leaning-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_leaningSectionMainPage/real_life_screenshot.png",
