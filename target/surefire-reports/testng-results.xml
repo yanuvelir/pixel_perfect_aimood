@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="11" ignored="0" total="31" passed="15" failed="5" skipped="0">
+<testng-results retried="10" ignored="0" total="30" passed="15" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T18:28:07 EEST" name="WPT" finished-at="2023-08-23T18:31:06 EEST" duration-ms="179048">
+  <suite started-at="2023-08-23T18:35:20 EEST" name="WPT" finished-at="2023-08-23T18:38:13 EEST" duration-ms="173074">
     <groups>
     </groups>
-    <test started-at="2023-08-23T18:28:07 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T18:31:06 EEST" duration-ms="179048">
+    <test started-at="2023-08-23T18:35:20 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T18:38:13 EEST" duration-ms="173074">
       <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:07 EEST" name="setUp" finished-at="2023-08-23T18:28:11 EEST" duration-ms="3994" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:20 EEST" name="setUp" finished-at="2023-08-23T18:35:24 EEST" duration-ms="3640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:11 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-23T18:28:20 EEST" duration-ms="9430" status="PASS">
+        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:24 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-23T18:35:32 EEST" duration-ms="8395" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:20 EEST" name="setUp" finished-at="2023-08-23T18:28:20 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:20 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:28:26 EEST" duration-ms="5538" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:32 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:35:37 EEST" duration-ms="5537" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -93,7 +89,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:26 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:28:32 EEST" duration-ms="5480" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:32 EEST" name="setUp" finished-at="2023-08-23T18:35:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:37 EEST" name="setUp" finished-at="2023-08-23T18:35:37 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:37 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:35:43 EEST" duration-ms="5508" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -155,15 +159,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:26 EEST" name="setUp" finished-at="2023-08-23T18:28:26 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:32 EEST" name="setUp" finished-at="2023-08-23T18:28:32 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:32 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:28:37 EEST" duration-ms="5514" status="FAIL">
+        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:43 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:35:48 EEST" duration-ms="5482" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -225,11 +221,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:37 EEST" name="setUp" finished-at="2023-08-23T18:28:37 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:43 EEST" name="setUp" finished-at="2023-08-23T18:35:43 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:37 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:28:41 EEST" duration-ms="4018" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:48 EEST" name="setUp" finished-at="2023-08-23T18:35:48 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:48 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:35:53 EEST" duration-ms="4095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:41 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:28:46 EEST" duration-ms="5455" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:53 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:35:58 EEST" duration-ms="5476" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -307,11 +307,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:41 EEST" name="setUp" finished-at="2023-08-23T18:28:41 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:53 EEST" name="setUp" finished-at="2023-08-23T18:35:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:46 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:28:52 EEST" duration-ms="5515" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:58 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:36:04 EEST" duration-ms="5512" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -373,15 +373,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:46 EEST" name="setUp" finished-at="2023-08-23T18:28:46 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:35:58 EEST" name="setUp" finished-at="2023-08-23T18:35:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:52 EEST" name="setUp" finished-at="2023-08-23T18:28:52 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:04 EEST" name="setUp" finished-at="2023-08-23T18:36:04 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:52 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:28:58 EEST" duration-ms="5509" status="FAIL">
+        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:04 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:36:09 EEST" duration-ms="5480" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -443,11 +443,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:58 EEST" name="setUp" finished-at="2023-08-23T18:28:58 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:28:58 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-23T18:29:03 EEST" duration-ms="5902" status="PASS">
+        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:09 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-23T18:36:15 EEST" duration-ms="5945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -463,7 +459,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:03 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-23T18:29:09 EEST" duration-ms="5270" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:09 EEST" name="setUp" finished-at="2023-08-23T18:36:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:15 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-23T18:36:20 EEST" duration-ms="5345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -479,81 +479,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:03 EEST" name="setUp" finished-at="2023-08-23T18:29:03 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:15 EEST" name="setUp" finished-at="2023-08-23T18:36:15 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:09 EEST" name="setUp" finished-at="2023-08-23T18:29:09 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:20 EEST" name="setUp" finished-at="2023-08-23T18:36:20 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:09 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-23T18:29:13 EEST" duration-ms="4632" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/market-place]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:158)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:13 EEST" name="setUp" finished-at="2023-08-23T18:29:13 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:13 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-23T18:29:18 EEST" duration-ms="5008" status="PASS">
+        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:20 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-23T18:36:25 EEST" duration-ms="4952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -569,11 +503,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:18 EEST" name="setUp" finished-at="2023-08-23T18:29:18 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:25 EEST" name="setUp" finished-at="2023-08-23T18:36:25 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:18 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-23T18:29:23 EEST" duration-ms="4846" status="PASS">
+        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:25 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-23T18:36:30 EEST" duration-ms="4862" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,7 +523,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:23 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-23T18:29:28 EEST" duration-ms="4850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:30 EEST" name="setUp" finished-at="2023-08-23T18:36:30 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:30 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-23T18:36:35 EEST" duration-ms="4866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -605,11 +543,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:23 EEST" name="setUp" finished-at="2023-08-23T18:29:23 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:35 EEST" name="setUp" finished-at="2023-08-23T18:36:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:28 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-23T18:29:32 EEST" duration-ms="3939" status="PASS">
+        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:35 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-23T18:36:39 EEST" duration-ms="3988" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -625,21 +563,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:28 EEST" name="setUp" finished-at="2023-08-23T18:29:28 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:29:32 EEST" name="tearDown" finished-at="2023-08-23T18:29:34 EEST" duration-ms="1705" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-23T18:36:39 EEST" name="tearDown" finished-at="2023-08-23T18:36:41 EEST" duration-ms="1603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
       <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:34 EEST" name="setUp" finished-at="2023-08-23T18:29:35 EEST" duration-ms="1116" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:41 EEST" name="setUp" finished-at="2023-08-23T18:36:41 EEST" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:35 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-23T18:29:42 EEST" duration-ms="7343" status="PASS">
+        <test-method signature="allHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:1, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:41 EEST" name="allHeaderMarketPlacePage" finished-at="2023-08-23T18:36:49 EEST" duration-ms="7260" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -655,11 +589,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:42 EEST" name="setUp" finished-at="2023-08-23T18:29:42 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:49 EEST" name="setUp" finished-at="2023-08-23T18:36:49 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:42 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:29:48 EEST" duration-ms="5786" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:49 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:36:55 EEST" duration-ms="5832" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -721,11 +655,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:48 EEST" name="setUp" finished-at="2023-08-23T18:29:48 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:55 EEST" name="setUp" finished-at="2023-08-23T18:36:55 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:48 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:29:54 EEST" duration-ms="5695" status="SKIP">
+        <test-method retried="true" signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:36:55 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:37:00 EEST" duration-ms="5729" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -787,11 +721,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:54 EEST" name="setUp" finished-at="2023-08-23T18:29:54 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:00 EEST" name="setUp" finished-at="2023-08-23T18:37:00 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:54 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:29:59 EEST" duration-ms="5699" status="FAIL">
+        <test-method signature="getStartedHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:2, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:00 EEST" name="getStartedHeaderMarketPlacePage" finished-at="2023-08-23T18:37:06 EEST" duration-ms="5778" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -853,7 +787,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMarketPlacePage -->
-        <test-method retried="true" signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:59 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:30:05 EEST" duration-ms="5733" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:06 EEST" name="setUp" finished-at="2023-08-23T18:37:06 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:06 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:37:12 EEST" duration-ms="5749" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -915,15 +853,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:29:59 EEST" name="setUp" finished-at="2023-08-23T18:29:59 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:05 EEST" name="setUp" finished-at="2023-08-23T18:30:05 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:05 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:30:11 EEST" duration-ms="5716" status="SKIP">
+        <test-method retried="true" signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:12 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:37:18 EEST" duration-ms="5735" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -985,7 +915,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:11 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:30:16 EEST" duration-ms="5698" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:12 EEST" name="setUp" finished-at="2023-08-23T18:37:12 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:3, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:18 EEST" name="learnHeaderMarketPlacePage" finished-at="2023-08-23T18:37:23 EEST" duration-ms="5712" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1047,11 +981,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:11 EEST" name="setUp" finished-at="2023-08-23T18:30:11 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:18 EEST" name="setUp" finished-at="2023-08-23T18:37:18 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:16 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:30:22 EEST" duration-ms="5731" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:23 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:37:29 EEST" duration-ms="5715" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1113,11 +1047,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:16 EEST" name="setUp" finished-at="2023-08-23T18:30:16 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:23 EEST" name="setUp" finished-at="2023-08-23T18:37:23 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:22 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:30:28 EEST" duration-ms="5700" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:29 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:37:35 EEST" duration-ms="5732" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1179,15 +1113,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:22 EEST" name="setUp" finished-at="2023-08-23T18:30:22 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:29 EEST" name="setUp" finished-at="2023-08-23T18:37:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:28 EEST" name="setUp" finished-at="2023-08-23T18:30:28 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:35 EEST" name="setUp" finished-at="2023-08-23T18:37:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:28 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:30:34 EEST" duration-ms="5681" status="FAIL">
+        <test-method signature="resourcesHeaderMarketPlacePage(java.lang.String,java.lang.String)[pri:4, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:35 EEST" name="resourcesHeaderMarketPlacePage" finished-at="2023-08-23T18:37:40 EEST" duration-ms="5732" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -1249,11 +1183,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:34 EEST" name="setUp" finished-at="2023-08-23T18:30:34 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:40 EEST" name="setUp" finished-at="2023-08-23T18:37:40 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:34 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-23T18:30:40 EEST" duration-ms="6214" status="PASS">
+        <test-method signature="mainSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:6, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:40 EEST" name="mainSectionMarketPlacePage" finished-at="2023-08-23T18:37:47 EEST" duration-ms="6221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1269,11 +1203,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:40 EEST" name="setUp" finished-at="2023-08-23T18:30:40 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:47 EEST" name="setUp" finished-at="2023-08-23T18:37:47 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:40 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-23T18:30:46 EEST" duration-ms="5740" status="PASS">
+        <test-method signature="statisticsSectionMarketPlacePage(java.lang.String,java.lang.String)[pri:7, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:47 EEST" name="statisticsSectionMarketPlacePage" finished-at="2023-08-23T18:37:52 EEST" duration-ms="5759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1289,7 +1223,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMarketPlacePage -->
-        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:46 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-23T18:30:51 EEST" duration-ms="5312" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:52 EEST" name="setUp" finished-at="2023-08-23T18:37:52 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:8, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:52 EEST" name="allFooterMarketPlacePage" finished-at="2023-08-23T18:37:58 EEST" duration-ms="5292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1305,15 +1243,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:46 EEST" name="setUp" finished-at="2023-08-23T18:30:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:51 EEST" name="setUp" finished-at="2023-08-23T18:30:51 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:51 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-23T18:30:56 EEST" duration-ms="5185" status="PASS">
+        <test-method signature="partnFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:9, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:58 EEST" name="partnFooterMarketPlacePage" finished-at="2023-08-23T18:38:03 EEST" duration-ms="5154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1329,11 +1259,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:56 EEST" name="setUp" finished-at="2023-08-23T18:30:56 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:37:58 EEST" name="setUp" finished-at="2023-08-23T18:37:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:30:56 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-23T18:31:01 EEST" duration-ms="5145" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:38:03 EEST" name="setUp" finished-at="2023-08-23T18:38:03 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:10, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:38:03 EEST" name="subFooterMarketPlacePage" finished-at="2023-08-23T18:38:08 EEST" duration-ms="5147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1349,11 +1283,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMarketPlacePage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:31:01 EEST" name="setUp" finished-at="2023-08-23T18:31:01 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:38:08 EEST" name="setUp" finished-at="2023-08-23T18:38:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:31:01 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-23T18:31:05 EEST" duration-ms="4232" status="PASS">
+        <test-method signature="copFooterMarketPlacePage(java.lang.String,java.lang.String)[pri:11, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:38:08 EEST" name="copFooterMarketPlacePage" finished-at="2023-08-23T18:38:12 EEST" duration-ms="4218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1369,7 +1303,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMarketPlacePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:31:05 EEST" name="tearDown" finished-at="2023-08-23T18:31:06 EEST" duration-ms="658" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.marketPlacePageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-23T18:38:12 EEST" name="tearDown" finished-at="2023-08-23T18:38:13 EEST" duration-ms="670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
