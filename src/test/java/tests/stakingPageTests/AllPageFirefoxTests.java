@@ -141,24 +141,34 @@ public class AllPageFirefoxTests extends BaseTest {
 
     }
 
-//    @Parameters({"staking_page", "ScShotDir"})
-//    @Test(priority = 8)
-//    public void calcStakSectionStakingPage(String staking_page, String ScShotDir) throws IOException, InterruptedException {
-//        // Resolution
-//        CommonActions.setBrowserWindowSize("mac 14");
-//        //Open a page for test
-//        action.openPage(staking_page);
-//        //Scroll
-//        action.moveViewableElementIntoCenter2("//section[@class='calc-stak-wrapper']");
-//        //Time
-//        Thread.sleep(2000);
-//        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//section[@class='calc-stak-wrapper']",
-//                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/real_life_screenshot.png",
-//                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/mock_screenshot.png",
-//                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/difference.png");
-//
-//    }
+    @Parameters({"staking_page", "ScShotDir"})
+    @Test(priority = 8)
+    public void calcStakSectionStakingPage(String staking_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("mac 14");
+        //Open a page for test
+        action.openPage(staking_page);
+        //Scroll
+        action.moveViewableElementIntoCenter2("//section[@class='calc-stak-wrapper']");
+        //Time
+        Thread.sleep(2000);
+        //Change text element
+        action.changeElementText("//input[@id='period_from']", "'24-08-2023'");
+        action.changeElementText("(//div[@class='datepicker__input']/input)[2]", "'25-08-2023'");
+        // calculation-per-title
+        action.changeElementText("//h6[@class='calc-delegate-title calculation-per-title']/span", "'(0.13% 24H)'");
+        // table calc-container
+        action.changeElementText("//table/tr[@class='mood-calc-flex period-margin']/td[@class='mood-calc-value']", "'~0.13'");
+        action.changeElementText("//table/tr[@class='mood-calc-flex']/td[@class='mood-calc-value']", "'2864.2900'");
+        //Time
+        Thread.sleep(2000);
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.byElement("//section[@class='calc-stak-wrapper']",
+                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/real_life_screenshot.png",
+                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/mock_screenshot.png",
+                ScShotDir+"Staking_page/EnFirefox/Screenshots_calcStakSectionStakingPage/difference.png");
+
+    }
 
 
     //FOOTER TESTS
@@ -229,7 +239,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
         //Time
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='copy-container']",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_copFooterStakingPage/real_life_screenshot.png",

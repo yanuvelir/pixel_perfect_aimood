@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ai-mood - Pixel perfect regression</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 21 13:12:13 EEST 2023</td>
+<td>Started on:</td><td>Wed Aug 23 12:11:35 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>47 seconds (47873 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62373 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,195 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage()'><b>learnHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage(AllPageChromeTests.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042120257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2042120257'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage(AllPageChromeTests.java:63)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage()'><b>getStartedHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage(AllPageChromeTests.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace680306160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace680306160'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage(AllPageChromeTests.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage()'><b>delegatedSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage(AllPageChromeTests.java:138)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace132461369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace132461369'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage(AllPageChromeTests.java:138)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>5</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage()'><b>resourcesHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage(AllPageChromeTests.java:81)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1128600792", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1128600792'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage(AllPageChromeTests.java:81)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -265,35 +76,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage()'><b>allHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageChromeTests.allFooterWalletPage()'><b>allFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.copFooterStakingPage()'><b>copFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
 <tr>
-<td title='tests.walletPageTests.AllPageChromeTests.copFooterWalletPage()'><b>copFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.allFooterStakingPage()'><b>allFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.learnHeaderStakingPage()'><b>learnHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>3</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
 <tr>
-<td title='tests.walletPageTests.AllPageChromeTests.partnFooterWalletPage()'><b>partnFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.getStartedHeaderStakingPage()'><b>getStartedHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>3</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.calcStakSectionStakingPage()'><b>calcStakSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>8</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage()'><b>allHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.resourcesHeaderStakingPage()'><b>resourcesHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
 <tr>
-<td title='tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage()'><b>mainSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.mainSectionStakingPage()'><b>mainSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.delegatedSectionStakingPage()'><b>delegatedSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.partnFooterStakingPage()'><b>partnFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
 <tr>
-<td title='tests.walletPageTests.AllPageChromeTests.subFooterWalletPage()'><b>subFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.subFooterStakingPage()'><b>subFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.walletPageTests.AllPageChromeTests@306f16f3</td></tr>
+<td>tests.stakingPageTests.AllPageFirefoxTests@503d687a</td></tr>
 </table><p>
 </body>
 </html>

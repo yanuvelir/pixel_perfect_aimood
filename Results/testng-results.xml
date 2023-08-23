@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="6" failed="4" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-21T13:12:13 EEST" name="WPT" finished-at="2023-08-21T13:13:01 EEST" duration-ms="47873">
+  <suite started-at="2023-08-23T12:11:35 EEST" name="WPT" finished-at="2023-08-23T12:12:38 EEST" duration-ms="62373">
     <groups>
     </groups>
-    <test started-at="2023-08-21T13:12:13 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-21T13:13:01 EEST" duration-ms="47873">
-      <class name="tests.walletPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:14 EEST" name="setUp" finished-at="2023-08-21T13:12:15 EEST" duration-ms="1836" status="PASS">
+    <test started-at="2023-08-23T12:11:35 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T12:12:38 EEST" duration-ms="62373">
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:35 EEST" name="setUp" finished-at="2023-08-23T12:11:38 EEST" duration-ms="2721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderWalletPage(java.lang.String,java.lang.String)[pri:1, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:15 EEST" name="allHeaderWalletPage" finished-at="2023-08-21T13:12:21 EEST" duration-ms="5932" status="PASS">
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:38 EEST" name="allHeaderStakingPage" finished-at="2023-08-23T12:11:45 EEST" duration-ms="6933" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -26,199 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderWalletPage -->
-        <test-method signature="getStartedHeaderWalletPage(java.lang.String,java.lang.String)[pri:2, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:21 EEST" name="getStartedHeaderWalletPage" finished-at="2023-08-21T13:12:25 EEST" duration-ms="3622" status="FAIL">
+        </test-method> <!-- allHeaderStakingPage -->
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:45 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-23T12:11:49 EEST" duration-ms="3981" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage(AllPageChromeTests.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:21 EEST" name="setUp" finished-at="2023-08-21T13:12:21 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderWalletPage(java.lang.String,java.lang.String)[pri:3, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:25 EEST" name="learnHeaderWalletPage" finished-at="2023-08-21T13:12:28 EEST" duration-ms="3566" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage(AllPageChromeTests.java:63)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:25 EEST" name="setUp" finished-at="2023-08-21T13:12:25 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:28 EEST" name="setUp" finished-at="2023-08-21T13:12:28 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderWalletPage(java.lang.String,java.lang.String)[pri:4, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:28 EEST" name="resourcesHeaderWalletPage" finished-at="2023-08-21T13:12:32 EEST" duration-ms="3558" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage(AllPageChromeTests.java:81)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:32 EEST" name="setUp" finished-at="2023-08-21T13:12:32 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionWalletPage(java.lang.String,java.lang.String)[pri:6, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:32 EEST" name="mainSectionWalletPage" finished-at="2023-08-21T13:12:37 EEST" duration-ms="4951" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -229,73 +42,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:37 EEST" name="setUp" finished-at="2023-08-21T13:12:37 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- getStartedHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:45 EEST" name="setUp" finished-at="2023-08-23T12:11:45 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="delegatedSectionWalletPage(java.lang.String,java.lang.String)[pri:7, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:37 EEST" name="delegatedSectionWalletPage" finished-at="2023-08-21T13:12:43 EEST" duration-ms="5530" status="FAIL">
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:49 EEST" name="learnHeaderStakingPage" finished-at="2023-08-23T12:11:53 EEST" duration-ms="3930" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage(AllPageChromeTests.java:138)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delegatedSectionWalletPage -->
-        <test-method signature="allFooterWalletPage(java.lang.String,java.lang.String)[pri:8, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:43 EEST" name="allFooterWalletPage" finished-at="2023-08-21T13:12:47 EEST" duration-ms="4969" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -306,20 +62,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:43 EEST" name="setUp" finished-at="2023-08-21T13:12:43 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:49 EEST" name="setUp" finished-at="2023-08-23T12:11:49 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:47 EEST" name="setUp" finished-at="2023-08-21T13:12:47 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterWalletPage(java.lang.String,java.lang.String)[pri:9, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:47 EEST" name="partnFooterWalletPage" finished-at="2023-08-21T13:12:52 EEST" duration-ms="4892" status="PASS">
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:53 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-23T12:11:57 EEST" duration-ms="4004" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -330,16 +82,20 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:52 EEST" name="setUp" finished-at="2023-08-21T13:12:52 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- resourcesHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:53 EEST" name="setUp" finished-at="2023-08-23T12:11:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterWalletPage(java.lang.String,java.lang.String)[pri:10, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:52 EEST" name="subFooterWalletPage" finished-at="2023-08-21T13:12:57 EEST" duration-ms="4874" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:57 EEST" name="setUp" finished-at="2023-08-23T12:11:57 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:57 EEST" name="mainSectionStakingPage" finished-at="2023-08-23T12:12:03 EEST" duration-ms="6070" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -350,12 +106,16 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterWalletPage -->
-        <test-method signature="copFooterWalletPage(java.lang.String,java.lang.String)[pri:11, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:57 EEST" name="copFooterWalletPage" finished-at="2023-08-21T13:13:01 EEST" duration-ms="3949" status="PASS">
+        </test-method> <!-- mainSectionStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:03 EEST" name="setUp" finished-at="2023-08-23T12:12:03 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:03 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-23T12:12:09 EEST" duration-ms="6296" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/the-aimood-wallet]]>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
               </value>
             </param>
             <param index="1">
@@ -366,16 +126,112 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterWalletPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:12:57 EEST" name="setUp" finished-at="2023-08-21T13:12:57 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- delegatedSectionStakingPage -->
+        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:09 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-23T12:12:18 EEST" duration-ms="8591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calcStakSectionStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:09 EEST" name="setUp" finished-at="2023-08-23T12:12:09 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.walletPageTests.AllPageChromeTests@306f16f3]" started-at="2023-08-21T13:13:01 EEST" name="tearDown" finished-at="2023-08-21T13:13:01 EEST" duration-ms="135" status="PASS">
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:18 EEST" name="allFooterStakingPage" finished-at="2023-08-23T12:12:23 EEST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:18 EEST" name="setUp" finished-at="2023-08-23T12:12:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:23 EEST" name="setUp" finished-at="2023-08-23T12:12:23 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:23 EEST" name="partnFooterStakingPage" finished-at="2023-08-23T12:12:28 EEST" duration-ms="4752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:28 EEST" name="setUp" finished-at="2023-08-23T12:12:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:28 EEST" name="subFooterStakingPage" finished-at="2023-08-23T12:12:32 EEST" duration-ms="4717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterStakingPage -->
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:32 EEST" name="copFooterStakingPage" finished-at="2023-08-23T12:12:37 EEST" duration-ms="4677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:32 EEST" name="setUp" finished-at="2023-08-23T12:12:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:37 EEST" name="tearDown" finished-at="2023-08-23T12:12:38 EEST" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.walletPageTests.AllPageChromeTests -->
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
