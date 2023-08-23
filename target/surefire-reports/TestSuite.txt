@@ -1,8 +1,64 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 213.993 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 8.865 s  <<< FAILURE!
+Tests run: 50, Failures: 15, Errors: 0, Skipped: 30, Time elapsed: 270.748 s <<< FAILURE! - in TestSuite
+tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.581 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage(AllPageFirefoxTests.java:44)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.627 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage(AllPageFirefoxTests.java:62)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.608 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage(AllPageFirefoxTests.java:80)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 5.529 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage(AllPageFirefoxTests.java:118)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 5.029 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage(AllPageFirefoxTests.java:137)
+
+tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 4.353 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage(AllPageFirefoxTests.java:196)
+
+tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 18.739 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:27)
+
+tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.818 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage(AllPageChromeTests.java:45)
+
+tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.835 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage(AllPageChromeTests.java:63)
+
+tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.849 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage(AllPageChromeTests.java:81)
+
+tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 5.849 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage(AllPageChromeTests.java:119)
+
+tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 5.486 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage(AllPageChromeTests.java:138)
+
+tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 4.923 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage(AllPageChromeTests.java:159)
+
+tests.marketPlacePageTests.AllPageChromeTests.subFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 4.651 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.subFooterMarketPlacePage(AllPageChromeTests.java:197)
+
+tests.marketPlacePageTests.AllPageChromeTests.copFooterMarketPlacePage[https://ai-mood.com/en/market-place, Screenshots/](3)  Time elapsed: 3.701 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.marketPlacePageTests.AllPageChromeTests.copFooterMarketPlacePage(AllPageChromeTests.java:216)
 
