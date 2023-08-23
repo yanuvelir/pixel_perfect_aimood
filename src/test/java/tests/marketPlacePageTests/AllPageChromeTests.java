@@ -40,7 +40,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_getStartedHeaderMarketPlacePage/real_life_screenshot.png",
@@ -58,7 +58,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_learnHeaderMarketPlacePage/real_life_screenshot.png",
@@ -76,7 +76,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_resourcesHeaderMarketPlacePage/real_life_screenshot.png",
