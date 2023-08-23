@@ -1,12 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 114.808 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.556 s  <<< FAILURE!
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 147.852 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.056 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+
+tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.511 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 
-tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.047 s  <<< FAILURE!
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.962 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+
+tests.mainPageTests.AllPageChromeTests.subFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.68 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
 

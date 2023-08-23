@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="4" ignored="0" total="17" passed="11" failed="2" skipped="0">
+<testng-results retried="8" ignored="0" total="21" passed="9" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-22T18:24:49 EEST" name="WPT" finished-at="2023-08-22T18:26:43 EEST" duration-ms="114035">
+  <suite started-at="2023-08-23T09:53:14 EEST" name="WPT" finished-at="2023-08-23T09:55:41 EEST" duration-ms="147133">
     <groups>
     </groups>
-    <test started-at="2023-08-22T18:24:49 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-22T18:26:43 EEST" duration-ms="114035">
+    <test started-at="2023-08-23T09:53:14 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T09:55:41 EEST" duration-ms="147133">
       <class name="tests.mainPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:24:49 EEST" name="setUp" finished-at="2023-08-22T18:24:51 EEST" duration-ms="2148" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:14 EEST" name="setUp" finished-at="2023-08-23T09:53:17 EEST" duration-ms="2938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:24:51 EEST" name="allHeaderMainPage" finished-at="2023-08-22T18:24:59 EEST" duration-ms="7785" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:17 EEST" name="allHeaderMainPage" finished-at="2023-08-23T09:53:28 EEST" duration-ms="11009" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:24:59 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-22T18:25:03 EEST" duration-ms="4518" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:28 EEST" name="setUp" finished-at="2023-08-23T09:53:28 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:28 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-23T09:53:32 EEST" duration-ms="4482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:24:59 EEST" name="setUp" finished-at="2023-08-22T18:24:59 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:32 EEST" name="setUp" finished-at="2023-08-23T09:53:32 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:03 EEST" name="learnHeaderMainPage" finished-at="2023-08-22T18:25:08 EEST" duration-ms="4417" status="PASS">
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:32 EEST" name="learnHeaderMainPage" finished-at="2023-08-23T09:53:37 EEST" duration-ms="4407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:03 EEST" name="setUp" finished-at="2023-08-22T18:25:03 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:37 EEST" name="setUp" finished-at="2023-08-23T09:53:37 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:08 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-22T18:25:12 EEST" duration-ms="4372" status="PASS">
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:37 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-23T09:53:41 EEST" duration-ms="4445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,15 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:08 EEST" name="setUp" finished-at="2023-08-22T18:25:08 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:12 EEST" name="setUp" finished-at="2023-08-22T18:25:12 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:12 EEST" name="mainSectionMainPage" finished-at="2023-08-22T18:25:17 EEST" duration-ms="5352" status="PASS">
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:41 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:53:47 EEST" duration-ms="6068" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -104,14 +100,196 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:17 EEST" name="setUp" finished-at="2023-08-22T18:25:17 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:41 EEST" name="setUp" finished-at="2023-08-23T09:53:41 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:17 EEST" name="videoSectionMainPage" finished-at="2023-08-22T18:25:23 EEST" duration-ms="5769" status="PASS">
+        <test-method retried="true" signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:47 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:53:53 EEST" duration-ms="5955" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:47 EEST" name="setUp" finished-at="2023-08-23T09:53:47 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:53 EEST" name="setUp" finished-at="2023-08-23T09:53:53 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionMainPage(java.lang.String,java.lang.String)[pri:6, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:53 EEST" name="mainSectionMainPage" finished-at="2023-08-23T09:53:59 EEST" duration-ms="6052" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:59 EEST" name="setUp" finished-at="2023-08-23T09:53:59 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="videoSectionMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:53:59 EEST" name="videoSectionMainPage" finished-at="2023-08-23T09:54:06 EEST" duration-ms="6719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,11 +305,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videoSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:23 EEST" name="setUp" finished-at="2023-08-22T18:25:23 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:23 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T18:25:29 EEST" duration-ms="5689" status="SKIP">
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:06 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:54:13 EEST" duration-ms="6564" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -193,11 +367,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:29 EEST" name="setUp" finished-at="2023-08-22T18:25:29 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:06 EEST" name="setUp" finished-at="2023-08-23T09:54:06 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:29 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T18:25:34 EEST" duration-ms="5561" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:13 EEST" name="setUp" finished-at="2023-08-23T09:54:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:13 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:54:19 EEST" duration-ms="6544" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -259,11 +437,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:34 EEST" name="setUp" finished-at="2023-08-22T18:25:34 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:19 EEST" name="setUp" finished-at="2023-08-23T09:54:19 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:34 EEST" name="roadmapSectionMainPage" finished-at="2023-08-22T18:25:40 EEST" duration-ms="5553" status="FAIL">
+        <test-method signature="roadmapSectionMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:19 EEST" name="roadmapSectionMainPage" finished-at="2023-08-23T09:54:26 EEST" duration-ms="6510" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -325,7 +503,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- roadmapSectionMainPage -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:40 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T18:25:45 EEST" duration-ms="4971" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:26 EEST" name="setUp" finished-at="2023-08-23T09:54:26 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:26 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:54:32 EEST" duration-ms="5844" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -387,15 +569,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:40 EEST" name="setUp" finished-at="2023-08-22T18:25:40 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:45 EEST" name="setUp" finished-at="2023-08-22T18:25:45 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:45 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T18:25:50 EEST" duration-ms="4968" status="SKIP">
+        <test-method retried="true" signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:32 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:54:38 EEST" duration-ms="5891" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -457,11 +631,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:50 EEST" name="setUp" finished-at="2023-08-22T18:25:50 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:32 EEST" name="setUp" finished-at="2023-08-23T09:54:32 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:50 EEST" name="statisticsSectionMainPage" finished-at="2023-08-22T18:25:55 EEST" duration-ms="5044" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:38 EEST" name="setUp" finished-at="2023-08-23T09:54:38 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="statisticsSectionMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:38 EEST" name="statisticsSectionMainPage" finished-at="2023-08-23T09:54:43 EEST" duration-ms="5961" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -523,7 +701,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statisticsSectionMainPage -->
-        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:55 EEST" name="leaningSectionMainPage" finished-at="2023-08-22T18:26:12 EEST" duration-ms="16929" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:43 EEST" name="setUp" finished-at="2023-08-23T09:54:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="leaningSectionMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:54:43 EEST" name="leaningSectionMainPage" finished-at="2023-08-23T09:55:01 EEST" duration-ms="18022" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -539,11 +721,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- leaningSectionMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:25:55 EEST" name="setUp" finished-at="2023-08-22T18:25:55 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:01 EEST" name="setUp" finished-at="2023-08-23T09:55:01 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:12 EEST" name="allFooterMainPage" finished-at="2023-08-22T18:26:28 EEST" duration-ms="15670" status="PASS">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:11, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:01 EEST" name="allFooterMainPage" finished-at="2023-08-23T09:55:17 EEST" duration-ms="15531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,15 +741,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:12 EEST" name="setUp" finished-at="2023-08-22T18:26:12 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:17 EEST" name="setUp" finished-at="2023-08-23T09:55:17 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:28 EEST" name="setUp" finished-at="2023-08-22T18:26:28 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:28 EEST" name="partnFooterMainPage" finished-at="2023-08-22T18:26:33 EEST" duration-ms="5267" status="PASS">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:12, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:17 EEST" name="partnFooterMainPage" finished-at="2023-08-23T09:55:22 EEST" duration-ms="5149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -583,11 +761,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:33 EEST" name="setUp" finished-at="2023-08-22T18:26:33 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:22 EEST" name="setUp" finished-at="2023-08-23T09:55:22 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:33 EEST" name="subFooterMainPage" finished-at="2023-08-22T18:26:38 EEST" duration-ms="5094" status="PASS">
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:22 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:55:27 EEST" duration-ms="4642" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -600,14 +778,188 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:38 EEST" name="setUp" finished-at="2023-08-22T18:26:38 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:27 EEST" name="setUp" finished-at="2023-08-23T09:55:27 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:38 EEST" name="copFooterMainPage" finished-at="2023-08-22T18:26:42 EEST" duration-ms="4187" status="PASS">
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:27 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:55:32 EEST" duration-ms="4748" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMainPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:32 EEST" name="setUp" finished-at="2023-08-23T09:55:32 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:13, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:32 EEST" name="subFooterMainPage" finished-at="2023-08-23T09:55:36 EEST" duration-ms="4680" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.mainPageTests.AllPageChromeTests.subFooterMainPage(AllPageChromeTests.java:252)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterMainPage -->
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:14, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:36 EEST" name="copFooterMainPage" finished-at="2023-08-23T09:55:40 EEST" duration-ms="4217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -623,7 +975,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-22T18:26:42 EEST" name="tearDown" finished-at="2023-08-22T18:26:43 EEST" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:36 EEST" name="setUp" finished-at="2023-08-23T09:55:36 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.mainPageTests.AllPageChromeTests@4d0f2471]" started-at="2023-08-23T09:55:40 EEST" name="tearDown" finished-at="2023-08-23T09:55:41 EEST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
