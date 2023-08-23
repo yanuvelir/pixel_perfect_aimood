@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ai-mood - Pixel perfect regression</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/1/4</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/9/18</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 23 11:38:32 EEST 2023</td>
+<td>Started on:</td><td>Wed Aug 23 11:49:21 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>136 seconds (136625 ms)</td>
+<tr><td>Total time:</td><td>222 seconds (222491 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,397 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1752220610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1752220610'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace426435961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace426435961'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1585776625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585776625'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace752230403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752230403'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>5</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2054332292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2054332292'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>18</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1444642131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1444642131'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669501311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669501311'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace872331269", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace872331269'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
 <td title='tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace615014502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace615014502'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace431097582", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace431097582'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
@@ -120,7 +504,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 </pre></div></td>
-<td>6</td>
+<td>5</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -131,14 +515,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td title='tests.mainPageTests.AllPageChromeTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 <tr>
-<td title='tests.mainPageTests.AllPageChromeTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td title='tests.mainPageTests.AllPageChromeTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td></td>
-<td>6</td>
+<td>5</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 <tr>
 <td title='tests.mainPageTests.AllPageChromeTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
@@ -150,46 +534,6 @@ function toggleAllBoxes() {
 <td></td>
 <td>5</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>21</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>18</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageChromeTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>15</td>
-<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -199,18 +543,162 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td title='tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2074826904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2074826904'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace995482901", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace995482901'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>17</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1013528106", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1013528106'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>9</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1357944757", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1357944757'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1365533388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1365533388'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -247,13 +735,109 @@ function toggleAllBoxes() {
 <td>6</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 <tr>
+<td title='tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace473061882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace473061882'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>17</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace501855493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace501855493'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
 <td title='tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace309349909", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace309349909'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace982565180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace982565180'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
@@ -295,18 +879,18 @@ function toggleAllBoxes() {
 <td>5</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 <tr>
-<td title='tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td title='tests.mainPageTests.AllPageChromeTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1000631907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1000631907'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1083759991", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1083759991'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:118)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -343,13 +927,205 @@ function toggleAllBoxes() {
 <td>6</td>
 <td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
 <tr>
+<td title='tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1962586186", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1962586186'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1309191417", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1309191417'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>18</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace900073076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace900073076'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1678422332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1678422332'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
 <td title='tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
 <td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1623761043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1623761043'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1786077314", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1786077314'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
@@ -363,6 +1139,246 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace154795841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace154795841'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>5</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1798636297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1798636297'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace439078230", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace439078230'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>3</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1768639125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1768639125'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageChromeTests@4d0f2471</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1092245861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1092245861'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
