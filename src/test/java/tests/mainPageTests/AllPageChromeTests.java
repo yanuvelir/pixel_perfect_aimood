@@ -151,7 +151,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
@@ -170,7 +170,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
