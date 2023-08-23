@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T12:11:35 EEST" name="WPT" finished-at="2023-08-23T12:12:38 EEST" duration-ms="62373">
+  <suite started-at="2023-08-23T12:37:38 EEST" name="WPT" finished-at="2023-08-23T12:39:41 EEST" duration-ms="122748">
     <groups>
     </groups>
-    <test started-at="2023-08-23T12:11:35 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T12:12:38 EEST" duration-ms="62373">
+    <test started-at="2023-08-23T12:37:38 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-23T12:39:41 EEST" duration-ms="122748">
       <class name="tests.stakingPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:35 EEST" name="setUp" finished-at="2023-08-23T12:11:38 EEST" duration-ms="2721" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:38 EEST" name="setUp" finished-at="2023-08-23T12:37:41 EEST" duration-ms="2778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:38 EEST" name="allHeaderStakingPage" finished-at="2023-08-23T12:11:45 EEST" duration-ms="6933" status="PASS">
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:41 EEST" name="allHeaderStakingPage" finished-at="2023-08-23T12:37:48 EEST" duration-ms="6744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderStakingPage -->
-        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:45 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-23T12:11:49 EEST" duration-ms="3981" status="PASS">
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:48 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-23T12:37:52 EEST" duration-ms="4060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:45 EEST" name="setUp" finished-at="2023-08-23T12:11:45 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:48 EEST" name="setUp" finished-at="2023-08-23T12:37:48 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:49 EEST" name="learnHeaderStakingPage" finished-at="2023-08-23T12:11:53 EEST" duration-ms="3930" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:52 EEST" name="setUp" finished-at="2023-08-23T12:37:52 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:52 EEST" name="learnHeaderStakingPage" finished-at="2023-08-23T12:37:56 EEST" duration-ms="3929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:49 EEST" name="setUp" finished-at="2023-08-23T12:11:49 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:53 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-23T12:11:57 EEST" duration-ms="4004" status="PASS">
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:56 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-23T12:38:00 EEST" duration-ms="3925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,15 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:53 EEST" name="setUp" finished-at="2023-08-23T12:11:53 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:37:56 EEST" name="setUp" finished-at="2023-08-23T12:37:56 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:57 EEST" name="setUp" finished-at="2023-08-23T12:11:57 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:11:57 EEST" name="mainSectionStakingPage" finished-at="2023-08-23T12:12:03 EEST" duration-ms="6070" status="PASS">
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:00 EEST" name="mainSectionStakingPage" finished-at="2023-08-23T12:38:06 EEST" duration-ms="6000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:03 EEST" name="setUp" finished-at="2023-08-23T12:12:03 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:00 EEST" name="setUp" finished-at="2023-08-23T12:38:00 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:03 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-23T12:12:09 EEST" duration-ms="6296" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:06 EEST" name="setUp" finished-at="2023-08-23T12:38:06 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:06 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-23T12:38:12 EEST" duration-ms="6301" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:09 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-23T12:12:18 EEST" duration-ms="8591" status="PASS">
+        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:12 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-23T12:38:21 EEST" duration-ms="8590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,11 +143,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:09 EEST" name="setUp" finished-at="2023-08-23T12:12:09 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:12 EEST" name="setUp" finished-at="2023-08-23T12:38:12 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:18 EEST" name="allFooterStakingPage" finished-at="2023-08-23T12:12:23 EEST" duration-ms="4996" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:21 EEST" name="setUp" finished-at="2023-08-23T12:38:21 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:21 EEST" name="allFooterStakingPage" finished-at="2023-08-23T12:38:26 EEST" duration-ms="5000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,15 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:18 EEST" name="setUp" finished-at="2023-08-23T12:12:18 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:23 EEST" name="setUp" finished-at="2023-08-23T12:12:23 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:23 EEST" name="partnFooterStakingPage" finished-at="2023-08-23T12:12:28 EEST" duration-ms="4752" status="PASS">
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:26 EEST" name="partnFooterStakingPage" finished-at="2023-08-23T12:38:30 EEST" duration-ms="4720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,11 +183,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:28 EEST" name="setUp" finished-at="2023-08-23T12:12:28 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:26 EEST" name="setUp" finished-at="2023-08-23T12:38:26 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:28 EEST" name="subFooterStakingPage" finished-at="2023-08-23T12:12:32 EEST" duration-ms="4717" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:30 EEST" name="setUp" finished-at="2023-08-23T12:38:30 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:30 EEST" name="subFooterStakingPage" finished-at="2023-08-23T12:38:35 EEST" duration-ms="4703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterStakingPage -->
-        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:32 EEST" name="copFooterStakingPage" finished-at="2023-08-23T12:12:37 EEST" duration-ms="4677" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:35 EEST" name="setUp" finished-at="2023-08-23T12:38:35 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:35 EEST" name="copFooterStakingPage" finished-at="2023-08-23T12:38:40 EEST" duration-ms="4671" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,15 +227,237 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:32 EEST" name="setUp" finished-at="2023-08-23T12:12:32 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@503d687a]" started-at="2023-08-23T12:12:37 EEST" name="tearDown" finished-at="2023-08-23T12:12:38 EEST" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@62e7f11d]" started-at="2023-08-23T12:38:40 EEST" name="tearDown" finished-at="2023-08-23T12:38:40 EEST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
+      <class name="tests.stakingPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:40 EEST" name="setUp" finished-at="2023-08-23T12:38:42 EEST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:42 EEST" name="allHeaderStakingPage" finished-at="2023-08-23T12:38:48 EEST" duration-ms="6212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allHeaderStakingPage -->
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:48 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-23T12:38:52 EEST" duration-ms="4147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:48 EEST" name="setUp" finished-at="2023-08-23T12:38:48 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:52 EEST" name="learnHeaderStakingPage" finished-at="2023-08-23T12:38:56 EEST" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:52 EEST" name="setUp" finished-at="2023-08-23T12:38:52 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:56 EEST" name="setUp" finished-at="2023-08-23T12:38:56 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:38:56 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-23T12:39:00 EEST" duration-ms="4102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:00 EEST" name="setUp" finished-at="2023-08-23T12:39:00 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:00 EEST" name="mainSectionStakingPage" finished-at="2023-08-23T12:39:06 EEST" duration-ms="6001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionStakingPage -->
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:06 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-23T12:39:13 EEST" duration-ms="6293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delegatedSectionStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:06 EEST" name="setUp" finished-at="2023-08-23T12:39:06 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:13 EEST" name="setUp" finished-at="2023-08-23T12:39:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:13 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-23T12:39:21 EEST" duration-ms="8537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calcStakSectionStakingPage -->
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:21 EEST" name="allFooterStakingPage" finished-at="2023-08-23T12:39:26 EEST" duration-ms="5036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:21 EEST" name="setUp" finished-at="2023-08-23T12:39:21 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:26 EEST" name="partnFooterStakingPage" finished-at="2023-08-23T12:39:31 EEST" duration-ms="4907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:26 EEST" name="setUp" finished-at="2023-08-23T12:39:26 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:31 EEST" name="setUp" finished-at="2023-08-23T12:39:31 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:31 EEST" name="subFooterStakingPage" finished-at="2023-08-23T12:39:36 EEST" duration-ms="4918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterStakingPage -->
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:36 EEST" name="copFooterStakingPage" finished-at="2023-08-23T12:39:41 EEST" duration-ms="4912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:36 EEST" name="setUp" finished-at="2023-08-23T12:39:36 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@50ad3bc1]" started-at="2023-08-23T12:39:41 EEST" name="tearDown" finished-at="2023-08-23T12:39:41 EEST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
