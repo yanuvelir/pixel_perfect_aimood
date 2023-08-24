@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 115.457 s - in TestSuite
+Tests run: 42, Failures: 12, Errors: 0, Skipped: 24, Time elapsed: 256.123 s <<< FAILURE! - in TestSuite
+tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 18.545 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage(AllPageFirefoxTests.java:26)
+
+tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.527 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage(AllPageFirefoxTests.java:80)
+
+tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 5.621 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage(AllPageFirefoxTests.java:118)
+
+tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 4.59 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage(AllPageFirefoxTests.java:139)
+
+tests.fundPageTests.AllPageFirefoxTests.subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 4.356 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.subFooterFundPage(AllPageFirefoxTests.java:177)
+
+tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.421 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage(AllPageFirefoxTests.java:196)
+
+tests.fundPageTests.AllPageChromeTests.allHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 18.682 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.allHeaderFundPage(AllPageChromeTests.java:28)
+
+tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.752 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage(AllPageChromeTests.java:82)
+
+tests.fundPageTests.AllPageChromeTests.mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 5.833 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.mainSectionFundPage(AllPageChromeTests.java:120)
+
+tests.fundPageTests.AllPageChromeTests.allFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 4.872 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.allFooterFundPage(AllPageChromeTests.java:141)
+
+tests.fundPageTests.AllPageChromeTests.subFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 4.636 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.subFooterFundPage(AllPageChromeTests.java:179)
+
+tests.fundPageTests.AllPageChromeTests.copFooterFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 3.665 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.fundPageTests.AllPageChromeTests.copFooterFundPage(AllPageChromeTests.java:198)
+
