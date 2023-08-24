@@ -172,7 +172,7 @@ public class AllPageChromeTests extends BaseTest {
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
         //Time
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
                 ScShotDir+"BuySellMoodCoin_page/EnChrome/Screenshots_subFooterBuySellMoodCoinPage/real_life_screenshot.png",
