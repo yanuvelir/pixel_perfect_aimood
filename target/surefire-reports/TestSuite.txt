@@ -1,4 +1,56 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 121.423 s - in TestSuite
+Tests run: 46, Failures: 13, Errors: 0, Skipped: 26, Time elapsed: 249.933 s <<< FAILURE! - in TestSuite
+tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.651 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage(AllPageFirefoxTests.java:118)
+
+tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 5.048 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage(AllPageFirefoxTests.java:137)
+
+tests.walletPageTests.AllPageFirefoxTests.subFooterWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.38 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageFirefoxTests.subFooterWalletPage(AllPageFirefoxTests.java:196)
+
+tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 18.703 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage(AllPageChromeTests.java:27)
+
+tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 3.782 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage(AllPageChromeTests.java:45)
+
+tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 3.801 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage(AllPageChromeTests.java:63)
+
+tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 3.799 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage(AllPageChromeTests.java:81)
+
+tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.812 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage(AllPageChromeTests.java:119)
+
+tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 5.35 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage(AllPageChromeTests.java:138)
+
+tests.walletPageTests.AllPageChromeTests.allFooterWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.9 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.allFooterWalletPage(AllPageChromeTests.java:159)
+
+tests.walletPageTests.AllPageChromeTests.partnFooterWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.672 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.partnFooterWalletPage(AllPageChromeTests.java:178)
+
+tests.walletPageTests.AllPageChromeTests.subFooterWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 4.643 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.subFooterWalletPage(AllPageChromeTests.java:197)
+
+tests.walletPageTests.AllPageChromeTests.copFooterWalletPage[https://ai-mood.com/en/the-aimood-wallet, Screenshots/](3)  Time elapsed: 3.7 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.walletPageTests.AllPageChromeTests.copFooterWalletPage(AllPageChromeTests.java:216)
+
