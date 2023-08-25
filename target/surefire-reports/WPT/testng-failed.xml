@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="tests.RetryAnalyzerTransformer"/>
+  </listeners>
+  <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
+    <parameter name="ScShotDir" value="Screenshots/"/>
+    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
+    <parameter name="main_page" value="https://ai-mood.com/en"/>
+    <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
+    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
+    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
+    <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
+    <classes>
+      <class name="tests.mainPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      <class name="tests.mainPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      <class name="tests.mainPageTests.AllPageFirefoxAuthTests">
+        <methods>
+          <include name="marketTitleBlockMainPage"/>
+          <include name="terminalBlockMainPage"/>
+          <include name="sliderPadBlockMainPage"/>
+          <include name="profileNavMainPage"/>
+          <include name="langDropDownNavMainPage"/>
+          <include name="tearDown"/>
+          <include name="walletNavMainPage"/>
+          <include name="statisticBlockMainPage"/>
+          <include name="mainBlockMainPage"/>
+          <include name="marketBlockMainPage"/>
+          <include name="ieoBlockMainPage"/>
+          <include name="companyNavMainPage"/>
+          <include name="quickBlockMainPage"/>
+          <include name="whyCompanyBlockMainPage"/>
+          <include name="setUp"/>
+          <include name="tradePlatformBlockMainPage"/>
+          <include name="allFooterMainPage"/>
+          <include name="allFooterBottomMainPage"/>
+          <include name="productsNavMainPage"/>
+          <include name="tradeNavMainPage"/>
+          <include name="loginInToTheDexTrade"/>
+          <include name="allHeaderMainPage"/>
+          <include name="langFooterMainPageDropDownPart1"/>
+          <include name="langFooterMainPageDropDownPart2"/>
+          <include name="allFooterTopMainPage"/>
+          <include name="getStartedBlockMainPage"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageFirefoxAuthTests -->
+      <class name="tests.mainPageTests.AllPageChromeAuthTests">
+        <methods>
+          <include name="sliderPadBlockMainPage" invocation-numbers="0"/>
+          <include name="companyNavMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterTopMainPage" invocation-numbers="0"/>
+          <include name="whyCompanyBlockMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="terminalBlockMainPage" invocation-numbers="0"/>
+          <include name="marketTitleBlockMainPage" invocation-numbers="0"/>
+          <include name="langDropDownNavMainPage" invocation-numbers="0"/>
+          <include name="profileNavMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainBlockMainPage" invocation-numbers="0"/>
+          <include name="walletNavMainPage" invocation-numbers="0"/>
+          <include name="tradePlatformBlockMainPage" invocation-numbers="0"/>
+          <include name="statisticBlockMainPage" invocation-numbers="0"/>
+          <include name="allFooterBottomMainPage" invocation-numbers="0"/>
+          <include name="productsNavMainPage" invocation-numbers="0"/>
+          <include name="tradeNavMainPage" invocation-numbers="0"/>
+          <include name="langFooterMainPageDropDownPart1" invocation-numbers="0"/>
+          <include name="ieoBlockMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="getStartedBlockMainPage" invocation-numbers="0"/>
+          <include name="marketBlockMainPage" invocation-numbers="0"/>
+          <include name="quickBlockMainPage" invocation-numbers="0"/>
+          <include name="langFooterMainPageDropDownPart2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageChromeAuthTests -->
+    </classes>
+  </test> <!-- ai-mood - Pixel perfect regression(failed) -->
+</suite> <!-- Failed suite [WPT] -->

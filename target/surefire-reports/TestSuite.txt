@@ -1,4 +1,448 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 110.63 s - in TestSuite
+Tests run: 302, Failures: 55, Errors: 0, Skipped: 113, Time elapsed: 4,106.26 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.681 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
+
+tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.608 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
+
+tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.554 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.loginInToTheDexTrade  Time elapsed: 6.111 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [loginInToTheDexTrade] with [class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+
+tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage  Time elapsed: 25.91 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage(AllPageFirefoxAuthTests.java:39)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage  Time elapsed: 25.31 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage(AllPageFirefoxAuthTests.java:59)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage  Time elapsed: 25.094 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage(AllPageFirefoxAuthTests.java:79)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage  Time elapsed: 25.254 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage(AllPageFirefoxAuthTests.java:99)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage  Time elapsed: 37.171 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@data-test-id='wallet']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d00af6c9-0f16-4603-a386-88718c9eb966, findElement {using=xpath, value=//li[@data-test-id='wallet']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2768, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d00af6c9-0f16-4603-a386-88718c9eb966
+	at tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage(AllPageFirefoxAuthTests.java:117)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage  Time elapsed: 37.384 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@data-test-id='profile']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d00af6c9-0f16-4603-a386-88718c9eb966, findElement {using=xpath, value=//div[@data-test-id='profile']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2768, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d00af6c9-0f16-4603-a386-88718c9eb966
+	at tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage(AllPageFirefoxAuthTests.java:137)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage  Time elapsed: 25.637 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage(AllPageFirefoxAuthTests.java:159)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage  Time elapsed: 20.02 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage(AllPageFirefoxAuthTests.java:182)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage  Time elapsed: 32.544 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: (//span[@class='mr-right-8 pair-slider-iso'])[1]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d00af6c9-0f16-4603-a386-88718c9eb966, findElement {using=xpath, value=(//span[@class='mr-right-8 pair-slider-iso'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:20533, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2768, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:20533/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d00af6c9-0f16-4603-a386-88718c9eb966
+	at tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage(AllPageFirefoxAuthTests.java:204)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage  Time elapsed: 20.042 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage(AllPageFirefoxAuthTests.java:254)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage  Time elapsed: 23.26 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage(AllPageFirefoxAuthTests.java:302)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage  Time elapsed: 20.316 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage(AllPageFirefoxAuthTests.java:324)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage  Time elapsed: 21.137 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage(AllPageFirefoxAuthTests.java:346)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage  Time elapsed: 20.279 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage(AllPageFirefoxAuthTests.java:368)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage  Time elapsed: 20.488 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage(AllPageFirefoxAuthTests.java:390)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage  Time elapsed: 20.078 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage(AllPageFirefoxAuthTests.java:412)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage  Time elapsed: 20.029 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage(AllPageFirefoxAuthTests.java:434)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage  Time elapsed: 19.078 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage(AllPageFirefoxAuthTests.java:456)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage  Time elapsed: 19.039 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage(AllPageFirefoxAuthTests.java:480)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage  Time elapsed: 19.091 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage(AllPageFirefoxAuthTests.java:502)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage  Time elapsed: 19.238 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage(AllPageFirefoxAuthTests.java:524)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1  Time elapsed: 19.61 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1(AllPageFirefoxAuthTests.java:550)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2  Time elapsed: 19.422 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2(AllPageFirefoxAuthTests.java:576)
+
+tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.848 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
+
+tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.799 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
+
+tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.839 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
+
+tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 8.52 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:156)
+
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 8.825 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
+
+tests.mainPageTests.AllPageChromeAuthTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 16.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-nav']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='right-nav']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.allHeaderMainPage(AllPageChromeAuthTests.java:39)
+
+tests.mainPageTests.AllPageChromeAuthTests.tradeNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.52 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.tradeNavMainPage(AllPageChromeAuthTests.java:60)
+
+tests.mainPageTests.AllPageChromeAuthTests.productsNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.4 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.productsNavMainPage(AllPageChromeAuthTests.java:83)
+
+tests.mainPageTests.AllPageChromeAuthTests.companyNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.436 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.companyNavMainPage(AllPageChromeAuthTests.java:106)
+
+tests.mainPageTests.AllPageChromeAuthTests.walletNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.441 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.walletNavMainPage(AllPageChromeAuthTests.java:129)
+
+tests.mainPageTests.AllPageChromeAuthTests.profileNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.431 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.profileNavMainPage(AllPageChromeAuthTests.java:152)
+
+tests.mainPageTests.AllPageChromeAuthTests.langDropDownNavMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.421 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='main-slider-pad']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.langDropDownNavMainPage(AllPageChromeAuthTests.java:175)
+
+tests.mainPageTests.AllPageChromeAuthTests.mainBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.42 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-nav']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='right-nav']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.mainBlockMainPage(AllPageChromeAuthTests.java:203)
+
+tests.mainPageTests.AllPageChromeAuthTests.statisticBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.47 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-nav']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='right-nav']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.statisticBlockMainPage(AllPageChromeAuthTests.java:226)
+
+tests.mainPageTests.AllPageChromeAuthTests.sliderPadBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 7.952 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageChromeAuthTests.sliderPadBlockMainPage(AllPageChromeAuthTests.java:275)
+
+tests.mainPageTests.AllPageChromeAuthTests.marketBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.447 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-home__wrapper']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='table-home__wrapper']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.marketBlockMainPage(AllPageChromeAuthTests.java:290)
+
+tests.mainPageTests.AllPageChromeAuthTests.marketTitleBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 15.45 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='market-title-container']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='market-title-container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.marketTitleBlockMainPage(AllPageChromeAuthTests.java:338)
+
+tests.mainPageTests.AllPageChromeAuthTests.quickBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.579 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='market-link-container']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='market-link-container']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.quickBlockMainPage(AllPageChromeAuthTests.java:361)
+
+tests.mainPageTests.AllPageChromeAuthTests.terminalBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.541 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='trading-terminal ieo-terminal']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='trading-terminal ieo-terminal']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.terminalBlockMainPage(AllPageChromeAuthTests.java:384)
+
+tests.mainPageTests.AllPageChromeAuthTests.getStartedBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.549 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ds-btn ds-btn-primary large'])[2]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=(//button[@class='ds-btn ds-btn-primary large'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.getStartedBlockMainPage(AllPageChromeAuthTests.java:407)
+
+tests.mainPageTests.AllPageChromeAuthTests.ieoBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.559 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ds-btn ds-btn-primary large'])[3]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=(//button[@class='ds-btn ds-btn-primary large'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.ieoBlockMainPage(AllPageChromeAuthTests.java:430)
+
+tests.mainPageTests.AllPageChromeAuthTests.tradePlatformBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.5 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ds-btn ds-btn-primary large'])[4]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=(//button[@class='ds-btn ds-btn-primary large'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.tradePlatformBlockMainPage(AllPageChromeAuthTests.java:453)
+
+tests.mainPageTests.AllPageChromeAuthTests.whyCompanyBlockMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.508 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='app-btn']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//div[@class='app-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.whyCompanyBlockMainPage(AllPageChromeAuthTests.java:476)
+
+tests.mainPageTests.AllPageChromeAuthTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.6 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.allFooterMainPage(AllPageChromeAuthTests.java:500)
+
+tests.mainPageTests.AllPageChromeAuthTests.allFooterTopMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.506 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.allFooterTopMainPage(AllPageChromeAuthTests.java:523)
+
+tests.mainPageTests.AllPageChromeAuthTests.allFooterBottomMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.506 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.allFooterBottomMainPage(AllPageChromeAuthTests.java:546)
+
+tests.mainPageTests.AllPageChromeAuthTests.langFooterMainPageDropDownPart1[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.58 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.langFooterMainPageDropDownPart1(AllPageChromeAuthTests.java:569)
+
+tests.mainPageTests.AllPageChromeAuthTests.langFooterMainPageDropDownPart2[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 30.52 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//footer[@class='footer']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35d1b59af61202286058ef3910e27901, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51738/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35d1b59af61202286058ef3910e27901
+	at tests.mainPageTests.AllPageChromeAuthTests.langFooterMainPageDropDownPart2(AllPageChromeAuthTests.java:596)
+
