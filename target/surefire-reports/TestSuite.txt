@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 101.154 s - in TestSuite
+Tests run: 36, Failures: 8, Errors: 0, Skipped: 16, Time elapsed: 195.032 s <<< FAILURE! - in TestSuite
+tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 3.602 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 5.722 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage(AllPageFirefoxTests.java:118)
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 6.037 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage(AllPageFirefoxTests.java:137)
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 4.492 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage(AllPageFirefoxTests.java:196)
+
+tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 3.533 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage(AllPageFirefoxTests.java:215)
+
+tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 5.938 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage(AllPageChromeTests.java:119)
+
+tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 6.469 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage(AllPageChromeTests.java:138)
+
+tests.affiliateProgramPageTests.AllPageChromeTests.subFooterAffiliateProgramPage[https://ai-mood.com/en/affiliate-program, Screenshots/](3)  Time elapsed: 4.853 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.affiliateProgramPageTests.AllPageChromeTests.subFooterAffiliateProgramPage(AllPageChromeTests.java:197)
+

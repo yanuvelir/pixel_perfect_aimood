@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results retried="16" ignored="0" total="36" passed="12" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-25T10:42:00 EEST" name="WPT" finished-at="2023-08-25T10:43:40 EEST" duration-ms="100468">
+  <suite started-at="2023-08-25T11:08:36 EEST" name="WPT" finished-at="2023-08-25T11:11:50 EEST" duration-ms="194288">
     <groups>
     </groups>
-    <test started-at="2023-08-25T10:42:00 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-25T10:43:40 EEST" duration-ms="100468">
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:00 EEST" name="setUp" finished-at="2023-08-25T10:42:04 EEST" duration-ms="4187" status="PASS">
+    <test started-at="2023-08-25T11:08:36 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-25T11:11:50 EEST" duration-ms="194288">
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:36 EEST" name="setUp" finished-at="2023-08-25T11:08:40 EEST" duration-ms="3885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:04 EEST" name="allHeaderFundPage" finished-at="2023-08-25T10:42:12 EEST" duration-ms="8062" status="PASS">
+        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:40 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-25T11:08:50 EEST" duration-ms="9964" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderFundPage -->
-        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:12 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-25T10:42:16 EEST" duration-ms="4183" status="PASS">
+        </test-method> <!-- allHeaderAffiliateProgramPage -->
+        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:50 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-25T11:08:54 EEST" duration-ms="4238" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -42,20 +42,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:12 EEST" name="setUp" finished-at="2023-08-25T10:42:12 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:50 EEST" name="setUp" finished-at="2023-08-25T11:08:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:16 EEST" name="setUp" finished-at="2023-08-25T10:42:16 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:54 EEST" name="setUp" finished-at="2023-08-25T11:08:54 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:16 EEST" name="learnHeaderFundPage" finished-at="2023-08-25T10:42:20 EEST" duration-ms="4148" status="PASS">
+        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:54 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-25T11:08:58 EEST" duration-ms="4133" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -66,16 +66,606 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:20 EEST" name="setUp" finished-at="2023-08-25T10:42:20 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- learnHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:58 EEST" name="setUp" finished-at="2023-08-25T11:08:58 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:20 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-25T10:42:25 EEST" duration-ms="4208" status="PASS">
+        <test-method retried="true" signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:08:58 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-25T11:09:02 EEST" duration-ms="3625" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:02 EEST" name="setUp" finished-at="2023-08-25T11:09:02 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:02 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-25T11:09:05 EEST" duration-ms="3603" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:05 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-25T11:09:09 EEST" duration-ms="3598" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:05 EEST" name="setUp" finished-at="2023-08-25T11:09:05 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:09 EEST" name="setUp" finished-at="2023-08-25T11:09:09 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:09 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:14 EEST" duration-ms="5734" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage(AllPageFirefoxTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:14 EEST" name="setUp" finished-at="2023-08-25T11:09:14 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:14 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:20 EEST" duration-ms="5714" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage(AllPageFirefoxTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:20 EEST" name="setUp" finished-at="2023-08-25T11:09:20 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:20 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:26 EEST" duration-ms="5723" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage(AllPageFirefoxTests.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method retried="true" signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:26 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:32 EEST" duration-ms="6280" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage(AllPageFirefoxTests.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:26 EEST" name="setUp" finished-at="2023-08-25T11:09:26 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:32 EEST" name="setUp" finished-at="2023-08-25T11:09:32 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:32 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:38 EEST" duration-ms="6105" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage(AllPageFirefoxTests.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:38 EEST" name="setUp" finished-at="2023-08-25T11:09:38 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:38 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:09:44 EEST" duration-ms="6036" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage(AllPageFirefoxTests.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:44 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-25T11:09:49 EEST" duration-ms="4997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -86,12 +676,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderFundPage -->
-        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:25 EEST" name="mainSectionFundPage" finished-at="2023-08-25T10:42:30 EEST" duration-ms="5985" status="PASS">
+        </test-method> <!-- allFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:44 EEST" name="setUp" finished-at="2023-08-25T11:09:44 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:49 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-25T11:09:54 EEST" duration-ms="4869" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -102,16 +696,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:25 EEST" name="setUp" finished-at="2023-08-25T10:42:25 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- partnFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:49 EEST" name="setUp" finished-at="2023-08-25T11:09:49 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:30 EEST" name="allFooterFundPage" finished-at="2023-08-25T10:42:36 EEST" duration-ms="5035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:54 EEST" name="setUp" finished-at="2023-08-25T11:09:54 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:54 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:09:59 EEST" duration-ms="4481" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -120,22 +718,64 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage(AllPageFirefoxTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:30 EEST" name="setUp" finished-at="2023-08-25T10:42:30 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:59 EEST" name="setUp" finished-at="2023-08-25T11:09:59 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:36 EEST" name="setUp" finished-at="2023-08-25T10:42:36 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:36 EEST" name="partnFooterFundPage" finished-at="2023-08-25T10:42:40 EEST" duration-ms="4894" status="PASS">
+        <test-method retried="true" signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:09:59 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:10:03 EEST" duration-ms="4594" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -144,14 +784,64 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage(AllPageFirefoxTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterFundPage -->
-        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:40 EEST" name="subFooterFundPage" finished-at="2023-08-25T10:42:45 EEST" duration-ms="4984" status="PASS">
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:03 EEST" name="setUp" finished-at="2023-08-25T11:10:03 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:03 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:10:08 EEST" duration-ms="4491" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -160,18 +850,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage(AllPageFirefoxTests.java:196)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:40 EEST" name="setUp" finished-at="2023-08-25T10:42:40 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:45 EEST" name="copFooterFundPage" finished-at="2023-08-25T10:42:49 EEST" duration-ms="4007" status="PASS">
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method retried="true" signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:08 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-25T11:10:11 EEST" duration-ms="3530" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -180,28 +912,206 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage(AllPageFirefoxTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- copFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:45 EEST" name="setUp" finished-at="2023-08-25T10:42:45 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:08 EEST" name="setUp" finished-at="2023-08-25T11:10:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageFirefoxTests@53fdffa1]" started-at="2023-08-25T10:42:49 EEST" name="tearDown" finished-at="2023-08-25T10:42:51 EEST" duration-ms="1385" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:11 EEST" name="setUp" finished-at="2023-08-25T11:10:11 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:11 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-25T11:10:15 EEST" duration-ms="3486" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage(AllPageFirefoxTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:15 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-25T11:10:18 EEST" duration-ms="3533" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage(AllPageFirefoxTests.java:215)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:15 EEST" name="setUp" finished-at="2023-08-25T11:10:15 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageFirefoxTests@5562c41e]" started-at="2023-08-25T11:10:18 EEST" name="tearDown" finished-at="2023-08-25T11:10:20 EEST" duration-ms="1550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:42:51 EEST" name="setUp" finished-at="2023-08-25T10:42:52 EEST" duration-ms="1576" status="PASS">
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:20 EEST" name="setUp" finished-at="2023-08-25T11:10:21 EEST" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderFundPage(java.lang.String,java.lang.String)[pri:1, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:42:52 EEST" name="allHeaderFundPage" finished-at="2023-08-25T10:43:00 EEST" duration-ms="7683" status="PASS">
+        <test-method signature="allHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:1, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:21 EEST" name="allHeaderAffiliateProgramPage" finished-at="2023-08-25T11:10:29 EEST" duration-ms="8376" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -212,16 +1122,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:00 EEST" name="setUp" finished-at="2023-08-25T10:43:00 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:29 EEST" name="setUp" finished-at="2023-08-25T11:10:29 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderFundPage(java.lang.String,java.lang.String)[pri:2, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:00 EEST" name="getStartedHeaderFundPage" finished-at="2023-08-25T10:43:04 EEST" duration-ms="4418" status="PASS">
+        <test-method signature="getStartedHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:2, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:29 EEST" name="getStartedHeaderAffiliateProgramPage" finished-at="2023-08-25T11:10:34 EEST" duration-ms="4537" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -232,16 +1142,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:04 EEST" name="setUp" finished-at="2023-08-25T10:43:04 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:34 EEST" name="setUp" finished-at="2023-08-25T11:10:34 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderFundPage(java.lang.String,java.lang.String)[pri:3, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:04 EEST" name="learnHeaderFundPage" finished-at="2023-08-25T10:43:09 EEST" duration-ms="4372" status="PASS">
+        <test-method signature="learnHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:3, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:34 EEST" name="learnHeaderAffiliateProgramPage" finished-at="2023-08-25T11:10:38 EEST" duration-ms="4408" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -252,12 +1162,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderFundPage -->
-        <test-method signature="resourcesHeaderFundPage(java.lang.String,java.lang.String)[pri:4, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:09 EEST" name="resourcesHeaderFundPage" finished-at="2023-08-25T10:43:13 EEST" duration-ms="4392" status="PASS">
+        </test-method> <!-- learnHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:38 EEST" name="setUp" finished-at="2023-08-25T11:10:38 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderAffiliateProgramPage(java.lang.String,java.lang.String)[pri:4, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:38 EEST" name="resourcesHeaderAffiliateProgramPage" finished-at="2023-08-25T11:10:43 EEST" duration-ms="4480" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -268,20 +1182,412 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:09 EEST" name="setUp" finished-at="2023-08-25T10:43:09 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:43 EEST" name="setUp" finished-at="2023-08-25T11:10:43 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:13 EEST" name="setUp" finished-at="2023-08-25T10:43:13 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionFundPage(java.lang.String,java.lang.String)[pri:6, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:13 EEST" name="mainSectionFundPage" finished-at="2023-08-25T10:43:20 EEST" duration-ms="6269" status="PASS">
+        <test-method retried="true" signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:43 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:10:48 EEST" duration-ms="5935" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage(AllPageChromeTests.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:48 EEST" name="setUp" finished-at="2023-08-25T11:10:48 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:48 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:10:54 EEST" duration-ms="5920" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage(AllPageChromeTests.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method signature="mainSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:6, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:54 EEST" name="mainSectionAffiliateProgramPage" finished-at="2023-08-25T11:11:00 EEST" duration-ms="5937" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage(AllPageChromeTests.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:10:54 EEST" name="setUp" finished-at="2023-08-25T11:10:54 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:00 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:11:07 EEST" duration-ms="6472" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage(AllPageChromeTests.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:00 EEST" name="setUp" finished-at="2023-08-25T11:11:00 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:07 EEST" name="setUp" finished-at="2023-08-25T11:11:07 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:07 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:11:13 EEST" duration-ms="6509" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage(AllPageChromeTests.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:13 EEST" name="setUp" finished-at="2023-08-25T11:11:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="affiliateSectionAffiliateProgramPage(java.lang.String,java.lang.String)[pri:7, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:13 EEST" name="affiliateSectionAffiliateProgramPage" finished-at="2023-08-25T11:11:20 EEST" duration-ms="6468" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage(AllPageChromeTests.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateSectionAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:20 EEST" name="setUp" finished-at="2023-08-25T11:11:20 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:8, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:20 EEST" name="allFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:25 EEST" duration-ms="5517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -292,16 +1598,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:20 EEST" name="setUp" finished-at="2023-08-25T10:43:20 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- allFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:25 EEST" name="setUp" finished-at="2023-08-25T11:11:25 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterFundPage(java.lang.String,java.lang.String)[pri:7, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:20 EEST" name="allFooterFundPage" finished-at="2023-08-25T10:43:25 EEST" duration-ms="5368" status="PASS">
+        <test-method signature="partnFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:9, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:25 EEST" name="partnFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:31 EEST" duration-ms="5271" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -312,16 +1618,214 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:25 EEST" name="setUp" finished-at="2023-08-25T10:43:25 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- partnFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:31 EEST" name="setUp" finished-at="2023-08-25T11:11:31 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterFundPage(java.lang.String,java.lang.String)[pri:8, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:25 EEST" name="partnFooterFundPage" finished-at="2023-08-25T10:43:30 EEST" duration-ms="5186" status="PASS">
+        <test-method retried="true" signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:31 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:35 EEST" duration-ms="4760" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.subFooterAffiliateProgramPage(AllPageChromeTests.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:35 EEST" name="setUp" finished-at="2023-08-25T11:11:35 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:35 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:40 EEST" duration-ms="4719" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.subFooterAffiliateProgramPage(AllPageChromeTests.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method signature="subFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:10, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:40 EEST" name="subFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:45 EEST" duration-ms="4853" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.affiliateProgramPageTests.AllPageChromeTests.subFooterAffiliateProgramPage(AllPageChromeTests.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:262)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:40 EEST" name="setUp" finished-at="2023-08-25T11:11:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:45 EEST" name="setUp" finished-at="2023-08-25T11:11:45 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterAffiliateProgramPage(java.lang.String,java.lang.String)[pri:11, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:45 EEST" name="copFooterAffiliateProgramPage" finished-at="2023-08-25T11:11:49 EEST" duration-ms="4307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/affiliate-program]]>
               </value>
             </param>
             <param index="1">
@@ -332,52 +1836,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- partnFooterFundPage -->
-        <test-method signature="subFooterFundPage(java.lang.String,java.lang.String)[pri:9, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:30 EEST" name="subFooterFundPage" finished-at="2023-08-25T10:43:35 EEST" duration-ms="5157" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subFooterFundPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:30 EEST" name="setUp" finished-at="2023-08-25T10:43:30 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:35 EEST" name="setUp" finished-at="2023-08-25T10:43:35 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="copFooterFundPage(java.lang.String,java.lang.String)[pri:10, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:35 EEST" name="copFooterFundPage" finished-at="2023-08-25T10:43:39 EEST" duration-ms="4243" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/fund]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterFundPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.fundPageTests.AllPageChromeTests@d5b810e]" started-at="2023-08-25T10:43:39 EEST" name="tearDown" finished-at="2023-08-25T10:43:40 EEST" duration-ms="667" status="PASS">
+        </test-method> <!-- copFooterAffiliateProgramPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.affiliateProgramPageTests.AllPageChromeTests@43dac38f]" started-at="2023-08-25T11:11:49 EEST" name="tearDown" finished-at="2023-08-25T11:11:50 EEST" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
