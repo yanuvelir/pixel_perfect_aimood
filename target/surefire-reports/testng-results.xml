@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="9" ignored="9" total="40" passed="20" failed="2" skipped="0">
+<testng-results retried="10" ignored="10" total="42" passed="19" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-28T17:08:34 EEST" name="WPT" finished-at="2023-08-28T17:11:41 EEST" duration-ms="187137">
+  <suite started-at="2023-08-28T17:26:30 EEST" name="WPT" finished-at="2023-08-28T17:29:55 EEST" duration-ms="205502">
     <groups>
     </groups>
-    <test started-at="2023-08-28T17:08:34 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-28T17:11:41 EEST" duration-ms="187137">
+    <test started-at="2023-08-28T17:26:30 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-28T17:29:55 EEST" duration-ms="205502">
       <class name="tests.stakingPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:34 EEST" name="setUp" finished-at="2023-08-28T17:08:37 EEST" duration-ms="3638" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:30 EEST" name="setUp" finished-at="2023-08-28T17:26:34 EEST" duration-ms="4089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:37 EEST" name="allHeaderStakingPage" finished-at="2023-08-28T17:08:44 EEST" duration-ms="7095" status="PASS">
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:34 EEST" name="allHeaderStakingPage" finished-at="2023-08-28T17:26:40 EEST" duration-ms="6611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:44 EEST" name="setUp" finished-at="2023-08-28T17:08:44 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:44 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:08:49 EEST" duration-ms="4174" status="PASS">
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:40 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:26:45 EEST" duration-ms="4154" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderStakingPage -->
-        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:49 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:08:53 EEST" duration-ms="4178" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:40 EEST" name="setUp" finished-at="2023-08-28T17:26:40 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:45 EEST" name="setUp" finished-at="2023-08-28T17:26:45 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:45 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:26:49 EEST" duration-ms="4131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:49 EEST" name="setUp" finished-at="2023-08-28T17:08:49 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:53 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:08:57 EEST" duration-ms="4167" status="PASS">
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:49 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:26:53 EEST" duration-ms="4163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,11 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:53 EEST" name="setUp" finished-at="2023-08-28T17:08:53 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:49 EEST" name="setUp" finished-at="2023-08-28T17:26:49 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:57 EEST" name="mainSectionStakingPage" finished-at="2023-08-28T17:09:03 EEST" duration-ms="5936" status="PASS">
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:53 EEST" name="mainSectionStakingPage" finished-at="2023-08-28T17:26:59 EEST" duration-ms="5945" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,11 +103,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:08:57 EEST" name="setUp" finished-at="2023-08-28T17:08:57 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:53 EEST" name="setUp" finished-at="2023-08-28T17:26:53 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:03 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:09:09 EEST" duration-ms="6204" status="PASS">
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:59 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:27:05 EEST" duration-ms="6230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:03 EEST" name="setUp" finished-at="2023-08-28T17:09:03 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:26:59 EEST" name="setUp" finished-at="2023-08-28T17:26:59 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:09 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:09:18 EEST" duration-ms="8524" status="PASS">
+        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:05 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:27:14 EEST" duration-ms="8583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,15 +143,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:09 EEST" name="setUp" finished-at="2023-08-28T17:09:09 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:05 EEST" name="setUp" finished-at="2023-08-28T17:27:05 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:18 EEST" name="setUp" finished-at="2023-08-28T17:09:18 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:14 EEST" name="setUp" finished-at="2023-08-28T17:27:14 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:18 EEST" name="allFooterStakingPage" finished-at="2023-08-28T17:09:23 EEST" duration-ms="5049" status="PASS">
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:14 EEST" name="allFooterStakingPage" finished-at="2023-08-28T17:27:19 EEST" duration-ms="5023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,11 +167,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:23 EEST" name="setUp" finished-at="2023-08-28T17:09:23 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:19 EEST" name="setUp" finished-at="2023-08-28T17:27:19 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:23 EEST" name="partnFooterStakingPage" finished-at="2023-08-28T17:09:27 EEST" duration-ms="4899" status="PASS">
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:19 EEST" name="partnFooterStakingPage" finished-at="2023-08-28T17:27:24 EEST" duration-ms="4850" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterStakingPage -->
-        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:27 EEST" name="subFooterStakingPage" finished-at="2023-08-28T17:09:32 EEST" duration-ms="4855" status="PASS">
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:24 EEST" name="subFooterStakingPage" finished-at="2023-08-28T17:27:28 EEST" duration-ms="4833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,11 +203,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:27 EEST" name="setUp" finished-at="2023-08-28T17:09:27 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:24 EEST" name="setUp" finished-at="2023-08-28T17:27:24 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:32 EEST" name="copFooterStakingPage" finished-at="2023-08-28T17:09:37 EEST" duration-ms="4865" status="PASS">
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:28 EEST" name="copFooterStakingPage" finished-at="2023-08-28T17:27:33 EEST" duration-ms="4839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -223,21 +223,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:32 EEST" name="setUp" finished-at="2023-08-28T17:09:32 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:28 EEST" name="setUp" finished-at="2023-08-28T17:27:28 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:09:37 EEST" name="tearDown" finished-at="2023-08-28T17:09:39 EEST" duration-ms="1464" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@2e3967ea]" started-at="2023-08-28T17:27:33 EEST" name="tearDown" finished-at="2023-08-28T17:27:35 EEST" duration-ms="1447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
       <class name="tests.stakingPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:39 EEST" name="setUp" finished-at="2023-08-28T17:09:40 EEST" duration-ms="877" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:35 EEST" name="setUp" finished-at="2023-08-28T17:27:36 EEST" duration-ms="1153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:40 EEST" name="allHeaderStakingPage" finished-at="2023-08-28T17:09:46 EEST" duration-ms="6294" status="PASS">
+        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:36 EEST" name="allHeaderStakingPage" finished-at="2023-08-28T17:27:42 EEST" duration-ms="6181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderStakingPage -->
-        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:46 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:09:50 EEST" duration-ms="4462" status="PASS">
+        <test-method retried="true" signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:42 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:27:46 EEST" duration-ms="3955" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -266,14 +266,196 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:46 EEST" name="setUp" finished-at="2023-08-28T17:09:46 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:42 EEST" name="setUp" finished-at="2023-08-28T17:27:42 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:50 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:09:54 EEST" duration-ms="3868" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:46 EEST" name="setUp" finished-at="2023-08-28T17:27:46 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:46 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:27:50 EEST" duration-ms="3840" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:50 EEST" name="setUp" finished-at="2023-08-28T17:27:50 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:50 EEST" name="getStartedHeaderStakingPage" finished-at="2023-08-28T17:27:54 EEST" duration-ms="3816" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedHeaderStakingPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:54 EEST" name="setUp" finished-at="2023-08-28T17:27:54 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:27:54 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:28:01 EEST" duration-ms="7750" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -335,15 +517,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:50 EEST" name="setUp" finished-at="2023-08-28T17:09:50 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:01 EEST" name="setUp" finished-at="2023-08-28T17:28:01 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:54 EEST" name="setUp" finished-at="2023-08-28T17:09:54 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:54 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:09:58 EEST" duration-ms="3842" status="SKIP">
+        <test-method retried="true" signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:01 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:28:09 EEST" duration-ms="7758" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -405,11 +583,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:58 EEST" name="setUp" finished-at="2023-08-28T17:09:58 EEST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:09 EEST" name="setUp" finished-at="2023-08-28T17:28:09 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:09:58 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:10:02 EEST" duration-ms="3847" status="FAIL">
+        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:09 EEST" name="learnHeaderStakingPage" finished-at="2023-08-28T17:28:17 EEST" duration-ms="7703" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -471,7 +649,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderStakingPage -->
-        <test-method retried="true" signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:02 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:10:06 EEST" duration-ms="3829" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:17 EEST" name="setUp" finished-at="2023-08-28T17:28:17 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:17 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:28:21 EEST" duration-ms="3841" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -533,15 +715,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:02 EEST" name="setUp" finished-at="2023-08-28T17:10:02 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:21 EEST" name="setUp" finished-at="2023-08-28T17:28:21 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:06 EEST" name="setUp" finished-at="2023-08-28T17:10:06 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:06 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:10:10 EEST" duration-ms="3828" status="SKIP">
+        <test-method retried="true" signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:21 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:28:24 EEST" duration-ms="3832" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -603,7 +781,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:10 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:10:14 EEST" duration-ms="4334" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:24 EEST" name="setUp" finished-at="2023-08-28T17:28:24 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:24 EEST" name="resourcesHeaderStakingPage" finished-at="2023-08-28T17:28:29 EEST" duration-ms="4303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,11 +801,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:10 EEST" name="setUp" finished-at="2023-08-28T17:10:10 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:14 EEST" name="mainSectionStakingPage" finished-at="2023-08-28T17:10:20 EEST" duration-ms="6261" status="PASS">
+        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:29 EEST" name="mainSectionStakingPage" finished-at="2023-08-28T17:28:35 EEST" duration-ms="6222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -639,15 +817,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:14 EEST" name="setUp" finished-at="2023-08-28T17:10:14 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:29 EEST" name="setUp" finished-at="2023-08-28T17:28:29 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:20 EEST" name="setUp" finished-at="2023-08-28T17:10:20 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:20 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:10:27 EEST" duration-ms="6379" status="SKIP">
+        <test-method retried="true" signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:35 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:28:43 EEST" duration-ms="8339" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -709,11 +883,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:27 EEST" name="setUp" finished-at="2023-08-28T17:10:27 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:35 EEST" name="setUp" finished-at="2023-08-28T17:28:35 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:27 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:10:33 EEST" duration-ms="6338" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:43 EEST" name="setUp" finished-at="2023-08-28T17:28:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:43 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:28:52 EEST" duration-ms="8364" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -775,7 +953,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:33 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:10:39 EEST" duration-ms="6362" status="FAIL">
+        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:52 EEST" name="delegatedSectionStakingPage" finished-at="2023-08-28T17:29:00 EEST" duration-ms="8634" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,60 +966,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage(AllPageChromeTests.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:33 EEST" name="setUp" finished-at="2023-08-28T17:10:33 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:28:52 EEST" name="setUp" finished-at="2023-08-28T17:28:52 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:39 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:10:47 EEST" duration-ms="7895" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:00 EEST" name="setUp" finished-at="2023-08-28T17:29:00 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:00 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:29:08 EEST" duration-ms="7854" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -903,15 +1039,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:39 EEST" name="setUp" finished-at="2023-08-28T17:10:39 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:08 EEST" name="setUp" finished-at="2023-08-28T17:29:08 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:47 EEST" name="setUp" finished-at="2023-08-28T17:10:47 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:47 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:10:56 EEST" duration-ms="8556" status="SKIP">
+        <test-method retried="true" signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:08 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:29:16 EEST" duration-ms="7831" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -973,11 +1105,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:56 EEST" name="setUp" finished-at="2023-08-28T17:10:56 EEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:16 EEST" name="setUp" finished-at="2023-08-28T17:29:16 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:10:56 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:11:05 EEST" duration-ms="8882" status="PASS">
+        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:16 EEST" name="calcStakSectionStakingPage" finished-at="2023-08-28T17:29:24 EEST" duration-ms="7887" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -990,10 +1122,60 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:05 EEST" name="allFooterStakingPage" finished-at="2023-08-28T17:11:10 EEST" duration-ms="5296" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:24 EEST" name="setUp" finished-at="2023-08-28T17:29:24 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:24 EEST" name="allFooterStakingPage" finished-at="2023-08-28T17:29:39 EEST" duration-ms="15434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1009,11 +1191,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:05 EEST" name="setUp" finished-at="2023-08-28T17:11:05 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:10 EEST" name="partnFooterStakingPage" finished-at="2023-08-28T17:11:15 EEST" duration-ms="5175" status="PASS">
+        <test-method signature="partnFooterStakingPage(java.lang.String,java.lang.String)[pri:10, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:39 EEST" name="partnFooterStakingPage" finished-at="2023-08-28T17:29:45 EEST" duration-ms="5160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1029,11 +1207,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:10 EEST" name="setUp" finished-at="2023-08-28T17:11:10 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:39 EEST" name="setUp" finished-at="2023-08-28T17:29:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:15 EEST" name="subFooterStakingPage" finished-at="2023-08-28T17:11:20 EEST" duration-ms="5139" status="PASS">
+        <test-method signature="subFooterStakingPage(java.lang.String,java.lang.String)[pri:11, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:45 EEST" name="subFooterStakingPage" finished-at="2023-08-28T17:29:50 EEST" duration-ms="4974" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1049,77 +1227,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:15 EEST" name="setUp" finished-at="2023-08-28T17:11:15 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:45 EEST" name="setUp" finished-at="2023-08-28T17:29:45 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:20 EEST" name="copFooterStakingPage" finished-at="2023-08-28T17:11:35 EEST" duration-ms="14710" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-at tests.stakingPageTests.AllPageChromeTests.copFooterStakingPage(AllPageChromeTests.java:244)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- copFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:20 EEST" name="setUp" finished-at="2023-08-28T17:11:20 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:50 EEST" name="setUp" finished-at="2023-08-28T17:29:50 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:35 EEST" name="copFooterStakingPage" finished-at="2023-08-28T17:11:40 EEST" duration-ms="5127" status="PASS">
+        <test-method signature="copFooterStakingPage(java.lang.String,java.lang.String)[pri:12, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:50 EEST" name="copFooterStakingPage" finished-at="2023-08-28T17:29:54 EEST" duration-ms="4970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1135,11 +1251,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:35 EEST" name="setUp" finished-at="2023-08-28T17:11:35 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:11:40 EEST" name="tearDown" finished-at="2023-08-28T17:11:41 EEST" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageChromeTests@17f62e33]" started-at="2023-08-28T17:29:54 EEST" name="tearDown" finished-at="2023-08-28T17:29:55 EEST" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
