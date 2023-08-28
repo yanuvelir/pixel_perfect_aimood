@@ -12,6 +12,23 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="partnFooterStakingPage" invocation-numbers="0"/>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
+          <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="copFooterStakingPage" invocation-numbers="0"/>
+          <include name="subFooterStakingPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
       <class name="tests.stakingPageTests.AllPageChromeTests">
         <methods>
           <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
@@ -19,11 +36,11 @@
           <include name="tearDown"/>
           <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="partnFooterStakingPage" invocation-numbers="0"/>
           <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="partnFooterStakingPage" invocation-numbers="0"/>
           <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
-          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
           <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
           <include name="mainSectionStakingPage" invocation-numbers="0"/>
           <include name="subFooterStakingPage" invocation-numbers="0"/>
           <include name="learnHeaderStakingPage" invocation-numbers="0"/>
