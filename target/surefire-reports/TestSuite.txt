@@ -1,147 +1,206 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 89, Failures: 27, Errors: 0, Skipped: 52, Time elapsed: 1,950.01 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.947 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
-
-tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.88 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
-
-tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.733 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.loginInToTheDexTrade  Time elapsed: 5.743 s  <<< FAILURE!
+Tests run: 83, Failures: 24, Errors: 0, Skipped: 46, Time elapsed: 1,922.354 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxAuthTests.loginInToTheDexTrade  Time elapsed: 5.797 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Cannot inject @Test annotated Method [loginInToTheDexTrade] with [class java.lang.String].
 For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 
-tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage  Time elapsed: 23.76 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage(AllPageFirefoxAuthTests.java:39)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage  Time elapsed: 25.095 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage(AllPageFirefoxAuthTests.java:59)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage  Time elapsed: 24.604 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage(AllPageFirefoxAuthTests.java:79)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage  Time elapsed: 24.747 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage(AllPageFirefoxAuthTests.java:99)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage  Time elapsed: 180.017 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-java.util.concurrent.TimeoutException
+tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage  Time elapsed: 15.162 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='right-nav']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7088147f-d1e0-47aa-b4f5-6455b9504919, get {url=https://dex-trade.com}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:21594, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4864, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21594/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7088147f-d1e0-47aa-b4f5-6455b9504919
-	at tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage(AllPageFirefoxAuthTests.java:111)
-Caused by: java.util.concurrent.TimeoutException
-	at tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage(AllPageFirefoxAuthTests.java:111)
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='right-nav']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage(AllPageFirefoxAuthTests.java:33)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage  Time elapsed: 36.311 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage  Time elapsed: 15.108 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='main-slider-pad']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage(AllPageFirefoxAuthTests.java:53)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage  Time elapsed: 27.205 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage(AllPageFirefoxAuthTests.java:79)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage  Time elapsed: 30.766 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage(AllPageFirefoxAuthTests.java:99)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage  Time elapsed: 37.85 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@data-test-id='wallet']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//li[@data-test-id='wallet']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage(AllPageFirefoxAuthTests.java:117)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage  Time elapsed: 50.637 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: //div[@data-test-id='profile']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7088147f-d1e0-47aa-b4f5-6455b9504919, findElement {using=xpath, value=//div[@data-test-id='profile']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:21594, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4864, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21594/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7088147f-d1e0-47aa-b4f5-6455b9504919
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@data-test-id='profile']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
 	at tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage(AllPageFirefoxAuthTests.java:137)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage  Time elapsed: 24.653 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage(AllPageFirefoxAuthTests.java:159)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage  Time elapsed: 19.63 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage(AllPageFirefoxAuthTests.java:182)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage  Time elapsed: 31.514 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage  Time elapsed: 30.854 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: (//span[@class='mr-right-8 pair-slider-iso'])[1]
+Unable to locate element: //div[@class='main-slider-pad']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7088147f-d1e0-47aa-b4f5-6455b9504919, findElement {using=xpath, value=(//span[@class='mr-right-8 pair-slider-iso'])[1]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:21594, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4864, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21594/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7088147f-d1e0-47aa-b4f5-6455b9504919
-	at tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage(AllPageFirefoxAuthTests.java:204)
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage(AllPageFirefoxAuthTests.java:153)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage  Time elapsed: 30.224 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage  Time elapsed: 30.221 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='main-slider-pad']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage(AllPageFirefoxAuthTests.java:176)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage  Time elapsed: 30.203 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='main-block-container']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-block-container']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage(AllPageFirefoxAuthTests.java:198)
+
+tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage  Time elapsed: 30.205 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: //div[@id='tns1-ow']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7088147f-d1e0-47aa-b4f5-6455b9504919, findElement {using=xpath, value=//div[@id='tns1-ow']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:21594, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4864, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:21594/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7088147f-d1e0-47aa-b4f5-6455b9504919
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@id='tns1-ow']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
 	at tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage(AllPageFirefoxAuthTests.java:248)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage  Time elapsed: 23.977 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage(AllPageFirefoxAuthTests.java:302)
+tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage  Time elapsed: 30.156 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='main-market-wrapper']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-market-wrapper']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage(AllPageFirefoxAuthTests.java:269)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage  Time elapsed: 19.665 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage(AllPageFirefoxAuthTests.java:324)
+tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage  Time elapsed: 30.181 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='main-market-wrapper']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-market-wrapper']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage(AllPageFirefoxAuthTests.java:318)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage  Time elapsed: 19.543 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage(AllPageFirefoxAuthTests.java:346)
+tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage  Time elapsed: 30.234 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='market-link-container']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='market-link-container']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage(AllPageFirefoxAuthTests.java:340)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage  Time elapsed: 19.593 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage  Time elapsed: 20.773 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage(AllPageFirefoxAuthTests.java:368)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage  Time elapsed: 19.525 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage  Time elapsed: 20.118 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage(AllPageFirefoxAuthTests.java:390)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage  Time elapsed: 19.512 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage  Time elapsed: 20.005 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage(AllPageFirefoxAuthTests.java:412)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage  Time elapsed: 19.543 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage  Time elapsed: 20.131 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage(AllPageFirefoxAuthTests.java:434)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage  Time elapsed: 18.62 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage  Time elapsed: 21.18 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage(AllPageFirefoxAuthTests.java:456)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage  Time elapsed: 18.639 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage  Time elapsed: 19.292 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage(AllPageFirefoxAuthTests.java:480)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage  Time elapsed: 18.644 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage  Time elapsed: 19.226 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage(AllPageFirefoxAuthTests.java:502)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage  Time elapsed: 18.632 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage(AllPageFirefoxAuthTests.java:524)
+tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage  Time elapsed: 31.725 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //footer[@class='footer']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage(AllPageFirefoxAuthTests.java:518)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1  Time elapsed: 18.861 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1(AllPageFirefoxAuthTests.java:550)
+tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1  Time elapsed: 30.976 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //footer[@class='footer']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//footer[@class='footer']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
+	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1(AllPageFirefoxAuthTests.java:540)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2  Time elapsed: 18.889 s  <<< FAILURE!
+tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2  Time elapsed: 20.001 s  <<< FAILURE!
 javax.imageio.IIOException: Can't read input file!
 	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2(AllPageFirefoxAuthTests.java:576)
 
