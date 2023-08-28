@@ -18,20 +18,14 @@
       <class name="tests.stakingPageTests.AllPageChromeTests">
         <methods>
           <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="copFooterStakingPage" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
-          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
           <include name="learnHeaderStakingPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
-      <class name="tests.stakingPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="copFooterStakingPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
