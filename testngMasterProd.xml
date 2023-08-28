@@ -3,7 +3,7 @@
 
 <suite name="WPT" >
     <listeners>
-        <listener class-name="tests.RetryAnalyzerTransformer"/>
+<!--        <listener class-name="tests.RetryAnalyzerTransformer"/>-->
     </listeners>
 
     <test name="ai-mood - Pixel perfect regression">
@@ -17,17 +17,17 @@
         <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
         <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
         <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
+        <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
 
 
 <!--        Screenshot directory-->
         <parameter name="ScShotDir" value="Screenshots/"/>
 
         <classes>
-            <!--            <class name="tests.mainPageTests.AllPageFirefoxAuthTests"/>-->
-            <!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
-
-            <class name="tests.mainPageTests.AllPageFirefoxTests"/>
-            <class name="tests.mainPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.mainPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.mainPageTests.AllPageFirefoxAuthTests"/>-->
+<!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.mainPageTests.AllPageChromeAuthTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.buySellMoodCoinTests.AllPageChromeTests"/>-->
@@ -40,6 +40,8 @@
 <!--            <class name="tests.affiliateProgramPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.walletPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.walletPageTests.AllPageChromeTests"/>-->
+            <class name="tests.stakingPageTests.AllPageFirefoxTests"/>
+            <class name="tests.stakingPageTests.AllPageChromeTests"/>
 
         </classes>
     </test>
