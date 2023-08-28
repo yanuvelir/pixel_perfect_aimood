@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="tests.RetryAnalyzerTransformer"/>
-  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
+    <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
@@ -14,15 +12,40 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
         <methods>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
+          <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="partnFooterStakingPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
-          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+          <include name="copFooterStakingPage" invocation-numbers="0"/>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="subFooterStakingPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
+      <class name="tests.stakingPageTests.AllPageChromeTests">
+        <methods>
+          <include name="copFooterStakingPage" invocation-numbers="0"/>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="partnFooterStakingPage" invocation-numbers="0"/>
+          <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
+          <include name="subFooterStakingPage" invocation-numbers="0"/>
+          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
