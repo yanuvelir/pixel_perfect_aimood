@@ -57,7 +57,7 @@ public class AllPageChromeTests extends BaseTest{
         action.openPage(main_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_learnHeaderMainPage/real_life_screenshot.png",
@@ -151,7 +151,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
         //Time
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
@@ -170,7 +170,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
         //Time
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
@@ -189,7 +189,7 @@ public class AllPageChromeTests extends BaseTest{
         //scroll
         action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper']");
         //Time
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='leaning-wrapper']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_leaningSectionMainPage/real_life_screenshot.png",
