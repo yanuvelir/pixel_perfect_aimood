@@ -57,7 +57,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(staking_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_learnHeaderStakingPage/real_life_screenshot.png",
@@ -132,7 +132,7 @@ public class AllPageChromeTests extends BaseTest {
         //Scroll
         action.moveViewableElementIntoCenter2("//section[@class='delegated-section section-new']");
         //Time
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@class='delegated-section section-new']",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_delegatedSectionStakingPage/real_life_screenshot.png",
