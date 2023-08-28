@@ -1,206 +1,72 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 83, Failures: 24, Errors: 0, Skipped: 46, Time elapsed: 1,922.354 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageFirefoxAuthTests.loginInToTheDexTrade  Time elapsed: 5.797 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 63, Failures: 17, Errors: 0, Skipped: 37, Time elapsed: 422.779 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 19.128 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
 
-Cannot inject @Test annotated Method [loginInToTheDexTrade] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.601 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage  Time elapsed: 15.162 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='right-nav']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='right-nav']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allHeaderMainPage(AllPageFirefoxAuthTests.java:33)
+tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.622 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage  Time elapsed: 15.108 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-slider-pad']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.tradeNavMainPage(AllPageFirefoxAuthTests.java:53)
+tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.647 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage  Time elapsed: 27.205 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.productsNavMainPage(AllPageFirefoxAuthTests.java:79)
+tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 4.678 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:118)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage  Time elapsed: 30.766 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.companyNavMainPage(AllPageFirefoxAuthTests.java:99)
+tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.907 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:137)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage  Time elapsed: 37.85 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //li[@data-test-id='wallet']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//li[@data-test-id='wallet']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.walletNavMainPage(AllPageFirefoxAuthTests.java:117)
+tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.571 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:156)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage  Time elapsed: 50.637 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@data-test-id='profile']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@data-test-id='profile']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.profileNavMainPage(AllPageFirefoxAuthTests.java:137)
+tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.104 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:175)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage  Time elapsed: 30.854 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-slider-pad']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.langDropDownNavMainPage(AllPageFirefoxAuthTests.java:153)
+tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.387 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage  Time elapsed: 30.221 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-slider-pad']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-slider-pad']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.mainBlockMainPage(AllPageFirefoxAuthTests.java:176)
+tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 6.009 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:214)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage  Time elapsed: 30.203 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-block-container']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-block-container']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.statisticBlockMainPage(AllPageFirefoxAuthTests.java:198)
+tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.109 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage(AllPageFirefoxTests.java:233)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage  Time elapsed: 30.205 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@id='tns1-ow']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@id='tns1-ow']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.sliderPadBlockMainPage(AllPageFirefoxAuthTests.java:248)
+tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 5.251 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage(AllPageFirefoxTests.java:252)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage  Time elapsed: 30.156 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-market-wrapper']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-market-wrapper']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.marketBlockMainPage(AllPageFirefoxAuthTests.java:269)
+tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.556 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage(AllPageFirefoxTests.java:271)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage  Time elapsed: 30.181 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='main-market-wrapper']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='main-market-wrapper']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.marketTitleBlockMainPage(AllPageFirefoxAuthTests.java:318)
+tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.903 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage  Time elapsed: 30.234 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='market-link-container']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//div[@class='market-link-container']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.quickBlockMainPage(AllPageFirefoxAuthTests.java:340)
+tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.947 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage  Time elapsed: 20.773 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.terminalBlockMainPage(AllPageFirefoxAuthTests.java:368)
+tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 3.889 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
 
-tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage  Time elapsed: 20.118 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.getStartedBlockMainPage(AllPageFirefoxAuthTests.java:390)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage  Time elapsed: 20.005 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.ieoBlockMainPage(AllPageFirefoxAuthTests.java:412)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage  Time elapsed: 20.131 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.tradePlatformBlockMainPage(AllPageFirefoxAuthTests.java:434)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage  Time elapsed: 21.18 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.whyCompanyBlockMainPage(AllPageFirefoxAuthTests.java:456)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage  Time elapsed: 19.292 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterMainPage(AllPageFirefoxAuthTests.java:480)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage  Time elapsed: 19.226 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterTopMainPage(AllPageFirefoxAuthTests.java:502)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage  Time elapsed: 31.725 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //footer[@class='footer']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//footer[@class='footer']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.allFooterBottomMainPage(AllPageFirefoxAuthTests.java:518)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1  Time elapsed: 30.976 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //footer[@class='footer']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8535a690-0bfd-4d88-bf7b-6f12e039285b, findElement {using=xpath, value=//footer[@class='footer']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:debuggerAddress: 127.0.0.1:29188, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1348, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:29188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8535a690-0bfd-4d88-bf7b-6f12e039285b
-	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart1(AllPageFirefoxAuthTests.java:540)
-
-tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2  Time elapsed: 20.001 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.mainPageTests.AllPageFirefoxAuthTests.langFooterMainPageDropDownPart2(AllPageFirefoxAuthTests.java:576)
+tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://ai-mood.com/en, Screenshots/](3)  Time elapsed: 9.076 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:175)
 

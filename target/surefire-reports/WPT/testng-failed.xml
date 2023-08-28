@@ -14,36 +14,37 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageFirefoxAuthTests">
+      <class name="tests.mainPageTests.AllPageFirefoxTests">
         <methods>
-          <include name="marketTitleBlockMainPage"/>
-          <include name="terminalBlockMainPage"/>
-          <include name="sliderPadBlockMainPage"/>
-          <include name="profileNavMainPage"/>
-          <include name="langDropDownNavMainPage"/>
-          <include name="tearDown"/>
-          <include name="walletNavMainPage"/>
-          <include name="mainBlockMainPage"/>
-          <include name="statisticBlockMainPage"/>
-          <include name="marketBlockMainPage"/>
-          <include name="ieoBlockMainPage"/>
-          <include name="companyNavMainPage"/>
-          <include name="quickBlockMainPage"/>
-          <include name="whyCompanyBlockMainPage"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="videoSectionMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="tradePlatformBlockMainPage"/>
-          <include name="allFooterMainPage"/>
-          <include name="allFooterBottomMainPage"/>
-          <include name="tradeNavMainPage"/>
-          <include name="productsNavMainPage"/>
-          <include name="loginInToTheDexTrade"/>
-          <include name="allHeaderMainPage"/>
-          <include name="langFooterMainPageDropDownPart1"/>
-          <include name="langFooterMainPageDropDownPart2"/>
-          <include name="getStartedBlockMainPage"/>
-          <include name="allFooterTopMainPage"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="mainSectionMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageFirefoxAuthTests -->
+      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      <class name="tests.mainPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
