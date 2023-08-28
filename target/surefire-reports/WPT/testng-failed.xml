@@ -23,39 +23,6 @@
           <include name="learnHeaderMainPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
-      <class name="tests.mainPageTests.AllPageChromeTests">
-        <methods>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
-          <include name="allFooterMainPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="learnHeaderMainPage" invocation-numbers="0"/>
-          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
-          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allFooterFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
       <class name="tests.mainPageTests.AllPageFirefoxAuthTests">
         <methods>
           <include name="marketTitleBlockMainPage"/>
@@ -65,8 +32,8 @@
           <include name="langDropDownNavMainPage"/>
           <include name="tearDown"/>
           <include name="walletNavMainPage"/>
-          <include name="statisticBlockMainPage"/>
           <include name="mainBlockMainPage"/>
+          <include name="statisticBlockMainPage"/>
           <include name="marketBlockMainPage"/>
           <include name="ieoBlockMainPage"/>
           <include name="companyNavMainPage"/>
@@ -76,45 +43,16 @@
           <include name="tradePlatformBlockMainPage"/>
           <include name="allFooterMainPage"/>
           <include name="allFooterBottomMainPage"/>
-          <include name="productsNavMainPage"/>
           <include name="tradeNavMainPage"/>
+          <include name="productsNavMainPage"/>
           <include name="loginInToTheDexTrade"/>
           <include name="allHeaderMainPage"/>
           <include name="langFooterMainPageDropDownPart1"/>
           <include name="langFooterMainPageDropDownPart2"/>
-          <include name="allFooterTopMainPage"/>
           <include name="getStartedBlockMainPage"/>
+          <include name="allFooterTopMainPage"/>
         </methods>
       </class> <!-- tests.mainPageTests.AllPageFirefoxAuthTests -->
-      <class name="tests.mainPageTests.AllPageChromeAuthTests">
-        <methods>
-          <include name="sliderPadBlockMainPage" invocation-numbers="0"/>
-          <include name="companyNavMainPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="allFooterTopMainPage" invocation-numbers="0"/>
-          <include name="whyCompanyBlockMainPage" invocation-numbers="0"/>
-          <include name="allFooterMainPage" invocation-numbers="0"/>
-          <include name="terminalBlockMainPage" invocation-numbers="0"/>
-          <include name="marketTitleBlockMainPage" invocation-numbers="0"/>
-          <include name="langDropDownNavMainPage" invocation-numbers="0"/>
-          <include name="profileNavMainPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="mainBlockMainPage" invocation-numbers="0"/>
-          <include name="walletNavMainPage" invocation-numbers="0"/>
-          <include name="tradePlatformBlockMainPage" invocation-numbers="0"/>
-          <include name="statisticBlockMainPage" invocation-numbers="0"/>
-          <include name="allFooterBottomMainPage" invocation-numbers="0"/>
-          <include name="productsNavMainPage" invocation-numbers="0"/>
-          <include name="tradeNavMainPage" invocation-numbers="0"/>
-          <include name="langFooterMainPageDropDownPart1" invocation-numbers="0"/>
-          <include name="ieoBlockMainPage" invocation-numbers="0"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
-          <include name="getStartedBlockMainPage" invocation-numbers="0"/>
-          <include name="marketBlockMainPage" invocation-numbers="0"/>
-          <include name="quickBlockMainPage" invocation-numbers="0"/>
-          <include name="langFooterMainPageDropDownPart2" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeAuthTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
