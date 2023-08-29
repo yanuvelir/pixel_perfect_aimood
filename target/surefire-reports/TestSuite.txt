@@ -1,8 +1,144 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 171.242 s <<< FAILURE! - in TestSuite
-tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 8.561 s  <<< FAILURE!
+Tests run: 128, Failures: 35, Errors: 0, Skipped: 70, Time elapsed: 664.225 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 3.83 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:166)
+	at tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage(WhitePaperChromeTests.java:43)
+
+tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 3.767 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage(WhitePaperChromeTests.java:61)
+
+tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 3.862 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage(WhitePaperChromeTests.java:79)
+
+tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 4.797 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage(WhitePaperChromeTests.java:96)
+
+tests.whitePaper.WhitePaperChromeTests.EweuimtPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.648 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.EweuimtPage(WhitePaperChromeTests.java:115)
+
+tests.whitePaper.WhitePaperChromeTests.allFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 4.982 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.allFooterMainPage(WhitePaperChromeTests.java:133)
+
+tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.168 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
+
+tests.whitePaper.WhitePaperChromeTests.copFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 3.768 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.copFooterMainPage(WhitePaperChromeTests.java:190)
+
+tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.63 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage(WhitePaperFirefoxTests.java:97)
+
+tests.whitePaper.WhitePaperFirefoxTests.EweuimtPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.251 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.EweuimtPage(WhitePaperFirefoxTests.java:116)
+
+tests.whitePaper.WhitePaperFirefoxTests.allFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 4.577 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.allFooterMainPage(WhitePaperFirefoxTests.java:134)
+
+tests.whitePaper.WhitePaperFirefoxTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 4.94 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.subFooterMainPage(WhitePaperFirefoxTests.java:172)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhitePaperPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 4.933 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhitePaperPage(WhatIsAimoodChromeTests.java:43)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.WhyChoosePage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5.502 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.WhyChoosePage(WhatIsAimoodChromeTests.java:62)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.TfeuamWbEUPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5.596 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.TfeuamWbEUPage(WhatIsAimoodChromeTests.java:79)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterMainPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterMainPage(WhatIsAimoodChromeTests.java:96)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.subFooterMainPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5.266 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.subFooterMainPage(WhatIsAimoodChromeTests.java:134)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.mainBlockWhatIsAimoodPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 4.642 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.mainBlockWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:43)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.WhyChoosePage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5.178 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.WhyChoosePage(WhatIsAimoodFirefoxTests.java:62)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.TfeuamWbEUPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 5.056 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.TfeuamWbEUPage(WhatIsAimoodFirefoxTests.java:79)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allFooterMainPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 4.564 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allFooterMainPage(WhatIsAimoodFirefoxTests.java:96)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.subFooterMainPage[https://ai-mood.com/en/what-is-aimood, Screenshots/](3)  Time elapsed: 4.918 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.subFooterMainPage(WhatIsAimoodFirefoxTests.java:134)
+
+tests.SignIn.SignInChromeTests.mainBlockWhitePaperPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 4.877 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInChromeTests.mainBlockWhitePaperPage(SignInChromeTests.java:43)
+
+tests.SignIn.SignInChromeTests.allPageSignInPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 5.351 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInChromeTests.allPageSignInPage(SignInChromeTests.java:94)
+
+tests.SignIn.SignInChromeTests.allFooterMainPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 4.604 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInChromeTests.allFooterMainPage(SignInChromeTests.java:110)
+
+tests.SignIn.SignInFirefoxTests.mainBlockWhitePaperPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 6.673 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInFirefoxTests.mainBlockWhitePaperPage(SignInFirefoxTests.java:43)
+
+tests.SignIn.SignInFirefoxTests.Forgot[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 6.389 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInFirefoxTests.Forgot(SignInFirefoxTests.java:62)
+
+tests.SignIn.SignInFirefoxTests.allPageSignInPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 5.114 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInFirefoxTests.allPageSignInPage(SignInFirefoxTests.java:94)
+
+tests.SignIn.SignInFirefoxTests.allFooterMainPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 6.3 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignIn.SignInFirefoxTests.allFooterMainPage(SignInFirefoxTests.java:110)
+
+tests.SignUp.SignUpChromeTests.mainBlockWhitePaperPage[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 4.869 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpChromeTests.mainBlockWhitePaperPage(SignUpChromeTests.java:43)
+
+tests.SignUp.SignUpChromeTests.allPageSignUpPage[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 2.711 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpChromeTests.allPageSignUpPage(SignUpChromeTests.java:77)
+
+tests.SignUp.SignUpChromeTests.allFooterSignUp[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 4.63 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpChromeTests.allFooterSignUp(SignUpChromeTests.java:93)
+
+tests.SignUp.SignUpFirefoxTests.mainBlockWhitePaperPage[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 4.63 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpFirefoxTests.mainBlockWhitePaperPage(SignUpFirefoxTests.java:43)
+
+tests.SignUp.SignUpFirefoxTests.allPageSignUpPage[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 2.642 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpFirefoxTests.allPageSignUpPage(SignUpFirefoxTests.java:77)
+
+tests.SignUp.SignUpFirefoxTests.allFooterSignUp[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 4.439 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.SignUp.SignUpFirefoxTests.allFooterSignUp(SignUpFirefoxTests.java:93)
 

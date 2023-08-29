@@ -6,23 +6,102 @@
   </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
     <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
-    <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
+    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
+    <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
+    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
+    <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
     <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
-    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
-    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="SignIn_page" value="https://ai-mood.com/en/login"/>
+    <parameter name="SignUp_page" value="https://ai-mood.com/en/register"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.stakingPageTests.AllPageChromeTests">
+      <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
+        <methods>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="WhyChoosePage" invocation-numbers="0"/>
+          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="TfeuamWbEUPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
+      <class name="tests.SignIn.SignInFirefoxTests">
+        <methods>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="allPageSignInPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Forgot" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignIn.SignInFirefoxTests -->
+      <class name="tests.SignIn.SignInChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
-          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="allPageSignInPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
+      </class> <!-- tests.SignIn.SignInChromeTests -->
+      <class name="tests.whitePaper.WhitePaperFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="EweuimtPage" invocation-numbers="0"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
+      <class name="tests.SignUp.SignUpFirefoxTests">
+        <methods>
+          <include name="allFooterSignUp" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allPageSignUpPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpFirefoxTests -->
+      <class name="tests.whitePaper.WhitePaperChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="EweuimtPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.whitePaper.WhitePaperChromeTests -->
+      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
+        <methods>
+          <include name="TfeuamWbEUPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="WhyChoosePage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
+      <class name="tests.SignUp.SignUpChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allPageSignUpPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="allFooterSignUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
