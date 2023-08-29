@@ -39,7 +39,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(staking_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_getStartedHeaderStakingPage/real_life_screenshot.png",
