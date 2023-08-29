@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 3, Errors: 0, Skipped: 10, Time elapsed: 206.37 s <<< FAILURE! - in TestSuite
-tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 3.825 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
-
-tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 7.703 s  <<< FAILURE!
+Tests run: 28, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 195.159 s <<< FAILURE! - in TestSuite
+tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 7.731 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage(AllPageChromeTests.java:62)
 
-tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 7.888 s  <<< FAILURE!
+tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 8.34 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage(AllPageChromeTests.java:137)
+
+tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 7.885 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:166)
 
