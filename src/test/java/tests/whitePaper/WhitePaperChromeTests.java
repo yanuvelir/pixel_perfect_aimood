@@ -38,7 +38,7 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_getStartedWhitePaperPage/real_life_screenshot.png",
@@ -56,12 +56,12 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_learnWhitePaperPage/real_life_screenshot.png",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_learnWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_learnWhitePaperPage/mock_screenshot.png");
+                ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_learnWhitePaperPage/difference.png");
 
     }
 
@@ -74,7 +74,7 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
-        Thread.sleep(100);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
