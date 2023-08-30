@@ -166,7 +166,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
         //Time
-        Thread.sleep(1500);
+        Thread.sleep(4000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
