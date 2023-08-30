@@ -1,12 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 25, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 164.598 s <<< FAILURE! - in TestSuite
-tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.739 s  <<< FAILURE!
+Tests run: 30, Failures: 4, Errors: 0, Skipped: 10, Time elapsed: 208.555 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 8.839 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage(WhitePaperChromeTests.java:43)
 
-tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.616 s  <<< FAILURE!
+tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.826 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage(WhitePaperChromeTests.java:61)
+
+tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.866 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage(WhitePaperChromeTests.java:79)
+
+tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 8.689 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 
