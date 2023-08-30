@@ -1,16 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 177.879 s <<< FAILURE! - in TestSuite
-tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.81 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage(WhitePaperChromeTests.java:61)
-
-tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.747 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage(WhitePaperChromeTests.java:79)
-
-tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 8.708 s  <<< FAILURE!
+Tests run: 22, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 150.371 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 9.188 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 
