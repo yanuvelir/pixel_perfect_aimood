@@ -1,20 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 179.646 s <<< FAILURE! - in TestSuite
-tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.715 s  <<< FAILURE!
+Tests run: 28, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 188.026 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.779 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.getStartedHeaderMainPage(WhitePaperChromeTests.java:43)
 
-tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.754 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage(WhitePaperChromeTests.java:61)
-
-tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.761 s  <<< FAILURE!
+tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.77 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.resourcesHeaderMainPage(WhitePaperChromeTests.java:79)
 
-tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.116 s  <<< FAILURE!
+tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 7.599 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 
