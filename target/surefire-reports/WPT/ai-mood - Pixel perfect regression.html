@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>9/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 30 15:15:46 EEST 2023</td>
+<td>Started on:</td><td>Wed Aug 30 15:21:19 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>89 seconds (89551 ms)</td>
+<tr><td>Total time:</td><td>90 seconds (90776 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.whitePaper.WhitePaperChromeTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td><div><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391575500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace391575500'><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace522082506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace522082506'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -132,7 +133,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage()'><b>mainBlockWhitePaperPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td title='tests.whitePaper.WhitePaperChromeTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
+<tr>
+<td title='tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td></td>
+<td>9</td>
+<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
+<tr>
+<td title='tests.whitePaper.WhitePaperChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
+<tr>
+<td title='tests.whitePaper.WhitePaperChromeTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
 <td></td>
 <td>5</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
@@ -142,17 +158,12 @@ function toggleAllBoxes() {
 <td>9</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
-<tr>
 <td title='tests.whitePaper.WhitePaperChromeTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
 <td></td>
 <td>5</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.EweuimtPage()'><b>EweuimtPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td title='tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage()'><b>mainBlockWhitePaperPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
 <td></td>
 <td>5</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
@@ -162,19 +173,9 @@ function toggleAllBoxes() {
 <td>9</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
+<td title='tests.whitePaper.WhitePaperChromeTests.EweuimtPage()'><b>EweuimtPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
 <td></td>
 <td>5</td>
-<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperChromeTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>9</td>
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -187,15 +188,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.whitePaper.WhitePaperChromeTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td><div><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294505405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace294505405'><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1204822967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1204822967'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -234,15 +236,16 @@ function toggleAllBoxes() {
 <td>tests.whitePaper.WhitePaperChromeTests@576d5deb</td></tr>
 <tr>
 <td title='tests.whitePaper.WhitePaperChromeTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperChromeTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td><div><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1600330912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1600330912'><pre>javax.imageio.IIOException: Can&apos;t read input file!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace177657196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace177657196'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
