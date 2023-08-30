@@ -56,7 +56,7 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_learnWhitePaperPage/real_life_screenshot.png",
@@ -74,7 +74,7 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
@@ -166,7 +166,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
         //Time
-        Thread.sleep(5000);
+        Thread.sleep(5500);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
