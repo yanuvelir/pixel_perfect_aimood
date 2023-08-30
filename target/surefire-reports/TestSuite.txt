@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 89.853 s <<< FAILURE! - in TestSuite
-tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 9.208 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 90.367 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.subFooterMainPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 9.122 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
 	at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 

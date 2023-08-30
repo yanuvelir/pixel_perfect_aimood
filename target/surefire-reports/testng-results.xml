@@ -2,16 +2,16 @@
 <testng-results retried="2" ignored="2" total="14" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-30T13:13:16 EEST" name="WPT" finished-at="2023-08-30T13:14:45 EEST" duration-ms="89035">
+  <suite started-at="2023-08-30T15:15:46 EEST" name="WPT" finished-at="2023-08-30T15:17:16 EEST" duration-ms="89551">
     <groups>
     </groups>
-    <test started-at="2023-08-30T13:13:16 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-30T13:14:45 EEST" duration-ms="89035">
+    <test started-at="2023-08-30T15:15:46 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-08-30T15:17:16 EEST" duration-ms="89551">
       <class name="tests.whitePaper.WhitePaperChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:16 EEST" name="setUp" finished-at="2023-08-30T13:13:18 EEST" duration-ms="2110" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:15:46 EEST" name="setUp" finished-at="2023-08-30T15:15:49 EEST" duration-ms="2455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:18 EEST" name="allHeaderMainPage" finished-at="2023-08-30T13:13:24 EEST" duration-ms="5535" status="PASS">
+        <test-method signature="allHeaderMainPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:15:49 EEST" name="allHeaderMainPage" finished-at="2023-08-30T15:15:55 EEST" duration-ms="5820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:24 EEST" name="setUp" finished-at="2023-08-30T13:13:24 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:24 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-30T13:13:33 EEST" duration-ms="9269" status="PASS">
+        <test-method signature="getStartedHeaderMainPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:15:55 EEST" name="getStartedHeaderMainPage" finished-at="2023-08-30T15:16:04 EEST" duration-ms="9272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderMainPage -->
-        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:33 EEST" name="learnHeaderMainPage" finished-at="2023-08-30T13:13:42 EEST" duration-ms="9252" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:15:55 EEST" name="setUp" finished-at="2023-08-30T15:15:55 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderMainPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:04 EEST" name="learnHeaderMainPage" finished-at="2023-08-30T15:16:13 EEST" duration-ms="9236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:33 EEST" name="setUp" finished-at="2023-08-30T13:13:33 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:04 EEST" name="setUp" finished-at="2023-08-30T15:16:04 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:42 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-30T13:13:51 EEST" duration-ms="9205" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:13 EEST" name="setUp" finished-at="2023-08-30T15:16:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderMainPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:13 EEST" name="resourcesHeaderMainPage" finished-at="2023-08-30T15:16:22 EEST" duration-ms="9242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,11 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:42 EEST" name="setUp" finished-at="2023-08-30T13:13:42 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:51 EEST" name="mainBlockWhitePaperPage" finished-at="2023-08-30T13:13:56 EEST" duration-ms="5240" status="PASS">
+        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:22 EEST" name="mainBlockWhitePaperPage" finished-at="2023-08-30T15:16:28 EEST" duration-ms="5258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,11 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainBlockWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:51 EEST" name="setUp" finished-at="2023-08-30T13:13:51 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:22 EEST" name="setUp" finished-at="2023-08-30T15:16:22 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="EweuimtPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:56 EEST" name="EweuimtPage" finished-at="2023-08-30T13:14:02 EEST" duration-ms="5646" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:28 EEST" name="setUp" finished-at="2023-08-30T15:16:28 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EweuimtPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:28 EEST" name="EweuimtPage" finished-at="2023-08-30T15:16:33 EEST" duration-ms="5662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +127,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EweuimtPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:13:56 EEST" name="setUp" finished-at="2023-08-30T13:13:56 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:02 EEST" name="allFooterMainPage" finished-at="2023-08-30T13:14:07 EEST" duration-ms="5252" status="PASS">
+        <test-method signature="allFooterMainPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:33 EEST" name="allFooterMainPage" finished-at="2023-08-30T15:16:39 EEST" duration-ms="5253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,11 +143,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:02 EEST" name="setUp" finished-at="2023-08-30T13:14:02 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:33 EEST" name="setUp" finished-at="2023-08-30T15:16:33 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:07 EEST" name="partnFooterMainPage" finished-at="2023-08-30T13:14:13 EEST" duration-ms="5122" status="PASS">
+        <test-method signature="partnFooterMainPage(java.lang.String,java.lang.String)[pri:8, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:39 EEST" name="partnFooterMainPage" finished-at="2023-08-30T15:16:44 EEST" duration-ms="5116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,11 +163,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partnFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:07 EEST" name="setUp" finished-at="2023-08-30T13:14:07 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:39 EEST" name="setUp" finished-at="2023-08-30T15:16:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:13 EEST" name="subFooterMainPage" finished-at="2023-08-30T13:14:22 EEST" duration-ms="9137" status="SKIP">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:44 EEST" name="setUp" finished-at="2023-08-30T15:16:44 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:44 EEST" name="subFooterMainPage" finished-at="2023-08-30T15:16:53 EEST" duration-ms="9087" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -180,16 +184,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="javax.imageio.IIOException">
             <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+              <![CDATA[Can't read input file!]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+              <![CDATA[javax.imageio.IIOException: Can't read input file!
+at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
 at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -225,19 +227,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- javax.imageio.IIOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:13 EEST" name="setUp" finished-at="2023-08-30T13:14:13 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:53 EEST" name="setUp" finished-at="2023-08-30T15:16:53 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:22 EEST" name="setUp" finished-at="2023-08-30T13:14:22 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:22 EEST" name="subFooterMainPage" finished-at="2023-08-30T13:14:31 EEST" duration-ms="9106" status="SKIP">
+        <test-method retried="true" signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:16:53 EEST" name="subFooterMainPage" finished-at="2023-08-30T15:17:02 EEST" duration-ms="9114" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -250,16 +248,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="javax.imageio.IIOException">
             <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+              <![CDATA[Can't read input file!]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+              <![CDATA[javax.imageio.IIOException: Can't read input file!
+at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
 at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -295,15 +291,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- javax.imageio.IIOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:31 EEST" name="setUp" finished-at="2023-08-30T13:14:31 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:17:02 EEST" name="setUp" finished-at="2023-08-30T15:17:02 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:31 EEST" name="subFooterMainPage" finished-at="2023-08-30T13:14:40 EEST" duration-ms="9202" status="FAIL">
+        <test-method signature="subFooterMainPage(java.lang.String,java.lang.String)[pri:9, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:17:02 EEST" name="subFooterMainPage" finished-at="2023-08-30T15:17:11 EEST" duration-ms="9116" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -316,16 +312,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="javax.imageio.IIOException">
             <message>
-              <![CDATA[*** Images are not similar *** expected [true] but found [false]]]>
+              <![CDATA[Can't read input file!]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+              <![CDATA[javax.imageio.IIOException: Can't read input file!
+at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1308)
+at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:48)
 at tests.whitePaper.WhitePaperChromeTests.subFooterMainPage(WhitePaperChromeTests.java:171)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -361,11 +355,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- javax.imageio.IIOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subFooterMainPage -->
-        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:40 EEST" name="copFooterMainPage" finished-at="2023-08-30T13:14:44 EEST" duration-ms="4228" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:17:11 EEST" name="setUp" finished-at="2023-08-30T15:17:11 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="copFooterMainPage(java.lang.String,java.lang.String)[pri:10, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:17:11 EEST" name="copFooterMainPage" finished-at="2023-08-30T15:17:15 EEST" duration-ms="4183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,11 +379,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copFooterMainPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:40 EEST" name="setUp" finished-at="2023-08-30T13:14:40 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T13:14:44 EEST" name="tearDown" finished-at="2023-08-30T13:14:45 EEST" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@576d5deb]" started-at="2023-08-30T15:17:15 EEST" name="tearDown" finished-at="2023-08-30T15:17:16 EEST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
