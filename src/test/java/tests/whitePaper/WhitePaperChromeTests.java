@@ -38,7 +38,7 @@ public class WhitePaperChromeTests extends BaseTest {
         action.openPage(whitePaper_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_getStartedWhitePaperPage/real_life_screenshot.png",
@@ -166,7 +166,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //scroll
         action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
         //Time
-        Thread.sleep(4000);
+        Thread.sleep(5000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='subfooter']",
                 ScShotDir + "White Paper/EnChromeWhitePaper/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
