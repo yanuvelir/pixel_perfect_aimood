@@ -1,20 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 141.316 s <<< FAILURE! - in TestSuite
-tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 8.745 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
-
-tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 8.762 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage(AllPageChromeTests.java:62)
-
-tests.stakingPageTests.AllPageChromeTests.resourcesHeaderStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 4.849 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.resourcesHeaderStakingPage(AllPageChromeTests.java:80)
-
-tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 6.918 s  <<< FAILURE!
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 100.194 s <<< FAILURE! - in TestSuite
+tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://ai-mood.com/en/stake-delegate, Screenshots/](3)  Time elapsed: 6.835 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:168)
 
