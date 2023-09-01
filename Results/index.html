@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-WPT" class="navigator-link">
-              <span class="suite-name border-skipped">WPT</span>
+              <span class="suite-name border-passed">WPT</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  2 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-WPT" class="hide-methods skipped suite-WPT"> (hide)</a> <!-- hide-methods skipped suite-WPT -->
-                      <a href="#" panel-name="suite-WPT" class="show-methods skipped suite-WPT"> (show)</a> <!-- show-methods skipped suite-WPT -->
-                    </span>
-                    <div class="method-list-content skipped suite-WPT">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.stakingPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)">calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-WPT" title="tests.stakingPageTests.AllPageChromeTests" class="method navigator-link" hash-for-method="calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)">calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-WPT -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -137,46 +118,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WPT" class="panel WPT">
-          <div class="suite-WPT-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">tests.stakingPageTests.AllPageChromeTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)">
-                  </a> <!-- calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/) -->
-                  <span class="method-name">calcStakSectionStakingPage</span>
-                  <span class="parameters">(https://ai-mood.com/en/stake-delegate,Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:168)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)">
-                  </a> <!-- calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/) -->
-                  <span class="method-name">calcStakSectionStakingPage</span>
-                  <span class="parameters">(https://ai-mood.com/en/stake-delegate,Screenshots/)</span>
-                  <div class="stack-trace">java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
-	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:168)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-WPT-class-skipped -->
           <div class="suite-WPT-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -261,24 +202,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'calcStakSectionStakingPage')
 data.setCell(0, 2, 'tests.stakingPageTests.AllPageChromeTests')
-data.setCell(0, 3, 11925);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'calcStakSectionStakingPage')
-data.setCell(1, 2, 'tests.stakingPageTests.AllPageChromeTests')
-data.setCell(1, 3, 9542);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'calcStakSectionStakingPage')
-data.setCell(2, 2, 'tests.stakingPageTests.AllPageChromeTests')
-data.setCell(2, 3, 9460);
+data.setCell(0, 3, 10374);
 window.suiteTableData['WPT']= { tableData: data, tableDiv: 'times-div-WPT'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-WPT">
               </div> <!-- times-div-WPT -->
             </div> <!-- times-div -->
@@ -311,27 +244,11 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)</span>
-                <span class="method-start">4266 ms</span>
+                <span class="method-start">3121 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)</span>
-                <span class="method-start">16191 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">16191 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">calcStakSectionStakingPage(https://ai-mood.com/en/stake-delegate, Screenshots/)</span>
-                <span class="method-start">25733 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">25733 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35196 ms</span>
+                <span class="method-start">13495 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

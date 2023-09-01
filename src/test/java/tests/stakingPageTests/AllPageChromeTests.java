@@ -165,7 +165,8 @@ public class AllPageChromeTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='calc-stak-wrapper']",
+        pixelPerfectAssert.fullPage(
+                //pixelPerfectAssert.byElement("//section[@class='calc-stak-wrapper']",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_calcStakSectionStakingPage/real_life_screenshot.png",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_calcStakSectionStakingPage/mock_screenshot.png",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_calcStakSectionStakingPage/difference.png");

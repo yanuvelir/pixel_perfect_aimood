@@ -25,12 +25,12 @@ public class PixelPerfectAssert {
             IOException {
         //setBrowserWindowSize(resolution);  // new method to set browser window size
 
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
-        WebElement inputWrapper = driver.findElement(By.xpath(ElementXpath));//"input-wrap"
-
+        WebElement element = driver.findElement(By.xpath(ElementXpath));//"input-wrap"
+        Thread.sleep(2000);
         try {
-            File screenshotFile = inputWrapper.getScreenshotAs(OutputType.FILE);
+            File screenshotFile = element.getScreenshotAs(OutputType.FILE);
             File destinationFile = new File
                     (RealLifeScreenShotPath);
             // *** To install new screenshots recommit MockFilePath ***
