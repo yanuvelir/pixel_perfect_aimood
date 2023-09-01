@@ -32,7 +32,7 @@ public class Action {
     }
 
     public WebElement findElementByID(String id) {
-        WebElement element = driver.findElement(By.xpath(id));
+        WebElement element = driver.findElement(By.id(id));
         return element;
     }
 
@@ -133,6 +133,18 @@ public class Action {
         System.out.println(getText);
     }
 
+    public void changeDate() {
+        WebElement dateInput = findElementByID("period_from");
+        String script = "arguments[0].value = '08-06-23';";
+        ((JavascriptExecutor) driver).executeScript(script, dateInput);
+        WebElement dateInput2 = findElementByXpath("(//input[@name='datepicker'])[2]");
+        String script2 = "arguments[0].value = '08-06-23';";
+        ((JavascriptExecutor) driver).executeScript(script2, dateInput2);
+
+        // You can add additional actions here, like submitting the form or performing other interactions
+
+    }
+
     @Parameters({"main_page"})
     public void loggedAsQaWptUser(String main_page) throws InterruptedException {
         //Open a page for test
@@ -156,5 +168,7 @@ public class Action {
         //Timeout
 //        Thread.sleep(2000);
     }
+
+
 
 }

@@ -19,17 +19,13 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.SignUp.SignUpFirefoxTests">
+      <class name="tests.stakingPageTests.AllPageChromeTests">
         <methods>
-          <include name="allFooterSignUp" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="Already" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="allHeaderSignUpPage" invocation-numbers="0"/>
-          <include name="allPageSignUpPage" invocation-numbers="0"/>
-          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.SignUp.SignUpFirefoxTests -->
+      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
