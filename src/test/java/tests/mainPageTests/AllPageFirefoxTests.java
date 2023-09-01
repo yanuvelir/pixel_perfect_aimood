@@ -21,7 +21,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(main_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allHeaderMainPage/real_life_screenshot.png",
@@ -115,7 +115,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='section-wrapper']",
+        pixelPerfectAssert.byElement("//section[@class='section-wrapper item']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='video-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@class='video-wrapper item']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='video-wrapper']",
+        pixelPerfectAssert.byElement("//section[@class='video-wrapper item']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/difference.png");
@@ -149,11 +149,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper item']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper']",
+        pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper item']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/difference.png");
@@ -168,11 +168,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper item']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
+        pixelPerfectAssert.byElement("//section[@class='statistics-wrapper item']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/difference.png");
@@ -187,11 +187,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper item']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='leaning-wrapper']",
+        pixelPerfectAssert.byElement("//section[@class='leaning-wrapper item']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_leaningSectionMainPage/difference.png");
