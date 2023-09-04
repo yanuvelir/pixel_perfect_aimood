@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ai-mood - Pixel perfect regression</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>100/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/13/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 01 11:34:45 EEST 2023</td>
+<td>Started on:</td><td>Mon Sep 04 11:59:23 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>524 seconds (524214 ms)</td>
+<tr><td>Total time:</td><td>104 seconds (104632 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,505 +76,590 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.learnHeaderFundPage()'><b>learnHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace790432700", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace790432700'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>7</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.copFooterAffiliateProgramPage()'><b>copFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace911857585", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace911857585'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>11</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage()'><b>mainSectionBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.subFooterMarketPlacePage()'><b>subFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.allFooterAffiliateProgramPage()'><b>allFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAffiliateProgramPage()'><b>getStartedHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.learnHeaderWalletPage()'><b>learnHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.allFooterStakingPage()'><b>allFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.copFooterWalletPage()'><b>copFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage()'><b>statisticsSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage()'><b>getStartedHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage()'><b>mainSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage()'><b>mainSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage()'><b>learnHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage()'><b>mainSectionFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage()'><b>allFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.copFooterBuySellMoodCoinPage()'><b>copFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage()'><b>affiliateSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage()'><b>allFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage()'><b>allHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.TfeuamWbEUPage()'><b>TfeuamWbEUPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.copFooterFundPage()'><b>copFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.resourcesHeaderStakingPage()'><b>resourcesHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.subFooterFundPage()'><b>subFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage()'><b>resourcesHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage()'><b>mainSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.subFooterBuySellMoodCoinPage()'><b>subFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.allFooterWalletPage()'><b>allFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage()'><b>statisticsSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage()'><b>resourcesHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage()'><b>learnHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.copFooterTokenMoodPage()'><b>copFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage()'><b>getStartedHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.calcStakSectionStakingPage()'><b>calcStakSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage()'><b>videoSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace245298614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace245298614'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>8</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.copFooterMarketPlacePage()'><b>copFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:214)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace499339307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace499339307'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>6</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace531373404", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace531373404'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>5</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage()'><b>roadmapSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:156)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace581383895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace581383895'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:156)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>8</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage()'><b>resourcesHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage()'><b>allFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>9</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.copFooterStakingPage()'><b>copFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage()'><b>resourcesHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.partnFooterWalletPage()'><b>partnFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage()'><b>getStartedHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage()'><b>learnHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.partnFooterTokenMoodPage()'><b>partnFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.allFooterMainPage()'><b>allFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.subFooterTokenMoodPage()'><b>subFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage()'><b>resourcesHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.partnFooterAffiliateProgramPage()'><b>partnFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAffiliateProgramPage()'><b>learnHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.mainBlockWhatIsAimoodPage()'><b>mainBlockWhatIsAimoodPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage()'><b>statisticsSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1183701566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1183701566'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>5</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage()'><b>allHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@66d3eec0</td></tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1323706655", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1323706655'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>7</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.learnHeaderMainPage()'><b>learnHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage()'><b>leaningSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1798636297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1798636297'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>8</td>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
+<tr>
+<td title='tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage(AllPageFirefoxTests.java:271)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace856047451", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace856047451'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage(AllPageFirefoxTests.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage()'><b>mainSectionMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1440939580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1440939580'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>5</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.allHeaderWalletPage()'><b>allHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage()'><b>allFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.getStartedHeaderMainPage()'><b>getStartedHeaderMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.partnFooterBuySellMoodCoinPage()'><b>partnFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage()'><b>delegatedSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.allHeaderAffiliateProgramPage()'><b>allHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.partnFooterMarketPlacePage()'><b>partnFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.subFooterWalletPage()'><b>subFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage()'><b>resourcesHeaderMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage()'><b>allHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@4738a206</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.getStartedHeaderWalletPage()'><b>getStartedHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage()'><b>allHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.subFooterAffiliateProgramPage()'><b>subFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@1af2d44a</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.EweuimtPage()'><b>EweuimtPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.WhyChoosePage()'><b>WhyChoosePage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.delegatedSectionStakingPage()'><b>delegatedSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage(AllPageFirefoxTests.java:233)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2052601222", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2052601222'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.partnFooterMainPage(AllPageFirefoxTests.java:233)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>6</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 <tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allHeaderMainPage()'><b>allHeaderMainPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
-<tr>
-<td title='tests.walletPageTests.AllPageFirefoxTests.resourcesHeaderWalletPage()'><b>resourcesHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.walletPageTests.AllPageFirefoxTests@18d87d80</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage()'><b>allHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage()'><b>mainBlockWhitePaperPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
+<td title='tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage()'><b>subFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://aimood-stage1.intary.net/en/, Screenshots_St1/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage(AllPageFirefoxTests.java:252)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2055276126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2055276126'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.mainPageTests.AllPageFirefoxTests.subFooterMainPage(AllPageFirefoxTests.java:252)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
 <td>5</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage()'><b>mainSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@614ca7df</td></tr>
-<tr>
-<td title='tests.mainPageTests.AllPageFirefoxTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.mainPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.mainPageTests.AllPageFirefoxTests@37654521</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.mainSectionStakingPage()'><b>mainSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.partnFooterFundPage()'><b>partnFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.learnHeaderStakingPage()'><b>learnHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.subFooterStakingPage()'><b>subFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.getStartedHeaderStakingPage()'><b>getStartedHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.getStartedHeaderFundPage()'><b>getStartedHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@1e04fa0a</td></tr>
-<tr>
-<td title='tests.whitePaper.WhitePaperFirefoxTests.copFooterMainPage()'><b>copFooterMainPage</b><br>Test class: tests.whitePaper.WhitePaperFirefoxTests<br>Parameters: https://ai-mood.com/en/white-paper, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.whitePaper.WhitePaperFirefoxTests@58695725</td></tr>
-<tr>
-<td title='tests.stakingPageTests.AllPageFirefoxTests.partnFooterStakingPage()'><b>partnFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.stakingPageTests.AllPageFirefoxTests@618425b5</td></tr>
-<tr>
-<td title='tests.WhatIsAimood.WhatIsAimoodFirefoxTests.partnFooterMainPage()'><b>partnFooterMainPage</b><br>Test class: tests.WhatIsAimood.WhatIsAimoodFirefoxTests<br>Parameters: https://ai-mood.com/en/what-is-aimood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.WhatIsAimood.WhatIsAimoodFirefoxTests@543588e6</td></tr>
+<td>tests.mainPageTests.AllPageFirefoxTests@4a668b6e</td></tr>
 </table><p>
 </body>
 </html>

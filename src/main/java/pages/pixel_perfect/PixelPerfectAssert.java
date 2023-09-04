@@ -32,9 +32,9 @@ public class PixelPerfectAssert {
         try {
             File screenshotFile = element.getScreenshotAs(OutputType.FILE);
             File destinationFile = new File
-                    (RealLifeScreenShotPath);
+//                    (RealLifeScreenShotPath);
             // *** To install new screenshots recommit MockFilePath ***
-//                    (MockFilePath);
+                    (MockFilePath);
             Files.move(screenshotFile.toPath(), destinationFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
             if (!destinationFile.exists()) {
                 destinationFile.createNewFile();
@@ -122,9 +122,9 @@ public class PixelPerfectAssert {
         try {
             File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             File destinationFile = new File
-                    (RealLifeScreenShotPath);
+//                    (RealLifeScreenShotPath);
             // *** To install new screenshots recommit MockFilePath ***
-//                    (MockFilePath);
+                    (MockFilePath);
             Files.move(screenshotFile.toPath(), destinationFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
             if (!destinationFile.exists()) {
                 destinationFile.createNewFile();
