@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="tests.RetryAnalyzerTransformer"/>
-  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)">
     <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
     <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
@@ -13,19 +10,155 @@
     <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="main_page" value="https://ai-mood.com/en"/>
-    <parameter name="token_mood_page" value="https://ai-mood.com/en/block-explorer"/>
+    <parameter name="token_mood_page" value="https://ai-mood.com/en/token-mood"/>
     <parameter name="SignIn_page" value="https://ai-mood.com/en/login"/>
     <parameter name="SignUp_page" value="https://ai-mood.com/en/register"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.stakingPageTests.AllPageChromeTests">
+      <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
+        <methods>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="WhyChoosePage" invocation-numbers="0"/>
+          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="TfeuamWbEUPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="subFooterFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderFundPage" invocation-numbers="0"/>
+          <include name="copFooterFundPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
+          <include name="partnFooterFundPage" invocation-numbers="0"/>
+          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="subFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="partnFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="copFooterMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+        <methods>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="copFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="subFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="partnFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="copFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="partnFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="subFooterAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.whitePaper.WhitePaperFirefoxTests">
         <methods>
           <include name="tearDown"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="EweuimtPage" invocation-numbers="0"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
+      </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
+      <class name="tests.mainPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="videoSectionMainPage" invocation-numbers="0"/>
+          <include name="subFooterMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="copFooterMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="mainSectionMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="partnFooterMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      <class name="tests.walletPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="resourcesHeaderWalletPage" invocation-numbers="0"/>
+          <include name="subFooterWalletPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionWalletPage" invocation-numbers="0"/>
+          <include name="allHeaderWalletPage" invocation-numbers="0"/>
+          <include name="copFooterWalletPage" invocation-numbers="0"/>
+          <include name="learnHeaderWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderWalletPage" invocation-numbers="0"/>
+          <include name="partnFooterWalletPage" invocation-numbers="0"/>
+          <include name="allFooterWalletPage" invocation-numbers="0"/>
+          <include name="delegatedSectionWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.walletPageTests.AllPageFirefoxTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="partnFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="copFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="subFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
