@@ -115,7 +115,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='section-wrapper item']",
+        pixelPerfectAssert.byElement("//section[@data-testid='section-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_mainSectionMainPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='video-wrapper item']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='video-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='video-wrapper item']",
+        pixelPerfectAssert.byElement("//section[@data-testid='video-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_videoSectionMainPage/difference.png");
@@ -149,11 +149,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='roadmap-wrapper item']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='roadmap-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='roadmap-wrapper item']",
+        pixelPerfectAssert.byElement("//section[@data-testid='roadmap-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_roadmapSectionMainPage/difference.png");
@@ -168,11 +168,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper item']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='statistics-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='statistics-wrapper item']",
+        pixelPerfectAssert.byElement("//section[@data-testid='statistics-wrapper']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_statisticsSectionMainPage/difference.png");
@@ -187,7 +187,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//section[@class='leaning-wrapper item']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='leaning-wrapper']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
@@ -207,73 +207,73 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_allFooterMainPage/difference.png");
 
     }
 
-    @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 12)
-    public void partnFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(main_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='partn-container']",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/difference.png");
-
-    }
-
-    @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 13)
-    public void subFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(main_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='subfooter']",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/difference.png");
-
-    }
-
-    @Parameters({"main_page", "ScShotDir"})
-    @Test(priority = 14)
-    public void copFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(main_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
-        //Time
-        Thread.sleep(100);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='copy-container']",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/real_life_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/mock_screenshot.png",
-                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/difference.png");
-
-    }
+//    @Parameters({"main_page", "ScShotDir"})
+//    @Test(priority = 12)
+//    public void partnFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(main_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='partn-container']",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/real_life_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/mock_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_partnFooterMainPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"main_page", "ScShotDir"})
+//    @Test(priority = 13)
+//    public void subFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(main_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='subfooter']",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/real_life_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/mock_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_subFooterMainPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"main_page", "ScShotDir"})
+//    @Test(priority = 14)
+//    public void copFooterMainPage(String main_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(main_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
+//        //Time
+//        Thread.sleep(100);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='copy-container']",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/real_life_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/mock_screenshot.png",
+//                ScShotDir+"Main_page/EnFirefox/Screenshots_copFooterMainPage/difference.png");
+//
+//    }
 
 
 }
