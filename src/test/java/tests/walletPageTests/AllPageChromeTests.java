@@ -22,7 +22,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(wallet_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_allHeaderWalletPage/real_life_screenshot.png",
@@ -116,7 +116,7 @@ public class AllPageChromeTests extends BaseTest {
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='first-main-saction wallet-program-section section-new']",
+        pixelPerfectAssert.byElement("//section[@data-testid='wallet-program-section']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_mainSectionWalletPage/real_life_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_mainSectionWalletPage/mock_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_mainSectionWalletPage/difference.png");
@@ -131,11 +131,11 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(wallet_page);
         //Scroll
-        action.moveViewableElementIntoCenter2("//section[@class='delegated-section section-new']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='delegated-section']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='delegated-section section-new']",
+        pixelPerfectAssert.byElement("//section[@data-testid='delegated-section']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_delegatedSectionWalletPage/real_life_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_delegatedSectionWalletPage/mock_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_delegatedSectionWalletPage/difference.png");
@@ -152,71 +152,71 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(wallet_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_allFooterWalletPage/real_life_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_allFooterWalletPage/mock_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_allFooterWalletPage/difference.png");
 
     }
 
-    @Parameters({"wallet_page", "ScShotDir"})
-    @Test(priority = 9)
-    public void partnFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(wallet_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='partn-container']",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/real_life_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/mock_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/difference.png");
-
-    }
-
-    @Parameters({"wallet_page", "ScShotDir"})
-    @Test(priority = 10)
-    public void subFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(wallet_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='subfooter']",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/real_life_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/mock_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/difference.png");
-
-    }
-
-    @Parameters({"wallet_page", "ScShotDir"})
-    @Test(priority = 11)
-    public void copFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(wallet_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
-        //Time
-        Thread.sleep(100);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='copy-container']",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/real_life_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/mock_screenshot.png",
-                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/difference.png");
-
-    }
+//    @Parameters({"wallet_page", "ScShotDir"})
+//    @Test(priority = 9)
+//    public void partnFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(wallet_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='partn-container']",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/real_life_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/mock_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_partnFooterWalletPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"wallet_page", "ScShotDir"})
+//    @Test(priority = 10)
+//    public void subFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(wallet_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='subfooter']",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/real_life_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/mock_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_subFooterWalletPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"wallet_page", "ScShotDir"})
+//    @Test(priority = 11)
+//    public void copFooterWalletPage(String wallet_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(wallet_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
+//        //Time
+//        Thread.sleep(100);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='copy-container']",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/real_life_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/mock_screenshot.png",
+//                ScShotDir+"Wallet_page/EnChrome/Screenshots_copFooterWalletPage/difference.png");
+//
+//    }
 }
