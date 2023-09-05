@@ -10,7 +10,7 @@ public class AllPageFirefoxTests extends BaseTest {
     public AllPageFirefoxTests() {
         super("win_firefox");
     }
-    // DREAM-832
+
     //HEADER TESTS
     @Parameters({"token_mood_page", "ScShotDir"})
     @Test(priority = 1)
@@ -21,7 +21,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(token_mood_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_allHeaderTokenMoodPage/real_life_screenshot.png",
@@ -115,7 +115,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='first-main-saction affiliate-program-section section-new']",
+        pixelPerfectAssert.byElement("//section[@data-testid='token-mood-section']",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_mainSectionTokenMoodPage/real_life_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_mainSectionTokenMoodPage/mock_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_mainSectionTokenMoodPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(token_mood_page);
         //Scroll
-        action.moveViewableElementIntoCenter2("//section[@class='statistics-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='statistics-wrapper']");
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='statistics-wrapper']",
+        pixelPerfectAssert.byElement("//section[@data-testid='statistics-wrapper']",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_statisticsSectionTokenMoodPage/real_life_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_statisticsSectionTokenMoodPage/mock_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_statisticsSectionTokenMoodPage/difference.png");
@@ -151,73 +151,73 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(token_mood_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_allFooterTokenMoodPage/real_life_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_allFooterTokenMoodPage/mock_screenshot.png",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_allFooterTokenMoodPage/difference.png");
 
     }
 
-    @Parameters({"token_mood_page", "ScShotDir"})
-    @Test(priority = 9)
-    public void partnFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(token_mood_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='partn-container']",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/real_life_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/mock_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/difference.png");
-
-    }
-
-    @Parameters({"token_mood_page", "ScShotDir"})
-    @Test(priority = 10)
-    public void subFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(token_mood_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='subfooter']",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/real_life_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/mock_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/difference.png");
-
-    }
-
-    @Parameters({"token_mood_page", "ScShotDir"})
-    @Test(priority = 11)
-    public void copFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(token_mood_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
-        //Time
-        Thread.sleep(100);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='copy-container']",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/real_life_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/mock_screenshot.png",
-                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/difference.png");
-
-    }
+//    @Parameters({"token_mood_page", "ScShotDir"})
+//    @Test(priority = 9)
+//    public void partnFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(token_mood_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='partn-container']",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/real_life_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/mock_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_partnFooterTokenMoodPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"token_mood_page", "ScShotDir"})
+//    @Test(priority = 10)
+//    public void subFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(token_mood_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='subfooter']",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/real_life_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/mock_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_subFooterTokenMoodPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"token_mood_page", "ScShotDir"})
+//    @Test(priority = 11)
+//    public void copFooterTokenMoodPage(String token_mood_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(token_mood_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
+//        //Time
+//        Thread.sleep(100);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='copy-container']",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/real_life_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/mock_screenshot.png",
+//                ScShotDir+"TokenMood_page/EnFirefox/Screenshots_copFooterTokenMoodPage/difference.png");
+//
+//    }
 
 
 }

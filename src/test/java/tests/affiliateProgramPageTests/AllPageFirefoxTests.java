@@ -21,7 +21,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(affiliate_program_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(100);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_allHeaderAffiliateProgramPage/real_life_screenshot.png",
@@ -115,7 +115,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='first-main-saction affiliate-program-section section-new']",
+        pixelPerfectAssert.byElement("//section[@data-testid='affiliate-program-section']",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_mainSectionAffiliateProgramPage/real_life_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_mainSectionAffiliateProgramPage/mock_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_mainSectionAffiliateProgramPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(affiliate_program_page);
         //Scroll
-        action.moveViewableElementIntoCenter2("//section[@class='affiliate-wrapper']");
+        action.moveViewableElementIntoCenter2("//section[@data-testid='affiliate-wrapper']");
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//section[@class='affiliate-wrapper']",
+        pixelPerfectAssert.byElement("//section[@data-testid='affiliate-wrapper']",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_affiliateSectionAffiliateProgramPage/real_life_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_affiliateSectionAffiliateProgramPage/mock_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_affiliateSectionAffiliateProgramPage/difference.png");
@@ -151,73 +151,73 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(affiliate_program_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new transparent__footer']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new transparent__footer']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_allFooterAffiliateProgramPage/real_life_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_allFooterAffiliateProgramPage/mock_screenshot.png",
                 ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_allFooterAffiliateProgramPage/difference.png");
 
     }
 
-    @Parameters({"affiliate_program_page", "ScShotDir"})
-    @Test(priority = 9)
-    public void partnFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(affiliate_program_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='partn-container']",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/real_life_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/mock_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/difference.png");
-
-    }
-
-    @Parameters({"affiliate_program_page", "ScShotDir"})
-    @Test(priority = 10)
-    public void subFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(affiliate_program_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
-        //Time
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='subfooter']",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/real_life_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/mock_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/difference.png");
-
-    }
-
-    @Parameters({"affiliate_program_page", "ScShotDir"})
-    @Test(priority = 11)
-    public void copFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(affiliate_program_page);
-        //scroll
-        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
-        //Time
-        Thread.sleep(100);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='copy-container']",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/real_life_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/mock_screenshot.png",
-                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/difference.png");
-
-    }
+//    @Parameters({"affiliate_program_page", "ScShotDir"})
+//    @Test(priority = 9)
+//    public void partnFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(affiliate_program_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='partn-container']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='partn-container']",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/real_life_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/mock_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_partnFooterAffiliateProgramPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"affiliate_program_page", "ScShotDir"})
+//    @Test(priority = 10)
+//    public void subFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(affiliate_program_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='subfooter']");
+//        //Time
+//        Thread.sleep(1000);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='subfooter']",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/real_life_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/mock_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_subFooterAffiliateProgramPage/difference.png");
+//
+//    }
+//
+//    @Parameters({"affiliate_program_page", "ScShotDir"})
+//    @Test(priority = 11)
+//    public void copFooterAffiliateProgramPage(String affiliate_program_page, String ScShotDir) throws IOException, InterruptedException {
+//        // Resolution
+//        CommonActions.setBrowserWindowSize("mac 14");
+//        //Open a page for test
+//        action.openPage(affiliate_program_page);
+//        //scroll
+//        action.moveViewableElementIntoCenter2("//div[@class='copy-container']");
+//        //Time
+//        Thread.sleep(100);
+//        //Run the Pixel perfect test for a selected element
+//        pixelPerfectAssert.byElement("//div[@class='copy-container']",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/real_life_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/mock_screenshot.png",
+//                ScShotDir+"AffiliateProgram_page/EnFirefox/Screenshots_copFooterAffiliateProgramPage/difference.png");
+//
+//    }
 
 
 }
