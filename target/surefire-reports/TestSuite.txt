@@ -1,4 +1,74 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.62 s - in TestSuite
+Tests run: 27, Failures: 9, Errors: 0, Skipped: 18, Time elapsed: 245.284 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperFirefoxTests.allHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 22.564 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.allHeaderWhitePaperPage(WhitePaperFirefoxTests.java:27)
+
+tests.whitePaper.WhitePaperFirefoxTests.getStartedHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.433 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.getStartedHeaderWhitePaperPage(WhitePaperFirefoxTests.java:44)
+
+tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.507 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element with the reference 4bb96354-d348-4079-b0a4-85546ce13f30 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [141e3bdf-96bb-46f3-836b-b21f40832b10, elementScreenshot {id=4bb96354-d348-4079-b0a4-85546ce13f30}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:32948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4688, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (141e3bdf-96bb-46f3-836b-b21f40832b10)] -> xpath: //a[@data-testid='head-nav-market-place']]
+Session ID: 141e3bdf-96bb-46f3-836b-b21f40832b10
+	at tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage(WhitePaperFirefoxTests.java:80)
+
+tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.442 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage(WhitePaperFirefoxTests.java:98)
+
+tests.whitePaper.WhitePaperFirefoxTests.learnHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.455 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.learnHeaderWhitePaperPage(WhitePaperFirefoxTests.java:62)
+
+tests.whitePaper.WhitePaperFirefoxTests.resourcesHeaderWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.437 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+The element with the reference f1ac709e-91ec-49e0-86c2-9aa1c663c3d0 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [141e3bdf-96bb-46f3-836b-b21f40832b10, elementScreenshot {id=f1ac709e-91ec-49e0-86c2-9aa1c663c3d0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:32948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4688, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (141e3bdf-96bb-46f3-836b-b21f40832b10)] -> xpath: //nav/ul/li[5]/div[@class='header-drop-down']]
+Session ID: 141e3bdf-96bb-46f3-836b-b21f40832b10
+	at tests.whitePaper.WhitePaperFirefoxTests.resourcesHeaderWhitePaperPage(WhitePaperFirefoxTests.java:116)
+
+tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 18.294 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //section[@data-testid='white-paper-section']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [141e3bdf-96bb-46f3-836b-b21f40832b10, findElement {using=xpath, value=//section[@data-testid='white-paper-section']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:32948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4688, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 141e3bdf-96bb-46f3-836b-b21f40832b10
+	at tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage(WhitePaperFirefoxTests.java:134)
+
+tests.whitePaper.WhitePaperFirefoxTests.marketTokenWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 18.31 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //section[@data-testid='market-token-wrapper']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [141e3bdf-96bb-46f3-836b-b21f40832b10, findElement {using=xpath, value=//section[@data-testid='market-token-wrapper']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:32948, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4688, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32948/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 141e3bdf-96bb-46f3-836b-b21f40832b10
+	at tests.whitePaper.WhitePaperFirefoxTests.marketTokenWhitePaperPage(WhitePaperFirefoxTests.java:153)
+
+tests.whitePaper.WhitePaperFirefoxTests.allFooterWhitePaperPage[https://aimood-stage2.intary.net/en/white-paper, Screenshots_St1/](3)  Time elapsed: 5.627 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.whitePaper.WhitePaperFirefoxTests.allFooterWhitePaperPage(WhitePaperFirefoxTests.java:172)
+
