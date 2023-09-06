@@ -1,4 +1,33 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 91.767 s - in TestSuite
+Tests run: 26, Failures: 6, Errors: 0, Skipped: 20, Time elapsed: 129.123 s <<< FAILURE! - in TestSuite
+tests.WhatIsAimood.WhatIsAimoodChromeTests.allHeaderWhatIsAimoodPage[https://aimood-stage2.intary.net/en/what-is-aimood, Screenshots_St1/](3)  Time elapsed: 20.742 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.allHeaderWhatIsAimoodPage(WhatIsAimoodChromeTests.java:27)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhatIsAimoodPage[https://aimood-stage2.intary.net/en/what-is-aimood, Screenshots_St1/](3)  Time elapsed: 5.951 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhatIsAimoodPage(WhatIsAimoodChromeTests.java:45)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.WhyChooseWhatIsAimoodPage[https://aimood-stage2.intary.net/en/what-is-aimood, Screenshots_St1/](3)  Time elapsed: 6.329 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.WhyChooseWhatIsAimoodPage(WhatIsAimoodChromeTests.java:64)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.ecosystemWhatIsAimoodPage[https://aimood-stage2.intary.net/en/what-is-aimood, Screenshots_St1/](3)  Time elapsed: 6.512 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.ecosystemWhatIsAimoodPage(WhatIsAimoodChromeTests.java:81)
+
+tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterWhatIsAimoodPage[https://aimood-stage2.intary.net/en/what-is-aimood, Screenshots_St1/](3)  Time elapsed: 5.95 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterWhatIsAimoodPage(WhatIsAimoodChromeTests.java:101)
+
+tests.WhatIsAimood.WhatIsAimoodFirefoxTests.setUp  Time elapsed: 7.218 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: 'WIN-RU0SR3DOB67', ip: '172.27.251.200'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+
