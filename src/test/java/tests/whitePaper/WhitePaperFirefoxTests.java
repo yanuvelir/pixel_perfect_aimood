@@ -96,9 +96,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//a[@data-testid='head-nav-white-paper']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/difference.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_whitePaperHeaderWhitePaperPage/difference.png");
 
     }
 
