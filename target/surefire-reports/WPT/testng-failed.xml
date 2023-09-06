@@ -21,26 +21,15 @@
     <classes>
       <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
         <methods>
-          <include name="allFooterWhatIsAimoodPage"/>
+          <include name="allFooterWhatIsAimoodPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="ecosystemWhatIsAimoodPage"/>
+          <include name="ecosystemWhatIsAimoodPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="mainBlockWhatIsAimoodPage"/>
-          <include name="allHeaderWhatIsAimoodPage"/>
-          <include name="WhyChooseWhatIsAimoodPage"/>
+          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="allHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="WhyChooseWhatIsAimoodPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
-      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
-        <methods>
-          <include name="WhyChooseWhatIsAimoodPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="allHeaderWhatIsAimoodPage" invocation-numbers="0"/>
-          <include name="ecosystemWhatIsAimoodPage" invocation-numbers="0"/>
-          <include name="allFooterWhatIsAimoodPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
