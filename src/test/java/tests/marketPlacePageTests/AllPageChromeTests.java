@@ -39,7 +39,7 @@ public class AllPageChromeTests extends BaseTest {
         //OpFULL HDen a page for test
         action.openPage(market_place_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
@@ -57,7 +57,7 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(market_place_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
@@ -75,7 +75,7 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(market_place_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
@@ -91,11 +91,9 @@ public class AllPageChromeTests extends BaseTest {
 //        // Resolution
 //        CommonActions.setBrowserWindowSize("mac 14");
 //        //Open a page for test
-//        action.openPage(market_place_page);
-//        //Waiting when the page is completely loaded
-//        action.waitElementIsVisible("//div[@class='section-wrapper']");
+//        action.openPage(main_page);
 //        //Hover
-//        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+////      action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
 //                ScShotDir+"MarketPlace_page/EnChrome/Screenshots_langItemHeaderMarketPlacePage/real_life_screenshot.png",

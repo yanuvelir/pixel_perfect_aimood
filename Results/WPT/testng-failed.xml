@@ -16,29 +16,30 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
         <methods>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
-          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="mainSectionMainPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="leaningSectionMainPage" invocation-numbers="0"/>
-          <include name="allHeaderMainPage" invocation-numbers="0"/>
-          <include name="videoSectionMainPage" invocation-numbers="0"/>
-          <include name="learnHeaderMainPage" invocation-numbers="0"/>
-          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
-          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.mainPageTests.AllPageFirefoxTests">
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
