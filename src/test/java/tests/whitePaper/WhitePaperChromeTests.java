@@ -37,7 +37,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(whitePaper_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
@@ -55,7 +55,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(whitePaper_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
@@ -73,7 +73,7 @@ public class WhitePaperChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(whitePaper_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
