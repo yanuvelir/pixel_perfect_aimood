@@ -1,4 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.053 s - in TestSuite
+Tests run: 30, Failures: 10, Errors: 0, Skipped: 20, Time elapsed: 269.504 s <<< FAILURE! - in TestSuite
+tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 21.062 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
+
+tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 4.9 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
+
+tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 5.162 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
+
+tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 14.163 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
+
+tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 6.06 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:116)
+
+tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 6.207 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:135)
+
+tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 6.098 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:154)
+
+tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 26.002 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:178)
+
+tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 6.289 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:197)
+
+tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage[https://ai-mood.com/en/, Screenshots/](3)  Time elapsed: 5.65 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:217)
+
