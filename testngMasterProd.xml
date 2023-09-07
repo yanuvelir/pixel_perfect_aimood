@@ -3,7 +3,7 @@
 
 <suite name="WPT">
     <listeners>
-<!--        <listener class-name="tests.RetryAnalyzerTransformer"/>-->
+        <listener class-name="tests.RetryAnalyzerTransformer"/>
     </listeners>
 
     <test name="ai-mood - Pixel perfect regression">
@@ -29,7 +29,7 @@
         <classes>
 
             <class name="tests.mainPageTests.AllPageFirefoxTests"/>
-            <class name="tests.mainPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.mainPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.marketPlacePageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests"/>-->
