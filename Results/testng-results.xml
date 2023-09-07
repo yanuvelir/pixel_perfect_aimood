@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T11:57:04 EEST" name="WPT" finished-at="2023-09-07T11:58:05 EEST" duration-ms="61490">
+  <suite started-at="2023-09-07T12:09:04 EEST" name="WPT" finished-at="2023-09-07T12:09:45 EEST" duration-ms="40588">
     <groups>
     </groups>
-    <test started-at="2023-09-07T11:57:04 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-07T11:58:05 EEST" duration-ms="61490">
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:04 EEST" name="setUp" finished-at="2023-09-07T11:57:06 EEST" duration-ms="2439" status="PASS">
+    <test started-at="2023-09-07T12:09:04 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-07T12:09:45 EEST" duration-ms="40588">
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:04 EEST" name="setUp" finished-at="2023-09-07T12:09:07 EEST" duration-ms="2477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:06 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:12 EEST" duration-ms="5609" status="PASS">
+        <test-method signature="allHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:07 EEST" name="allHeaderTokenMoodPage" finished-at="2023-09-07T12:09:15 EEST" duration-ms="8212" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -26,16 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:12 EEST" name="setUp" finished-at="2023-09-07T11:57:12 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:12 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:16 EEST" duration-ms="3942" status="PASS">
+        </test-method> <!-- allHeaderTokenMoodPage -->
+        <test-method signature="getStartedHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:15 EEST" name="getStartedHeaderTokenMoodPage" finished-at="2023-09-07T12:09:19 EEST" duration-ms="3940" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -46,12 +42,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:16 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:20 EEST" duration-ms="3930" status="PASS">
+        </test-method> <!-- getStartedHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:15 EEST" name="setUp" finished-at="2023-09-07T12:09:15 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:19 EEST" name="setUp" finished-at="2023-09-07T12:09:19 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:19 EEST" name="learnHeaderTokenMoodPage" finished-at="2023-09-07T12:09:23 EEST" duration-ms="3929" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -62,20 +66,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:16 EEST" name="setUp" finished-at="2023-09-07T11:57:16 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:23 EEST" name="setUp" finished-at="2023-09-07T12:09:23 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:20 EEST" name="setUp" finished-at="2023-09-07T11:57:20 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:20 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:24 EEST" duration-ms="3926" status="PASS">
+        <test-method signature="resourcesHeaderTokenMoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:23 EEST" name="resourcesHeaderTokenMoodPage" finished-at="2023-09-07T12:09:27 EEST" duration-ms="3938" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -86,16 +86,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:24 EEST" name="setUp" finished-at="2023-09-07T11:57:24 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- resourcesHeaderTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:27 EEST" name="setUp" finished-at="2023-09-07T12:09:27 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:24 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-09-07T11:57:30 EEST" duration-ms="5952" status="PASS">
+        <test-method signature="mainSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:27 EEST" name="mainSectionTokenMoodPage" finished-at="2023-09-07T12:09:33 EEST" duration-ms="6061" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -106,16 +106,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:30 EEST" name="setUp" finished-at="2023-09-07T11:57:30 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- mainSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:33 EEST" name="setUp" finished-at="2023-09-07T12:09:33 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:30 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-09-07T11:57:35 EEST" duration-ms="4945" status="PASS">
+        <test-method signature="statisticsSectionTokenMoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:33 EEST" name="statisticsSectionTokenMoodPage" finished-at="2023-09-07T12:09:39 EEST" duration-ms="6382" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
               </value>
             </param>
             <param index="1">
@@ -126,138 +126,32 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageFirefoxTests@2892dae4]" started-at="2023-09-07T11:57:35 EEST" name="tearDown" finished-at="2023-09-07T11:57:35 EEST" duration-ms="470" status="PASS">
+        </test-method> <!-- statisticsSectionTokenMoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:39 EEST" name="setUp" finished-at="2023-09-07T12:09:39 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterTokenMoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:39 EEST" name="allFooterTokenMoodPage" finished-at="2023-09-07T12:09:44 EEST" duration-ms="4945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/token-mood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterTokenMoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.tokenMoodPageTests.AllPageFirefoxTests@55b53d44]" started-at="2023-09-07T12:09:44 EEST" name="tearDown" finished-at="2023-09-07T12:09:45 EEST" duration-ms="652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:35 EEST" name="setUp" finished-at="2023-09-07T11:57:37 EEST" duration-ms="1321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:1, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:37 EEST" name="allHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:42 EEST" duration-ms="5561" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:42 EEST" name="setUp" finished-at="2023-09-07T11:57:42 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:2, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:42 EEST" name="getStartedHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:46 EEST" duration-ms="4115" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:46 EEST" name="setUp" finished-at="2023-09-07T11:57:46 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:3, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:46 EEST" name="learnHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:50 EEST" duration-ms="4060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:50 EEST" name="setUp" finished-at="2023-09-07T11:57:50 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:4, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:50 EEST" name="resourcesHeaderBuySellMoodCoinPage" finished-at="2023-09-07T11:57:54 EEST" duration-ms="4049" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:54 EEST" name="setUp" finished-at="2023-09-07T11:57:54 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:6, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:57:54 EEST" name="mainSectionBuySellMoodCoinPage" finished-at="2023-09-07T11:58:00 EEST" duration-ms="5974" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:58:00 EEST" name="setUp" finished-at="2023-09-07T11:58:00 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterBuySellMoodCoinPage(java.lang.String,java.lang.String)[pri:7, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:58:00 EEST" name="allFooterBuySellMoodCoinPage" finished-at="2023-09-07T11:58:05 EEST" duration-ms="4998" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/buy-sell-aimood-coin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterBuySellMoodCoinPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.buySellMoodCoinTests.AllPageChromeTests@1b6e1eff]" started-at="2023-09-07T11:58:05 EEST" name="tearDown" finished-at="2023-09-07T11:58:05 EEST" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>

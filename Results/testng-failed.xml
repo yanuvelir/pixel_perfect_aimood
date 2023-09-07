@@ -16,28 +16,13 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
         <methods>
           <include name="tearDown"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
-      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
-        <methods>
-          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
