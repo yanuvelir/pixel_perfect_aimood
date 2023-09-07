@@ -38,8 +38,8 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(staking_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
-        Thread.sleep(4000);
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_getStartedHeaderStakingPage/real_life_screenshot.png",
@@ -56,8 +56,8 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(staking_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
-        Thread.sleep(4000);
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_learnHeaderStakingPage/real_life_screenshot.png",
@@ -74,8 +74,8 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(staking_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
-        Thread.sleep(100);
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
                 ScShotDir+"Staking_page/EnChrome/Screenshots_resourcesHeaderStakingPage/real_life_screenshot.png",
@@ -91,10 +91,8 @@ public class AllPageChromeTests extends BaseTest {
 //        CommonActions.setBrowserWindowSize("mac 14");
 //        //Open a page for test
 //        action.openPage(staking_page);
-//        //Waiting when the page is completely loaded
-//        action.waitElementIsVisible("//div[@class='section-wrapper']");
 //        //Hover
-//        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+//        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
 //                ScShotDir+"Staking_page/EnChrome/Screenshots_langItemHeaderStakingPage/real_life_screenshot.png",
