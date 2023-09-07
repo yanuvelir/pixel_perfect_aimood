@@ -38,7 +38,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
@@ -56,7 +56,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item learn-nav-item']");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
@@ -74,7 +74,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(main_page);
         //Hover
-        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][4]");
+        action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
@@ -91,10 +91,8 @@ public class AllPageFirefoxTests extends BaseTest {
 //        CommonActions.setBrowserWindowSize("mac 14");
 //        //Open a page for test
 //        action.openPage(main_page);
-//        //Waiting when the page is completely loaded
-//        action.waitElementIsVisible("//div[@class='section-wrapper']");
 //        //Hover
-//        action.hoverOverAnElementByXpath("//li[@class='header-nav-item'][1]");
+//        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
 //                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/real_life_screenshot.png",
@@ -169,6 +167,11 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(main_page);
         //scroll
         action.moveViewableElementIntoCenter2("//section[@data-testid='statistics-wrapper']");
+        // Change element
+        action.changeElementText("(//ul//div[@class='stat-value'])[1]", "888");
+        action.changeElementText("(//ul//div[@class='stat-value'])[2]", "3.14");
+        action.changeElementText("(//ul//div[@class='stat-value'])[3]", "1703");
+        action.changeElementText("(//ul//div[@class='stat-value'])[4]", "777");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
