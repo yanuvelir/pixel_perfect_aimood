@@ -16,18 +16,30 @@
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
     <classes>
-      <class name="tests.fundPageTests.AllPageChromeTests">
+      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
         <methods>
-          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="learnHeaderFundPage" invocation-numbers="0"/>
-          <include name="mainSectionFundPage" invocation-numbers="0"/>
-          <include name="allFooterFundPage" invocation-numbers="0"/>
-          <include name="allHeaderFundPage" invocation-numbers="0"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
