@@ -131,6 +131,11 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(token_mood_page);
         //Scroll
         action.moveViewableElementIntoCenter2("//section[@data-testid='statistics-wrapper']");
+        // Change element
+        action.changeElementText("(//ul//div[@class='stat-value'])[1]", "888");
+        action.changeElementText("(//ul//div[@class='stat-value'])[2]", "3.14");
+        action.changeElementText("(//ul//div[@class='stat-value'])[3]", "1703");
+        action.changeElementText("(//ul//div[@class='stat-value'])[4]", "7777");
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
