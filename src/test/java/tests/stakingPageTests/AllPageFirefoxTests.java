@@ -59,7 +59,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_learnHeaderStakingPage/real_life_screenshot.png",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_learnHeaderStakingPage/mock_screenshot.png",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_learnHeaderStakingPage/difference.png");
@@ -77,7 +77,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_resourcesHeaderStakingPage/real_life_screenshot.png",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_resourcesHeaderStakingPage/mock_screenshot.png",
                 ScShotDir+"Staking_page/EnFirefox/Screenshots_resourcesHeaderStakingPage/difference.png");

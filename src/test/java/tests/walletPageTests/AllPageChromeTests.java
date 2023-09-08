@@ -60,7 +60,7 @@ public class AllPageChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_learnHeaderWalletPage/real_life_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_learnHeaderWalletPage/mock_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_learnHeaderWalletPage/difference.png");
@@ -78,7 +78,7 @@ public class AllPageChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_resourcesHeaderWalletPage/real_life_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_resourcesHeaderWalletPage/mock_screenshot.png",
                 ScShotDir+"Wallet_page/EnChrome/Screenshots_resourcesHeaderWalletPage/difference.png");
