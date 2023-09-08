@@ -20,8 +20,8 @@
         <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
         <parameter name="whitePaper_page" value="https://aimood-stage1.intary.net/en/white-paper"/>
         <parameter name="whatIsAimood_page" value="https://aimood-stage1.intary.net/en/what-is-aimood"/>
-        <parameter name="SignIn_page" value="https://aimood-stage1.intary.net/en/login"/>
-        <parameter name="SignUp_page" value="https://aimood-stage1.intary.net/en/register"/>
+<!--        <parameter name="SignIn_page" value="https://aimood-stage1.intary.net/en/login"/>-->
+<!--        <parameter name="SignUp_page" value="https://aimood-stage1.intary.net/en/register"/>-->
 <!-- New upgrade -->
         <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
         <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
@@ -57,12 +57,14 @@
 <!--            <class name="tests.SignIn.SignInChromeTests"/>-->
 <!--            <class name="tests.SignUp.SignUpFirefoxTests"/>-->
 <!--            <class name="tests.SignUp.SignUpChromeTests"/>-->
-<!--            <class name="tests.resetPasswordPageTests.AllPageFirefoxTests"/>-->
-<!--            <class name="tests.resetPasswordPageTests.AllPageChromeTests"/>-->
-            <class name="tests.signInPageTests.AllPageFirefoxTests"/>
-            <class name="tests.signInPageTests.AllPageChromeTests"/>
-            <class name="tests.signUpPageTests.AllPageFirefoxTests"/>
-            <class name="tests.signUpPageTests.AllPageChromeTests"/>
+            <class name="tests.resetPasswordPageTests.AllPageFirefoxTests"/>
+            <class name="tests.resetPasswordPageTests.AllPageChromeTests"/>
+            <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests"/>
+            <class name="tests.resetPasswordPage2Tests.AllPageChromeTests"/>
+<!--            <class name="tests.signInPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.signInPageTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.signUpPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.signUpPageTests.AllPageChromeTests"/>-->
 
 
             <!--            Under construction-->
