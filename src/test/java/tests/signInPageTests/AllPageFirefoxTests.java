@@ -40,7 +40,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_getStartedHeaderSignInPage/real_life_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_getStartedHeaderSignInPage/mock_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_getStartedHeaderSignInPage/difference.png");
@@ -58,7 +58,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_learnHeaderSignInPage/real_life_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_learnHeaderSignInPage/mock_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_learnHeaderSignInPage/difference.png");
@@ -76,7 +76,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_resourcesHeaderSignInPage/real_life_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_resourcesHeaderSignInPage/mock_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_resourcesHeaderSignInPage/difference.png");
@@ -112,7 +112,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//main[@class='main']",
+        pixelPerfectAssert.byElement("//section[@data-testid='authentication-login']",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_mainSectionSignInPage/real_life_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_mainSectionSignInPage/mock_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_mainSectionSignInPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageFirefoxTests extends BaseTest {
         //Open a page for test
         action.openPage(signIn_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new item']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new item']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_allFooterSignInPage/real_life_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_allFooterSignInPage/mock_screenshot.png",
                 ScShotDir+"SignIn_page/EnFirefox/Screenshots_allFooterSignInPage/difference.png");
