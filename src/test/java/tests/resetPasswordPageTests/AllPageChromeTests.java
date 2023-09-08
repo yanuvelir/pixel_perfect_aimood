@@ -41,7 +41,7 @@ public class AllPageChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_getStartedHeaderResetPasswordPage/real_life_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_getStartedHeaderResetPasswordPage/mock_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_getStartedHeaderResetPasswordPage/difference.png");
@@ -59,7 +59,7 @@ public class AllPageChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_learnHeaderResetPasswordPage/real_life_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_learnHeaderResetPasswordPage/mock_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_learnHeaderResetPasswordPage/difference.png");
@@ -77,7 +77,7 @@ public class AllPageChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_resourcesHeaderResetPasswordPage/real_life_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_resourcesHeaderResetPasswordPage/mock_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_resourcesHeaderResetPasswordPage/difference.png");
@@ -113,7 +113,7 @@ public class AllPageChromeTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//main[@class='main']",
+        pixelPerfectAssert.byElement("//section[@data-testid='authentication-recovery']",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_mainSectionResetPasswordPage/real_life_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_mainSectionResetPasswordPage/mock_screenshot.png",
                 ScShotDir+"ResetPassword_page/EnChrome/Screenshots_mainSectionResetPasswordPage/difference.png");
