@@ -22,7 +22,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(100);
+        Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_allHeaderMarketPlacePage/real_life_screenshot.png",
@@ -40,7 +40,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_getStartedHeaderMarketPlacePage/real_life_screenshot.png",
@@ -58,7 +58,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_learnHeaderMarketPlacePage/real_life_screenshot.png",
@@ -76,7 +76,7 @@ public class AllPageChromeTests extends BaseTest {
         action.openPage(market_place_page);
         //Hover
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"MarketPlace_page/EnChrome/Screenshots_resourcesHeaderMarketPlacePage/real_life_screenshot.png",
