@@ -8,7 +8,7 @@
 
     <test name="ai-mood - Pixel perfect regression">
 
-        <!--        URL's Parameters-->
+<!-- URL's Parameters -->
 
         <parameter name="main_page" value="https://aimood-stage1.intary.net/en/"/>
         <parameter name="market_place_page" value="https://aimood-stage1.intary.net/en/market-place"/>
@@ -22,11 +22,13 @@
         <parameter name="whatIsAimood_page" value="https://aimood-stage1.intary.net/en/what-is-aimood"/>
         <parameter name="SignIn_page" value="https://aimood-stage1.intary.net/en/login"/>
         <parameter name="SignUp_page" value="https://aimood-stage1.intary.net/en/register"/>
+<!-- New upgrade -->
         <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
+        <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
+        <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
+        <parameter name="signUp_page" value="https://aimood-stage1.intary.net/en/register"/>
 
-
-
-<!--        Screenshot directory-->
+<!-- Screenshot directory -->
         <parameter name="ScShotDir" value="Screenshots_St1/"/>
 
         <classes>
@@ -55,8 +57,12 @@
 <!--            <class name="tests.SignIn.SignInChromeTests"/>-->
 <!--            <class name="tests.SignUp.SignUpFirefoxTests"/>-->
 <!--            <class name="tests.SignUp.SignUpChromeTests"/>-->
-            <class name="tests.resetPasswordPageTests.AllPageFirefoxTests"/>
-            <class name="tests.resetPasswordPageTests.AllPageChromeTests"/>
+<!--            <class name="tests.resetPasswordPageTests.AllPageFirefoxTests"/>-->
+<!--            <class name="tests.resetPasswordPageTests.AllPageChromeTests"/>-->
+            <class name="tests.signInPageTests.AllPageFirefoxTests"/>
+            <class name="tests.signInPageTests.AllPageChromeTests"/>
+            <class name="tests.signUpPageTests.AllPageFirefoxTests"/>
+            <class name="tests.signUpPageTests.AllPageChromeTests"/>
 
 
             <!--            Under construction-->
