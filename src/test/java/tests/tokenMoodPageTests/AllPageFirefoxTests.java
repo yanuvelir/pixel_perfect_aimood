@@ -21,7 +21,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(token_mood_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"TokenMood_page/EnFirefox/Screenshots_allHeaderTokenMoodPage/real_life_screenshot.png",
