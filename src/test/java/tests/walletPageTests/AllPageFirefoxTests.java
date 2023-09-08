@@ -21,7 +21,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.openPage(wallet_page);
         //Click button "Accept" use of cookies
         action.ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
                 ScShotDir+"Wallet_page/EnFirefox/Screenshots_allHeaderWalletPage/real_life_screenshot.png",
