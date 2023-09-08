@@ -25,9 +25,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(3000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//header[@class='header-wrapper']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allHeaderWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allHeaderWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allHeaderWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allHeaderWhitePaperPage/difference.png");
     }
 
     @Parameters({"whitePaper_page", "ScShotDir"})
@@ -41,10 +41,10 @@ public class WhitePaperFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_getStartedWhitePaperPage/difference.png");
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_getStartedWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_getStartedWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_getStartedWhitePaperPage/difference.png");
 
     }
 
@@ -60,9 +60,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_learnWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_learnWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_learnWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_learnWhitePaperPage/difference.png");
 
     }
 
@@ -78,9 +78,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_resourcesWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_resourcesWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_resourcesWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_resourcesWhitePaperPage/difference.png");
 
     }
 
@@ -96,9 +96,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@data-testid='white-paper-section']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_mainBlockWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_mainBlockWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_mainBlockWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_mainBlockWhitePaperPage/difference.png");
 
     }
 
@@ -115,9 +115,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//section[@data-testid='market-token-wrapper']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_EweuimtPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_EweuimtPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_EweuimtPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_EweuimtPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_EweuimtPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_EweuimtPage/difference.png");
     }
 
     //FOOTER TESTS
@@ -134,9 +134,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_allFooterWhitePaper/difference.png");
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allFooterWhitePaper/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allFooterWhitePaper/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_allFooterWhitePaper/difference.png");
 
     }
 
@@ -153,9 +153,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
 //        Thread.sleep(1000);
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='partn-container']",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/real_life_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/mock_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_partnFooterWhitePaperPage/difference.png");
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_partnFooterWhitePaperPage/real_life_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_partnFooterWhitePaperPage/mock_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_partnFooterWhitePaperPage/difference.png");
 //
 //    }
 //
@@ -172,9 +172,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
 //        Thread.sleep(1500);
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='subfooter']",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/mock_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_subFooterWhitePaperPage/difference.png");
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_subFooterWhitePaperPage/real_life_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_subFooterWhitePaperPage/mock_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_subFooterWhitePaperPage/difference.png");
 //
 //    }
 //
@@ -191,9 +191,9 @@ public class WhitePaperFirefoxTests extends BaseTest {
 //        Thread.sleep(1000);
 //        //Run the Pixel perfect test for a selected element
 //        pixelPerfectAssert.byElement("//div[@class='copy-container']",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/real_life_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/mock_screenshot.png",
-//                ScShotDir + "WhitePaper_page/EnFirefoxWhitePaper/Screenshots_copFooterWhitePaperPage/difference.png");
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_copFooterWhitePaperPage/real_life_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_copFooterWhitePaperPage/mock_screenshot.png",
+//                ScShotDir + "WhitePaper_page/EnFirefox/Screenshots_copFooterWhitePaperPage/difference.png");
 //
 //    }
 }

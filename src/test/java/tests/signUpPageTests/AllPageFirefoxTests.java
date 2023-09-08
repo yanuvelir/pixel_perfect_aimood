@@ -94,7 +94,7 @@ public class AllPageFirefoxTests extends BaseTest {
 //        //Hover
 //        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
 //                ScShotDir+"SignUp_page/EnFirefox/Screenshots_langItemHeaderSignUpPage/real_life_screenshot.png",
 //                ScShotDir+"SignUp_page/EnFirefox/Screenshots_langItemHeaderSignUpPage/mock_screenshot.png",
 //                ScShotDir+"SignUp_page/EnFirefox/Screenshots_langItemHeaderSignUpPage/difference.png");

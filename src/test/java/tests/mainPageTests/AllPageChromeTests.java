@@ -41,7 +41,7 @@ public class AllPageChromeTests extends BaseTest{
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"Main_page/EnChrome/Screenshots_getStartedHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnChrome/Screenshots_getStartedHeaderMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnChrome/Screenshots_getStartedHeaderMainPage/difference.png");
@@ -94,7 +94,7 @@ public class AllPageChromeTests extends BaseTest{
 //        //Hover
 //        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
 //                ScShotDir+"Main_page/EnChrome/Screenshots_langItemHeaderMainPage/real_life_screenshot.png",
 //                ScShotDir+"Main_page/EnChrome/Screenshots_langItemHeaderMainPage/mock_screenshot.png",
 //                ScShotDir+"Main_page/EnChrome/Screenshots_langItemHeaderMainPage/difference.png");
