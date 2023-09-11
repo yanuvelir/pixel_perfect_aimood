@@ -7,33 +7,96 @@
     <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
     <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
     <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
+    <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
     <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
     <parameter name="ScShotDir" value="Screenshots/"/>
     <parameter name="main_page" value="https://ai-mood.com/en/"/>
     <parameter name="token_mood_page" value="https://ai-mood.com/en/token-mood"/>
-    <parameter name="SignIn_page" value="https://ai-mood.com/en/login"/>
-    <parameter name="SignUp_page" value="https://ai-mood.com/en/register"/>
+    <parameter name="signUp_page" value="https://aimood-stage1.intary.net/en/register"/>
     <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
     <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
+    <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
+    <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
-      <class name="tests.mainPageTests.AllPageChromeTests">
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
         <methods>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="learnHeaderMainPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
-      <class name="tests.mainPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
-          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      <class name="tests.fundPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
+          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
