@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ai-mood - Pixel perfect regression</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>52/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>43/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 11 11:08:22 EEST 2023</td>
+<td>Started on:</td><td>Mon Sep 11 11:21:55 EEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>287 seconds (287985 ms)</td>
+<tr><td>Total time:</td><td>255 seconds (255657 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,60 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage()'><b>allHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td><div><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage(AllPageFirefoxTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1200812313", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1200812313'><pre>java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pages.pixel_perfect.PixelPerfectAssert.byElement(PixelPerfectAssert.java:109)
+	at tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage(AllPageFirefoxTests.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>8</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,265 +130,220 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage()'><b>mainSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage()'><b>affiliateSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>6</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage()'><b>getStartedHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage()'><b>allFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage()'><b>learnHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage()'><b>statisticsSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage()'><b>mainSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
 <td>5</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage()'><b>statisticsSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageChromeTests.learnHeaderFundPage()'><b>learnHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.allFooterAffiliateProgramPage()'><b>allFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage()'><b>resourcesHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage()'><b>learnHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
+<td>4</td>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage()'><b>allFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.resourcesHeaderAffiliateProgramPage()'><b>resourcesHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage()'><b>mainSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>5</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
 <tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage()'><b>getStartedHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage()'><b>learnHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage()'><b>getStartedHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
 <tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage()'><b>resourcesHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage()'><b>learnHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage()'><b>mainSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.allHeaderAffiliateProgramPage()'><b>allHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>6</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage()'><b>resourcesHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage()'><b>learnHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage()'><b>mainSectionBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage()'><b>getStartedHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.getStartedHeaderFundPage()'><b>getStartedHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage()'><b>learnHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage()'><b>allFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage()'><b>resourcesHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage()'><b>allHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage()'><b>getStartedHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage()'><b>allFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage()'><b>statisticsSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage()'><b>mainSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage()'><b>statisticsSectionTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageChromeTests.allFooterFundPage()'><b>allFooterFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage()'><b>allFooterTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage()'><b>allFooterBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage()'><b>resourcesHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage()'><b>getStartedHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>3</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage()'><b>mainSectionBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage()'><b>allHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage()'><b>calcStakSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>8</td>
-<td>tests.tokenMoodPageTests.AllPageFirefoxTests@10d307f1</td></tr>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage()'><b>allHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage()'><b>learnHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
-<td>8</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
+<td>4</td>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage()'><b>mainSectionMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.learnHeaderFundPage()'><b>learnHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageFirefoxTests.learnHeaderWalletPage()'><b>learnHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
 <td>3</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
 <tr>
-<td title='tests.fundPageTests.AllPageChromeTests.mainSectionFundPage()'><b>mainSectionFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
-<tr>
-<td title='tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage()'><b>learnHeaderTokenMoodPage</b><br>Test class: tests.tokenMoodPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/token-mood, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.tokenMoodPageTests.AllPageChromeTests@4d5b6aac</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageChromeTests.getStartedHeaderFundPage()'><b>getStartedHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage()'><b>resourcesHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.marketPlacePageTests.AllPageFirefoxTests@11bd0f3b</td></tr>
-<tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage()'><b>getStartedHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage()'><b>allHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>5</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
-<tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage()'><b>allHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageChromeTests.mainSectionStakingPage()'><b>mainSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>6</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage()'><b>allHeaderMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage()'><b>mainSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage()'><b>allHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
 <td>7</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
 <tr>
-<td title='tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage()'><b>allFooterMarketPlacePage</b><br>Test class: tests.marketPlacePageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/market-place, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage()'><b>delegatedSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
 <td></td>
 <td>5</td>
-<td>tests.marketPlacePageTests.AllPageChromeTests@6f46426d</td></tr>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
 <tr>
-<td title='tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage()'><b>mainSectionFundPage</b><br>Test class: tests.fundPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
-<td></td>
-<td>6</td>
-<td>tests.fundPageTests.AllPageFirefoxTests@3e84448c</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage()'><b>resourcesHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
-<td></td>
-<td>4</td>
-<td>tests.buySellMoodCoinTests.AllPageChromeTests@49c7b90e</td></tr>
-<tr>
-<td title='tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage()'><b>allHeaderBuySellMoodCoinPage</b><br>Test class: tests.buySellMoodCoinTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/buy-sell-aimood-coin, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageChromeTests.resourcesHeaderStakingPage()'><b>resourcesHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
 <td></td>
 <td>5</td>
-<td>tests.buySellMoodCoinTests.AllPageFirefoxTests@73700b80</td></tr>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
 <tr>
-<td title='tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage()'><b>resourcesHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
+<td title='tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage()'><b>delegatedSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>8</td>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.getStartedHeaderAffiliateProgramPage()'><b>getStartedHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>4</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
 <tr>
-<td title='tests.fundPageTests.AllPageChromeTests.allHeaderFundPage()'><b>allHeaderFundPage</b><br>Test class: tests.fundPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/fund, Screenshots/</td>
+<td title='tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage()'><b>resourcesHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAffiliateProgramPage()'><b>learnHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>3</td>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.allFooterAffiliateProgramPage()'><b>allFooterAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.learnHeaderAffiliateProgramPage()'><b>learnHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageFirefoxTests.getStartedHeaderWalletPage()'><b>getStartedHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>3</td>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage()'><b>mainSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
 <td></td>
 <td>6</td>
-<td>tests.fundPageTests.AllPageChromeTests@4a7f959b</td></tr>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage()'><b>getStartedHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageFirefoxTests.resourcesHeaderWalletPage()'><b>resourcesHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>3</td>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageChromeTests.allFooterStakingPage()'><b>allFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.resourcesHeaderStakingPage()'><b>resourcesHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageFirefoxTests.allFooterWalletPage()'><b>allFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.allHeaderAffiliateProgramPage()'><b>allHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage()'><b>affiliateSectionAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.affiliateProgramPageTests.AllPageChromeTests@212b5695</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage()'><b>delegatedSectionWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.calcStakSectionStakingPage()'><b>calcStakSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>8</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.allFooterStakingPage()'><b>allFooterStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage()'><b>resourcesHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>3</td>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageChromeTests.allHeaderStakingPage()'><b>allHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>7</td>
+<td>tests.stakingPageTests.AllPageChromeTests@2df9b86</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.learnHeaderStakingPage()'><b>learnHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.getStartedHeaderStakingPage()'><b>getStartedHeaderStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageFirefoxTests.allHeaderWalletPage()'><b>allHeaderWalletPage</b><br>Test class: tests.walletPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>8</td>
+<td>tests.walletPageTests.AllPageFirefoxTests@446293d</td></tr>
+<tr>
+<td title='tests.walletPageTests.AllPageChromeTests.allFooterWalletPage()'><b>allFooterWalletPage</b><br>Test class: tests.walletPageTests.AllPageChromeTests<br>Parameters: https://ai-mood.com/en/the-aimood-wallet, Screenshots/</td>
+<td></td>
+<td>5</td>
+<td>tests.walletPageTests.AllPageChromeTests@69997e9d</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.delegatedSectionStakingPage()'><b>delegatedSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
+<tr>
+<td title='tests.affiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAffiliateProgramPage()'><b>getStartedHeaderAffiliateProgramPage</b><br>Test class: tests.affiliateProgramPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/affiliate-program, Screenshots/</td>
+<td></td>
+<td>4</td>
+<td>tests.affiliateProgramPageTests.AllPageFirefoxTests@7690781</td></tr>
+<tr>
+<td title='tests.stakingPageTests.AllPageFirefoxTests.mainSectionStakingPage()'><b>mainSectionStakingPage</b><br>Test class: tests.stakingPageTests.AllPageFirefoxTests<br>Parameters: https://ai-mood.com/en/stake-delegate, Screenshots/</td>
+<td></td>
+<td>6</td>
+<td>tests.stakingPageTests.AllPageFirefoxTests@793be5ca</td></tr>
 </table><p>
 </body>
 </html>
