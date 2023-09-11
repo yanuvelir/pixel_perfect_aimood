@@ -40,7 +40,7 @@ public class AllPageChromeTests extends BaseTest{
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_getStartedHeaderSignUpPage/real_life_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_getStartedHeaderSignUpPage/mock_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_getStartedHeaderSignUpPage/difference.png");
@@ -58,7 +58,7 @@ public class AllPageChromeTests extends BaseTest{
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_learnHeaderSignUpPage/real_life_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_learnHeaderSignUpPage/mock_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_learnHeaderSignUpPage/difference.png");
@@ -76,7 +76,7 @@ public class AllPageChromeTests extends BaseTest{
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_resourcesHeaderSignUpPage/real_life_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_resourcesHeaderSignUpPage/mock_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_resourcesHeaderSignUpPage/difference.png");
@@ -93,7 +93,7 @@ public class AllPageChromeTests extends BaseTest{
 //        //Hover
 //        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
 //                ScShotDir+"SignUp_page/EnChrome/Screenshots_langItemHeaderSignUpPage/real_life_screenshot.png",
 //                ScShotDir+"SignUp_page/EnChrome/Screenshots_langItemHeaderSignUpPage/mock_screenshot.png",
 //                ScShotDir+"SignUp_page/EnChrome/Screenshots_langItemHeaderSignUpPage/difference.png");
@@ -112,7 +112,7 @@ public class AllPageChromeTests extends BaseTest{
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//main[@class='main']",
+        pixelPerfectAssert.byElement("//section[@data-testid='authentication-signup']",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_mainSectionSignUpPage/real_life_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_mainSectionSignUpPage/mock_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_mainSectionSignUpPage/difference.png");
@@ -130,11 +130,11 @@ public class AllPageChromeTests extends BaseTest{
         //Open a page for test
         action.openPage(signUp_page);
         //scroll
-        action.moveViewableElementIntoCenter2("//footer[@class='footer-new item']");
+        action.moveViewableElementIntoCenter2("//footer[@data-testid='footer-new']");
         //Time
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//footer[@class='footer-new item']",
+        pixelPerfectAssert.byElement("//footer[@data-testid='footer-new']",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_allFooterSignUpPage/real_life_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_allFooterSignUpPage/mock_screenshot.png",
                 ScShotDir+"SignUp_page/EnChrome/Screenshots_allFooterSignUpPage/difference.png");

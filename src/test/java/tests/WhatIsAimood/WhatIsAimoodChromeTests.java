@@ -41,7 +41,7 @@ public class WhatIsAimoodChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_getStartedHeaderWhatIsAimoodPage/real_life_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_getStartedHeaderWhatIsAimoodPage/mock_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_getStartedHeaderWhatIsAimoodPage/difference.png");
@@ -59,7 +59,7 @@ public class WhatIsAimoodChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_learnHeaderWhatIsAimoodPage/real_life_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_learnHeaderWhatIsAimoodPage/mock_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_learnHeaderWhatIsAimoodPage/difference.png");
@@ -77,7 +77,7 @@ public class WhatIsAimoodChromeTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_resourcesHeaderWhatIsAimoodPage/real_life_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_resourcesHeaderWhatIsAimoodPage/mock_screenshot.png",
                 ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_resourcesHeaderWhatIsAimoodPage/difference.png");
@@ -94,7 +94,7 @@ public class WhatIsAimoodChromeTests extends BaseTest {
 //        //Hover
 //        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
 //                ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_langItemHeaderWhatIsAimoodPage/real_life_screenshot.png",
 //                ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_langItemHeaderWhatIsAimoodPage/mock_screenshot.png",
 //                ScShotDir+"WhatIsAimood_page/EnChrome/Screenshots_langItemHeaderWhatIsAimoodPage/difference.png");

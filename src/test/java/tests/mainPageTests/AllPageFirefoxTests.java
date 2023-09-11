@@ -41,7 +41,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-get-started']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_getStartedHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_getStartedHeaderMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_getStartedHeaderMainPage/difference.png");
@@ -59,7 +59,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-learn']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//li[@class='header-nav-item learn-nav-item']/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-learn']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_learnHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_learnHeaderMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_learnHeaderMainPage/difference.png");
@@ -77,7 +77,7 @@ public class AllPageFirefoxTests extends BaseTest {
         action.hoverOverAnElementByXpath("//li[@data-testid='head-nav-resources']");
         Thread.sleep(100);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//nav/ul/li[5]/div[@class='header-drop-down']",
+        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-resources']",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/real_life_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/mock_screenshot.png",
                 ScShotDir+"Main_page/EnFirefox/Screenshots_resourcesHeaderMainPage/difference.png");
@@ -94,7 +94,7 @@ public class AllPageFirefoxTests extends BaseTest {
 //        //Hover
 //        action.hoverOverAnElementByXpath("//div[@data-testid='head-nav-lang']");
 //        //Run the Pixel perfect test for a selected element
-//        pixelPerfectAssert.byElement("//div[@class='header-drop-down'][1]",
+//        pixelPerfectAssert.byElement("//ul[@data-testid='drop-list-get-started']",
 //                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/real_life_screenshot.png",
 //                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/mock_screenshot.png",
 //                ScShotDir+"Main_page/EnFirefox/Screenshots_langItemHeaderMainPage/difference.png");
