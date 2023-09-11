@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,369.934" tests="224" errors="0" skipped="0" failures="30">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,388.045" tests="226" errors="0" skipped="2" failures="27">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire18186329037628006075\surefirebooter1609287391611225468.jar C:\Users\admin\AppData\Local\Temp\surefire18186329037628006075 2023-09-11T13-26-22_026-jvmRun1 surefire8983290692515128456tmp surefire_08139476424238377476tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire1178453853880195507\surefirebooter6584583715170334785.jar C:\Users\admin\AppData\Local\Temp\surefire1178453853880195507 2023-09-11T14-11-54_987-jvmRun1 surefire961151534628041095tmp surefire_06182972296802912217tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\target\test-classes;D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\admin\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\admin\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\admin\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\admin\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\admin\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\admin\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\admin\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\admin\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\admin\.m2\repository\org\jetbrains\annotations\23.1.0\annotations-23.1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire18186329037628006075\surefirebooter1609287391611225468.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire1178453853880195507\surefirebooter6584583715170334785.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -63,7 +63,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="11.637">
+  <testcase name="allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="11.586">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -71,31 +71,31 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.231">
+  <testcase name="getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.262">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.193">
+  <testcase name="learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.18">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.504">
+  <testcase name="resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="5.518">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.043">
+  <testcase name="mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.099">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.469">
+  <testcase name="videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.495">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.554">
+  <testcase name="roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.738">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.386">
+  <testcase name="statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.341">
     <system-out><![CDATA[888
 3.14
 1703
@@ -103,46 +103,46 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.645">
+  <testcase name="leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.348">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.026">
+  <testcase name="allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageFirefoxTests" time="6.31">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="11.21">
+  <testcase name="allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="11.666">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:27:37 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:13:09 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="7.554">
+  <testcase name="getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="8.043">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="9.372">
+  <testcase name="learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="9.273">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.345">
+  <testcase name="resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="5.335">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="7.338">
+  <testcase name="mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="7.363">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="7.762">
+  <testcase name="videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="7.782">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="10.634">
+  <testcase name="roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="10.622">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="11.898">
+  <testcase name="statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="11.914">
     <system-out><![CDATA[888
 3.14
 1703
@@ -150,82 +150,82 @@ WARNING: Unable to find an exact match for CDP version 116, so returning the clo
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="10.161">
+  <testcase name="leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="10.153">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="6.372">
+  <testcase name="allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)" classname="tests.mainPageTests.AllPageChromeTests" time="6.382">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="10.386">
+  <testcase name="allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="10.502">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.016">
+  <testcase name="getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.995">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.997">
+  <testcase name="learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.002">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="5.981">
+  <testcase name="resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.07">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.958">
+  <testcase name="mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.98">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.308">
+  <testcase name="statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.269">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.01">
+  <testcase name="allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageFirefoxTests" time="6.001">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="8.802">
+  <testcase name="allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="8.714">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:29:57 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:15:31 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.27">
+  <testcase name="getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.285">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.199">
+  <testcase name="learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.205">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.191">
+  <testcase name="resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.183">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="7.218">
+  <testcase name="mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="7.192">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.65">
+  <testcase name="statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.691">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.255">
+  <testcase name="allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)" classname="tests.marketPlacePageTests.AllPageChromeTests" time="6.243">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="6.78">
+  <testcase name="allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="6.742">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.092">
+  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.102">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.102">
+  <testcase name="learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.099">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
@@ -233,34 +233,34 @@ WARNING: Unable to find an exact match for CDP version 116, so returning the clo
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="6.901">
+  <testcase name="mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="6.9">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.957">
+  <testcase name="allFooterBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageFirefoxTests" time="5.944">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="6.41">
+  <testcase name="allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="6.295">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:31:25 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:16:58 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.402">
+  <testcase name="getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.35">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.339">
+  <testcase name="learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.291">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.28">
+  <testcase name="resourcesHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="5.277">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="7.199">
+  <testcase name="mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)" classname="tests.buySellMoodCoinTests.AllPageChromeTests" time="7.201">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
@@ -268,27 +268,27 @@ WARNING: Unable to find an exact match for CDP version 116, so returning the clo
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="10.366">
+  <testcase name="allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="10.897">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.12">
+  <testcase name="getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.119">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.09">
+  <testcase name="learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.081">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.131">
+  <testcase name="resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.164">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="6.959">
+  <testcase name="mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="6.938">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="7.427">
+  <testcase name="statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="7.36">
     <system-out><![CDATA[888
 3.14
 1703
@@ -296,38 +296,34 @@ WARNING: Unable to find an exact match for CDP version 116, so returning the clo
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.952">
+  <testcase name="allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageFirefoxTests" time="5.991">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.781">
+  <testcase name="allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.887">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:32:53 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:18:26 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="4.896">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\TokenMood_page\EnChrome\Screenshots_getStartedHeaderTokenMoodPage\difference.png for details.
-]]></system-out>
-  </testcase>
-  <testcase name="learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.296">
+  <testcase name="getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.354">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.297">
+  <testcase name="learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.295">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.237">
+  <testcase name="resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="5.265">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.793">
+  <testcase name="mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.238">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="7.742">
     <system-out><![CDATA[888
 3.14
 1703
@@ -335,687 +331,695 @@ Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMulti
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="6.251">
+  <testcase name="allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)" classname="tests.tokenMoodPageTests.AllPageChromeTests" time="6.248">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="7.722">
+  <testcase name="allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="7.684">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.094">
+  <testcase name="getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.11">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.122">
+  <testcase name="learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.101">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.182">
+  <testcase name="resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.167">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="6.914">
+  <testcase name="mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="6.884">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="5.951">
+  <testcase name="allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageFirefoxTests" time="6.05">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="7.374">
+  <testcase name="allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="7.254">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:34:18 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:19:53 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.38">
+  <testcase name="getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.329">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.29">
+  <testcase name="learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.281">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.268">
+  <testcase name="resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="5.288">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="7.216">
+  <testcase name="mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="7.201">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="6.254">
+  <testcase name="allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)" classname="tests.fundPageTests.AllPageChromeTests" time="6.228">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="8.1">
+  <testcase name="allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="8.144">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.119">
+  <testcase name="getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.111">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.092">
+  <testcase name="learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.111">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.176">
+  <testcase name="resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="5.201">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="6.909">
+  <testcase name="mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="6.957">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="7.269">
+  <testcase name="affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="7.202">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="6.009">
+  <testcase name="allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageFirefoxTests" time="6.006">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.58">
+  <testcase name="allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.602">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:35:44 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:21:18 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.367">
+  <testcase name="getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.357">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.302">
+  <testcase name="learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.276">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.286">
+  <testcase name="resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="5.314">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.204">
+  <testcase name="mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.235">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.569">
+  <testcase name="affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="7.557">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="6.246">
+  <testcase name="allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)" classname="tests.affiliateProgramPageTests.AllPageChromeTests" time="6.272">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="10.037">
+  <testcase name="allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="10.408">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.107">
+  <testcase name="getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.103">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.085">
+  <testcase name="learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.102">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.138">
+  <testcase name="resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.161">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.951">
+  <testcase name="mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.918">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="6.231">
+  <testcase name="delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="6.235">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="5.997">
+  <testcase name="allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageFirefoxTests" time="6.012">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="7.688">
+  <testcase name="allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="7.603">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:37:18 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:22:52 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.32">
+  <testcase name="getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.379">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.291">
+  <testcase name="learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.301">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.272">
+  <testcase name="resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="5.265">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.203">
+  <testcase name="mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.209">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.555">
+  <testcase name="delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.58">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.255">
+  <testcase name="allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)" classname="tests.walletPageTests.AllPageChromeTests" time="6.241">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="10.06">
+  <testcase name="allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="9.75">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.049">
+  <testcase name="getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.003">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.017">
+  <testcase name="learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.012">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.086">
+  <testcase name="resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.066">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.988">
+  <testcase name="mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="6.962">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="7.243">
+  <testcase name="delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="7.284">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="9.385">
+  <testcase name="calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="9.414">
     <system-out><![CDATA[(0.13% 24H)
 ~0.13
 2864.2900
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="5.912">
+  <testcase name="allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageFirefoxTests" time="5.928">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="8.327">
+  <testcase name="allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="8.246">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:39:04 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:24:38 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.251">
+  <testcase name="getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.259">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.357">
+  <testcase name="learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.229">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.213">
+  <testcase name="resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.231">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="7.24">
+  <testcase name="mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="7.248">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="9.573">
+  <testcase name="delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="9.581">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="9.796">
+  <testcase name="calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="9.801">
     <system-out><![CDATA[(0.13% 24H)
 ~0.13
 2864.2900
 The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.284">
+  <testcase name="allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)" classname="tests.stakingPageTests.AllPageChromeTests" time="6.26">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="10.486">
+  <testcase name="allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="11.175">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="6.015">
+  <testcase name="getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="6.001">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="marketPlaceHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="6.012">
+  <testcase name="marketPlaceHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.978">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="whitePaperHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.987">
+  <testcase name="whitePaperHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.981">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.913">
+  <testcase name="learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.9">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.964">
+  <testcase name="resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.966">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.974">
+  <testcase name="mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.967">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="marketTokenWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="6.246">
+  <testcase name="marketTokenWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="6.226">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.912">
+  <testcase name="allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperFirefoxTests" time="5.927">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="8.783">
+  <testcase name="allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="8.867">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:41:08 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:26:42 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.266">
+  <testcase name="getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.254">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="marketPlaceHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.212">
+  <testcase name="marketPlaceHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.246">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="whitePaperHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.181">
+  <testcase name="whitePaperHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.201">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.218">
+  <testcase name="learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.197">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.215">
+  <testcase name="resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.256">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.257">
+  <testcase name="mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.246">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="EweuimtPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.633">
+  <testcase name="EweuimtPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.641">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.235">
+  <testcase name="allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)" classname="tests.whitePaper.WhitePaperChromeTests" time="6.251">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="9.905">
+  <testcase name="allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="10.082">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.139">
+  <testcase name="getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.125">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.086">
+  <testcase name="learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.09">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.169">
+  <testcase name="resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.094">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.936">
+  <testcase name="mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.964">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="6.245">
+  <testcase name="whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="6.222">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="6.324">
+  <testcase name="ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="6.29">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.892">
+  <testcase name="allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodFirefoxTests" time="5.895">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="9.193">
+  <testcase name="allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="9.258">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:43:02 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:28:37 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.358">
+  <testcase name="getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.406">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.325">
+  <testcase name="learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.306">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.31">
+  <testcase name="resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="5.311">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.223">
+  <testcase name="mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.248">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.549">
+  <testcase name="whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.545">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.664">
+  <testcase name="ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.646">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.281">
+  <testcase name="allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)" classname="tests.WhatIsAimood.WhatIsAimoodChromeTests" time="6.284">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderMainPage" classname="tests.SignIn.SignInFirefoxTests" time="6.928">
+  <testcase name="allHeaderMainPage" classname="tests.SignIn.SignInFirefoxTests" time="6.932">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage" classname="tests.SignIn.SignInFirefoxTests" time="6.929">
+  <testcase name="mainBlockWhitePaperPage" classname="tests.SignIn.SignInFirefoxTests" time="6.932">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Forgot" classname="tests.SignIn.SignInFirefoxTests" time="6.929">
+  <testcase name="Forgot" classname="tests.SignIn.SignInFirefoxTests" time="6.932">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method Forgot but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Dont" classname="tests.SignIn.SignInFirefoxTests" time="6.929">
+  <testcase name="Dont" classname="tests.SignIn.SignInFirefoxTests" time="6.933">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method Dont but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allPageSignInPage" classname="tests.SignIn.SignInFirefoxTests" time="6.93">
+  <testcase name="allPageSignInPage" classname="tests.SignIn.SignInFirefoxTests" time="6.933">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allPageSignInPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allFooterMainPage" classname="tests.SignIn.SignInFirefoxTests" time="6.93">
+  <testcase name="allFooterMainPage" classname="tests.SignIn.SignInFirefoxTests" time="6.934">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allFooterMainPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="tearDown" classname="tests.SignIn.SignInFirefoxTests" time="6.931">
+  <testcase name="tearDown" classname="tests.SignIn.SignInFirefoxTests" time="6.935">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
   </testcase>
-  <testcase name="allHeaderMainPage" classname="tests.SignIn.SignInChromeTests" time="6.932">
+  <testcase name="allHeaderMainPage" classname="tests.SignIn.SignInChromeTests" time="6.936">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage" classname="tests.SignIn.SignInChromeTests" time="6.933">
+  <testcase name="mainBlockWhitePaperPage" classname="tests.SignIn.SignInChromeTests" time="6.936">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Forgot" classname="tests.SignIn.SignInChromeTests" time="6.933">
+  <testcase name="Forgot" classname="tests.SignIn.SignInChromeTests" time="6.937">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method Forgot but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Dont" classname="tests.SignIn.SignInChromeTests" time="6.934">
+  <testcase name="Dont" classname="tests.SignIn.SignInChromeTests" time="6.937">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method Dont but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allPageSignInPage" classname="tests.SignIn.SignInChromeTests" time="6.934">
+  <testcase name="allPageSignInPage" classname="tests.SignIn.SignInChromeTests" time="6.938">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allPageSignInPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allFooterMainPage" classname="tests.SignIn.SignInChromeTests" time="6.935">
+  <testcase name="allFooterMainPage" classname="tests.SignIn.SignInChromeTests" time="6.938">
     <failure message="&#10;Parameter &apos;SignIn_page&apos; is required by @Test on method allFooterMainPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="tearDown" classname="tests.SignIn.SignInChromeTests" time="6.935">
+  <testcase name="tearDown" classname="tests.SignIn.SignInChromeTests" time="6.939">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
   </testcase>
-  <testcase name="allHeaderSignUpPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.936">
+  <testcase name="allHeaderSignUpPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.94">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.936">
+  <testcase name="mainBlockWhitePaperPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.94">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Already" classname="tests.SignUp.SignUpFirefoxTests" time="6.937">
+  <testcase name="Already" classname="tests.SignUp.SignUpFirefoxTests" time="6.941">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method Already but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allPageSignUpPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.937">
+  <testcase name="allPageSignUpPage" classname="tests.SignUp.SignUpFirefoxTests" time="6.941">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allFooterSignUp" classname="tests.SignUp.SignUpFirefoxTests" time="6.937">
+  <testcase name="allFooterSignUp" classname="tests.SignUp.SignUpFirefoxTests" time="6.941">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allFooterSignUp but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="tearDown" classname="tests.SignUp.SignUpFirefoxTests" time="6.938">
+  <testcase name="tearDown" classname="tests.SignUp.SignUpFirefoxTests" time="6.942">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
   </testcase>
-  <testcase name="allHeaderSignUpPage" classname="tests.SignUp.SignUpChromeTests" time="6.938">
+  <testcase name="allHeaderSignUpPage" classname="tests.SignUp.SignUpChromeTests" time="6.942">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="mainBlockWhitePaperPage" classname="tests.SignUp.SignUpChromeTests" time="6.939">
+  <testcase name="mainBlockWhitePaperPage" classname="tests.SignUp.SignUpChromeTests" time="6.943">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="Already" classname="tests.SignUp.SignUpChromeTests" time="6.939">
+  <testcase name="Already" classname="tests.SignUp.SignUpChromeTests" time="6.943">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method Already but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allPageSignUpPage" classname="tests.SignUp.SignUpChromeTests" time="6.94">
+  <testcase name="allPageSignUpPage" classname="tests.SignUp.SignUpChromeTests" time="6.944">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="allFooterSignUp" classname="tests.SignUp.SignUpChromeTests" time="6.94">
+  <testcase name="allFooterSignUp" classname="tests.SignUp.SignUpChromeTests" time="6.944">
     <failure message="&#10;Parameter &apos;SignUp_page&apos; is required by @Test on method allFooterSignUp but has not been marked @Optional or defined&#10;in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 ]]></failure>
   </testcase>
-  <testcase name="tearDown" classname="tests.SignUp.SignUpChromeTests" time="6.941">
+  <testcase name="tearDown" classname="tests.SignUp.SignUpChromeTests" time="6.945">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 ]]></failure>
   </testcase>
-  <testcase name="allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="8.732">
+  <testcase name="allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="8.677">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.106">
+  <testcase name="getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.138">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.114">
+  <testcase name="learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.103">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.153">
+  <testcase name="resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="5.164">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="6.981">
+  <testcase name="mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="7.02">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="6.002">
+  <testcase name="allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageFirefoxTests" time="6.035">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="8.263">
+  <testcase name="allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="8.299">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:44:35 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:30:11 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.334">
+  <testcase name="getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.354">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.282">
+  <testcase name="learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.307">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.291">
+  <testcase name="resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="5.307">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="7.253">
+  <testcase name="mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="7.193">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="6.222">
+  <testcase name="allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)" classname="tests.resetPasswordPageTests.AllPageChromeTests" time="6.211">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="8.69">
+  <testcase name="allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="8.894">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.126">
+  <testcase name="getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.127">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.127">
+  <testcase name="learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.107">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.153">
+  <testcase name="resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.168">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="6.976">
+  <testcase name="mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="6.958">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="5.989">
+  <testcase name="allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageFirefoxTests" time="6.004">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="8.215">
+  <testcase name="allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="8.292">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:45:56 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:31:31 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.299">
+  <testcase name="getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.354">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.266">
+  <testcase name="learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.294">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.25">
+  <testcase name="resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="5.267">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="6.924">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.mainSectionResetPasswordPage2(AllPageChromeTests.java:116)
-]]></failure>
+  <testcase name="mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="7.198">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="6.233">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="8.869">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.117">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.092">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.173">
+    <system-out><![CDATA[The two images are similar.
+]]></system-out>
+  </testcase>
+  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
     <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\ResetPassword_page_2\EnChrome\Screenshots_mainSectionResetPasswordPage2\difference.png for details.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\SignIn_page\EnFirefox\Screenshots_mainSectionSignInPage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)" classname="tests.resetPasswordPage2Tests.AllPageChromeTests" time="6.243">
-    <system-out><![CDATA[The two images are similar.
+  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](2)" classname="tests.signInPageTests.AllPageFirefoxTests" time="0">
+    <skipped message="*** Images are not similar *** expected [true] but found [false]"/>
+    <system-out><![CDATA[The two images are not similar.
+Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\SignIn_page\EnFirefox\Screenshots_mainSectionSignInPage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="8.566">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.103">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.095">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.074">
-    <system-out><![CDATA[The two images are similar.
-]]></system-out>
-  </testcase>
-  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="6.715">
+  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](3)" classname="tests.signInPageTests.AllPageFirefoxTests" time="6.694">
     <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.signInPageTests.AllPageFirefoxTests.mainSectionSignInPage(AllPageFirefoxTests.java:115)
 ]]></failure>
@@ -1023,89 +1027,85 @@ Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMulti
 Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\SignIn_page\EnFirefox\Screenshots_mainSectionSignInPage\difference.png for details.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="6.149">
+  <testcase name="allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageFirefoxTests" time="5.955">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="8.317">
+  <testcase name="allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="8.33">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:47:14 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:33:04 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.283">
+  <testcase name="getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.345">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.267">
+  <testcase name="learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.334">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.265">
+  <testcase name="resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="5.294">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="7.167">
+  <testcase name="mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="7.214">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="6.233">
+  <testcase name="allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)" classname="tests.signInPageTests.AllPageChromeTests" time="6.22">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="8.556">
+  <testcase name="allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="8.785">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.123">
+  <testcase name="getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.108">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.103">
+  <testcase name="learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.121">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.138">
+  <testcase name="resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.194">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="6.97">
+  <testcase name="mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="6.985">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="6.054">
+  <testcase name="allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageFirefoxTests" time="5.999">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="8.25">
+  <testcase name="allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="8.351">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
-    <system-err><![CDATA[вер. 11, 2023 1:48:34 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[вер. 11, 2023 2:34:25 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
 ]]></system-err>
   </testcase>
-  <testcase name="getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.349">
+  <testcase name="getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.346">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.284">
+  <testcase name="learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.278">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.3">
+  <testcase name="resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="5.279">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="6.841">
-    <failure message="*** Images are not similar *** expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.mainSectionSignUpPage(AllPageChromeTests.java:115)
-]]></failure>
-    <system-out><![CDATA[The two images are not similar.
-Difference found. See the file D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\Screenshots_St1\SignUp_page\EnChrome\Screenshots_mainSectionSignUpPage\difference.png for details.
+  <testcase name="mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="7.219">
+    <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>
-  <testcase name="allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="6.246">
+  <testcase name="allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)" classname="tests.signUpPageTests.AllPageChromeTests" time="6.26">
     <system-out><![CDATA[The two images are similar.
 ]]></system-out>
   </testcase>

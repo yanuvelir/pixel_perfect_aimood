@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="tests.RetryAnalyzerTransformer"/>
+  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
     <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
     <parameter name="buy_sell_page" value="https://aimood-stage1.intary.net/en/buy-sell-aimood-coin"/>
@@ -22,20 +25,13 @@
         <methods>
           <include name="tearDown"/>
           <include name="allPageSignUpPage"/>
-          <include name="setUp"/>
           <include name="allHeaderSignUpPage"/>
+          <include name="setUp"/>
           <include name="Already"/>
           <include name="mainBlockWhitePaperPage"/>
           <include name="allFooterSignUp"/>
         </methods>
       </class> <!-- tests.SignUp.SignUpChromeTests -->
-      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
       <class name="tests.SignIn.SignInFirefoxTests">
         <methods>
           <include name="allPageSignInPage"/>
@@ -48,6 +44,13 @@
           <include name="allHeaderMainPage"/>
         </methods>
       </class> <!-- tests.SignIn.SignInFirefoxTests -->
+      <class name="tests.signInPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionSignInPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
       <class name="tests.SignUp.SignUpFirefoxTests">
         <methods>
           <include name="allFooterSignUp"/>
@@ -59,27 +62,6 @@
           <include name="mainBlockWhitePaperPage"/>
         </methods>
       </class> <!-- tests.SignUp.SignUpFirefoxTests -->
-      <class name="tests.signUpPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.signUpPageTests.AllPageChromeTests -->
-      <class name="tests.signInPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionSignInPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageChromeTests -->
       <class name="tests.SignIn.SignInChromeTests">
         <methods>
           <include name="Forgot"/>
@@ -87,8 +69,8 @@
           <include name="setUp"/>
           <include name="allHeaderMainPage"/>
           <include name="Dont"/>
-          <include name="allPageSignInPage"/>
           <include name="mainBlockWhitePaperPage"/>
+          <include name="allPageSignInPage"/>
           <include name="allFooterMainPage"/>
         </methods>
       </class> <!-- tests.SignIn.SignInChromeTests -->
