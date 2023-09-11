@@ -21,59 +21,13 @@
     <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
     <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
-      <class name="tests.SignUp.SignUpChromeTests">
+      <class name="tests.resetPasswordPageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
-          <include name="allPageSignUpPage"/>
-          <include name="allHeaderSignUpPage"/>
-          <include name="setUp"/>
-          <include name="Already"/>
-          <include name="mainBlockWhitePaperPage"/>
-          <include name="allFooterSignUp"/>
-        </methods>
-      </class> <!-- tests.SignUp.SignUpChromeTests -->
-      <class name="tests.SignIn.SignInFirefoxTests">
-        <methods>
-          <include name="allPageSignInPage"/>
-          <include name="mainBlockWhitePaperPage"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="Forgot"/>
-          <include name="allFooterMainPage"/>
-          <include name="Dont"/>
-          <include name="allHeaderMainPage"/>
-        </methods>
-      </class> <!-- tests.SignIn.SignInFirefoxTests -->
-      <class name="tests.signInPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionSignInPage" invocation-numbers="0"/>
+          <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
-      <class name="tests.SignUp.SignUpFirefoxTests">
-        <methods>
-          <include name="allFooterSignUp"/>
-          <include name="tearDown"/>
-          <include name="Already"/>
-          <include name="setUp"/>
-          <include name="allHeaderSignUpPage"/>
-          <include name="allPageSignUpPage"/>
-          <include name="mainBlockWhitePaperPage"/>
-        </methods>
-      </class> <!-- tests.SignUp.SignUpFirefoxTests -->
-      <class name="tests.SignIn.SignInChromeTests">
-        <methods>
-          <include name="Forgot"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allHeaderMainPage"/>
-          <include name="Dont"/>
-          <include name="mainBlockWhitePaperPage"/>
-          <include name="allPageSignInPage"/>
-          <include name="allFooterMainPage"/>
-        </methods>
-      </class> <!-- tests.SignIn.SignInChromeTests -->
+      </class> <!-- tests.resetPasswordPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
