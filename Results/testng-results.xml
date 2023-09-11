@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-11T11:54:28 EEST" name="WPT" finished-at="2023-09-11T11:58:47 EEST" duration-ms="259250">
+  <suite started-at="2023-09-11T12:20:49 EEST" name="WPT" finished-at="2023-09-11T12:22:19 EEST" duration-ms="90034">
     <groups>
     </groups>
-    <test started-at="2023-09-11T11:54:28 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-11T11:58:47 EEST" duration-ms="259250">
-      <class name="tests.signInPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:38 EEST" name="setUp" finished-at="2023-09-11T11:56:40 EEST" duration-ms="2085" status="PASS">
+    <test started-at="2023-09-11T12:20:49 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-11T12:22:19 EEST" duration-ms="90034">
+      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:20:49 EEST" name="setUp" finished-at="2023-09-11T12:20:51 EEST" duration-ms="2162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderSignInPage(java.lang.String,java.lang.String)[pri:1, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:40 EEST" name="allHeaderSignInPage" finished-at="2023-09-11T11:56:47 EEST" duration-ms="7405" status="PASS">
+        <test-method signature="allHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:20:51 EEST" name="allHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:02 EEST" duration-ms="10367" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +26,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderSignInPage -->
-        <test-method signature="getStartedHeaderSignInPage(java.lang.String,java.lang.String)[pri:2, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:47 EEST" name="getStartedHeaderSignInPage" finished-at="2023-09-11T11:56:51 EEST" duration-ms="3939" status="PASS">
+        </test-method> <!-- allHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:02 EEST" name="setUp" finished-at="2023-09-11T12:21:02 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:02 EEST" name="getStartedHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:06 EEST" duration-ms="4136" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -42,20 +46,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:47 EEST" name="setUp" finished-at="2023-09-11T11:56:47 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:06 EEST" name="setUp" finished-at="2023-09-11T12:21:06 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:51 EEST" name="setUp" finished-at="2023-09-11T11:56:51 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderSignInPage(java.lang.String,java.lang.String)[pri:3, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:51 EEST" name="learnHeaderSignInPage" finished-at="2023-09-11T11:56:55 EEST" duration-ms="3924" status="PASS">
+        <test-method signature="learnHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:06 EEST" name="learnHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:10 EEST" duration-ms="4081" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -66,12 +66,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderSignInPage -->
-        <test-method signature="resourcesHeaderSignInPage(java.lang.String,java.lang.String)[pri:4, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:55 EEST" name="resourcesHeaderSignInPage" finished-at="2023-09-11T11:56:59 EEST" duration-ms="3927" status="PASS">
+        </test-method> <!-- learnHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:10 EEST" name="setUp" finished-at="2023-09-11T12:21:10 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:10 EEST" name="resourcesHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:14 EEST" duration-ms="4103" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -82,20 +86,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:55 EEST" name="setUp" finished-at="2023-09-11T11:56:55 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:14 EEST" name="setUp" finished-at="2023-09-11T12:21:14 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:59 EEST" name="setUp" finished-at="2023-09-11T11:56:59 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionSignInPage(java.lang.String,java.lang.String)[pri:6, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:56:59 EEST" name="mainSectionSignInPage" finished-at="2023-09-11T11:57:05 EEST" duration-ms="5975" status="PASS">
+        <test-method signature="mainBlockWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:14 EEST" name="mainBlockWhatIsAimoodPage" finished-at="2023-09-11T12:21:19 EEST" duration-ms="5019" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -106,12 +106,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionSignInPage -->
-        <test-method signature="allFooterSignInPage(java.lang.String,java.lang.String)[pri:7, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:57:05 EEST" name="allFooterSignInPage" finished-at="2023-09-11T11:57:10 EEST" duration-ms="4984" status="PASS">
+        </test-method> <!-- mainBlockWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:19 EEST" name="setUp" finished-at="2023-09-11T12:21:19 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="whyChooseWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:19 EEST" name="whyChooseWhatIsAimoodPage" finished-at="2023-09-11T12:21:24 EEST" duration-ms="5319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -122,26 +126,62 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:57:05 EEST" name="setUp" finished-at="2023-09-11T11:57:05 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- whyChooseWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:24 EEST" name="setUp" finished-at="2023-09-11T12:21:24 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.signInPageTests.AllPageFirefoxTests@7e5afaa6]" started-at="2023-09-11T11:57:10 EEST" name="tearDown" finished-at="2023-09-11T11:57:10 EEST" duration-ms="516" status="PASS">
+        <test-method signature="ecosystemWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:24 EEST" name="ecosystemWhatIsAimoodPage" finished-at="2023-09-11T12:21:30 EEST" duration-ms="5425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecosystemWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:30 EEST" name="setUp" finished-at="2023-09-11T12:21:30 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:30 EEST" name="allFooterWhatIsAimoodPage" finished-at="2023-09-11T12:21:35 EEST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterWhatIsAimoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodChromeTests@13b13b5d]" started-at="2023-09-11T12:21:35 EEST" name="tearDown" finished-at="2023-09-11T12:21:35 EEST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
-      <class name="tests.signUpPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:42 EEST" name="setUp" finished-at="2023-09-11T11:57:44 EEST" duration-ms="1991" status="PASS">
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
+      <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:35 EEST" name="setUp" finished-at="2023-09-11T12:21:37 EEST" duration-ms="2382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderSignUpPage(java.lang.String,java.lang.String)[pri:1, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:44 EEST" name="allHeaderSignUpPage" finished-at="2023-09-11T11:57:51 EEST" duration-ms="7310" status="PASS">
+        <test-method signature="allHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:1, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:37 EEST" name="allHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:46 EEST" duration-ms="8512" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -152,12 +192,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderSignUpPage -->
-        <test-method signature="getStartedHeaderSignUpPage(java.lang.String,java.lang.String)[pri:2, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:51 EEST" name="getStartedHeaderSignUpPage" finished-at="2023-09-11T11:57:55 EEST" duration-ms="3937" status="PASS">
+        </test-method> <!-- allHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:46 EEST" name="setUp" finished-at="2023-09-11T12:21:46 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:2, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:46 EEST" name="getStartedHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:50 EEST" duration-ms="3950" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -168,16 +212,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:51 EEST" name="setUp" finished-at="2023-09-11T11:57:51 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:50 EEST" name="setUp" finished-at="2023-09-11T12:21:50 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderSignUpPage(java.lang.String,java.lang.String)[pri:3, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:55 EEST" name="learnHeaderSignUpPage" finished-at="2023-09-11T11:57:59 EEST" duration-ms="3913" status="PASS">
+        <test-method signature="learnHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:3, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:50 EEST" name="learnHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:54 EEST" duration-ms="3944" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -188,20 +232,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:55 EEST" name="setUp" finished-at="2023-09-11T11:57:55 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- learnHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:54 EEST" name="setUp" finished-at="2023-09-11T12:21:54 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:59 EEST" name="setUp" finished-at="2023-09-11T11:57:59 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderSignUpPage(java.lang.String,java.lang.String)[pri:4, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:57:59 EEST" name="resourcesHeaderSignUpPage" finished-at="2023-09-11T11:58:03 EEST" duration-ms="3949" status="PASS">
+        <test-method signature="resourcesHeaderWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:4, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:54 EEST" name="resourcesHeaderWhatIsAimoodPage" finished-at="2023-09-11T12:21:58 EEST" duration-ms="3991" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -212,12 +252,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderSignUpPage -->
-        <test-method signature="mainSectionSignUpPage(java.lang.String,java.lang.String)[pri:6, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:58:03 EEST" name="mainSectionSignUpPage" finished-at="2023-09-11T11:58:09 EEST" duration-ms="5977" status="PASS">
+        </test-method> <!-- resourcesHeaderWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:58 EEST" name="setUp" finished-at="2023-09-11T12:21:58 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainBlockWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:6, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:21:58 EEST" name="mainBlockWhatIsAimoodPage" finished-at="2023-09-11T12:22:03 EEST" duration-ms="5058" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -228,20 +272,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:58:03 EEST" name="setUp" finished-at="2023-09-11T11:58:03 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:58:09 EEST" name="setUp" finished-at="2023-09-11T11:58:09 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterSignUpPage(java.lang.String,java.lang.String)[pri:7, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:58:09 EEST" name="allFooterSignUpPage" finished-at="2023-09-11T11:58:14 EEST" duration-ms="5016" status="PASS">
+        </test-method> <!-- mainBlockWhatIsAimoodPage -->
+        <test-method signature="whyChooseWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:7, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:03 EEST" name="whyChooseWhatIsAimoodPage" finished-at="2023-09-11T12:22:08 EEST" duration-ms="5260" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
               </value>
             </param>
             <param index="1">
@@ -252,768 +288,56 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allFooterSignUpPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.signUpPageTests.AllPageFirefoxTests@28f3b248]" started-at="2023-09-11T11:58:14 EEST" name="tearDown" finished-at="2023-09-11T11:58:15 EEST" duration-ms="501" status="PASS">
+        </test-method> <!-- whyChooseWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:03 EEST" name="setUp" finished-at="2023-09-11T12:22:03 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ecosystemWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:8, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:08 EEST" name="ecosystemWhatIsAimoodPage" finished-at="2023-09-11T12:22:13 EEST" duration-ms="5428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ecosystemWhatIsAimoodPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:08 EEST" name="setUp" finished-at="2023-09-11T12:22:08 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:13 EEST" name="setUp" finished-at="2023-09-11T12:22:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allFooterWhatIsAimoodPage(java.lang.String,java.lang.String)[pri:9, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:13 EEST" name="allFooterWhatIsAimoodPage" finished-at="2023-09-11T12:22:18 EEST" duration-ms="4981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/what-is-aimood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterWhatIsAimoodPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WhatIsAimood.WhatIsAimoodFirefoxTests@1a4013]" started-at="2023-09-11T12:22:18 EEST" name="tearDown" finished-at="2023-09-11T12:22:19 EEST" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.signUpPageTests.AllPageFirefoxTests -->
-      <class name="tests.signUpPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:15 EEST" name="setUp" finished-at="2023-09-11T11:58:16 EEST" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderSignUpPage(java.lang.String,java.lang.String)[pri:1, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:16 EEST" name="allHeaderSignUpPage" finished-at="2023-09-11T11:58:24 EEST" duration-ms="7507" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:24 EEST" name="setUp" finished-at="2023-09-11T11:58:24 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderSignUpPage(java.lang.String,java.lang.String)[pri:2, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:24 EEST" name="getStartedHeaderSignUpPage" finished-at="2023-09-11T11:58:28 EEST" duration-ms="4124" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderSignUpPage -->
-        <test-method signature="learnHeaderSignUpPage(java.lang.String,java.lang.String)[pri:3, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:28 EEST" name="learnHeaderSignUpPage" finished-at="2023-09-11T11:58:32 EEST" duration-ms="4090" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:28 EEST" name="setUp" finished-at="2023-09-11T11:58:28 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:32 EEST" name="setUp" finished-at="2023-09-11T11:58:32 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderSignUpPage(java.lang.String,java.lang.String)[pri:4, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:32 EEST" name="resourcesHeaderSignUpPage" finished-at="2023-09-11T11:58:36 EEST" duration-ms="4085" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderSignUpPage -->
-        <test-method signature="mainSectionSignUpPage(java.lang.String,java.lang.String)[pri:6, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:36 EEST" name="mainSectionSignUpPage" finished-at="2023-09-11T11:58:42 EEST" duration-ms="5986" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionSignUpPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:36 EEST" name="setUp" finished-at="2023-09-11T11:58:36 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:42 EEST" name="setUp" finished-at="2023-09-11T11:58:42 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterSignUpPage(java.lang.String,java.lang.String)[pri:7, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:42 EEST" name="allFooterSignUpPage" finished-at="2023-09-11T11:58:47 EEST" duration-ms="5015" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/register]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterSignUpPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.signUpPageTests.AllPageChromeTests@1b1426f4]" started-at="2023-09-11T11:58:47 EEST" name="tearDown" finished-at="2023-09-11T11:58:47 EEST" duration-ms="123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.signUpPageTests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:33 EEST" name="setUp" finished-at="2023-09-11T11:55:35 EEST" duration-ms="1987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:1, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:35 EEST" name="allHeaderResetPasswordPage2" finished-at="2023-09-11T11:55:42 EEST" duration-ms="7209" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:42 EEST" name="setUp" finished-at="2023-09-11T11:55:42 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:2, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:42 EEST" name="getStartedHeaderResetPasswordPage2" finished-at="2023-09-11T11:55:46 EEST" duration-ms="3940" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:46 EEST" name="setUp" finished-at="2023-09-11T11:55:46 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:3, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:46 EEST" name="learnHeaderResetPasswordPage2" finished-at="2023-09-11T11:55:50 EEST" duration-ms="3915" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:50 EEST" name="setUp" finished-at="2023-09-11T11:55:50 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:4, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:50 EEST" name="resourcesHeaderResetPasswordPage2" finished-at="2023-09-11T11:55:54 EEST" duration-ms="3911" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:54 EEST" name="setUp" finished-at="2023-09-11T11:55:54 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionResetPasswordPage2(java.lang.String,java.lang.String)[pri:6, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:55:54 EEST" name="mainSectionResetPasswordPage2" finished-at="2023-09-11T11:56:00 EEST" duration-ms="5980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionResetPasswordPage2 -->
-        <test-method signature="allFooterResetPasswordPage2(java.lang.String,java.lang.String)[pri:7, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:56:00 EEST" name="allFooterResetPasswordPage2" finished-at="2023-09-11T11:56:05 EEST" duration-ms="4982" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:56:00 EEST" name="setUp" finished-at="2023-09-11T11:56:00 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageFirefoxTests@5403f35f]" started-at="2023-09-11T11:56:05 EEST" name="tearDown" finished-at="2023-09-11T11:56:06 EEST" duration-ms="501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
-      <class name="tests.signInPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:10 EEST" name="setUp" finished-at="2023-09-11T11:57:12 EEST" duration-ms="1209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderSignInPage(java.lang.String,java.lang.String)[pri:1, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:12 EEST" name="allHeaderSignInPage" finished-at="2023-09-11T11:57:19 EEST" duration-ms="7152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:19 EEST" name="setUp" finished-at="2023-09-11T11:57:19 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderSignInPage(java.lang.String,java.lang.String)[pri:2, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:19 EEST" name="getStartedHeaderSignInPage" finished-at="2023-09-11T11:57:23 EEST" duration-ms="4132" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:23 EEST" name="setUp" finished-at="2023-09-11T11:57:23 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderSignInPage(java.lang.String,java.lang.String)[pri:3, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:23 EEST" name="learnHeaderSignInPage" finished-at="2023-09-11T11:57:27 EEST" duration-ms="4056" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderSignInPage -->
-        <test-method signature="resourcesHeaderSignInPage(java.lang.String,java.lang.String)[pri:4, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:27 EEST" name="resourcesHeaderSignInPage" finished-at="2023-09-11T11:57:31 EEST" duration-ms="4048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:27 EEST" name="setUp" finished-at="2023-09-11T11:57:27 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionSignInPage(java.lang.String,java.lang.String)[pri:6, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:31 EEST" name="mainSectionSignInPage" finished-at="2023-09-11T11:57:37 EEST" duration-ms="6003" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:31 EEST" name="setUp" finished-at="2023-09-11T11:57:31 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterSignInPage(java.lang.String,java.lang.String)[pri:7, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:37 EEST" name="allFooterSignInPage" finished-at="2023-09-11T11:57:42 EEST" duration-ms="4996" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterSignInPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:37 EEST" name="setUp" finished-at="2023-09-11T11:57:37 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.signInPageTests.AllPageChromeTests@63a12c68]" started-at="2023-09-11T11:57:42 EEST" name="tearDown" finished-at="2023-09-11T11:57:42 EEST" duration-ms="132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.signInPageTests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:06 EEST" name="setUp" finished-at="2023-09-11T11:56:07 EEST" duration-ms="1235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:1, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:07 EEST" name="allHeaderResetPasswordPage2" finished-at="2023-09-11T11:56:14 EEST" duration-ms="7362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderResetPasswordPage2 -->
-        <test-method signature="getStartedHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:2, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:14 EEST" name="getStartedHeaderResetPasswordPage2" finished-at="2023-09-11T11:56:18 EEST" duration-ms="4142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:14 EEST" name="setUp" finished-at="2023-09-11T11:56:14 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:3, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:18 EEST" name="learnHeaderResetPasswordPage2" finished-at="2023-09-11T11:56:22 EEST" duration-ms="4069" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:18 EEST" name="setUp" finished-at="2023-09-11T11:56:18 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderResetPasswordPage2(java.lang.String,java.lang.String)[pri:4, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:22 EEST" name="resourcesHeaderResetPasswordPage2" finished-at="2023-09-11T11:56:27 EEST" duration-ms="4072" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:22 EEST" name="setUp" finished-at="2023-09-11T11:56:22 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:27 EEST" name="setUp" finished-at="2023-09-11T11:56:27 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionResetPasswordPage2(java.lang.String,java.lang.String)[pri:6, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:27 EEST" name="mainSectionResetPasswordPage2" finished-at="2023-09-11T11:56:33 EEST" duration-ms="5980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionResetPasswordPage2 -->
-        <test-method signature="allFooterResetPasswordPage2(java.lang.String,java.lang.String)[pri:7, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:33 EEST" name="allFooterResetPasswordPage2" finished-at="2023-09-11T11:56:38 EEST" duration-ms="4993" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterResetPasswordPage2 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:33 EEST" name="setUp" finished-at="2023-09-11T11:56:33 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.resetPasswordPage2Tests.AllPageChromeTests@483f6d77]" started-at="2023-09-11T11:56:38 EEST" name="tearDown" finished-at="2023-09-11T11:56:38 EEST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPageTests.AllPageChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:01 EEST" name="setUp" finished-at="2023-09-11T11:55:03 EEST" duration-ms="1253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:1, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:03 EEST" name="allHeaderResetPasswordPage" finished-at="2023-09-11T11:55:10 EEST" duration-ms="7215" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:10 EEST" name="setUp" finished-at="2023-09-11T11:55:10 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:2, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:10 EEST" name="getStartedHeaderResetPasswordPage" finished-at="2023-09-11T11:55:14 EEST" duration-ms="4137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:14 EEST" name="setUp" finished-at="2023-09-11T11:55:14 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:3, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:14 EEST" name="learnHeaderResetPasswordPage" finished-at="2023-09-11T11:55:18 EEST" duration-ms="4087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:18 EEST" name="setUp" finished-at="2023-09-11T11:55:18 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:4, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:18 EEST" name="resourcesHeaderResetPasswordPage" finished-at="2023-09-11T11:55:22 EEST" duration-ms="4074" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:22 EEST" name="setUp" finished-at="2023-09-11T11:55:22 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionResetPasswordPage(java.lang.String,java.lang.String)[pri:6, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:22 EEST" name="mainSectionResetPasswordPage" finished-at="2023-09-11T11:55:28 EEST" duration-ms="5985" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionResetPasswordPage -->
-        <test-method signature="allFooterResetPasswordPage(java.lang.String,java.lang.String)[pri:7, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:28 EEST" name="allFooterResetPasswordPage" finished-at="2023-09-11T11:55:33 EEST" duration-ms="4977" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:28 EEST" name="setUp" finished-at="2023-09-11T11:55:28 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.resetPasswordPageTests.AllPageChromeTests@429bffaa]" started-at="2023-09-11T11:55:33 EEST" name="tearDown" finished-at="2023-09-11T11:55:33 EEST" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.resetPasswordPageTests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:28 EEST" name="setUp" finished-at="2023-09-11T11:54:30 EEST" duration-ms="2595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:1, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:30 EEST" name="allHeaderResetPasswordPage" finished-at="2023-09-11T11:54:38 EEST" duration-ms="7619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:38 EEST" name="setUp" finished-at="2023-09-11T11:54:38 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getStartedHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:2, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:38 EEST" name="getStartedHeaderResetPasswordPage" finished-at="2023-09-11T11:54:42 EEST" duration-ms="3948" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:42 EEST" name="setUp" finished-at="2023-09-11T11:54:42 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:3, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:42 EEST" name="learnHeaderResetPasswordPage" finished-at="2023-09-11T11:54:46 EEST" duration-ms="3929" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- learnHeaderResetPasswordPage -->
-        <test-method signature="resourcesHeaderResetPasswordPage(java.lang.String,java.lang.String)[pri:4, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:46 EEST" name="resourcesHeaderResetPasswordPage" finished-at="2023-09-11T11:54:50 EEST" duration-ms="3960" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourcesHeaderResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:46 EEST" name="setUp" finished-at="2023-09-11T11:54:46 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:50 EEST" name="setUp" finished-at="2023-09-11T11:54:50 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="mainSectionResetPasswordPage(java.lang.String,java.lang.String)[pri:6, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:50 EEST" name="mainSectionResetPasswordPage" finished-at="2023-09-11T11:54:56 EEST" duration-ms="6011" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mainSectionResetPasswordPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:56 EEST" name="setUp" finished-at="2023-09-11T11:54:56 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="allFooterResetPasswordPage(java.lang.String,java.lang.String)[pri:7, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:54:56 EEST" name="allFooterResetPasswordPage" finished-at="2023-09-11T11:55:01 EEST" duration-ms="4986" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/reset-password-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterResetPasswordPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.resetPasswordPageTests.AllPageFirefoxTests@696da30b]" started-at="2023-09-11T11:55:01 EEST" name="tearDown" finished-at="2023-09-11T11:55:01 EEST" duration-ms="529" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.resetPasswordPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
