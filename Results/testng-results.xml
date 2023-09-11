@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T13:14:50 EEST" name="WPT" finished-at="2023-09-07T13:15:42 EEST" duration-ms="52012">
+  <suite started-at="2023-09-11T12:40:28 EEST" name="WPT" finished-at="2023-09-11T12:41:50 EEST" duration-ms="82226">
     <groups>
     </groups>
-    <test started-at="2023-09-07T13:14:50 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-07T13:15:42 EEST" duration-ms="52012">
-      <class name="tests.stakingPageTests.AllPageFirefoxTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:14:50 EEST" name="setUp" finished-at="2023-09-07T13:14:53 EEST" duration-ms="2439" status="PASS">
+    <test started-at="2023-09-11T12:40:28 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-11T12:41:50 EEST" duration-ms="82226">
+      <class name="tests.whitePaper.WhitePaperFirefoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:09 EEST" name="setUp" finished-at="2023-09-11T12:41:11 EEST" duration-ms="2261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderStakingPage(java.lang.String,java.lang.String)[pri:1, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:14:53 EEST" name="allHeaderStakingPage" finished-at="2023-09-07T13:15:02 EEST" duration-ms="8824" status="PASS">
+        <test-method signature="allHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:11 EEST" name="allHeaderWhitePaperPage" finished-at="2023-09-11T12:41:20 EEST" duration-ms="8755" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -26,12 +26,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allHeaderStakingPage -->
-        <test-method signature="getStartedHeaderStakingPage(java.lang.String,java.lang.String)[pri:2, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:02 EEST" name="getStartedHeaderStakingPage" finished-at="2023-09-07T13:15:06 EEST" duration-ms="4856" status="PASS">
+        </test-method> <!-- allHeaderWhitePaperPage -->
+        <test-method signature="getStartedHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:20 EEST" name="getStartedHeaderWhitePaperPage" finished-at="2023-09-11T12:41:25 EEST" duration-ms="4869" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -42,20 +42,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStartedHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:02 EEST" name="setUp" finished-at="2023-09-07T13:15:02 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getStartedHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:20 EEST" name="setUp" finished-at="2023-09-11T12:41:20 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:06 EEST" name="setUp" finished-at="2023-09-07T13:15:06 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="learnHeaderStakingPage(java.lang.String,java.lang.String)[pri:3, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:06 EEST" name="learnHeaderStakingPage" finished-at="2023-09-07T13:15:11 EEST" duration-ms="4842" status="PASS">
+        <test-method signature="learnHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:25 EEST" name="learnHeaderWhitePaperPage" finished-at="2023-09-11T12:41:29 EEST" duration-ms="4820" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -66,12 +62,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- learnHeaderStakingPage -->
-        <test-method signature="resourcesHeaderStakingPage(java.lang.String,java.lang.String)[pri:4, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:11 EEST" name="resourcesHeaderStakingPage" finished-at="2023-09-07T13:15:16 EEST" duration-ms="4832" status="PASS">
+        </test-method> <!-- learnHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:25 EEST" name="setUp" finished-at="2023-09-11T12:41:25 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:29 EEST" name="setUp" finished-at="2023-09-11T12:41:29 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:29 EEST" name="resourcesHeaderWhitePaperPage" finished-at="2023-09-11T12:41:34 EEST" duration-ms="4846" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -82,16 +86,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resourcesHeaderStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:11 EEST" name="setUp" finished-at="2023-09-07T13:15:11 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- resourcesHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:34 EEST" name="setUp" finished-at="2023-09-11T12:41:34 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainSectionStakingPage(java.lang.String,java.lang.String)[pri:6, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:16 EEST" name="mainSectionStakingPage" finished-at="2023-09-07T13:15:22 EEST" duration-ms="6010" status="PASS">
+        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:34 EEST" name="mainBlockWhitePaperPage" finished-at="2023-09-11T12:41:39 EEST" duration-ms="5039" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -102,20 +106,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:16 EEST" name="setUp" finished-at="2023-09-07T13:15:16 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:22 EEST" name="setUp" finished-at="2023-09-07T13:15:22 EEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="delegatedSectionStakingPage(java.lang.String,java.lang.String)[pri:7, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:22 EEST" name="delegatedSectionStakingPage" finished-at="2023-09-07T13:15:28 EEST" duration-ms="6212" status="PASS">
+        </test-method> <!-- mainBlockWhitePaperPage -->
+        <test-method signature="marketTokenWhitePaperPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:39 EEST" name="marketTokenWhitePaperPage" finished-at="2023-09-11T12:41:45 EEST" duration-ms="5456" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -126,16 +122,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delegatedSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:28 EEST" name="setUp" finished-at="2023-09-07T13:15:28 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- marketTokenWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:39 EEST" name="setUp" finished-at="2023-09-11T12:41:39 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="calcStakSectionStakingPage(java.lang.String,java.lang.String)[pri:8, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:28 EEST" name="calcStakSectionStakingPage" finished-at="2023-09-07T13:15:37 EEST" duration-ms="8427" status="PASS">
+        <test-method signature="allFooterWhitePaperPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:45 EEST" name="allFooterWhitePaperPage" finished-at="2023-09-11T12:41:50 EEST" duration-ms="4970" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
               </value>
             </param>
             <param index="1">
@@ -146,32 +142,162 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- calcStakSectionStakingPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:37 EEST" name="setUp" finished-at="2023-09-07T13:15:37 EEST" duration-ms="1" status="PASS">
+        </test-method> <!-- allFooterWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:45 EEST" name="setUp" finished-at="2023-09-11T12:41:45 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterStakingPage(java.lang.String,java.lang.String)[pri:9, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:37 EEST" name="allFooterStakingPage" finished-at="2023-09-07T13:15:42 EEST" duration-ms="4939" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://ai-mood.com/en/stake-delegate]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Screenshots/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allFooterStakingPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.stakingPageTests.AllPageFirefoxTests@13b13b5d]" started-at="2023-09-07T13:15:42 EEST" name="tearDown" finished-at="2023-09-07T13:15:42 EEST" duration-ms="582" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperFirefoxTests@1a4013]" started-at="2023-09-11T12:41:50 EEST" name="tearDown" finished-at="2023-09-11T12:41:50 EEST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
+      </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
+      <class name="tests.whitePaper.WhitePaperChromeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:28 EEST" name="setUp" finished-at="2023-09-11T12:40:30 EEST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="allHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:30 EEST" name="allHeaderWhitePaperPage" finished-at="2023-09-11T12:40:38 EEST" duration-ms="7928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:38 EEST" name="setUp" finished-at="2023-09-11T12:40:38 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getStartedHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:38 EEST" name="getStartedHeaderWhitePaperPage" finished-at="2023-09-11T12:40:43 EEST" duration-ms="5003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:43 EEST" name="setUp" finished-at="2023-09-11T12:40:43 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:43 EEST" name="learnHeaderWhitePaperPage" finished-at="2023-09-11T12:40:48 EEST" duration-ms="4990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:48 EEST" name="setUp" finished-at="2023-09-11T12:40:48 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resourcesHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:48 EEST" name="resourcesHeaderWhitePaperPage" finished-at="2023-09-11T12:40:53 EEST" duration-ms="4983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourcesHeaderWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:53 EEST" name="setUp" finished-at="2023-09-11T12:40:53 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:53 EEST" name="mainBlockWhitePaperPage" finished-at="2023-09-11T12:40:58 EEST" duration-ms="5050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainBlockWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:58 EEST" name="setUp" finished-at="2023-09-11T12:40:58 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EweuimtPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:40:58 EEST" name="EweuimtPage" finished-at="2023-09-11T12:41:04 EEST" duration-ms="5396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EweuimtPage -->
+        <test-method signature="allFooterWhitePaperPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:41:04 EEST" name="allFooterWhitePaperPage" finished-at="2023-09-11T12:41:09 EEST" duration-ms="5048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ai-mood.com/en/white-paper]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Screenshots/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allFooterWhitePaperPage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:41:04 EEST" name="setUp" finished-at="2023-09-11T12:41:04 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@13b13b5d]" started-at="2023-09-11T12:41:09 EEST" name="tearDown" finished-at="2023-09-11T12:41:09 EEST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.whitePaper.WhitePaperChromeTests -->
     </test> <!-- ai-mood - Pixel perfect regression -->
   </suite> <!-- WPT -->
 </testng-results>
