@@ -21,6 +21,13 @@
     <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
     <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
+      <class name="tests.resetPasswordPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.resetPasswordPageTests.AllPageFirefoxTests -->
       <class name="tests.resetPasswordPageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
@@ -28,6 +35,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.resetPasswordPageTests.AllPageChromeTests -->
+      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
