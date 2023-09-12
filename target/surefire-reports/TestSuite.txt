@@ -1,24 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 212, Failures: 5, Errors: 0, Skipped: 14, Time elapsed: 1,546.974 s <<< FAILURE! - in TestSuite
-tests.whitePaper.WhitePaperChromeTests.marketPlaceHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.687 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 86.023 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperChromeTests.marketPlaceHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.775 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
 	at tests.whitePaper.WhitePaperChromeTests.marketPlaceHeaderWhitePaperPage(WhitePaperChromeTests.java:80)
 
-tests.whitePaper.WhitePaperChromeTests.whitePaperHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.685 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.whitePaper.WhitePaperChromeTests.whitePaperHeaderWhitePaperPage(WhitePaperChromeTests.java:98)
-
-tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.457 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage(WhitePaperFirefoxTests.java:80)
-
-tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.488 s  <<< FAILURE!
-javax.imageio.IIOException: Can't read input file!
-	at tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage(WhitePaperFirefoxTests.java:98)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.mainSectionResetPasswordPage[https://ai-mood.com/en/reset-password-1, Screenshots/](3)  Time elapsed: 6.637 s  <<< FAILURE!
+tests.whitePaper.WhitePaperChromeTests.whitePaperHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.751 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.mainSectionResetPasswordPage(AllPageFirefoxTests.java:115)
+	at tests.whitePaper.WhitePaperChromeTests.whitePaperHeaderWhitePaperPage(WhitePaperChromeTests.java:98)
 
