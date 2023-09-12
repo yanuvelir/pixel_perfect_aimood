@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-12T18:36:49 EEST" name="WPT" finished-at="2023-09-12T18:37:52 EEST" duration-ms="63139">
+  <suite started-at="2023-09-12T18:54:58 EEST" name="WPT" finished-at="2023-09-12T18:56:01 EEST" duration-ms="62740">
     <groups>
     </groups>
-    <test started-at="2023-09-12T18:36:49 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-12T18:37:52 EEST" duration-ms="63139">
+    <test started-at="2023-09-12T18:54:58 EEST" name="ai-mood - Pixel perfect regression" finished-at="2023-09-12T18:56:01 EEST" duration-ms="62740">
       <class name="tests.whitePaper.WhitePaperChromeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:36:49 EEST" name="setUp" finished-at="2023-09-12T18:36:51 EEST" duration-ms="2542" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:54:58 EEST" name="setUp" finished-at="2023-09-12T18:55:00 EEST" duration-ms="2081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:36:51 EEST" name="allHeaderWhitePaperPage" finished-at="2023-09-12T18:37:00 EEST" duration-ms="9125" status="PASS">
+        <test-method signature="allHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:1, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:00 EEST" name="allHeaderWhitePaperPage" finished-at="2023-09-12T18:55:09 EEST" duration-ms="9185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allHeaderWhitePaperPage -->
-        <test-method signature="getStartedHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:00 EEST" name="getStartedHeaderWhitePaperPage" finished-at="2023-09-12T18:37:07 EEST" duration-ms="6339" status="PASS">
+        <test-method signature="getStartedHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:09 EEST" name="getStartedHeaderWhitePaperPage" finished-at="2023-09-12T18:55:16 EEST" duration-ms="6378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getStartedHeaderWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:00 EEST" name="setUp" finished-at="2023-09-12T18:37:00 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:09 EEST" name="setUp" finished-at="2023-09-12T18:55:09 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="marketPlaceHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:07 EEST" name="marketPlaceHeaderWhitePaperPage" finished-at="2023-09-12T18:37:13 EEST" duration-ms="6270" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:16 EEST" name="setUp" finished-at="2023-09-12T18:55:16 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="marketPlaceHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:16 EEST" name="marketPlaceHeaderWhitePaperPage" finished-at="2023-09-12T18:55:22 EEST" duration-ms="6272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketPlaceHeaderWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:07 EEST" name="setUp" finished-at="2023-09-12T18:37:07 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:13 EEST" name="setUp" finished-at="2023-09-12T18:37:13 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="whitePaperHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:13 EEST" name="whitePaperHeaderWhitePaperPage" finished-at="2023-09-12T18:37:19 EEST" duration-ms="6260" status="PASS">
+        <test-method signature="whitePaperHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:2, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:22 EEST" name="whitePaperHeaderWhitePaperPage" finished-at="2023-09-12T18:55:28 EEST" duration-ms="6229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whitePaperHeaderWhitePaperPage -->
-        <test-method signature="learnHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:19 EEST" name="learnHeaderWhitePaperPage" finished-at="2023-09-12T18:37:26 EEST" duration-ms="6271" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:22 EEST" name="setUp" finished-at="2023-09-12T18:55:22 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="learnHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:3, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:28 EEST" name="learnHeaderWhitePaperPage" finished-at="2023-09-12T18:55:34 EEST" duration-ms="6234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,11 +103,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnHeaderWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:19 EEST" name="setUp" finished-at="2023-09-12T18:37:19 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:28 EEST" name="setUp" finished-at="2023-09-12T18:55:28 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="resourcesHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:26 EEST" name="resourcesHeaderWhitePaperPage" finished-at="2023-09-12T18:37:32 EEST" duration-ms="6231" status="PASS">
+        <test-method signature="resourcesHeaderWhitePaperPage(java.lang.String,java.lang.String)[pri:4, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:34 EEST" name="resourcesHeaderWhitePaperPage" finished-at="2023-09-12T18:55:41 EEST" duration-ms="6266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resourcesHeaderWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:26 EEST" name="setUp" finished-at="2023-09-12T18:37:26 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:34 EEST" name="setUp" finished-at="2023-09-12T18:55:34 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:32 EEST" name="mainBlockWhitePaperPage" finished-at="2023-09-12T18:37:38 EEST" duration-ms="6295" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:41 EEST" name="setUp" finished-at="2023-09-12T18:55:41 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="mainBlockWhitePaperPage(java.lang.String,java.lang.String)[pri:5, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:41 EEST" name="mainBlockWhitePaperPage" finished-at="2023-09-12T18:55:47 EEST" duration-ms="6297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,11 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainBlockWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:32 EEST" name="setUp" finished-at="2023-09-12T18:37:32 EEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="EweuimtPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:38 EEST" name="EweuimtPage" finished-at="2023-09-12T18:37:45 EEST" duration-ms="6753" status="PASS">
+        <test-method signature="EweuimtPage(java.lang.String,java.lang.String)[pri:6, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:47 EEST" name="EweuimtPage" finished-at="2023-09-12T18:55:54 EEST" duration-ms="6722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,11 +163,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EweuimtPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:38 EEST" name="setUp" finished-at="2023-09-12T18:37:38 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:47 EEST" name="setUp" finished-at="2023-09-12T18:55:47 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allFooterWhitePaperPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:45 EEST" name="allFooterWhitePaperPage" finished-at="2023-09-12T18:37:51 EEST" duration-ms="6323" status="PASS">
+        <test-method signature="allFooterWhitePaperPage(java.lang.String,java.lang.String)[pri:7, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:54 EEST" name="allFooterWhitePaperPage" finished-at="2023-09-12T18:56:00 EEST" duration-ms="6338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,11 +183,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allFooterWhitePaperPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:45 EEST" name="setUp" finished-at="2023-09-12T18:37:45 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:55:54 EEST" name="setUp" finished-at="2023-09-12T18:55:54 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:37:51 EEST" name="tearDown" finished-at="2023-09-12T18:37:52 EEST" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.whitePaper.WhitePaperChromeTests@5e600dd5]" started-at="2023-09-12T18:56:00 EEST" name="tearDown" finished-at="2023-09-12T18:56:01 EEST" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
