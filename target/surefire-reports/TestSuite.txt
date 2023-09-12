@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 63.591 s - in TestSuite
+Tests run: 213, Failures: 5, Errors: 0, Skipped: 15, Time elapsed: 1,752.074 s <<< FAILURE! - in TestSuite
+tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.395 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.whitePaper.WhitePaperFirefoxTests.marketPlaceHeaderWhitePaperPage(WhitePaperFirefoxTests.java:80)
+
+tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage[https://ai-mood.com/en/white-paper, Screenshots/](3)  Time elapsed: 5.476 s  <<< FAILURE!
+javax.imageio.IIOException: Can't read input file!
+	at tests.whitePaper.WhitePaperFirefoxTests.whitePaperHeaderWhitePaperPage(WhitePaperFirefoxTests.java:98)
+
+tests.resetPasswordPageTests.AllPageChromeTests.mainSectionResetPasswordPage[https://ai-mood.com/en/reset-password-1, Screenshots/](3)  Time elapsed: 6.853 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.resetPasswordPageTests.AllPageChromeTests.mainSectionResetPasswordPage(AllPageChromeTests.java:116)
+
+tests.resetPasswordPage2Tests.AllPageFirefoxTests.mainSectionResetPasswordPage2[https://ai-mood.com/en/reset-password-2, Screenshots/](3)  Time elapsed: 6.719 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.mainSectionResetPasswordPage2(AllPageFirefoxTests.java:116)
+
+tests.signUpPageTests.AllPageChromeTests.mainSectionSignUpPage[https://ai-mood.com/en/register, Screenshots/](3)  Time elapsed: 6.845 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.signUpPageTests.AllPageChromeTests.mainSectionSignUpPage(AllPageChromeTests.java:115)
+
