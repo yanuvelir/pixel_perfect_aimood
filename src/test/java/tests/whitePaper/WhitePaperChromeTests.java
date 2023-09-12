@@ -78,9 +78,9 @@ public class WhitePaperChromeTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//a[@data-testid='head-nav-market-place']",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_marketPlaceWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_marketPlaceWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_marketPlaceWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/difference.png");
 
     }
 
@@ -96,9 +96,9 @@ public class WhitePaperChromeTests extends BaseTest {
         Thread.sleep(1000);
         //Run the Pixel perfect test for a selected element
         pixelPerfectAssert.byElement("//a[@data-testid='head-nav-white-paper']",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChromeWhitePaper/Screenshots_whitePaperHeaderPlaceWhitePaperPage/difference.png");
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/real_life_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/mock_screenshot.png",
+                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/difference.png");
 
     }
 
