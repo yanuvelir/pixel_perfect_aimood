@@ -29,62 +29,6 @@
           <include name="marketPlaceHeaderWhitePaperPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
-      <class name="tests.signUpPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.signUpPageTests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageChromeTests -->
-      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
-      <class name="tests.signUpPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.signUpPageTests.AllPageFirefoxTests -->
-      <class name="tests.resetPasswordPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPageTests.AllPageChromeTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
-      <class name="tests.signInPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionSignInPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.signInPageTests.AllPageChromeTests -->
-      <class name="tests.fundPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="allHeaderFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
