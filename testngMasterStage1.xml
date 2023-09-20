@@ -20,8 +20,6 @@
         <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
         <parameter name="whitePaper_page" value="https://aimood-stage1.intary.net/en/white-paper"/>
         <parameter name="whatIsAimood_page" value="https://aimood-stage1.intary.net/en/what-is-aimood"/>
-<!--        <parameter name="SignIn_page" value="https://aimood-stage1.intary.net/en/login"/>-->
-<!--        <parameter name="SignUp_page" value="https://aimood-stage1.intary.net/en/register"/>-->
 <!-- New upgrade -->
         <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
         <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
@@ -73,8 +71,8 @@
 <!--            <class name="tests.signUpPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.signUpPageTests.AllPageChromeTests"/>-->
  <!-- Account page -->
-            <class name="tests.accountSettingsPageTests.AllPageFirefoxTests"/>
-<!--            <class name="tests.accountSettingsPageTests.AllPageChromeTests"/>-->
+<!--            <class name="tests.accountSettingsPageTests.AllPageFirefoxTests"/>-->
+            <class name="tests.accountSettingsPageTests.AllPageChromeTests"/>
 <!--            <class name="tests.accountWalletPageTests.AllPageFirefoxTests"/>-->
 <!--            <class name="tests.accountWalletPageTests.AllPageChromeTests"/>-->
 <!--            <class name="tests.accountP2PPageTests.AllPageFirefoxTests"/>-->
