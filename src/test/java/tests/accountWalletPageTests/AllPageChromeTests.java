@@ -150,7 +150,7 @@ public class AllPageChromeTests extends BaseTest {
         //Open a page for test
         action.openPage(account_wallet_page);
         //Sleep
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         //Click
         action.clickByXpath ("//button[@data-testid='head-nav-profile']");
         Thread.sleep(2000);
@@ -181,10 +181,33 @@ public class AllPageChromeTests extends BaseTest {
 
     }
 
+    @Parameters({"account_wallet_page", "ScShotDir"})
+    @Test(priority = 10)
+    public void stakingAccountWalletPage(String account_wallet_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("mac 14");
+        //Open a page for test
+        action.openPage(account_wallet_page);
+        //Time
+        Thread.sleep(1000);
+        //Hover
+        action.hoverOverAnElementByXpath("//button[@class='minting-button']");
+        //Time
+        Thread.sleep(1000);
+        //Click button
+        action.clickByXpath("//button[@class='minting-button']");
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.fullPage(
+                ScShotDir+"AccountWallet_page/EnChrome/Screenshots_stakingAccountWalletPage/real_life_screenshot.png",
+                ScShotDir+"AccountWallet_page/EnChrome/Screenshots_stakingAccountWalletPage/mock_screenshot.png",
+                ScShotDir+"AccountWallet_page/EnChrome/Screenshots_stakingAccountWalletPage/difference.png");
+
+    }
+
 
     //FOOTER TESTS
     @Parameters({"account_wallet_page", "ScShotDir"})
-    @Test(priority = 10)
+    @Test(priority = 11)
     public void allFooterAccountWalletPage(String account_wallet_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");

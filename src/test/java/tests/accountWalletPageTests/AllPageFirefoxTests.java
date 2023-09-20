@@ -181,10 +181,28 @@ public class AllPageFirefoxTests extends BaseTest {
 
     }
 
+    @Parameters({"account_wallet_page", "ScShotDir"})
+    @Test(priority = 10)
+    public void stakingAccountWalletPage(String account_wallet_page, String ScShotDir) throws IOException, InterruptedException {
+        // Resolution
+        CommonActions.setBrowserWindowSize("mac 14");
+        //Open a page for test
+        action.openPage(account_wallet_page);
+        //Time
+        Thread.sleep(2000);
+        action.clickByXpath("//button[@class='minting-button']");
+        //Run the Pixel perfect test for a selected element
+        pixelPerfectAssert.fullPage(
+                ScShotDir+"AccountWallet_page/EnFirefox/Screenshots_stakingAccountWalletPage/real_life_screenshot.png",
+                ScShotDir+"AccountWallet_page/EnFirefox/Screenshots_stakingAccountWalletPage/mock_screenshot.png",
+                ScShotDir+"AccountWallet_page/EnFirefox/Screenshots_stakingAccountWalletPage/difference.png");
+
+    }
+
 
     //FOOTER TESTS
     @Parameters({"account_wallet_page", "ScShotDir"})
-    @Test(priority = 10)
+    @Test(priority = 11)
     public void allFooterAccountWalletPage(String account_wallet_page, String ScShotDir) throws IOException, InterruptedException {
         // Resolution
         CommonActions.setBrowserWindowSize("mac 14");
