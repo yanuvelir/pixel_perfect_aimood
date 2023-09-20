@@ -176,7 +176,7 @@ public class AllPageFirefoxTests extends BaseTest {
         //Time
         Thread.sleep(2000);
         //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//div[@class='profile-cust-wrapper']",
+        pixelPerfectAssert.byElement("//div[@class='d-flex account-content-wrap']",
                 ScShotDir+"AccountAffiliateProgram_page/EnFirefox/Screenshots_mainSectionAccountAffiliateProgramPage/real_life_screenshot.png",
                 ScShotDir+"AccountAffiliateProgram_page/EnFirefox/Screenshots_mainSectionAccountAffiliateProgramPage/mock_screenshot.png",
                 ScShotDir+"AccountAffiliateProgram_page/EnFirefox/Screenshots_mainSectionAccountAffiliateProgramPage/difference.png");
