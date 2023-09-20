@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 
@@ -169,6 +170,26 @@ public class Action {
 //        Thread.sleep(2000);
     }
 
+// SIGN IN QA USER
+    @Parameters({"main_page"})
+    public void signInQaUser(String main_page) throws InterruptedException {
+        //Open a page for test
+        openPage(main_page);
+        //Click button "Accept" use of cookies
+        ifButtonIsPresentClick("//button[@class='accept-cookies-btn']");
+        //Click SIGN IN
+        clickByXpath("//a[@data-testid='head-nav-login']");
+        //Time sleep
+        Thread.sleep(1000);
+        //Input a text into the selected element
+        InputTextByXpath("//input[@name='email']", "qa-@ukr.net");
+        //Input a text to the next element
+        InputTextByXpath("//input[@name='password']", "@AI-Mood17");
+        // Click "Log In" button
+        clickByXpath("//button[@type='submit']");
+        //Time sleep
+        Thread.sleep(2000);
 
+    }
 
 }
