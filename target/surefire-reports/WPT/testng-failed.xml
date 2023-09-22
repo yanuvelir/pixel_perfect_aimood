@@ -1,54 +1,607 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
-  <listeners>
-    <listener class-name="tests.RetryAnalyzerTransformer"/>
-  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
-    <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
-    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
-    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
-    <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
-    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
-    <parameter name="resetPassword_page_2" value="https://ai-mood.com/en/reset-password-2"/>
-    <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
-    <parameter name="ScShotDir" value="Screenshots/"/>
-    <parameter name="main_page" value="https://ai-mood.com/en/"/>
-    <parameter name="token_mood_page" value="https://ai-mood.com/en/token-mood"/>
-    <parameter name="signUp_page" value="https://ai-mood.com/en/register"/>
-    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
-    <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
-    <parameter name="signIn_page" value="https://ai-mood.com/en/login"/>
-    <parameter name="resetPassword_page" value="https://ai-mood.com/en/reset-password-1"/>
+    <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
+    <parameter name="buy_sell_page" value="https://aimood-stage1.intary.net/en/buy-sell-aimood-coin"/>
+    <parameter name="wallet_page" value="https://aimood-stage1.intary.net/en/the-aimood-wallet"/>
+    <parameter name="whatIsAimood_page" value="https://aimood-stage1.intary.net/en/what-is-aimood"/>
+    <parameter name="account_wallet_page" value="https://aimood-stage1.intary.net/en/account/wallet"/>
+    <parameter name="account_fund_page" value="https://aimood-stage1.intary.net/en/account/fund"/>
+    <parameter name="fund_page" value="https://aimood-stage1.intary.net/en/fund"/>
+    <parameter name="account_dashboard_page" value="https://aimood-stage1.intary.net/en/account/dashboard"/>
+    <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
+    <parameter name="whitePaper_page" value="https://aimood-stage1.intary.net/en/white-paper"/>
+    <parameter name="account_affiliate_program_page" value="https://aimood-stage1.intary.net/en/account/affiliate-program"/>
+    <parameter name="account_p2p_page" value="https://aimood-stage1.intary.net/en/account/p2p"/>
+    <parameter name="account_settings_page" value="https://aimood-stage1.intary.net/en/account/settings"/>
+    <parameter name="ScShotDir" value="Screenshots_St1/"/>
+    <parameter name="main_page" value="https://aimood-stage1.intary.net/en/"/>
+    <parameter name="token_mood_page" value="https://aimood-stage1.intary.net/en/token-mood"/>
+    <parameter name="signUp_page" value="https://aimood-stage1.intary.net/en/register"/>
+    <parameter name="market_place_page" value="https://aimood-stage1.intary.net/en/market-place"/>
+    <parameter name="affiliate_program_page" value="https://aimood-stage1.intary.net/en/affiliate-program"/>
+    <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
+    <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
+      <class name="tests.accountWalletPageTests.AllPageChromeTests">
+        <methods>
+          <include name="learnHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="resourcesHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="profileHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountWalletPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="allFooterAccountWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountWalletPageTests.AllPageChromeTests -->
+      <class name="tests.SignUp.SignUpChromeTests">
+        <methods>
+          <include name="allPageSignUpPage"/>
+          <include name="tearDown"/>
+          <include name="allHeaderSignUpPage"/>
+          <include name="setUp"/>
+          <include name="Already"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allFooterSignUp"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpChromeTests -->
+      <class name="tests.tokenMoodPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageFirefoxTests -->
+      <class name="tests.signInPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderSignInPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionSignInPage" invocation-numbers="0"/>
+          <include name="allFooterSignInPage" invocation-numbers="0"/>
+          <include name="learnHeaderSignInPage" invocation-numbers="0"/>
+          <include name="allHeaderSignInPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderSignInPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.signInPageTests.AllPageChromeTests -->
+      <class name="tests.mainPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="mainSectionMainPage" invocation-numbers="0"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="videoSectionMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageFirefoxTests -->
+      <class name="tests.resetPasswordPageTests.AllPageChromeTests">
+        <methods>
+          <include name="getStartedHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="allHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="allFooterResetPasswordPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderResetPasswordPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.resetPasswordPageTests.AllPageChromeTests -->
+      <class name="tests.accountP2PPageTests.AllPageChromeTests">
+        <methods>
+          <include name="profileHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="allFooterAccountP2PPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountP2PPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountP2PPageTests.AllPageChromeTests -->
+      <class name="tests.accountAffiliateProgramPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="learnHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allFooterAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageChromeTests">
+        <methods>
+          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageChromeTests -->
+      <class name="tests.WhatIsAimood.WhatIsAimoodFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allFooterWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="ecosystemWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="whyChooseWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="allHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodFirefoxTests -->
+      <class name="tests.SignIn.SignInFirefoxTests">
+        <methods>
+          <include name="allPageSignInPage"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Forgot"/>
+          <include name="allFooterMainPage"/>
+          <include name="Dont"/>
+          <include name="allHeaderMainPage"/>
+        </methods>
+      </class> <!-- tests.SignIn.SignInFirefoxTests -->
+      <class name="tests.buySellMoodCoinTests.AllPageFirefoxTests">
+        <methods>
+          <include name="allHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="allFooterBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+          <include name="learnHeaderBuySellMoodCoinPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.buySellMoodCoinTests.AllPageFirefoxTests -->
+      <class name="tests.walletPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allFooterWalletPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="learnHeaderWalletPage" invocation-numbers="0"/>
+          <include name="allHeaderWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderWalletPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderWalletPage" invocation-numbers="0"/>
+          <include name="mainSectionWalletPage" invocation-numbers="0"/>
+          <include name="delegatedSectionWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.walletPageTests.AllPageChromeTests -->
+      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="learnHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="resourcesHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
+          <include name="getStartedHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="allHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="allFooterResetPasswordPage2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
+      <class name="tests.accountDashboardPageTests.AllPageChromeTests">
+        <methods>
+          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="profileHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="allFooterAccountDashboardPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountDashboardPageTests.AllPageChromeTests -->
+      <class name="tests.marketPlacePageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageFirefoxTests -->
+      <class name="tests.accountFundPageTests.AllPageChromeTests">
+        <methods>
+          <include name="getStartedHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="learnHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
+          <include name="allFooterAccountFundPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountFundPageTests.AllPageChromeTests -->
+      <class name="tests.accountSettingsPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionAccountSettingsPage" invocation-numbers="0"/>
+          <include name="allFooterAccountSettingsPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountSettingsPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountSettingsPageTests.AllPageChromeTests -->
+      <class name="tests.accountDashboardPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountDashboardPage" invocation-numbers="0"/>
+          <include name="allFooterAccountDashboardPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountDashboardPageTests.AllPageFirefoxTests -->
+      <class name="tests.signUpPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="learnHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="allFooterSignUpPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.signUpPageTests.AllPageChromeTests -->
       <class name="tests.resetPasswordPageTests.AllPageFirefoxTests">
         <methods>
           <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="getStartedHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderResetPasswordPage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="learnHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="allHeaderResetPasswordPage" invocation-numbers="0"/>
+          <include name="allFooterResetPasswordPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.resetPasswordPageTests.AllPageFirefoxTests -->
+      <class name="tests.SignIn.SignInChromeTests">
+        <methods>
+          <include name="Forgot"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allHeaderMainPage"/>
+          <include name="Dont"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allPageSignInPage"/>
+          <include name="allFooterMainPage"/>
+        </methods>
+      </class> <!-- tests.SignIn.SignInChromeTests -->
+      <class name="tests.accountSettingsPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="mainSectionAccountSettingsPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterAccountSettingsPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="profileHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountSettingsPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountSettingsPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountSettingsPageTests.AllPageFirefoxTests -->
+      <class name="tests.signUpPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderSignUpPage" invocation-numbers="0"/>
+          <include name="allFooterSignUpPage" invocation-numbers="0"/>
+          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
+          <include name="learnHeaderSignUpPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.signUpPageTests.AllPageFirefoxTests -->
+      <class name="tests.tokenMoodPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterTokenMoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="statisticsSectionTokenMoodPage" invocation-numbers="0"/>
+          <include name="allHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderTokenMoodPage" invocation-numbers="0"/>
+          <include name="mainSectionTokenMoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.tokenMoodPageTests.AllPageChromeTests -->
+      <class name="tests.accountAffiliateProgramPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allFooterAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="learnHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.affiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.whitePaper.WhitePaperFirefoxTests">
+        <methods>
+          <include name="learnHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="resourcesHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterWhitePaperPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="allHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="marketTokenWhitePaperPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.whitePaper.WhitePaperFirefoxTests -->
+      <class name="tests.stakingPageTests.AllPageChromeTests">
+        <methods>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
+          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
+      <class name="tests.SignUp.SignUpFirefoxTests">
+        <methods>
+          <include name="allFooterSignUp"/>
+          <include name="tearDown"/>
+          <include name="Already"/>
+          <include name="setUp"/>
+          <include name="allHeaderSignUpPage"/>
+          <include name="allPageSignUpPage"/>
+          <include name="mainBlockWhitePaperPage"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpFirefoxTests -->
+      <class name="tests.accountWalletPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="profileHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountWalletPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountWalletPage" invocation-numbers="0"/>
+          <include name="allFooterAccountWalletPage" invocation-numbers="0"/>
+          <include name="allHeaderAccountWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountWalletPageTests.AllPageFirefoxTests -->
+      <class name="tests.whitePaper.WhitePaperChromeTests">
+        <methods>
+          <include name="allFooterWhitePaperPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainBlockWhitePaperPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderWhitePaperPage" invocation-numbers="0"/>
+          <include name="EweuimtPage" invocation-numbers="0"/>
+          <include name="allHeaderWhitePaperPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.whitePaper.WhitePaperChromeTests -->
+      <class name="tests.accountFundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="learnHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="profileHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="allFooterAccountFundPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountFundPageTests.AllPageFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
+          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="allHeaderFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      <class name="tests.affiliateProgramPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="affiliateSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="getStartedHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="mainSectionAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="allFooterAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="allHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="learnHeaderAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.affiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="statisticsSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="mainSectionMarketPlacePage" invocation-numbers="0"/>
+          <include name="allHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+          <include name="allFooterMarketPlacePage" invocation-numbers="0"/>
+          <include name="learnHeaderMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
+      <class name="tests.mainPageTests.AllPageChromeTests">
+        <methods>
+          <include name="resourcesHeaderMainPage" invocation-numbers="0"/>
+          <include name="mainSectionMainPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterMainPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderMainPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="leaningSectionMainPage" invocation-numbers="0"/>
+          <include name="videoSectionMainPage" invocation-numbers="0"/>
+          <include name="allHeaderMainPage" invocation-numbers="0"/>
+          <include name="learnHeaderMainPage" invocation-numbers="0"/>
+          <include name="roadmapSectionMainPage" invocation-numbers="0"/>
+          <include name="statisticsSectionMainPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.mainPageTests.AllPageChromeTests -->
+      <class name="tests.WhatIsAimood.WhatIsAimoodChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="mainBlockWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="allHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="learnHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="whyChooseWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="ecosystemWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderWhatIsAimoodPage" invocation-numbers="0"/>
+          <include name="allFooterWhatIsAimoodPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.WhatIsAimood.WhatIsAimoodChromeTests -->
+      <class name="tests.walletPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="resourcesHeaderWalletPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="mainSectionWalletPage" invocation-numbers="0"/>
+          <include name="allHeaderWalletPage" invocation-numbers="0"/>
+          <include name="learnHeaderWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="getStartedHeaderWalletPage" invocation-numbers="0"/>
+          <include name="allFooterWalletPage" invocation-numbers="0"/>
+          <include name="delegatedSectionWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.walletPageTests.AllPageFirefoxTests -->
+      <class name="tests.accountP2PPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="allHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterAccountP2PPage" invocation-numbers="0"/>
+          <include name="learnHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="notificationsHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="profileHeaderAccountP2PPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderAccountP2PPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountP2PPageTests.AllPageFirefoxTests -->
+      <class name="tests.fundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="resourcesHeaderFundPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allHeaderFundPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderFundPage" invocation-numbers="0"/>
+          <include name="allFooterFundPage" invocation-numbers="0"/>
+          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="learnHeaderFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
+      <class name="tests.signInPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allHeaderSignInPage" invocation-numbers="0"/>
+          <include name="mainSectionSignInPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderSignInPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderSignInPage" invocation-numbers="0"/>
+          <include name="learnHeaderSignInPage" invocation-numbers="0"/>
+          <include name="allFooterSignInPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
+      <class name="tests.stakingPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
+          <include name="getStartedHeaderStakingPage" invocation-numbers="0"/>
+          <include name="allHeaderStakingPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="learnHeaderStakingPage" invocation-numbers="0"/>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderStakingPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.stakingPageTests.AllPageFirefoxTests -->
       <class name="tests.resetPasswordPage2Tests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="allFooterResetPasswordPage2" invocation-numbers="0"/>
+          <include name="allHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="getStartedHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="resourcesHeaderResetPasswordPage2" invocation-numbers="0"/>
+          <include name="learnHeaderResetPasswordPage2" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.resetPasswordPage2Tests.AllPageChromeTests -->
-      <class name="tests.signUpPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionSignUpPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.signUpPageTests.AllPageFirefoxTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
