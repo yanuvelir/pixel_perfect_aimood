@@ -1,1316 +1,148 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 330, Failures: 318, Errors: 0, Skipped: 0, Time elapsed: 2,112.958 s <<< FAILURE! - in TestSuite
-tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 12.724 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.allHeaderMainPage(AllPageFirefoxTests.java:26)
-
-tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 4.747 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.getStartedHeaderMainPage(AllPageFirefoxTests.java:44)
-
-tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 4.701 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.learnHeaderMainPage(AllPageFirefoxTests.java:62)
-
-tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 5.086 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.resourcesHeaderMainPage(AllPageFirefoxTests.java:80)
-
-tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 5.755 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.mainSectionMainPage(AllPageFirefoxTests.java:116)
-
-tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 6.367 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.videoSectionMainPage(AllPageFirefoxTests.java:135)
-
-tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 6.168 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.roadmapSectionMainPage(AllPageFirefoxTests.java:154)
-
-tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 6.54 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.statisticsSectionMainPage(AllPageFirefoxTests.java:178)
-
-tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 6.32 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.leaningSectionMainPage(AllPageFirefoxTests.java:197)
-
-tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 5.675 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageFirefoxTests.allFooterMainPage(AllPageFirefoxTests.java:217)
-
-tests.mainPageTests.AllPageChromeTests.allHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 11.719 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.allHeaderMainPage(AllPageChromeTests.java:26)
-
-tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 7.458 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.getStartedHeaderMainPage(AllPageChromeTests.java:44)
-
-tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 8.747 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.learnHeaderMainPage(AllPageChromeTests.java:62)
-
-tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 4.845 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.resourcesHeaderMainPage(AllPageChromeTests.java:80)
-
-tests.mainPageTests.AllPageChromeTests.mainSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 7.007 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.mainSectionMainPage(AllPageChromeTests.java:116)
-
-tests.mainPageTests.AllPageChromeTests.videoSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 7.564 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.videoSectionMainPage(AllPageChromeTests.java:135)
-
-tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 10.295 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.roadmapSectionMainPage(AllPageChromeTests.java:154)
-
-tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 11.719 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.statisticsSectionMainPage(AllPageChromeTests.java:178)
-
-tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 9.9 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.leaningSectionMainPage(AllPageChromeTests.java:197)
-
-tests.mainPageTests.AllPageChromeTests.allFooterMainPage[https://aimood-stage1.intary.net/en/, Screenshots_St1/](1)  Time elapsed: 5.968 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.mainPageTests.AllPageChromeTests.allFooterMainPage(AllPageChromeTests.java:217)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 10.255 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allHeaderMarketPlacePage(AllPageFirefoxTests.java:26)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.489 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.getStartedHeaderMarketPlacePage(AllPageFirefoxTests.java:44)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.455 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.learnHeaderMarketPlacePage(AllPageFirefoxTests.java:62)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.553 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.resourcesHeaderMarketPlacePage(AllPageFirefoxTests.java:80)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 6.65 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.mainSectionMarketPlacePage(AllPageFirefoxTests.java:116)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 6.209 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.statisticsSectionMarketPlacePage(AllPageFirefoxTests.java:135)
-
-tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.623 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageFirefoxTests.allFooterMarketPlacePage(AllPageFirefoxTests.java:156)
-
-tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 8.491 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.allHeaderMarketPlacePage(AllPageChromeTests.java:27)
-
-tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.71 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.getStartedHeaderMarketPlacePage(AllPageChromeTests.java:45)
-
-tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.651 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.learnHeaderMarketPlacePage(AllPageChromeTests.java:63)
-
-tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.645 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage(AllPageChromeTests.java:81)
-
-tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 6.893 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.mainSectionMarketPlacePage(AllPageChromeTests.java:117)
-
-tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 6.422 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.statisticsSectionMarketPlacePage(AllPageChromeTests.java:136)
-
-tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](1)  Time elapsed: 5.83 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.marketPlacePageTests.AllPageChromeTests.allFooterMarketPlacePage(AllPageChromeTests.java:157)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 10.611 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:26)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.637 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.getStartedHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:44)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.599 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.learnHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:62)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.666 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.resourcesHeaderBuySellMoodCoinPage(AllPageFirefoxTests.java:80)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 6.701 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.mainSectionBuySellMoodCoinPage(AllPageFirefoxTests.java:116)
-
-tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 5.664 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageFirefoxTests.allFooterBuySellMoodCoinPage(AllPageFirefoxTests.java:137)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 6.008 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.allHeaderBuySellMoodCoinPage(AllPageChromeTests.java:26)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.822 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.getStartedHeaderBuySellMoodCoinPage(AllPageChromeTests.java:44)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.739 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.learnHeaderBuySellMoodCoinPage(AllPageChromeTests.java:62)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 4.756 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.resourcesHeaderBuySellMoodCoinPage(AllPageChromeTests.java:80)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 6.841 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.mainSectionBuySellMoodCoinPage(AllPageChromeTests.java:116)
-
-tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage[https://aimood-stage1.intary.net/en/buy-sell-aimood-coin, Screenshots_St1/](1)  Time elapsed: 5.828 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.buySellMoodCoinTests.AllPageChromeTests.allFooterBuySellMoodCoinPage(AllPageChromeTests.java:137)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 10.216 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allHeaderTokenMoodPage(AllPageFirefoxTests.java:26)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.611 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.getStartedHeaderTokenMoodPage(AllPageFirefoxTests.java:44)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.603 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.learnHeaderTokenMoodPage(AllPageFirefoxTests.java:62)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.638 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.resourcesHeaderTokenMoodPage(AllPageFirefoxTests.java:80)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 6.71 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.mainSectionTokenMoodPage(AllPageFirefoxTests.java:116)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 7.358 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.statisticsSectionTokenMoodPage(AllPageFirefoxTests.java:140)
-
-tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 5.695 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageFirefoxTests.allFooterTokenMoodPage(AllPageFirefoxTests.java:161)
-
-tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 7.539 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.allHeaderTokenMoodPage(AllPageChromeTests.java:26)
-
-tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.8 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.getStartedHeaderTokenMoodPage(AllPageChromeTests.java:44)
-
-tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.76 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.learnHeaderTokenMoodPage(AllPageChromeTests.java:62)
-
-tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 4.759 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.resourcesHeaderTokenMoodPage(AllPageChromeTests.java:80)
-
-tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 6.885 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.mainSectionTokenMoodPage(AllPageChromeTests.java:116)
-
-tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 7.481 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.statisticsSectionTokenMoodPage(AllPageChromeTests.java:140)
-
-tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage[https://aimood-stage1.intary.net/en/token-mood, Screenshots_St1/](1)  Time elapsed: 5.83 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.tokenMoodPageTests.AllPageChromeTests.allFooterTokenMoodPage(AllPageChromeTests.java:161)
-
-tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 7.699 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.allHeaderFundPage(AllPageFirefoxTests.java:26)
-
-tests.fundPageTests.AllPageFirefoxTests.getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.589 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.getStartedHeaderFundPage(AllPageFirefoxTests.java:44)
-
-tests.fundPageTests.AllPageFirefoxTests.learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.663 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.learnHeaderFundPage(AllPageFirefoxTests.java:62)
-
-tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.652 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.resourcesHeaderFundPage(AllPageFirefoxTests.java:80)
-
-tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 6.661 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage(AllPageFirefoxTests.java:116)
-
-tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 5.633 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageFirefoxTests.allFooterFundPage(AllPageFirefoxTests.java:137)
-
-tests.fundPageTests.AllPageChromeTests.allHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 7.233 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.allHeaderFundPage(AllPageChromeTests.java:28)
-
-tests.fundPageTests.AllPageChromeTests.getStartedHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.811 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.getStartedHeaderFundPage(AllPageChromeTests.java:46)
-
-tests.fundPageTests.AllPageChromeTests.learnHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.748 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.learnHeaderFundPage(AllPageChromeTests.java:64)
-
-tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 4.729 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.resourcesHeaderFundPage(AllPageChromeTests.java:82)
-
-tests.fundPageTests.AllPageChromeTests.mainSectionFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 6.837 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.mainSectionFundPage(AllPageChromeTests.java:118)
-
-tests.fundPageTests.AllPageChromeTests.allFooterFundPage[https://aimood-stage1.intary.net/en/fund, Screenshots_St1/](1)  Time elapsed: 5.844 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.fundPageTests.AllPageChromeTests.allFooterFundPage(AllPageChromeTests.java:139)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 9.428 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.allHeaderAffiliateProgramPage(AllPageFirefoxTests.java:26)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.618 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAffiliateProgramPage(AllPageFirefoxTests.java:44)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.605 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAffiliateProgramPage(AllPageFirefoxTests.java:62)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.682 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAffiliateProgramPage(AllPageFirefoxTests.java:80)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.684 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.mainSectionAffiliateProgramPage(AllPageFirefoxTests.java:116)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 7.103 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.affiliateSectionAffiliateProgramPage(AllPageFirefoxTests.java:135)
-
-tests.affiliateProgramPageTests.AllPageFirefoxTests.allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 5.675 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageFirefoxTests.allFooterAffiliateProgramPage(AllPageFirefoxTests.java:156)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.allHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 7.285 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.allHeaderAffiliateProgramPage(AllPageChromeTests.java:27)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.getStartedHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.83 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.getStartedHeaderAffiliateProgramPage(AllPageChromeTests.java:45)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.learnHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.781 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.learnHeaderAffiliateProgramPage(AllPageChromeTests.java:63)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.resourcesHeaderAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 4.789 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.resourcesHeaderAffiliateProgramPage(AllPageChromeTests.java:81)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.849 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.mainSectionAffiliateProgramPage(AllPageChromeTests.java:117)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 7.22 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.affiliateSectionAffiliateProgramPage(AllPageChromeTests.java:136)
-
-tests.affiliateProgramPageTests.AllPageChromeTests.allFooterAffiliateProgramPage[https://aimood-stage1.intary.net/en/affiliate-program, Screenshots_St1/](1)  Time elapsed: 5.9 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.affiliateProgramPageTests.AllPageChromeTests.allFooterAffiliateProgramPage(AllPageChromeTests.java:157)
-
-tests.walletPageTests.AllPageFirefoxTests.allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 9.423 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.allHeaderWalletPage(AllPageFirefoxTests.java:26)
-
-tests.walletPageTests.AllPageFirefoxTests.getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.604 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.getStartedHeaderWalletPage(AllPageFirefoxTests.java:44)
-
-tests.walletPageTests.AllPageFirefoxTests.learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.551 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.learnHeaderWalletPage(AllPageFirefoxTests.java:62)
-
-tests.walletPageTests.AllPageFirefoxTests.resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.627 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.resourcesHeaderWalletPage(AllPageFirefoxTests.java:80)
-
-tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 5.649 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.mainSectionWalletPage(AllPageFirefoxTests.java:116)
-
-tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 6.157 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.delegatedSectionWalletPage(AllPageFirefoxTests.java:135)
-
-tests.walletPageTests.AllPageFirefoxTests.allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 5.709 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageFirefoxTests.allFooterWalletPage(AllPageFirefoxTests.java:156)
-
-tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 7.01 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.allHeaderWalletPage(AllPageChromeTests.java:27)
-
-tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.824 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.getStartedHeaderWalletPage(AllPageChromeTests.java:45)
-
-tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.745 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.learnHeaderWalletPage(AllPageChromeTests.java:63)
-
-tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 4.746 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.resourcesHeaderWalletPage(AllPageChromeTests.java:81)
-
-tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 5.851 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.mainSectionWalletPage(AllPageChromeTests.java:117)
-
-tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 6.23 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.delegatedSectionWalletPage(AllPageChromeTests.java:136)
-
-tests.walletPageTests.AllPageChromeTests.allFooterWalletPage[https://aimood-stage1.intary.net/en/the-aimood-wallet, Screenshots_St1/](1)  Time elapsed: 5.818 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.walletPageTests.AllPageChromeTests.allFooterWalletPage(AllPageChromeTests.java:157)
-
-tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 12.131 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.allHeaderStakingPage(AllPageFirefoxTests.java:26)
-
-tests.stakingPageTests.AllPageFirefoxTests.getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.575 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.getStartedHeaderStakingPage(AllPageFirefoxTests.java:44)
-
-tests.stakingPageTests.AllPageFirefoxTests.learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.498 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.learnHeaderStakingPage(AllPageFirefoxTests.java:62)
-
-tests.stakingPageTests.AllPageFirefoxTests.resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.576 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.resourcesHeaderStakingPage(AllPageFirefoxTests.java:80)
-
-tests.stakingPageTests.AllPageFirefoxTests.mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 6.722 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.mainSectionStakingPage(AllPageFirefoxTests.java:116)
-
-tests.stakingPageTests.AllPageFirefoxTests.delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 7.223 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.delegatedSectionStakingPage(AllPageFirefoxTests.java:135)
-
-tests.stakingPageTests.AllPageFirefoxTests.calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 9.199 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.calcStakSectionStakingPage(AllPageFirefoxTests.java:163)
-
-tests.stakingPageTests.AllPageFirefoxTests.allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.588 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageFirefoxTests.allFooterStakingPage(AllPageFirefoxTests.java:184)
-
-tests.stakingPageTests.AllPageChromeTests.allHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 8.676 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.allHeaderStakingPage(AllPageChromeTests.java:26)
-
-tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.851 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.getStartedHeaderStakingPage(AllPageChromeTests.java:44)
-
-tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.717 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.learnHeaderStakingPage(AllPageChromeTests.java:62)
-
-tests.stakingPageTests.AllPageChromeTests.resourcesHeaderStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.748 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.resourcesHeaderStakingPage(AllPageChromeTests.java:80)
-
-tests.stakingPageTests.AllPageChromeTests.mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 6.995 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.mainSectionStakingPage(AllPageChromeTests.java:116)
-
-tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 9.329 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage(AllPageChromeTests.java:135)
-
-tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 9.55 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:164)
-
-tests.stakingPageTests.AllPageChromeTests.allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](1)  Time elapsed: 5.92 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.stakingPageTests.AllPageChromeTests.allFooterStakingPage(AllPageChromeTests.java:185)
-
-tests.whitePaper.WhitePaperFirefoxTests.allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 10.717 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.allHeaderWhitePaperPage(WhitePaperFirefoxTests.java:27)
-
-tests.whitePaper.WhitePaperFirefoxTests.getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.481 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.getStartedHeaderWhitePaperPage(WhitePaperFirefoxTests.java:44)
-
-tests.whitePaper.WhitePaperFirefoxTests.learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.486 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.learnHeaderWhitePaperPage(WhitePaperFirefoxTests.java:62)
-
-tests.whitePaper.WhitePaperFirefoxTests.resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.512 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.resourcesHeaderWhitePaperPage(WhitePaperFirefoxTests.java:80)
-
-tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.697 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.mainBlockWhitePaperPage(WhitePaperFirefoxTests.java:98)
-
-tests.whitePaper.WhitePaperFirefoxTests.marketTokenWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 6.216 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.marketTokenWhitePaperPage(WhitePaperFirefoxTests.java:117)
-
-tests.whitePaper.WhitePaperFirefoxTests.allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.686 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperFirefoxTests.allFooterWhitePaperPage(WhitePaperFirefoxTests.java:136)
-
-tests.whitePaper.WhitePaperChromeTests.allHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 8.313 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.allHeaderWhitePaperPage(WhitePaperChromeTests.java:26)
-
-tests.whitePaper.WhitePaperChromeTests.getStartedHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.685 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.getStartedHeaderWhitePaperPage(WhitePaperChromeTests.java:43)
-
-tests.whitePaper.WhitePaperChromeTests.learnHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.633 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.learnHeaderWhitePaperPage(WhitePaperChromeTests.java:61)
-
-tests.whitePaper.WhitePaperChromeTests.resourcesHeaderWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.642 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.resourcesHeaderWhitePaperPage(WhitePaperChromeTests.java:79)
-
-tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.896 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.mainBlockWhitePaperPage(WhitePaperChromeTests.java:97)
-
-tests.whitePaper.WhitePaperChromeTests.EweuimtPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 6.414 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.EweuimtPage(WhitePaperChromeTests.java:116)
-
-tests.whitePaper.WhitePaperChromeTests.allFooterWhitePaperPage[https://aimood-stage1.intary.net/en/white-paper, Screenshots_St1/](1)  Time elapsed: 5.897 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.whitePaper.WhitePaperChromeTests.allFooterWhitePaperPage(WhitePaperChromeTests.java:135)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 9.911 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allHeaderWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:27)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.612 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.getStartedHeaderWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:44)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.611 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.learnHeaderWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:62)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.655 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.resourcesHeaderWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:80)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 5.672 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.mainBlockWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:115)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 6.195 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.whyChooseWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:134)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 6.234 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.ecosystemWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:151)
-
-tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 5.641 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodFirefoxTests.allFooterWhatIsAimoodPage(WhatIsAimoodFirefoxTests.java:170)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.allHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 8.817 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.allHeaderWhatIsAimoodPage(WhatIsAimoodChromeTests.java:27)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.getStartedHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.842 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.getStartedHeaderWhatIsAimoodPage(WhatIsAimoodChromeTests.java:44)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.learnHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.755 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.learnHeaderWhatIsAimoodPage(WhatIsAimoodChromeTests.java:62)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.resourcesHeaderWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 4.772 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.resourcesHeaderWhatIsAimoodPage(WhatIsAimoodChromeTests.java:80)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 5.855 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.mainBlockWhatIsAimoodPage(WhatIsAimoodChromeTests.java:115)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.whyChooseWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 6.257 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.whyChooseWhatIsAimoodPage(WhatIsAimoodChromeTests.java:134)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.ecosystemWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 6.427 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.ecosystemWhatIsAimoodPage(WhatIsAimoodChromeTests.java:151)
-
-tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterWhatIsAimoodPage[https://aimood-stage1.intary.net/en/what-is-aimood, Screenshots_St1/](1)  Time elapsed: 5.858 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.WhatIsAimood.WhatIsAimoodChromeTests.allFooterWhatIsAimoodPage(WhatIsAimoodChromeTests.java:170)
-
-tests.SignIn.SignInFirefoxTests.allHeaderMainPage  Time elapsed: 6.507 s  <<< FAILURE!
+Tests run: 331, Failures: 26, Errors: 0, Skipped: 1, Time elapsed: 2,277.5 s <<< FAILURE! - in TestSuite
+tests.SignIn.SignInFirefoxTests.allHeaderMainPage  Time elapsed: 6.92 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 6.508 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 6.921 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.Forgot  Time elapsed: 6.509 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.Forgot  Time elapsed: 6.921 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.Dont  Time elapsed: 6.509 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.Dont  Time elapsed: 6.922 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.allPageSignInPage  Time elapsed: 6.51 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.allPageSignInPage  Time elapsed: 6.922 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.allFooterMainPage  Time elapsed: 6.51 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.allFooterMainPage  Time elapsed: 6.923 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInFirefoxTests.tearDown  Time elapsed: 6.511 s  <<< FAILURE!
+tests.SignIn.SignInFirefoxTests.tearDown  Time elapsed: 6.924 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.SignIn.SignInChromeTests.allHeaderMainPage  Time elapsed: 6.512 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.allHeaderMainPage  Time elapsed: 6.925 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.mainBlockWhitePaperPage  Time elapsed: 6.512 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.mainBlockWhitePaperPage  Time elapsed: 6.925 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.Forgot  Time elapsed: 6.512 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.Forgot  Time elapsed: 6.926 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.Dont  Time elapsed: 6.513 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.Dont  Time elapsed: 6.926 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.allPageSignInPage  Time elapsed: 6.513 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.allPageSignInPage  Time elapsed: 6.927 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.allFooterMainPage  Time elapsed: 6.513 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.allFooterMainPage  Time elapsed: 6.927 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignIn.SignInChromeTests.tearDown  Time elapsed: 6.514 s  <<< FAILURE!
+tests.SignIn.SignInChromeTests.tearDown  Time elapsed: 6.928 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.SignUp.SignUpFirefoxTests.allHeaderSignUpPage  Time elapsed: 6.515 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.allHeaderSignUpPage  Time elapsed: 6.928 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 6.515 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 6.929 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpFirefoxTests.Already  Time elapsed: 6.515 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.Already  Time elapsed: 6.93 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpFirefoxTests.allPageSignUpPage  Time elapsed: 6.516 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.allPageSignUpPage  Time elapsed: 6.93 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpFirefoxTests.allFooterSignUp  Time elapsed: 6.516 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.allFooterSignUp  Time elapsed: 6.931 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpFirefoxTests.tearDown  Time elapsed: 6.517 s  <<< FAILURE!
+tests.SignUp.SignUpFirefoxTests.tearDown  Time elapsed: 6.931 s  <<< FAILURE!
 java.lang.NullPointerException
 
-tests.SignUp.SignUpChromeTests.allHeaderSignUpPage  Time elapsed: 6.517 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.allHeaderSignUpPage  Time elapsed: 6.932 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpChromeTests.mainBlockWhitePaperPage  Time elapsed: 6.518 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.mainBlockWhitePaperPage  Time elapsed: 6.932 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpChromeTests.Already  Time elapsed: 6.518 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.Already  Time elapsed: 6.933 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpChromeTests.allPageSignUpPage  Time elapsed: 6.519 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.allPageSignUpPage  Time elapsed: 6.933 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpChromeTests.allFooterSignUp  Time elapsed: 6.519 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.allFooterSignUp  Time elapsed: 6.934 s  <<< FAILURE!
 org.testng.TestNGException: 
 
 Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
 in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
 
-tests.SignUp.SignUpChromeTests.tearDown  Time elapsed: 6.52 s  <<< FAILURE!
+tests.SignUp.SignUpChromeTests.tearDown  Time elapsed: 6.934 s  <<< FAILURE!
 java.lang.NullPointerException
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 8.75 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.allHeaderResetPasswordPage(AllPageFirefoxTests.java:25)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.605 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.getStartedHeaderResetPasswordPage(AllPageFirefoxTests.java:43)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.588 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.learnHeaderResetPasswordPage(AllPageFirefoxTests.java:61)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.671 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.resourcesHeaderResetPasswordPage(AllPageFirefoxTests.java:79)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 6.596 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.mainSectionResetPasswordPage(AllPageFirefoxTests.java:115)
-
-tests.resetPasswordPageTests.AllPageFirefoxTests.allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 5.685 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageFirefoxTests.allFooterResetPasswordPage(AllPageFirefoxTests.java:137)
-
-tests.resetPasswordPageTests.AllPageChromeTests.allHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 7.87 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.allHeaderResetPasswordPage(AllPageChromeTests.java:26)
-
-tests.resetPasswordPageTests.AllPageChromeTests.getStartedHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.82 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.getStartedHeaderResetPasswordPage(AllPageChromeTests.java:44)
-
-tests.resetPasswordPageTests.AllPageChromeTests.learnHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.725 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.learnHeaderResetPasswordPage(AllPageChromeTests.java:62)
-
-tests.resetPasswordPageTests.AllPageChromeTests.resourcesHeaderResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 4.727 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.resourcesHeaderResetPasswordPage(AllPageChromeTests.java:80)
-
-tests.resetPasswordPageTests.AllPageChromeTests.mainSectionResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 6.81 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.mainSectionResetPasswordPage(AllPageChromeTests.java:116)
-
-tests.resetPasswordPageTests.AllPageChromeTests.allFooterResetPasswordPage[https://aimood-stage1.intary.net/en/reset-password-1, Screenshots_St1/](1)  Time elapsed: 5.892 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPageTests.AllPageChromeTests.allFooterResetPasswordPage(AllPageChromeTests.java:138)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 8.489 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.allHeaderResetPasswordPage2(AllPageFirefoxTests.java:26)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.615 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.getStartedHeaderResetPasswordPage2(AllPageFirefoxTests.java:44)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.602 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.learnHeaderResetPasswordPage2(AllPageFirefoxTests.java:62)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.661 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.resourcesHeaderResetPasswordPage2(AllPageFirefoxTests.java:80)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 6.594 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.mainSectionResetPasswordPage2(AllPageFirefoxTests.java:116)
-
-tests.resetPasswordPage2Tests.AllPageFirefoxTests.allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 5.674 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageFirefoxTests.allFooterResetPasswordPage2(AllPageFirefoxTests.java:138)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.allHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 8.07 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.allHeaderResetPasswordPage2(AllPageChromeTests.java:26)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.getStartedHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.866 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.getStartedHeaderResetPasswordPage2(AllPageChromeTests.java:44)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.learnHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.743 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.learnHeaderResetPasswordPage2(AllPageChromeTests.java:62)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.resourcesHeaderResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 4.759 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.resourcesHeaderResetPasswordPage2(AllPageChromeTests.java:80)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.mainSectionResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 6.84 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.mainSectionResetPasswordPage2(AllPageChromeTests.java:116)
-
-tests.resetPasswordPage2Tests.AllPageChromeTests.allFooterResetPasswordPage2[https://aimood-stage1.intary.net/en/reset-password-2, Screenshots_St1/](1)  Time elapsed: 5.819 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.resetPasswordPage2Tests.AllPageChromeTests.allFooterResetPasswordPage2(AllPageChromeTests.java:138)
-
-tests.signInPageTests.AllPageFirefoxTests.allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 8.476 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.allHeaderSignInPage(AllPageFirefoxTests.java:25)
-
-tests.signInPageTests.AllPageFirefoxTests.getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.621 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.getStartedHeaderSignInPage(AllPageFirefoxTests.java:43)
-
-tests.signInPageTests.AllPageFirefoxTests.learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.581 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.learnHeaderSignInPage(AllPageFirefoxTests.java:61)
-
-tests.signInPageTests.AllPageFirefoxTests.resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.654 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.resourcesHeaderSignInPage(AllPageFirefoxTests.java:79)
-
-tests.signInPageTests.AllPageFirefoxTests.mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 6.611 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.mainSectionSignInPage(AllPageFirefoxTests.java:115)
-
-tests.signInPageTests.AllPageFirefoxTests.allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 5.686 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.allFooterSignInPage(AllPageFirefoxTests.java:137)
-
-tests.signInPageTests.AllPageChromeTests.allHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 8.141 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.allHeaderSignInPage(AllPageChromeTests.java:26)
-
-tests.signInPageTests.AllPageChromeTests.getStartedHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.793 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.getStartedHeaderSignInPage(AllPageChromeTests.java:44)
-
-tests.signInPageTests.AllPageChromeTests.learnHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.757 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.learnHeaderSignInPage(AllPageChromeTests.java:62)
-
-tests.signInPageTests.AllPageChromeTests.resourcesHeaderSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 4.73 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.resourcesHeaderSignInPage(AllPageChromeTests.java:80)
-
-tests.signInPageTests.AllPageChromeTests.mainSectionSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 6.8 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.mainSectionSignInPage(AllPageChromeTests.java:116)
-
-tests.signInPageTests.AllPageChromeTests.allFooterSignInPage[https://aimood-stage1.intary.net/en/login, Screenshots_St1/](1)  Time elapsed: 5.846 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageChromeTests.allFooterSignInPage(AllPageChromeTests.java:138)
-
-tests.signUpPageTests.AllPageFirefoxTests.allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 8.702 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.allHeaderSignUpPage(AllPageFirefoxTests.java:26)
-
-tests.signUpPageTests.AllPageFirefoxTests.getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.614 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.getStartedHeaderSignUpPage(AllPageFirefoxTests.java:44)
-
-tests.signUpPageTests.AllPageFirefoxTests.learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.587 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.learnHeaderSignUpPage(AllPageFirefoxTests.java:62)
-
-tests.signUpPageTests.AllPageFirefoxTests.resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.645 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.resourcesHeaderSignUpPage(AllPageFirefoxTests.java:80)
-
-tests.signUpPageTests.AllPageFirefoxTests.mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 6.626 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.mainSectionSignUpPage(AllPageFirefoxTests.java:116)
-
-tests.signUpPageTests.AllPageFirefoxTests.allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 5.738 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageFirefoxTests.allFooterSignUpPage(AllPageFirefoxTests.java:138)
-
-tests.signUpPageTests.AllPageChromeTests.allHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 7.769 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.allHeaderSignUpPage(AllPageChromeTests.java:25)
-
-tests.signUpPageTests.AllPageChromeTests.getStartedHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.807 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.getStartedHeaderSignUpPage(AllPageChromeTests.java:43)
-
-tests.signUpPageTests.AllPageChromeTests.learnHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.738 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.learnHeaderSignUpPage(AllPageChromeTests.java:61)
-
-tests.signUpPageTests.AllPageChromeTests.resourcesHeaderSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 4.781 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.resourcesHeaderSignUpPage(AllPageChromeTests.java:79)
-
-tests.signUpPageTests.AllPageChromeTests.mainSectionSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 6.858 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.mainSectionSignUpPage(AllPageChromeTests.java:115)
-
-tests.signUpPageTests.AllPageChromeTests.allFooterSignUpPage[https://aimood-stage1.intary.net/en/register, Screenshots_St1/](1)  Time elapsed: 5.843 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signUpPageTests.AllPageChromeTests.allFooterSignUpPage(AllPageChromeTests.java:137)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.allHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 5.714 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.allHeaderAccountSettingsPage(AllPageFirefoxTests.java:40)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.getStartedHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.439 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.getStartedHeaderAccountSettingsPage(AllPageFirefoxTests.java:61)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.learnHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.405 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.learnHeaderAccountSettingsPage(AllPageFirefoxTests.java:81)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.resourcesHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.486 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.resourcesHeaderAccountSettingsPage(AllPageFirefoxTests.java:101)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.notificationsHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.574 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.notificationsHeaderAccountSettingsPage(AllPageFirefoxTests.java:138)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.profileHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.498 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.profileHeaderAccountSettingsPage(AllPageFirefoxTests.java:158)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.mainSectionAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.743 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.mainSectionAccountSettingsPage(AllPageFirefoxTests.java:177)
-
-tests.accountSettingsPageTests.AllPageFirefoxTests.allFooterAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 5.654 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageFirefoxTests.allFooterAccountSettingsPage(AllPageFirefoxTests.java:198)
-
-tests.accountSettingsPageTests.AllPageChromeTests.allHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 5.721 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.allHeaderAccountSettingsPage(AllPageChromeTests.java:40)
-
-tests.accountSettingsPageTests.AllPageChromeTests.getStartedHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.665 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.getStartedHeaderAccountSettingsPage(AllPageChromeTests.java:61)
-
-tests.accountSettingsPageTests.AllPageChromeTests.learnHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.648 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.learnHeaderAccountSettingsPage(AllPageChromeTests.java:81)
-
-tests.accountSettingsPageTests.AllPageChromeTests.resourcesHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.678 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.resourcesHeaderAccountSettingsPage(AllPageChromeTests.java:101)
-
-tests.accountSettingsPageTests.AllPageChromeTests.notificationsHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.613 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.notificationsHeaderAccountSettingsPage(AllPageChromeTests.java:138)
-
-tests.accountSettingsPageTests.AllPageChromeTests.profileHeaderAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.592 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.profileHeaderAccountSettingsPage(AllPageChromeTests.java:158)
-
-tests.accountSettingsPageTests.AllPageChromeTests.mainSectionAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 6.924 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.mainSectionAccountSettingsPage(AllPageChromeTests.java:179)
-
-tests.accountSettingsPageTests.AllPageChromeTests.allFooterAccountSettingsPage[https://aimood-stage1.intary.net/en/account/settings, Screenshots_St1/](1)  Time elapsed: 5.883 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountSettingsPageTests.AllPageChromeTests.allFooterAccountSettingsPage(AllPageChromeTests.java:200)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.allHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 5.676 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.allHeaderAccountWalletPage(AllPageFirefoxTests.java:40)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.getStartedHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.423 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.getStartedHeaderAccountWalletPage(AllPageFirefoxTests.java:61)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.learnHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.433 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.learnHeaderAccountWalletPage(AllPageFirefoxTests.java:81)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.resourcesHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.442 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.resourcesHeaderAccountWalletPage(AllPageFirefoxTests.java:101)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.notificationsHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.563 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.notificationsHeaderAccountWalletPage(AllPageFirefoxTests.java:138)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.profileHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.565 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.profileHeaderAccountWalletPage(AllPageFirefoxTests.java:158)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.mainSectionAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.584 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.mainSectionAccountWalletPage(AllPageFirefoxTests.java:177)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.stakingAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 4.39 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.stakingAccountWalletPage(AllPageFirefoxTests.java:195)
-
-tests.accountWalletPageTests.AllPageFirefoxTests.allFooterAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 5.61 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageFirefoxTests.allFooterAccountWalletPage(AllPageFirefoxTests.java:216)
-
-tests.accountWalletPageTests.AllPageChromeTests.allHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 5.746 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.allHeaderAccountWalletPage(AllPageChromeTests.java:40)
-
-tests.accountWalletPageTests.AllPageChromeTests.getStartedHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.668 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.getStartedHeaderAccountWalletPage(AllPageChromeTests.java:61)
-
-tests.accountWalletPageTests.AllPageChromeTests.learnHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.714 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.learnHeaderAccountWalletPage(AllPageChromeTests.java:81)
-
-tests.accountWalletPageTests.AllPageChromeTests.resourcesHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.696 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.resourcesHeaderAccountWalletPage(AllPageChromeTests.java:101)
-
-tests.accountWalletPageTests.AllPageChromeTests.notificationsHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.638 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.notificationsHeaderAccountWalletPage(AllPageChromeTests.java:138)
-
-tests.accountWalletPageTests.AllPageChromeTests.profileHeaderAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 8.616 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.profileHeaderAccountWalletPage(AllPageChromeTests.java:158)
-
-tests.accountWalletPageTests.AllPageChromeTests.mainSectionAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 7.004 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.mainSectionAccountWalletPage(AllPageChromeTests.java:177)
-
-tests.accountWalletPageTests.AllPageChromeTests.stakingAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 4.632 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.stakingAccountWalletPage(AllPageChromeTests.java:200)
-
-tests.accountWalletPageTests.AllPageChromeTests.allFooterAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](1)  Time elapsed: 6.015 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountWalletPageTests.AllPageChromeTests.allFooterAccountWalletPage(AllPageChromeTests.java:221)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.allHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 5.807 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.allHeaderAccountP2PPage(AllPageFirefoxTests.java:40)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.getStartedHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.474 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.getStartedHeaderAccountP2PPage(AllPageFirefoxTests.java:61)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.learnHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.421 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.learnHeaderAccountP2PPage(AllPageFirefoxTests.java:81)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.resourcesHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.521 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.resourcesHeaderAccountP2PPage(AllPageFirefoxTests.java:101)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.notificationsHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.606 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.notificationsHeaderAccountP2PPage(AllPageFirefoxTests.java:138)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.profileHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.615 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.profileHeaderAccountP2PPage(AllPageFirefoxTests.java:158)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.mainSectionAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.594 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.mainSectionAccountP2PPage(AllPageFirefoxTests.java:177)
-
-tests.accountP2PPageTests.AllPageFirefoxTests.allFooterAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 5.631 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageFirefoxTests.allFooterAccountP2PPage(AllPageFirefoxTests.java:198)
-
-tests.accountP2PPageTests.AllPageChromeTests.allHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 5.761 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.allHeaderAccountP2PPage(AllPageChromeTests.java:40)
-
-tests.accountP2PPageTests.AllPageChromeTests.getStartedHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.68 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.getStartedHeaderAccountP2PPage(AllPageChromeTests.java:61)
-
-tests.accountP2PPageTests.AllPageChromeTests.learnHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.672 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.learnHeaderAccountP2PPage(AllPageChromeTests.java:81)
-
-tests.accountP2PPageTests.AllPageChromeTests.resourcesHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.71 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.resourcesHeaderAccountP2PPage(AllPageChromeTests.java:101)
-
-tests.accountP2PPageTests.AllPageChromeTests.notificationsHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.612 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.notificationsHeaderAccountP2PPage(AllPageChromeTests.java:138)
-
-tests.accountP2PPageTests.AllPageChromeTests.profileHeaderAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.613 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.profileHeaderAccountP2PPage(AllPageChromeTests.java:158)
-
-tests.accountP2PPageTests.AllPageChromeTests.mainSectionAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.908 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.mainSectionAccountP2PPage(AllPageChromeTests.java:177)
-
-tests.accountP2PPageTests.AllPageChromeTests.allFooterAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](1)  Time elapsed: 6.06 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountP2PPageTests.AllPageChromeTests.allFooterAccountP2PPage(AllPageChromeTests.java:198)
-
-tests.accountFundPageTests.AllPageFirefoxTests.allHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 5.564 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.allHeaderAccountFundPage(AllPageFirefoxTests.java:40)
-
-tests.accountFundPageTests.AllPageFirefoxTests.getStartedHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.429 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.getStartedHeaderAccountFundPage(AllPageFirefoxTests.java:61)
-
-tests.accountFundPageTests.AllPageFirefoxTests.learnHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.395 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.learnHeaderAccountFundPage(AllPageFirefoxTests.java:81)
-
-tests.accountFundPageTests.AllPageFirefoxTests.resourcesHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.449 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.resourcesHeaderAccountFundPage(AllPageFirefoxTests.java:101)
-
-tests.accountFundPageTests.AllPageFirefoxTests.notificationsHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.572 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.notificationsHeaderAccountFundPage(AllPageFirefoxTests.java:138)
-
-tests.accountFundPageTests.AllPageFirefoxTests.profileHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.562 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.profileHeaderAccountFundPage(AllPageFirefoxTests.java:158)
-
-tests.accountFundPageTests.AllPageFirefoxTests.mainSectionAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.853 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.mainSectionAccountFundPage(AllPageFirefoxTests.java:177)
-
-tests.accountFundPageTests.AllPageFirefoxTests.allFooterAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 5.656 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageFirefoxTests.allFooterAccountFundPage(AllPageFirefoxTests.java:198)
-
-tests.accountFundPageTests.AllPageChromeTests.allHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 5.553 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.allHeaderAccountFundPage(AllPageChromeTests.java:40)
-
-tests.accountFundPageTests.AllPageChromeTests.getStartedHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.679 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.getStartedHeaderAccountFundPage(AllPageChromeTests.java:61)
-
-tests.accountFundPageTests.AllPageChromeTests.learnHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.669 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.learnHeaderAccountFundPage(AllPageChromeTests.java:81)
-
-tests.accountFundPageTests.AllPageChromeTests.resourcesHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.647 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.resourcesHeaderAccountFundPage(AllPageChromeTests.java:101)
-
-tests.accountFundPageTests.AllPageChromeTests.notificationsHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.558 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.notificationsHeaderAccountFundPage(AllPageChromeTests.java:138)
-
-tests.accountFundPageTests.AllPageChromeTests.profileHeaderAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.544 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.profileHeaderAccountFundPage(AllPageChromeTests.java:158)
-
-tests.accountFundPageTests.AllPageChromeTests.mainSectionAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 6.87 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.mainSectionAccountFundPage(AllPageChromeTests.java:177)
-
-tests.accountFundPageTests.AllPageChromeTests.allFooterAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](1)  Time elapsed: 7.853 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountFundPageTests.AllPageChromeTests.allFooterAccountFundPage(AllPageChromeTests.java:200)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.allHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 5.482 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.allHeaderAccountDashboardPage(AllPageFirefoxTests.java:40)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.getStartedHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.45 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.getStartedHeaderAccountDashboardPage(AllPageFirefoxTests.java:61)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.learnHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.446 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.learnHeaderAccountDashboardPage(AllPageFirefoxTests.java:81)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.resourcesHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.474 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.resourcesHeaderAccountDashboardPage(AllPageFirefoxTests.java:101)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.notificationsHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.579 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.notificationsHeaderAccountDashboardPage(AllPageFirefoxTests.java:138)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.profileHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.596 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.profileHeaderAccountDashboardPage(AllPageFirefoxTests.java:158)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.mainSectionAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.995 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.mainSectionAccountDashboardPage(AllPageFirefoxTests.java:177)
-
-tests.accountDashboardPageTests.AllPageFirefoxTests.allFooterAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.686 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageFirefoxTests.allFooterAccountDashboardPage(AllPageFirefoxTests.java:200)
-
-tests.accountDashboardPageTests.AllPageChromeTests.allHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 5.593 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.allHeaderAccountDashboardPage(AllPageChromeTests.java:40)
-
-tests.accountDashboardPageTests.AllPageChromeTests.getStartedHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.676 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.getStartedHeaderAccountDashboardPage(AllPageChromeTests.java:61)
-
-tests.accountDashboardPageTests.AllPageChromeTests.learnHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.67 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.learnHeaderAccountDashboardPage(AllPageChromeTests.java:81)
-
-tests.accountDashboardPageTests.AllPageChromeTests.resourcesHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.718 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.resourcesHeaderAccountDashboardPage(AllPageChromeTests.java:101)
-
-tests.accountDashboardPageTests.AllPageChromeTests.notificationsHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.603 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.notificationsHeaderAccountDashboardPage(AllPageChromeTests.java:138)
-
-tests.accountDashboardPageTests.AllPageChromeTests.profileHeaderAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.591 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.profileHeaderAccountDashboardPage(AllPageChromeTests.java:158)
-
-tests.accountDashboardPageTests.AllPageChromeTests.mainSectionAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.88 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.mainSectionAccountDashboardPage(AllPageChromeTests.java:177)
-
-tests.accountDashboardPageTests.AllPageChromeTests.allFooterAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](1)  Time elapsed: 6.9 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountDashboardPageTests.AllPageChromeTests.allFooterAccountDashboardPage(AllPageChromeTests.java:200)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.allHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.64 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.allHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:42)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.43 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.getStartedHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:63)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.453 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.learnHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:83)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.474 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.resourcesHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:103)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.notificationsHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.572 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.notificationsHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:140)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.profileHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.504 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.profileHeaderAccountAffiliateProgramPage(AllPageFirefoxTests.java:160)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.mainSectionAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.659 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.mainSectionAccountAffiliateProgramPage(AllPageFirefoxTests.java:179)
-
-tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.allFooterAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 5.682 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageFirefoxTests.allFooterAccountAffiliateProgramPage(AllPageFirefoxTests.java:200)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.allHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.704 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.allHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:42)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.getStartedHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.69 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.getStartedHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:63)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.learnHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.671 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.learnHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:83)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.resourcesHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.676 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.resourcesHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:103)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.notificationsHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.628 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.notificationsHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:140)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.profileHeaderAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 6.574 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.profileHeaderAccountAffiliateProgramPage(AllPageChromeTests.java:160)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.mainSectionAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 7.869 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.mainSectionAccountAffiliateProgramPage(AllPageChromeTests.java:183)
-
-tests.accountAffiliateProgramPageTests.AllPageChromeTests.allFooterAccountAffiliateProgramPage[https://aimood-stage1.intary.net/en/account/affiliate-program, Screenshots_St1/](1)  Time elapsed: 5.851 s  <<< FAILURE!
-java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.accountAffiliateProgramPageTests.AllPageChromeTests.allFooterAccountAffiliateProgramPage(AllPageChromeTests.java:204)
 
