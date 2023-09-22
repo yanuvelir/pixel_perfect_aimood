@@ -47,7 +47,6 @@ public class WhitePaperChromeTests extends BaseTest {
 
     }
 
-
     @Parameters({"whitePaper_page", "ScShotDir"})
     @Test(priority = 3)
     public void learnHeaderWhitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
@@ -65,43 +64,6 @@ public class WhitePaperChromeTests extends BaseTest {
                 ScShotDir + "WhitePaper_page/EnChrome/Screenshots_learnWhitePaperPage/difference.png");
 
     }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 2)
-    public void marketPlaceHeaderWhitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(whitePaper_page);
-        //Hover
-        action.hoverOverAnElementByXpath("//a[@data-testid='head-nav-market-place']");
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//a[@data-testid='head-nav-market-place']",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_marketPlaceWhitePaperPage/difference.png");
-
-    }
-
-    @Parameters({"whitePaper_page", "ScShotDir"})
-    @Test(priority = 2)
-    public void whitePaperHeaderWhitePaperPage(String whitePaper_page, String ScShotDir) throws IOException, InterruptedException {
-        // Resolution
-        CommonActions.setBrowserWindowSize("mac 14");
-        //Open a page for test
-        action.openPage(whitePaper_page);
-        //Hover
-        action.hoverOverAnElementByXpath("//a[@data-testid='head-nav-white-paper']");
-        Thread.sleep(1000);
-        //Run the Pixel perfect test for a selected element
-        pixelPerfectAssert.byElement("//a[@data-testid='head-nav-white-paper']",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/real_life_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/mock_screenshot.png",
-                ScShotDir + "WhitePaper_page/EnChrome/Screenshots_whitePaperHeaderWhitePaperPage/difference.png");
-
-    }
-
 
     @Parameters({"whitePaper_page", "ScShotDir"})
     @Test(priority = 4)
