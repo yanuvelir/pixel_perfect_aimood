@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [WPT]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="tests.RetryAnalyzerTransformer"/>
+  </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
     <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
     <parameter name="buy_sell_page" value="https://aimood-stage1.intary.net/en/buy-sell-aimood-coin"/>
@@ -24,24 +27,10 @@
     <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
     <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
-      <class name="tests.accountFundPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountFundPageTests.AllPageFirefoxTests -->
-      <class name="tests.accountAffiliateProgramPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountAffiliateProgramPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageFirefoxTests -->
       <class name="tests.SignUp.SignUpChromeTests">
         <methods>
-          <include name="allPageSignUpPage"/>
           <include name="tearDown"/>
+          <include name="allPageSignUpPage"/>
           <include name="allHeaderSignUpPage"/>
           <include name="setUp"/>
           <include name="Already"/>
@@ -51,8 +40,8 @@
       </class> <!-- tests.SignUp.SignUpChromeTests -->
       <class name="tests.SignIn.SignInFirefoxTests">
         <methods>
-          <include name="allPageSignInPage"/>
           <include name="mainBlockWhitePaperPage"/>
+          <include name="allPageSignInPage"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="Forgot"/>
@@ -61,31 +50,38 @@
           <include name="allHeaderMainPage"/>
         </methods>
       </class> <!-- tests.SignIn.SignInFirefoxTests -->
-      <class name="tests.accountAffiliateProgramPageTests.AllPageChromeTests">
-        <methods>
-          <include name="allFooterAccountAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageChromeTests -->
-      <class name="tests.accountDashboardPageTests.AllPageChromeTests">
-        <methods>
-          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountDashboardPageTests.AllPageChromeTests -->
       <class name="tests.stakingPageTests.AllPageChromeTests">
         <methods>
           <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="allHeaderStakingPage" invocation-numbers="0"/>
           <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
           <include name="allFooterStakingPage" invocation-numbers="0"/>
           <include name="mainSectionStakingPage" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
+      <class name="tests.accountAffiliateProgramPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="learnHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageFirefoxTests -->
+      <class name="tests.accountAffiliateProgramPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allHeaderAccountAffiliateProgramPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.accountFundPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="learnHeaderAccountFundPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.accountFundPageTests.AllPageChromeTests -->
       <class name="tests.SignUp.SignUpFirefoxTests">
         <methods>
           <include name="allFooterSignUp"/>
@@ -97,27 +93,6 @@
           <include name="mainBlockWhitePaperPage"/>
         </methods>
       </class> <!-- tests.SignUp.SignUpFirefoxTests -->
-      <class name="tests.accountFundPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountFundPageTests.AllPageChromeTests -->
-      <class name="tests.accountSettingsPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionAccountSettingsPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountSettingsPageTests.AllPageChromeTests -->
-      <class name="tests.accountDashboardPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountDashboardPageTests.AllPageFirefoxTests -->
       <class name="tests.SignIn.SignInChromeTests">
         <methods>
           <include name="Forgot"/>
