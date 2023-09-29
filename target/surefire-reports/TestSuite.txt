@@ -1,33 +1,200 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 202, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 1,559.942 s <<< FAILURE! - in TestSuite
-tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 19.98 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //section[@data-testid='fund-program-section']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [5dd38c8e-209b-4cf8-bfa6-51d13a98fe66, findElement {using=xpath, value=//section[@data-testid='fund-program-section']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:debuggerAddress: 127.0.0.1:7191, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8636, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:7191/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5dd38c8e-209b-4cf8-bfa6-51d13a98fe66
-	at tests.fundPageTests.AllPageFirefoxTests.mainSectionFundPage(AllPageFirefoxTests.java:116)
-
-tests.fundPageTests.AllPageChromeTests.mainSectionFundPage[https://ai-mood.com/en/fund, Screenshots/](3)  Time elapsed: 19.509 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//section[@data-testid='fund-program-section']"}
-  (Session info: chrome=117.0.5938.92)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f7e61abba2cf1ac1a498dc39f270b74b, findElement {using=xpath, value=//section[@data-testid='fund-program-section']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57578/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f7e61abba2cf1ac1a498dc39f270b74b
-	at tests.fundPageTests.AllPageChromeTests.mainSectionFundPage(AllPageChromeTests.java:118)
-
-tests.signInPageTests.AllPageFirefoxTests.mainSectionSignInPage[https://ai-mood.com/en/login, Screenshots/](3)  Time elapsed: 7.466 s  <<< FAILURE!
+Tests run: 357, Failures: 39, Errors: 0, Skipped: 27, Time elapsed: 2,496.135 s <<< FAILURE! - in TestSuite
+tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage[https://aimood-stage1.intary.net/en/market-place, Screenshots_St1/](3)  Time elapsed: 6.055 s  <<< FAILURE!
 java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
-	at tests.signInPageTests.AllPageFirefoxTests.mainSectionSignInPage(AllPageFirefoxTests.java:115)
+	at tests.marketPlacePageTests.AllPageChromeTests.resourcesHeaderMarketPlacePage(AllPageChromeTests.java:81)
+
+tests.stakingPageTests.AllPageChromeTests.mainSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](3)  Time elapsed: 7.187 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.stakingPageTests.AllPageChromeTests.mainSectionStakingPage(AllPageChromeTests.java:116)
+
+tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](3)  Time elapsed: 9.599 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.stakingPageTests.AllPageChromeTests.delegatedSectionStakingPage(AllPageChromeTests.java:135)
+
+tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](3)  Time elapsed: 10.234 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.stakingPageTests.AllPageChromeTests.calcStakSectionStakingPage(AllPageChromeTests.java:164)
+
+tests.stakingPageTests.AllPageChromeTests.allFooterStakingPage[https://aimood-stage1.intary.net/en/stake-delegate, Screenshots_St1/](3)  Time elapsed: 6.412 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.stakingPageTests.AllPageChromeTests.allFooterStakingPage(AllPageChromeTests.java:185)
+
+tests.SignIn.SignInFirefoxTests.allHeaderMainPage  Time elapsed: 7.044 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 7.045 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.Forgot  Time elapsed: 7.046 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.Dont  Time elapsed: 7.046 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.allPageSignInPage  Time elapsed: 7.047 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.allFooterMainPage  Time elapsed: 7.047 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInFirefoxTests.tearDown  Time elapsed: 7.048 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tests.SignIn.SignInChromeTests.allHeaderMainPage  Time elapsed: 7.049 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allHeaderMainPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.mainBlockWhitePaperPage  Time elapsed: 7.05 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.Forgot  Time elapsed: 7.05 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method Forgot but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.Dont  Time elapsed: 7.051 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method Dont but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.allPageSignInPage  Time elapsed: 7.051 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allPageSignInPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.allFooterMainPage  Time elapsed: 7.051 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignIn_page' is required by @Test on method allFooterMainPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignIn.SignInChromeTests.tearDown  Time elapsed: 7.052 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tests.SignUp.SignUpFirefoxTests.allHeaderSignUpPage  Time elapsed: 7.053 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpFirefoxTests.mainBlockWhitePaperPage  Time elapsed: 7.053 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpFirefoxTests.Already  Time elapsed: 7.054 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpFirefoxTests.allPageSignUpPage  Time elapsed: 7.054 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpFirefoxTests.allFooterSignUp  Time elapsed: 7.055 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpFirefoxTests.tearDown  Time elapsed: 7.055 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tests.SignUp.SignUpChromeTests.allHeaderSignUpPage  Time elapsed: 7.056 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allHeaderSignUpPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpChromeTests.mainBlockWhitePaperPage  Time elapsed: 7.057 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method mainBlockWhitePaperPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpChromeTests.Already  Time elapsed: 7.057 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method Already but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpChromeTests.allPageSignUpPage  Time elapsed: 7.058 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allPageSignUpPage but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpChromeTests.allFooterSignUp  Time elapsed: 7.058 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'SignUp_page' is required by @Test on method allFooterSignUp but has not been marked @Optional or defined
+in D:\jenkins-agent-data\workspace\pixelPerfectMultiPlatform_AI_Mood_St1\testngMasterStage1.xml
+
+tests.SignUp.SignUpChromeTests.tearDown  Time elapsed: 7.059 s  <<< FAILURE!
+java.lang.NullPointerException
+
+tests.accountWalletPageTests.AllPageFirefoxTests.stakingAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](3)  Time elapsed: 4.354 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountWalletPageTests.AllPageFirefoxTests.stakingAccountWalletPage(AllPageFirefoxTests.java:195)
+
+tests.accountWalletPageTests.AllPageChromeTests.stakingAccountWalletPage[https://aimood-stage1.intary.net/en/account/wallet, Screenshots_St1/](3)  Time elapsed: 4.536 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountWalletPageTests.AllPageChromeTests.stakingAccountWalletPage(AllPageChromeTests.java:200)
+
+tests.accountP2PPageTests.AllPageFirefoxTests.mainSectionAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](3)  Time elapsed: 6.594 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountP2PPageTests.AllPageFirefoxTests.mainSectionAccountP2PPage(AllPageFirefoxTests.java:177)
+
+tests.accountP2PPageTests.AllPageChromeTests.mainSectionAccountP2PPage[https://aimood-stage1.intary.net/en/account/p2p, Screenshots_St1/](3)  Time elapsed: 6.923 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountP2PPageTests.AllPageChromeTests.mainSectionAccountP2PPage(AllPageChromeTests.java:177)
+
+tests.accountFundPageTests.AllPageFirefoxTests.mainSectionAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](3)  Time elapsed: 6.776 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountFundPageTests.AllPageFirefoxTests.mainSectionAccountFundPage(AllPageFirefoxTests.java:177)
+
+tests.accountFundPageTests.AllPageChromeTests.mainSectionAccountFundPage[https://aimood-stage1.intary.net/en/account/fund, Screenshots_St1/](3)  Time elapsed: 6.922 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountFundPageTests.AllPageChromeTests.mainSectionAccountFundPage(AllPageChromeTests.java:177)
+
+tests.accountDashboardPageTests.AllPageFirefoxTests.mainSectionAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](3)  Time elapsed: 6.888 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountDashboardPageTests.AllPageFirefoxTests.mainSectionAccountDashboardPage(AllPageFirefoxTests.java:177)
+
+tests.accountDashboardPageTests.AllPageChromeTests.mainSectionAccountDashboardPage[https://aimood-stage1.intary.net/en/account/dashboard, Screenshots_St1/](3)  Time elapsed: 7.011 s  <<< FAILURE!
+java.lang.AssertionError: *** Images are not similar *** expected [true] but found [false]
+	at tests.accountDashboardPageTests.AllPageChromeTests.mainSectionAccountDashboardPage(AllPageChromeTests.java:177)
 

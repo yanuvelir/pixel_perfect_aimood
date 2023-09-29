@@ -5,57 +5,154 @@
     <listener class-name="tests.RetryAnalyzerTransformer"/>
   </listeners>
   <test thread-count="5" name="ai-mood - Pixel perfect regression(failed)" verbose="0">
-    <parameter name="staking_page" value="https://ai-mood.com/en/stake-delegate"/>
-    <parameter name="buy_sell_page" value="https://ai-mood.com/en/buy-sell-aimood-coin"/>
-    <parameter name="wallet_page" value="https://ai-mood.com/en/the-aimood-wallet"/>
-    <parameter name="whatIsAimood_page" value="https://ai-mood.com/en/what-is-aimood"/>
-    <parameter name="fund_page" value="https://ai-mood.com/en/fund"/>
-    <parameter name="resetPassword_page_2" value="https://ai-mood.com/en/reset-password-2"/>
-    <parameter name="whitePaper_page" value="https://ai-mood.com/en/white-paper"/>
-    <parameter name="ScShotDir" value="Screenshots/"/>
-    <parameter name="main_page" value="https://ai-mood.com/en/"/>
-    <parameter name="token_mood_page" value="https://ai-mood.com/en/token-mood"/>
-    <parameter name="signUp_page" value="https://ai-mood.com/en/register"/>
-    <parameter name="market_place_page" value="https://ai-mood.com/en/market-place"/>
-    <parameter name="affiliate_program_page" value="https://ai-mood.com/en/affiliate-program"/>
-    <parameter name="signIn_page" value="https://ai-mood.com/en/login"/>
-    <parameter name="resetPassword_page" value="https://ai-mood.com/en/reset-password-1"/>
+    <parameter name="staking_page" value="https://aimood-stage1.intary.net/en/stake-delegate"/>
+    <parameter name="buy_sell_page" value="https://aimood-stage1.intary.net/en/buy-sell-aimood-coin"/>
+    <parameter name="wallet_page" value="https://aimood-stage1.intary.net/en/the-aimood-wallet"/>
+    <parameter name="whatIsAimood_page" value="https://aimood-stage1.intary.net/en/what-is-aimood"/>
+    <parameter name="account_wallet_page" value="https://aimood-stage1.intary.net/en/account/wallet"/>
+    <parameter name="account_fund_page" value="https://aimood-stage1.intary.net/en/account/fund"/>
+    <parameter name="fund_page" value="https://aimood-stage1.intary.net/en/fund"/>
+    <parameter name="account_dashboard_page" value="https://aimood-stage1.intary.net/en/account/dashboard"/>
+    <parameter name="resetPassword_page_2" value="https://aimood-stage1.intary.net/en/reset-password-2"/>
+    <parameter name="whitePaper_page" value="https://aimood-stage1.intary.net/en/white-paper"/>
+    <parameter name="account_affiliate_program_page" value="https://aimood-stage1.intary.net/en/account/affiliate-program"/>
+    <parameter name="account_p2p_page" value="https://aimood-stage1.intary.net/en/account/p2p"/>
+    <parameter name="account_settings_page" value="https://aimood-stage1.intary.net/en/account/settings"/>
+    <parameter name="ScShotDir" value="Screenshots_St1/"/>
+    <parameter name="main_page" value="https://aimood-stage1.intary.net/en/"/>
+    <parameter name="token_mood_page" value="https://aimood-stage1.intary.net/en/token-mood"/>
+    <parameter name="signUp_page" value="https://aimood-stage1.intary.net/en/register"/>
+    <parameter name="market_place_page" value="https://aimood-stage1.intary.net/en/market-place"/>
+    <parameter name="affiliate_program_page" value="https://aimood-stage1.intary.net/en/affiliate-program"/>
+    <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
+    <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
-      <class name="tests.resetPasswordPageTests.AllPageFirefoxTests">
+      <class name="tests.SignIn.SignInFirefoxTests">
         <methods>
-          <include name="mainSectionResetPasswordPage" invocation-numbers="0"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allPageSignInPage"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="Forgot"/>
+          <include name="allFooterMainPage"/>
+          <include name="Dont"/>
+          <include name="allHeaderMainPage"/>
         </methods>
-      </class> <!-- tests.resetPasswordPageTests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageFirefoxTests">
+      </class> <!-- tests.SignIn.SignInFirefoxTests -->
+      <class name="tests.stakingPageTests.AllPageChromeTests">
         <methods>
+          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
+          <include name="allFooterStakingPage" invocation-numbers="0"/>
+          <include name="mainSectionStakingPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageFirefoxTests -->
-      <class name="tests.signInPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="mainSectionSignInPage" invocation-numbers="0"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.signInPageTests.AllPageFirefoxTests -->
-      <class name="tests.resetPasswordPage2Tests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionResetPasswordPage2" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.resetPasswordPage2Tests.AllPageFirefoxTests -->
-      <class name="tests.fundPageTests.AllPageChromeTests">
+      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
+      <class name="tests.accountP2PPageTests.AllPageFirefoxTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="mainSectionFundPage" invocation-numbers="0"/>
+          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.fundPageTests.AllPageChromeTests -->
+      </class> <!-- tests.accountP2PPageTests.AllPageFirefoxTests -->
+      <class name="tests.accountDashboardPageTests.AllPageChromeTests">
+        <methods>
+          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.accountDashboardPageTests.AllPageChromeTests -->
+      <class name="tests.accountDashboardPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.accountDashboardPageTests.AllPageFirefoxTests -->
+      <class name="tests.accountWalletPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountWalletPageTests.AllPageFirefoxTests -->
+      <class name="tests.accountFundPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountFundPageTests.AllPageChromeTests -->
+      <class name="tests.SignUp.SignUpFirefoxTests">
+        <methods>
+          <include name="allFooterSignUp"/>
+          <include name="tearDown"/>
+          <include name="Already"/>
+          <include name="setUp"/>
+          <include name="allHeaderSignUpPage"/>
+          <include name="allPageSignUpPage"/>
+          <include name="mainBlockWhitePaperPage"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpFirefoxTests -->
+      <class name="tests.accountFundPageTests.AllPageFirefoxTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountFundPageTests.AllPageFirefoxTests -->
+      <class name="tests.SignUp.SignUpChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allPageSignUpPage"/>
+          <include name="allHeaderSignUpPage"/>
+          <include name="setUp"/>
+          <include name="Already"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allFooterSignUp"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpChromeTests -->
+      <class name="tests.accountAffiliateProgramPageTests.AllPageChromeTests">
+        <methods>
+          <include name="allFooterAccountAffiliateProgramPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageChromeTests -->
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
+      <class name="tests.accountP2PPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.accountP2PPageTests.AllPageChromeTests -->
+      <class name="tests.SignIn.SignInChromeTests">
+        <methods>
+          <include name="Forgot"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="allHeaderMainPage"/>
+          <include name="Dont"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allPageSignInPage"/>
+          <include name="allFooterMainPage"/>
+        </methods>
+      </class> <!-- tests.SignIn.SignInChromeTests -->
+      <class name="tests.accountWalletPageTests.AllPageChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.accountWalletPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
