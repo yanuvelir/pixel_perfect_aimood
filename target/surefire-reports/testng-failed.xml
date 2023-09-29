@@ -27,6 +27,17 @@
     <parameter name="signIn_page" value="https://aimood-stage1.intary.net/en/login"/>
     <parameter name="resetPassword_page" value="https://aimood-stage1.intary.net/en/reset-password-1"/>
     <classes>
+      <class name="tests.SignUp.SignUpChromeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="allPageSignUpPage"/>
+          <include name="allHeaderSignUpPage"/>
+          <include name="setUp"/>
+          <include name="Already"/>
+          <include name="mainBlockWhitePaperPage"/>
+          <include name="allFooterSignUp"/>
+        </methods>
+      </class> <!-- tests.SignUp.SignUpChromeTests -->
       <class name="tests.SignIn.SignInFirefoxTests">
         <methods>
           <include name="mainBlockWhitePaperPage"/>
@@ -39,51 +50,13 @@
           <include name="allHeaderMainPage"/>
         </methods>
       </class> <!-- tests.SignIn.SignInFirefoxTests -->
-      <class name="tests.stakingPageTests.AllPageChromeTests">
-        <methods>
-          <include name="delegatedSectionStakingPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="calcStakSectionStakingPage" invocation-numbers="0"/>
-          <include name="allFooterStakingPage" invocation-numbers="0"/>
-          <include name="mainSectionStakingPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.stakingPageTests.AllPageChromeTests -->
-      <class name="tests.accountP2PPageTests.AllPageFirefoxTests">
+      <class name="tests.marketPlacePageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
+          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.accountP2PPageTests.AllPageFirefoxTests -->
-      <class name="tests.accountDashboardPageTests.AllPageChromeTests">
-        <methods>
-          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountDashboardPageTests.AllPageChromeTests -->
-      <class name="tests.accountDashboardPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="mainSectionAccountDashboardPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountDashboardPageTests.AllPageFirefoxTests -->
-      <class name="tests.accountWalletPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountWalletPageTests.AllPageFirefoxTests -->
-      <class name="tests.accountFundPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountFundPageTests.AllPageChromeTests -->
+      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
       <class name="tests.SignUp.SignUpFirefoxTests">
         <methods>
           <include name="allFooterSignUp"/>
@@ -95,45 +68,6 @@
           <include name="mainBlockWhitePaperPage"/>
         </methods>
       </class> <!-- tests.SignUp.SignUpFirefoxTests -->
-      <class name="tests.accountFundPageTests.AllPageFirefoxTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountFundPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountFundPageTests.AllPageFirefoxTests -->
-      <class name="tests.SignUp.SignUpChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="allPageSignUpPage"/>
-          <include name="allHeaderSignUpPage"/>
-          <include name="setUp"/>
-          <include name="Already"/>
-          <include name="mainBlockWhitePaperPage"/>
-          <include name="allFooterSignUp"/>
-        </methods>
-      </class> <!-- tests.SignUp.SignUpChromeTests -->
-      <class name="tests.accountAffiliateProgramPageTests.AllPageChromeTests">
-        <methods>
-          <include name="allFooterAccountAffiliateProgramPage" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.accountAffiliateProgramPageTests.AllPageChromeTests -->
-      <class name="tests.marketPlacePageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="resourcesHeaderMarketPlacePage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.marketPlacePageTests.AllPageChromeTests -->
-      <class name="tests.accountP2PPageTests.AllPageChromeTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="mainSectionAccountP2PPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.accountP2PPageTests.AllPageChromeTests -->
       <class name="tests.SignIn.SignInChromeTests">
         <methods>
           <include name="Forgot"/>
@@ -146,13 +80,13 @@
           <include name="allFooterMainPage"/>
         </methods>
       </class> <!-- tests.SignIn.SignInChromeTests -->
-      <class name="tests.accountWalletPageTests.AllPageChromeTests">
+      <class name="tests.accountSettingsPageTests.AllPageChromeTests">
         <methods>
           <include name="tearDown"/>
-          <include name="stakingAccountWalletPage" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="learnHeaderAccountSettingsPage" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.accountWalletPageTests.AllPageChromeTests -->
+      </class> <!-- tests.accountSettingsPageTests.AllPageChromeTests -->
     </classes>
   </test> <!-- ai-mood - Pixel perfect regression(failed) -->
 </suite> <!-- Failed suite [WPT] -->
